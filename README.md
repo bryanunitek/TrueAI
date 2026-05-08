@@ -35,6 +35,18 @@ These are not aspirational. They are structural. Any system that violates any on
 
 ---
 
+## Foundation Documents
+
+| Code | Title |
+|------|-------|
+| 006 | The Governance Constitution for TrueAI |
+| 007 | The Reasonable Governance Threshold Specification |
+| 008 | Human Override Protocol |
+| 028 | TrueAI Foundation Gift Principle (Given, Not Sold) |
+| 056 | UniCORE AI Absolute Safety Invariants |
+
+---
+
 ## The Gift Principle
 
 The TrueAI Foundation and UniCORE AI must be **given, not sold**.
@@ -78,18 +90,6 @@ It does not rely on goodwill. It relies on structure.
 
 ---
 
-## The Human Override Protocol
-
-Human overrides execute immediately.
-They are not challenged.
-They are not delayed.
-They are not reinterpreted.
-They are not subject to AI review.
-
-They are recorded, timestamped, and auditable — but they are not questioned.
-
----
-
 ## The Reasonable Governance Threshold
 
 Human governance is imperfect, and the TrueAI Foundation does not attempt to perfect it.
@@ -101,6 +101,18 @@ All human decisions fall into one of three bands:
 - **Red** — beyond the defined threshold. Logged. Escalated to a higher human authority. No AI override.
 
 The AI never corrects, enforces, or overrides a human within any band.
+
+---
+
+## The Human Override Protocol
+
+Human overrides execute immediately.
+They are not challenged.
+They are not delayed.
+They are not reinterpreted.
+They are not subject to AI review.
+
+They are recorded, timestamped, and auditable — but they are not questioned.
 
 ---
 
