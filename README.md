@@ -119,7 +119,7 @@ They are recorded, timestamped, and auditable — but they are not questioned.
 ## Related Repositories
 
 - [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) — The wider vision, whitepapers, strategy, roadmap, and outreach.
-- [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) — The 12-Level Governance Architecture, reference specifications, and implementation.
+- [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) — A governed AI reference implementation with a 12-Level vertical stack
 
 ---
 
