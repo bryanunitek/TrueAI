@@ -4,7 +4,9 @@ Press material authored by Unitek Systems Limited and released under CC BY 4.0. 
 
 ## Index
 
-_No press releases yet._
+| Date | Title | File |
+|---|---|---|
+| 2026-05-10 | TrueAI published — the foundation principles for artificial intelligence under human authority | [2026-05-10-foundation-launch.md](./2026-05-10-foundation-launch.md) |
 
 ## Guidelines for new releases
 
