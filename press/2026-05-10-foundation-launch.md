@@ -36,7 +36,7 @@ All three are released under CC BY 4.0 and carry the durable footer *Powered by 
 
 ---
 
-**About the author.** Bryan Fred is Senior Solutions Architect at Unitek Systems Limited and Unitek Systems USA Inc. He has spent two decades building software for regulated industries including finance, healthcare, and legal practice. TrueAI is his attempt to write down, in a form that can outlast any single product or company, the properties an AI system must have before human institutions can be asked to live with it.
+**About the author.** Bryan Fred is Senior Solutions Architect at Unitek Systems Limited and Unitek Systems USA Inc. He has spent two decades building software for the legal sector — a regulated, evidence-bound, decision-critical domain. TrueAI draws on that experience but is not limited to it. The foundation is intended to apply wherever artificial intelligence is placed in the critical path of consequential human decisions — in any current sector and in sectors not yet formed. TrueAI is his attempt to write down, in a form that can outlast any single product or company, the properties an AI system must have before human institutions can be asked to live with it.
 
 **Contact.**
 - Public discussion: https://github.com/bryanunitek/TrueAI/discussions
