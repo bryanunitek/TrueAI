@@ -64,6 +64,13 @@ TrueAI should stay **small**. If a document is long, implementation-heavy, or sp
 - Author byline: `Bryan Fred, Unitek Systems Limited`
 - Never imply a commercial relationship, licence fee, or paid tier.
 
+## Contact rules (durable)
+
+- **All public contact routes through GitHub Discussions on this repo:** https://github.com/bryanunitek/TrueAI/discussions
+- **Do not publish** Bryan's personal email (`bryan.fred@unitek-systems.com`, `bryan@unitek-systems.co.uk`), personal phone numbers, or the Unitek Systems generic inboxes (`info@`, `support@`, `services@`) in any file committed to this repo.
+- Git commit author metadata is the one exception: use `bryanunitek <bryan.fred@unitek-systems.com>` for `--author=`. That address lives in git metadata, not in published prose.
+- When writing a "Contact" section in any public document (README, LICENSE, outreach material), use the Discussions URL only.
+
 ## Voice
 
 - Declaratory tone is acceptable here — this repo is the foundation, so it speaks in invariants, not arguments.
