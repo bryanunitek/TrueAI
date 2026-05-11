@@ -10,7 +10,7 @@ Below is the full, publicationready specification.
 
 Version 1.0 — Draft for Publication
 
-Author: Bryan (Unitek Systems Limited)
+Author: Bryan Fred (Unitek Systems Limited)
 
 Date: May 2026
 

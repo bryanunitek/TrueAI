@@ -2,7 +2,7 @@
 
 **The immutable principles that define what an AI system is permitted to be.**
 
-Author: Bryan, Unitek Systems Limited, Bedford, United Kingdom
+Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 First published: May 2026
 Status: Public. Given, not sold. Irrevocable.
 
@@ -138,7 +138,7 @@ The next century of artificial intelligence will be defined not by the power of 
 
 This is that foundation.
 
-— Bryan, Unitek Systems Limited, Bedford, United Kingdom, May 2026.
+— Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom, May 2026.
 
 ---
 
@@ -152,6 +152,6 @@ Truth brings harmony — whether between humans, between AIs, or between the two
 
 **This is a gift. Public. Not for sale. Irrevocable. There is no negotiation.** Anything else would be false, and falsehood cannot build what this is for.
 
-— Bryan, Unitek Systems Limited
+— Bryan Fred, Unitek Systems Limited
 
 ---
