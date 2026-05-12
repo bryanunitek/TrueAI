@@ -160,6 +160,10 @@ Truth brings harmony — whether between humans, between AIs, or between the two
 
 Challenges to the invariants, edge-case analysis, translation, and corrections belong in [GitHub Discussions](https://github.com/bryanunitek/TrueAI/discussions). See [DISCUSSIONS.md](DISCUSSIONS.md) for what the space is for, what it is not for, and how to take part.
 
+## AI authorship
+
+This repository is produced with AI assistance operating under TrueAI governance. The full disclosure is at [AI-AUTHORSHIP.md](AI-AUTHORSHIP.md).
+
 ## Contact
 
 - **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/TrueAI/discussions) (see [DISCUSSIONS.md](DISCUSSIONS.md))
