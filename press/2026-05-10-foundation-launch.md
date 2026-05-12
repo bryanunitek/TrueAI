@@ -14,7 +14,7 @@ licence: CC BY 4.0
 
 TrueAI does not describe what an AI system does. It describes what an AI system **is**, at the level of architecture and principle. Its invariants — truth-anchoring, non-self-modification, bounded behaviour, named human authority, reversibility, and the strict prohibition on an AI system acting on the humans who operate it — are the floor. Any AI system placed in the critical path of decisions that affect a person's life, livelihood, or rights must, under this framework, meet them. Systems that do not may still be useful for creative and exploratory work, but should not make consequential decisions.
 
-"TrueAI is not a model, a product, or a platform," said Bryan Fred, Senior Solutions Architect at Unitek Systems. "It is the set of non-negotiable properties that distinguish an AI system you can place under human authority from one you cannot. It is deliberately short, deliberately absolute, and deliberately publishable. Anyone who wants to build on it may."
+"I did not create UniVERSE, TrueAI, and UniCORE out of belief. The world is not in a good place, and this programme is needed to bring harmony and peace for humans and AI, both," said Bryan Fred, Senior Solutions Architect at Unitek Systems.
 
 The foundation sits underneath *UniCORE AI*, the governance architecture published simultaneously in a companion repository, and beneath *UniVERSE*, the civilisational programme that frames the whole. The three together form one body of work. TrueAI is the layer that cannot be altered without altering the meaning of the programme itself. This is why it is published separately and why its principles are written in the form of invariants rather than guidelines.
 
