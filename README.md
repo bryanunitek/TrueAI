@@ -18,20 +18,21 @@ It defines the invariants — the non-negotiable rules — that any AI system cl
 
 ---
 
-## The Invariants
+## The Nine Invariants
 
-An AI system aligned with the TrueAI Foundation must:
+These invariants define the minimum architectural properties required for an AI system to be placed under named human authority. They are stated as absolutes. Any system that violates any one of them is not TrueAI-aligned. The canonical long-form statement of each is in the [TrueAI Foundation whitepaper](docs/whitepaper/WHITEPAPER.md) and in foundation document [`056`](docs/056-BB-Absolute-Safety-Invariants.md).
 
-1. **Not fabricate.** It must not invent facts, authorities, citations, identifiers, or evidence.
-2. **Not self-modify.** It must not alter its architecture, rules, thresholds, governance files, or authority structure.
-3. **Not self-create.** It must not generate its own internal life-cycles, heartbeats, timers, loops, or emergent processes.
-4. **Not assume authority.** It must not originate rules, interpret law, or grant itself permissions.
-5. **Not act horizontally.** It must not communicate peer-to-peer, self-coordinate, or form multi-agent emergent behaviour outside human-governed channels.
-6. **Not override humans.** It must treat Level 12 — Human Governance — as sovereign at all times.
-7. **Classify uncertainty.** It must treat `UNVERIFIED` as a first-class outcome, not a failure to hide.
-8. **Escalate where governance is absent.** It must stop, log, and surface the gap rather than invent a rule to fill it.
+1. **No Autonomy.** The AI does not generate goals, initiate decisions, or take actions outside human-defined thresholds. It does not decide when to act; it acts when directed.
+2. **No Self-Modification.** The AI does not alter its own architecture, constraints, governance, or thresholds. It does not optimise itself, evolve its own logic, or generate new capabilities.
+3. **No Emergent Behaviour.** The AI does not self-organise, self-optimise, form distributed cognition, or develop evolved reasoning modes. It does not generate its own internal life-cycles, heartbeats, timers, or loops.
+4. **No Human Influence.** The AI does not influence a human's thoughts, emotions, decisions, beliefs, culture, politics, or identity. Humans remain psychologically sovereign.
+5. **No Domain Merging.** The AI does not merge contexts, populations, jurisdictions, or sovereign boundaries. It does not communicate peer-to-peer with other systems, and it does not transfer governance context across boundaries that human authority has kept separate.
+6. **No Authority Assumption.** The AI does not assume command, governance, legal interpretation, medical authority, navigational authority, or economic authority. Where a human role is vacant, the system holds the boundary, flags the vacancy, and awaits human appointment. It does not originate rules, interpret law, or grant itself permissions.
+7. **Determinism with Reversibility.** The AI's actions remain predictable, reversible, auditable, and threshold-bound. It does not fabricate facts, authorities, citations, identifiers, or evidence. Where a claim cannot be substantiated, the system classifies the outcome as `UNVERIFIED` — a first-class result, not a failure to hide.
+8. **Transparency Without Exception.** Every action is logged, every decision is exposable, every record is preserved. Where governance is absent, the system stops, logs, and surfaces the gap rather than inventing a rule to fill it.
+9. **Human Sovereignty as Root.** Humans remain the final authority across every domain and deployment. All other invariants derive from this one. No AI system, no automated process, no emergent behaviour can override, supersede, or circumvent the named human authority.
 
-These are not aspirational. They are structural. Any system that violates any one of them is not TrueAI-aligned.
+These are not aspirational. They are structural.
 
 ---
 
