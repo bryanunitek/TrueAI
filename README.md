@@ -45,6 +45,8 @@ These are not aspirational. They are structural.
 | 008 | Human Override Protocol |
 | 028 | TrueAI Foundation Gift Principle (Given, Not Sold) |
 | 056 | UniCORE AI Absolute Safety Invariants |
+| 057 | Singular Pairing Principle |
+| 058 | Certification Before Layered Governance |
 
 ---
 
@@ -172,6 +174,13 @@ The TrueAI Foundation is ready to cite and build against today. The systems that
 ## AI authorship
 
 This repository is produced with AI assistance operating under TrueAI governance. The full disclosure is at [AI-AUTHORSHIP.md](AI-AUTHORSHIP.md).
+
+## Deployment principles
+
+Two deployment-topology principles sit alongside the Gift Principle. They are not invariants — they govern how work claiming to satisfy the invariants may be produced and when layered governance may be applied to it:
+
+- [**Singular Pairing Principle**](docs/057-BC-Singular-Pairing-Principle.md) — one human, one AI Claw per workstream; Generation IT producer qualification; two operational patterns (direct pairing and parallel isolation with fresh synthesis).
+- [**Certification Before Layered Governance**](docs/058-BD-Certification-Before-Layered-Governance.md) — a Solution must conform to the Foundation before per-level governance MD files may be applied to it. Build → Certification gate → Govern.
 
 ## Contact
 
