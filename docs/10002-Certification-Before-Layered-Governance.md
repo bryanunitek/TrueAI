@@ -1,3 +1,6 @@
+> **Canonical home:** [UniVERSE — `docs/10002-Certification-Before-Layered-Governance.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/10002-Certification-Before-Layered-Governance.md)
+> This file is a mirror kept here for in-repo reading. Source of truth is the link above.
+
 # ⭐ BD — Certification Before Layered Governance
 
 **The build-then-govern sequence that the Foundation assumes**
