@@ -128,6 +128,8 @@ They are recorded, timestamped, and auditable — but they are not questioned.
 - [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) — The wider vision, whitepapers, strategy, roadmap, and outreach.
 - [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) — A governed AI reference implementation with a 12-Level vertical stack
 
+The public register of practitioners certified by Unitek Systems Limited to provide Solution Review and other delegated programme services lives in [`UniVERSE/CERTIFIED-EXPERTS.md`](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md).
+
 ---
 
 ## Attribution
