@@ -50,6 +50,7 @@ These are not aspirational. They are structural.
 | 00056 | UniCORE AI Absolute Safety Invariants |
 | 10001 | Singular Pairing Principle |
 | 10002 | Certification Before Layered Governance |
+| 10003 | Generation IT Succession |
 
 ---
 
