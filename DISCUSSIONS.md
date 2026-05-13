@@ -17,6 +17,7 @@ Discussions on this repository are the right place for:
 ## What Discussions are not for
 
 - **Commercial solicitation.** TrueAI is a gift, not a product. Please do not pitch services, partnerships, or sales here.
+- **Claims that reclassify TrueAI as a product, platform, SaaS offering, tool category, certification scheme, or brand for sale.** TrueAI is a governance foundation. See [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) for the binding rules on how the TrueAI name may and may not be used here.
 - **Bug reports against downstream software.** TrueAI is a set of principles, not a piece of code. Implementation bugs belong in the implementing project's own repository.
 - **Private or confidential material.** Discussions are public, permanent, and indexed. Use the private contact route for anything confidential.
 - **Generic AI-ethics debate unrelated to the invariants.** There are many places online for general AI-ethics discussion. This space is specifically for the foundation.

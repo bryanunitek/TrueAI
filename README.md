@@ -160,6 +160,10 @@ Truth brings harmony — whether between humans, between AIs, or between the two
 
 Challenges to the invariants, edge-case analysis, translation, and corrections belong in [GitHub Discussions](https://github.com/bryanunitek/TrueAI/discussions). See [DISCUSSIONS.md](DISCUSSIONS.md) for what the space is for, what it is not for, and how to take part.
 
+## Classification, brand, and claims
+
+TrueAI is a governance foundation, not a product, platform, SaaS offering, tool category, or brand for sale. See [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) for the binding rules on how the TrueAI name may and may not be used, including in GitHub Discussions.
+
 ## AI authorship
 
 This repository is produced with AI assistance operating under TrueAI governance. The full disclosure is at [AI-AUTHORSHIP.md](AI-AUTHORSHIP.md).
