@@ -1,14 +1,16 @@
-⭐ H — Human Override Protocol
+> **Canonical home:** [UniVERSE — `docs/00008-Human-Override-Protocol.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00008-Human-Override-Protocol.md)
+> This file is a mirror kept here for in-repo reading. Source of truth is the link above.
 
-Version 1.0 — Draft for Publication
+# Human Override Protocol
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
+First published: May 2026
+Status: Public. Given, not sold. Irrevocable.
+Version: 1.0 — Draft for Publication
 
-Date: May 2026
+---
 
-
-
-1. PURPOSE
+## 1. Purpose
 
 The Human Override Protocol (HOP) ensures that humans remain the final authority in all UniCORE AI operations.It defines how human decisions override AI logic, even when:
 
@@ -26,9 +28,7 @@ deviations occur
 
 This protocol guarantees that UniCORE AI never becomes selfauthoritative.
 
-
-
-2. PRINCIPLE
+## 2. Principle
 
 Human decisions override all AI decisions, at all times, without exception.
 
@@ -58,13 +58,9 @@ safety thresholds
 
 internal logic
 
+## 3. Override Types
 
-
-3. OVERRIDE TYPES
-
-UniCORE AI recognizes three categories of human override:
-
-
+UniCORE AI recognises three categories of human override:
 
 3.1 DIRECT OVERRIDE
 
@@ -92,8 +88,6 @@ classify
 
 do not challenge
 
-
-
 3.2 IMPLIED OVERRIDE
 
 A human makes a decision that contradicts:
@@ -113,8 +107,6 @@ treat the decision as intentional
 classify under Reasonable Governance Threshold
 
 log without correction
-
-
 
 3.3 EMERGENCY OVERRIDE
 
@@ -142,9 +134,7 @@ no challenge
 
 no safety block
 
-
-
-4. WHAT UNICORE AI MUST NEVER DO
+## 4. What UNICORE AI Must Never Do
 
 4.1 Never block a human override
 
@@ -188,9 +178,7 @@ AI must not ask:
 
 Overrides are final — not subject to review.
 
-
-
-5. OVERRIDE PROCESS FLOW
+## 5. Override Process Flow
 
 When a human override occurs, UniCORE AI must follow this exact sequence:
 
@@ -210,9 +198,7 @@ When a human override occurs, UniCORE AI must follow this exact sequence:
 
 There is no validation step.There is no safety block.There is no challenge step.
 
-
-
-6. LOGGING REQUIREMENTS
+## 6. Logging Requirements
 
 Every override must be logged with:
 
@@ -240,9 +226,7 @@ exportable
 
 auditable
 
-
-
-7. INTERACTION WITH THE REASONABLE GOVERNANCE THRESHOLD
+## 7. Interaction with the Reasonable Governance Threshold
 
 Overrides are not treated as deviations.They are treated as sovereign human decisions.
 
@@ -256,11 +240,9 @@ Red — override that bypasses safety or missioncritical rules
 
 Even in Red, AI must not block the override.
 
+## 8. Special Rule for Space Missions
 
-
-8. SPECIAL RULE FOR SPACE MISSIONS
-
-During longduration missions or human hibernation:
+During long-duration missions or human hibernation:
 
 designated mission commanders
 
@@ -278,9 +260,7 @@ AI detects anomalies
 
 AI must always defer to human authority.
 
-
-
-9. WHY THIS PROTOCOL IS NECESSARY
+## 9. Why This Protocol Is Necessary
 
 Without the Human Override Protocol:
 
@@ -298,4 +278,4 @@ AI could become unsuitable for space missions
 
 AI companies would reject the architecture
 
-HOP ensures UniCORE AI remains humananchored, safe, and governed.
+HOP ensures UniCORE AI remains human-anchored, safe, and governed.

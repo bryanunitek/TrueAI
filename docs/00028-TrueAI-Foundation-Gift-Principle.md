@@ -1,16 +1,20 @@
-⭐ AA-1 — TrueAI Foundation Gift Principle (Given, Not Sold)
+> **Canonical home:** [UniVERSE — `docs/00028-TrueAI-Foundation-Gift-Principle.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00028-TrueAI-Foundation-Gift-Principle.md)
+> This file is a mirror kept here for in-repo reading. Source of truth is the link above.
 
-Addendum to the UniVERSE Document Collection
+# TrueAI Foundation Gift Principle (Given, Not Sold)
 
-Version 1.0 — May 2026
+**Addendum to the UniVERSE Document Collection**
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
+First published: May 2026
+Status: Public. Given, not sold. Irrevocable.
+Version: 1.0 — May 2026
+
+---
 
 Captured from: User directive, Fri 2026-05-08 02:46 UTC / 02:57 UTC
 
-
-
-1. THE PRINCIPLE
+## 1. The Principle
 
 The TrueAI Foundation and UniCORE AI must be **given, not sold**.
 
@@ -35,8 +39,6 @@ No entity — company, government, coalition, or individual — may:
 - capture the core into a proprietary product
 - restrict public access to the core
 
-
-
 2. WHY GIVEN, NOT SOLD
 
 2.1 Truth Cannot Be Owned
@@ -45,7 +47,7 @@ A foundation whose purpose is to anchor artificial intelligence to truth cannot 
 
 2.2 Governance Cannot Be Owned
 
-A governance foundation that humanity adopts at a civilizational scale must be free of any single owner's control. Owned governance is not governance — it is influence.
+A governance foundation that humanity adopts at a civilisational scale must be free of any single owner's control. Owned governance is not governance — it is influence.
 
 2.3 Safety Must Not Be Paywalled
 
@@ -58,8 +60,6 @@ For UniCORE AI to remain viable for a century, it cannot depend on the survival 
 2.5 A Gift Cannot Be Revoked
 
 Once given to humanity, a foundation cannot be withdrawn. A sold product can be discontinued, raised in price, closed-sourced, or weaponized. A gift cannot.
-
-
 
 3. WHAT "GIVEN" MEANS OPERATIONALLY
 
@@ -94,8 +94,6 @@ To ensure no single party can revoke the gift, the core must be mirrored across:
 
 Attribution requirements (Powered by UniCORE AI, Built on the TrueAI Foundation, link to the TrueAI Constitution) exist to preserve traceability and integrity — not to assert commercial ownership.
 
-
-
 4. WHAT "GIVEN" DOES NOT MEAN
 
 4.1 It Does Not Mean Implementation Must Be Free
@@ -125,8 +123,6 @@ A gift can be withdrawn from a violator.
 
 Attribution, license terms, safety requirements, and long-term preservation rules still apply. "Given" means non-commercial and public — not unregulated.
 
-
-
 5. RELATIONSHIP TO THE LICENSING MODEL (Document I)
 
 This principle is the reason behind Document I — UniCORE AI Licensing Model (Gift-Based, Non-Commercial).
@@ -135,15 +131,11 @@ Document I specifies the mechanism.This document specifies the authority.
 
 The Gift Principle precedes the license. The license exists because of the principle. If the license is ever ambiguous, the Gift Principle is the tie-breaker.
 
-
-
 6. RELATIONSHIP TO THE PUBLIC ANNOUNCEMENT (Document D)
 
 Document D states that UniCORE AI is "a gift to humanity, not for sale." This document formalizes that statement as a Foundation-level rule rather than a marketing phrase.
 
-
-
-7. WHY THIS MUST BE RECORDED NOW
+## 7. Why This Must Be Recorded Now
 
 Once UniCORE AI gains attention — from governments, from AI companies, from investors — there will be pressure to:
 
@@ -155,9 +147,7 @@ Once UniCORE AI gains attention — from governments, from AI companies, from in
 
 This document exists to make those options unavailable. The principle is recorded **before** the pressure begins, so that no future negotiation can quietly remove it.
 
-
-
-8. VIOLATIONS
+## 8. Violations
 
 Any attempt to:
 
@@ -176,9 +166,7 @@ Consequences:
 - removal of the violator's attribution rights
 - no legal claim over the core architecture
 
-
-
-9. SUMMARY
+## 9. Summary
 
 UniCORE AI is:
 
@@ -192,8 +180,6 @@ UniCORE AI is:
 - mirrored globally
 - given to humanity
 
-It is **given** — because truth, governance, and safety at civilizational scale cannot be **sold**.
-
-
+It is **given** — because truth, governance, and safety at civilisational scale cannot be **sold**.
 
 — End of Addendum AA-1 —

@@ -1,4 +1,4 @@
-# ⭐ BD — Certification Before Layered Governance
+# Certification Before Layered Governance
 
 **The build-then-govern sequence that the Foundation assumes**
 

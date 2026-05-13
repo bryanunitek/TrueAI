@@ -1,18 +1,20 @@
-⭐ I — UniCORE AI Licensing Model (GiftBased, NonCommercial)
+> **Canonical home:** [UniVERSE — `docs/00009-Licensing-Model-Gift-Based-Non-Commercial.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00009-Licensing-Model-Gift-Based-Non-Commercial.md)
+> This file is a mirror kept here for in-repo reading. Source of truth is the link above.
 
-Version 1.0 — Draft for Publication
+# UniCORE AI Licensing Model (Gift-Based, Non-Commercial)
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
+First published: May 2026
+Status: Public. Given, not sold. Irrevocable.
+Version: 1.0 — Draft for Publication
 
-Date: May 2026
+---
 
-
-
-1. PURPOSE OF THIS LICENSE
+## 1. Purpose of This License
 
 The UniCORE AI Licensing Model exists to ensure that:
 
-UniCORE AI remains free, open, and noncommercial
+UniCORE AI remains free, open, and non-commercial
 
 The TrueAI Foundation remains immutable
 
@@ -24,11 +26,9 @@ The system cannot be weaponized, monetized, or distorted
 
 The system remains safe for 100+ years
 
-This license is not about profit.It is about preservation, governance, and civilizational safety.
+This license is not about profit.It is about preservation, governance, and civilisational safety.
 
-
-
-2. LICENSE TYPE
+## 2. License Type
 
 UniCORE AI is released under a duallayer license:
 
@@ -62,11 +62,9 @@ Must always reference the TrueAI Foundation
 
 This duallayer model protects the core while allowing global adoption.
 
+## 3. Rights Granted
 
-
-3. RIGHTS GRANTED
-
-Under this license, all individuals, organizations, and AI companies may:
+Under this license, all individuals, organisations, and AI companies may:
 
 Use UniCORE AI
 
@@ -88,15 +86,13 @@ do not modify the TrueAI Foundation
 
 do not violate human sovereignty
 
-do not create selfmodifying systems
+do not create self-modifying systems
 
 do not commercialize the core
 
 do not claim ownership
 
-
-
-4. RESTRICTIONS
+## 4. Restrictions
 
 The following actions are strictly prohibited:
 
@@ -124,9 +120,9 @@ override humans
 
 selfgovern
 
-selfmodify
+self-modify
 
-generate internal lifecycles
+generate internal life-cycles
 
 create new governance rules
 
@@ -146,9 +142,7 @@ may not be patented
 
 No closedsource derivative of the TrueAI Foundation is permitted.
 
-
-
-5. PERMITTED USES
+## 5. Permitted Uses
 
 The following uses are explicitly allowed:
 
@@ -180,7 +174,7 @@ transparency
 
 Space agencies may use UniCORE AI for:
 
-longduration missions
+long-duration missions
 
 human hibernation systems
 
@@ -196,13 +190,11 @@ study
 
 teach
 
-analyze
+analyse
 
 extend the implementation layer
 
-
-
-6. ATTRIBUTION REQUIREMENTS
+## 6. Attribution Requirements
 
 Any implementation must include:
 
@@ -216,9 +208,7 @@ A link to the TrueAI Constitution
 
 This ensures the architecture remains traceable and unified.
 
-
-
-7. SAFETY REQUIREMENTS
+## 7. Safety Requirements
 
 All implementations must:
 
@@ -228,17 +218,15 @@ enforce the Human Override Protocol
 
 enforce the Reasonable Governance Threshold
 
-prohibit selfmodification
+prohibit self-modification
 
 prohibit autonomous heartbeats
 
-prohibit emergent behavior
+prohibit emergent behaviour
 
 These requirements are nonnegotiable.
 
-
-
-8. LONGTERM PRESERVATION
+## 8. Longterm Preservation
 
 To ensure UniCORE AI survives beyond the current generation of AI founders:
 
@@ -252,11 +240,9 @@ No entity may claim exclusive rights
 
 No entity may restrict access
 
-This ensures UniCORE AI remains a civilizational asset.
+This ensures UniCORE AI remains a civilisational asset.
 
-
-
-9. TERMINATION
+## 9. Termination
 
 This license terminates automatically if:
 
@@ -270,9 +256,7 @@ the core is commercialized
 
 Termination applies only to the violating party — not the entire ecosystem.
 
-
-
-10. DISCLAIMER
+## 10. Disclaimer
 
 UniCORE AI is provided:
 
