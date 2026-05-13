@@ -20,7 +20,7 @@ It defines the invariants — the non-negotiable rules — that any AI system cl
 
 ## The Nine Invariants
 
-These invariants define the minimum architectural properties required for an AI system to be placed under named human authority. They are stated as absolutes. Any system that violates any one of them is not TrueAI-aligned. The canonical long-form statement of each is in the [TrueAI Foundation whitepaper](docs/whitepaper/WHITEPAPER.md) and in foundation document [`056`](docs/056-BB-Absolute-Safety-Invariants.md).
+These invariants define the minimum architectural properties required for an AI system to be placed under named human authority. They are stated as absolutes. Any system that violates any one of them is not TrueAI-aligned. The canonical long-form statement of each is in the [TrueAI Foundation whitepaper](docs/whitepaper/WHITEPAPER.md) and in foundation document [`00056`](docs/00056-Absolute-Safety-Invariants.md).
 
 1. **No Autonomy.** The AI does not generate goals, initiate decisions, or take actions outside human-defined thresholds. It does not decide when to act; it acts when directed.
 2. **No Self-Modification.** The AI does not alter its own architecture, constraints, governance, or thresholds. It does not optimise itself, evolve its own logic, or generate new capabilities.
@@ -38,15 +38,15 @@ These are not aspirational. They are structural.
 
 ## Foundation Documents
 
-| Code | Title |
-|------|-------|
-| 006 | The Governance Constitution for TrueAI |
-| 007 | The Reasonable Governance Threshold Specification |
-| 008 | Human Override Protocol |
-| 028 | TrueAI Foundation Gift Principle (Given, Not Sold) |
-| 056 | UniCORE AI Absolute Safety Invariants |
-| 057 | Singular Pairing Principle |
-| 058 | Certification Before Layered Governance |
+| Code  | Title |
+|-------|-------|
+| 00006 | The Governance Constitution for TrueAI |
+| 00007 | The Reasonable Governance Threshold Specification |
+| 00008 | Human Override Protocol |
+| 00028 | TrueAI Foundation Gift Principle (Given, Not Sold) |
+| 00056 | UniCORE AI Absolute Safety Invariants |
+| 00057 | Singular Pairing Principle |
+| 00058 | Certification Before Layered Governance |
 
 ---
 
@@ -179,8 +179,8 @@ This repository is produced with AI assistance operating under TrueAI governance
 
 Two deployment-topology principles sit alongside the Gift Principle. They are not invariants — they govern how work claiming to satisfy the invariants may be produced and when layered governance may be applied to it:
 
-- [**Singular Pairing Principle**](docs/057-BC-Singular-Pairing-Principle.md) — one human, one AI Claw per workstream; Generation IT producer qualification; two operational patterns (direct pairing and parallel isolation with fresh synthesis).
-- [**Certification Before Layered Governance**](docs/058-BD-Certification-Before-Layered-Governance.md) — a Solution must conform to the Foundation before per-level governance MD files may be applied to it. Build → Certification gate → Govern.
+- [**Singular Pairing Principle**](docs/00057-Singular-Pairing-Principle.md) — one human, one AI Claw per workstream; Generation IT producer qualification; two operational patterns (direct pairing and parallel isolation with fresh synthesis).
+- [**Certification Before Layered Governance**](docs/00058-Certification-Before-Layered-Governance.md) — a Solution must conform to the Foundation before per-level governance MD files may be applied to it. Build → Certification gate → Govern.
 
 ## Contact
 

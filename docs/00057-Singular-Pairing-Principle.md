@@ -101,7 +101,7 @@ Generation IT is a finite and ageing cohort. The programme's time horizon (see `
 
 ## 6. Interaction with layered governance
 
-This principle governs the Build phase. The authoring of per-level governance MD files (Region, Country, State, organisation, mission, deployment, user) is a separate phase and is governed by foundation document [`058-BD-Certification-Before-Layered-Governance.md`](058-BD-Certification-Before-Layered-Governance.md).
+This principle governs the Build phase. The authoring of per-level governance MD files (Region, Country, State, organisation, mission, deployment, user) is a separate phase and is governed by foundation document [`00058-Certification-Before-Layered-Governance.md`](00058-Certification-Before-Layered-Governance.md).
 
 Per-level governance authors work with AI at their level under their own pairing at their own level. Those pairings are also singular (1 human, 1 Claw at each level) but do not require Generation IT in the same form. A Regional authority authoring Regional governance MD files is authoring policy, not producing a Solution. The Generation IT requirement applies to Solution production; it does not apply to level-specific policy authorship.
 

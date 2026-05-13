@@ -34,7 +34,7 @@ Phases are serial. Level parallelism only happens *inside* the Govern phase, aft
 
 ### Build phase
 
-The Solution is produced under the Singular Pairing Principle (see [`057-BC-Singular-Pairing-Principle.md`](057-BC-Singular-Pairing-Principle.md)): one human, one AI Claw, optional small human board above. The producer pair must be Generation IT.
+The Solution is produced under the Singular Pairing Principle (see [`00057-Singular-Pairing-Principle.md`](00057-Singular-Pairing-Principle.md)): one human, one AI Claw, optional small human board above. The producer pair must be Generation IT.
 
 The Solution includes the architecture, the implementation, the reference artefacts, and the operational materials that make it a deployable whole.
 
@@ -42,8 +42,8 @@ The Solution includes the architecture, the implementation, the reference artefa
 
 The completed Solution must pass TrueAI certification. Certification means demonstrable conformance to:
 
-- the Nine Invariants (see [`056-BB-Absolute-Safety-Invariants.md`](056-BB-Absolute-Safety-Invariants.md))
-- the Gift Principle (see [`028-AA-1-TrueAI-Foundation-Gift-Principle.md`](028-AA-1-TrueAI-Foundation-Gift-Principle.md))
+- the Nine Invariants (see [`00056-Absolute-Safety-Invariants.md`](00056-Absolute-Safety-Invariants.md))
+- the Gift Principle (see [`00028-TrueAI-Foundation-Gift-Principle.md`](00028-TrueAI-Foundation-Gift-Principle.md))
 - the Singular Pairing Principle for the Solution's own production history
 
 Certification is a property of the Solution artefact. It attaches to the code, the architecture, and the operational artefacts of a specific versioned UniCORE Solution. It is not a property of the organisation producing the Solution, nor of any particular deployment of it.
