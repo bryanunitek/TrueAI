@@ -164,6 +164,10 @@ Challenges to the invariants, edge-case analysis, translation, and corrections b
 
 TrueAI is a governance foundation, not a product, platform, SaaS offering, tool category, or brand for sale. See [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) for the binding rules on how the TrueAI name may and may not be used, including in GitHub Discussions.
 
+## Horizon
+
+The TrueAI Foundation is ready to cite and build against today. The systems that will fully satisfy it are not. See [HORIZON.md](HORIZON.md) for the author's time-horizon statement: decades, not quarters, is the expected shape of governance work at this scale.
+
 ## AI authorship
 
 This repository is produced with AI assistance operating under TrueAI governance. The full disclosure is at [AI-AUTHORSHIP.md](AI-AUTHORSHIP.md).
