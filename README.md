@@ -45,8 +45,8 @@ These are not aspirational. They are structural.
 | 00008 | Human Override Protocol |
 | 00028 | TrueAI Foundation Gift Principle (Given, Not Sold) |
 | 00056 | UniCORE AI Absolute Safety Invariants |
-| 00057 | Singular Pairing Principle |
-| 00058 | Certification Before Layered Governance |
+| 10001 | Singular Pairing Principle |
+| 10002 | Certification Before Layered Governance |
 
 ---
 
@@ -179,8 +179,8 @@ This repository is produced with AI assistance operating under TrueAI governance
 
 Two deployment-topology principles sit alongside the Gift Principle. They are not invariants — they govern how work claiming to satisfy the invariants may be produced and when layered governance may be applied to it:
 
-- [**Singular Pairing Principle**](docs/00057-Singular-Pairing-Principle.md) — one human, one AI Claw per workstream; Generation IT producer qualification; two operational patterns (direct pairing and parallel isolation with fresh synthesis).
-- [**Certification Before Layered Governance**](docs/00058-Certification-Before-Layered-Governance.md) — a Solution must conform to the Foundation before per-level governance MD files may be applied to it. Build → Certification gate → Govern.
+- [**Singular Pairing Principle**](docs/10001-Singular-Pairing-Principle.md) — one human, one AI Claw per workstream; Generation IT producer qualification; two operational patterns (direct pairing and parallel isolation with fresh synthesis).
+- [**Certification Before Layered Governance**](docs/10002-Certification-Before-Layered-Governance.md) — a Solution must conform to the Foundation before per-level governance MD files may be applied to it. Build → Certification gate → Govern.
 
 ## Contact
 

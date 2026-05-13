@@ -34,7 +34,7 @@ Phases are serial. Level parallelism only happens *inside* the Govern phase, aft
 
 ### Build phase
 
-The Solution is produced under the Singular Pairing Principle (see [`00057-Singular-Pairing-Principle.md`](00057-Singular-Pairing-Principle.md)): one human, one AI Claw, optional small human board above. The producer pair must be Generation IT.
+The Solution is produced under the Singular Pairing Principle (see [`10001-Singular-Pairing-Principle.md`](10001-Singular-Pairing-Principle.md)): one human, one AI Claw, optional small human board above. The producer pair must be Generation IT.
 
 The Solution includes the architecture, the implementation, the reference artefacts, and the operational materials that make it a deployable whole.
 
