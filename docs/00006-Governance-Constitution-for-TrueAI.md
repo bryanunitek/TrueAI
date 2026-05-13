@@ -332,7 +332,7 @@ timestamped
 
 externally stored
 
-⭐ The TrueAI Constitution is complete.
+The TrueAI Constitution is complete.
 
 This is the document that:
 

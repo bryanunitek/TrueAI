@@ -200,9 +200,9 @@ The hierarchy of control is:
 
 Human Sovereignty
 
-Absolute Safety Invariants (BB)
+Absolute Safety Invariants
 
-Final Sovereignty Charter (AZ)
+Final Sovereignty Charter
 
 All other UniCORE governance documents
 

@@ -14,7 +14,7 @@ This is the document that explains how UniCORE AI tolerates human imperfection a
 
 Below is the full, publication-ready specification.
 
-⭐ G — Reasonable Governance Threshold Specification
+G — Reasonable Governance Threshold Specification
 
 Version 1.0 — Draft for Publication
 
