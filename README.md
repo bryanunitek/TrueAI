@@ -173,6 +173,10 @@ Challenges to the invariants, edge-case analysis, translation, and corrections b
 
 TrueAI is a governance foundation, not a product, platform, SaaS offering, tool category, or brand for sale. See [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) for the binding rules on how the TrueAI name may and may not be used, including in GitHub Discussions.
 
+## Landscape
+
+Where UniCORE AI and the TrueAI Foundation sit in the current AI governance landscape — a structural comparison against the published governance frameworks of OpenAI, Anthropic, Google DeepMind, Microsoft, Meta, and others. See [LANDSCAPE.md](LANDSCAPE.md) for the comparison and what it shows. The canonical version is published at [`UniVERSE/LANDSCAPE.md`](https://github.com/bryanunitek/UniVERSE/blob/main/LANDSCAPE.md).
+
 ## Horizon
 
 The TrueAI Foundation is ready to cite and build against today. The systems that will fully satisfy it are not. See [HORIZON.md](HORIZON.md) for the author's time-horizon statement: decades, not quarters, is the expected shape of governance work at this scale.
