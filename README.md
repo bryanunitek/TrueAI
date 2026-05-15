@@ -51,6 +51,7 @@ These are not aspirational. They are structural.
 | 10001 | Singular Pairing Principle |
 | 10002 | Certification Before Layered Governance |
 | 10003 | Generation IT Succession |
+| 10004 | Reversibility — How TrueAI Handles a False TRUE |
 
 ---
 
