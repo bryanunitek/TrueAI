@@ -29,7 +29,8 @@ TrueAI is not a SaaS offering.
 TrueAI is not a tool category.
 TrueAI is not a brand for sale.
 TrueAI is not a certification scheme.
-TrueAI is not for commercial licensing by any party other than the author.
+
+The TrueAI Foundation is licensed under CC BY 4.0 and may be used commercially by anyone, with attribution. The name **TrueAI** itself is not available for commercial brand licensing, sublicensing, or resale by any party other than Unitek Systems Limited; see [Claims that are not permitted](#claims-that-are-not-permitted) for the binding brand and naming rules.
 
 It is a governance foundation. It is given, not sold. It is irrevocable.
 
