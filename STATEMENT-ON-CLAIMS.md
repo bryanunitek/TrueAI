@@ -53,7 +53,8 @@ The binding rules in the sections below apply to that scope.
 No person, company, consortium, standards body, regulator, or research group may:
 
 - Represent TrueAI as their own framework, product, platform, or service.
-- Sell, licence, or sublicense the TrueAI name, the TrueAI Foundation invariants, the UniCORE AI architecture, or the Multi-Level Governance Model as proprietary intellectual property.
+- Sell, licence, or sublicense the TrueAI name, the TrueAI Foundation name, the UniCORE AI name, or the UniCORE Foundation name. These names are protected by trademark and are not available for resale or sublicensing.
+- Claim proprietary ownership of the TrueAI Foundation invariants, the UniCORE AI architecture, the Multi-Level Governance Model, the Inter-Level Messaging Protocol, the Reasonable Governance Threshold, or the Human Override Protocol. These are released under CC BY 4.0 in the public repositories; the canonical attribution and the licence terms must be preserved in any redistribution. CC BY 4.0 permits derivative works, including commercial and closed-source derivatives, provided attribution is preserved; a derivative that modifies these components is not entitled to be presented as the canonical version, which is what the names protect.
 - Offer TrueAI "certification", "compliance", "accreditation", "partnership", or "endorsement" services without written authority from Unitek Systems Limited.
 - Market a product, service, or agent as "TrueAI", "TrueAI-compliant", "TrueAI-aligned", "TrueAI-powered", or any variation that implies official status, without written authority from Unitek Systems Limited.
 - Use the TrueAI name in a way that suggests the author or Unitek Systems Limited endorses the user, the user's product, or the user's claims.
