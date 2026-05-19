@@ -61,7 +61,6 @@ These are not aspirational. They are structural.
 | 00006 | The Governance Constitution for TrueAI |
 | 00007 | The Reasonable Governance Threshold Specification |
 | 00008 | Human Override Protocol |
-| 00009 | UniCORE AI Licensing Model (Gift-Based, Non-Commercial) |
 | 00028 | TrueAI Foundation Gift Principle (Given, Not Sold) |
 | 00032 | UniCORE AI Licensing Framework |
 | 00054 | UniCORE AI Final Sovereignty Charter |
