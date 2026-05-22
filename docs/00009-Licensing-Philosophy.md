@@ -84,7 +84,7 @@ This irrevocability is intentional. It guarantees that the gift cannot be withdr
 
 To support long-term preservation in practice, the authors maintain:
 
-- The canonical repositories on GitHub: `bryanunitek/UniVERSE`, `bryanunitek/TrueAI`, `bryanunitek/UniCORE-AI`.
+- The canonical repositories on GitHub: the **Foundation triad** — `bryanunitek/UniVERSE`, `bryanunitek/TrueAI`, `bryanunitek/UniCORE-AI` — and the **gift-layer extension** — `bryanunitek/UniCORE`, `bryanunitek/UniCORE.GVB`.
 - Active encouragement of independent mirrors and archives.
 - A clear chain of attribution that ties any compliant implementation back to the canonical source.
 
