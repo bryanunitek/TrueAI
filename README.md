@@ -14,6 +14,8 @@ A 30-year programme from apprentice to certified producer. A public foundation g
 
 *This is **TrueAI**, the immutable Foundation layer of UniCORE. The Nine Invariants and the documents that define them. Sister repositories: [UniVERSE](https://github.com/bryanunitek/UniVERSE) (the programme) and [UniCORE-AI](https://github.com/bryanunitek/UniCORE-AI) (the 12-level reference architecture).*
 
+*New to producing on the public gift surface? Start with [UniVERSE/GETTING_STARTED.md](https://github.com/bryanunitek/UniVERSE/blob/main/GETTING_STARTED.md).*
+
 ---
 
 # TrueAI Foundation
