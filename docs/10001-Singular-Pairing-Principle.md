@@ -28,7 +28,28 @@ A human producing work on or under the TrueAI Foundation operates with **one AI 
 
 Personal-assistant use is distinct and unrestricted in shape: a human's personal Claw may hold multiple profiles (for example, a Business Assistant profile and a Personal Assistant profile), because personal assistance is not the production of TrueAI-aligned Solutions.
 
-Solution-producing Claws do not share humans. Humans do not run multiple parallel Solution-producing Claws. Each project — the codebase, the public documentation, a client-specific integration, any other distinct Solution — receives its own Claw.
+Solution-producing Claws do not share humans. A single workstream is bonded to exactly one Solution-producing Claw, and a single Solution-producing Claw is bonded to exactly one human. **What counts as "a workstream" expands with Project Level** — see [§2.1](#21-how-the-pairing-shape-expands-with-project-level) — but the 1:1 rule at each bond is invariant across all Levels.
+
+### 2.1 How the pairing shape expands with Project Level
+
+The Singular Pairing rule binds **each individual workstream**, not the Project as a whole. As a Project's Level rises, the Project decomposes into more workstreams, and each workstream takes its own dedicated 1-Human-1-Claw bond. The number of bonds expands with Level; the 1:1 shape at every bond does not.
+
+**At Lower Project Levels** (university-student class projects and similar), the Project is itself a single workstream. One human, one Claw, one Solution. The Singular Pairing rule applies once, end-to-end.
+
+**At Mid Project Levels**, additional workstreams are added as the Project requires them — for example, a separate workstream for the Solution's public documentation, a separate workstream for a specific integration. Each additional workstream takes its own dedicated Claw under its own 1-Human-1-Claw bond. Same human across multiple workstreams is permitted; same Claw across multiple workstreams is not.
+
+**At higher Project Levels, including Level 12** (the first Solution in a new vertical), the Project decomposes into the workstream set that the [UniCORE AI 12-Level reference architecture](https://github.com/bryanunitek/UniCORE-AI) requires:
+
+- **One workstream per architecture Level** — twelve workstreams covering the 12-Level vertical model, each with its own dedicated 1-Human-1-Claw bond.
+- **One workstream per role at the human-facing top of the stack** — at minimum one admin workstream and one user workstream; more users may be added (one bond per user). Each role-based workstream takes its own dedicated 1-Human-1-Claw bond.
+
+This yields **a minimum of fourteen Solution-producing bonds per higher-Level Project** (twelve Level bonds + two role bonds), beyond the optional separate workstreams a Project may add for documentation, integration, or other distinct Solutions on top of the substrate. Each bond remains 1:1 — one human, one Claw, one workstream.
+
+**The same human may hold multiple of these bonds** across different workstreams within a Project; the bonds are still singular pairings because each bond binds **one human to one Claw on one workstream**. The rule prohibits sharing a Solution-producing Claw across workstreams, not sharing a human across workstreams the human is qualified to operate.
+
+**What the rule still forbids at every Level.** A single Claw bound to multiple workstreams. A single workstream shared by multiple humans during a Solution-producing session. A committee inside any single bond. These are excluded uniformly across Lower, Mid, and higher Levels.
+
+Producer-onboarding guidance, including the bond-naming convention used at higher Levels (`TeamLevel1` through `TeamLevel12` for the architecture Levels; `Team<name>` for role-based bonds), lives at [`UniVERSE/GETTING_STARTED.md`](https://github.com/bryanunitek/UniVERSE/blob/main/GETTING_STARTED.md) §2.
 
 ---
 
@@ -124,6 +145,7 @@ The principle attaches to the claim, not to the tool.
 | Rule | Statement |
 |---|---|
 | 1:1 at the Claw | One human per Solution-producing Claw; one Claw per workstream |
+| Workstream expands with Level | Lower Levels = one workstream per Project; higher Levels (incl. Level 12) = at minimum 14 workstreams (12 architecture Levels + 1 admin + 1 user role) |
 | Project separation | Each distinct Solution receives its own Claw |
 | Board above, not within | A small human board may sit above the pairing; it does not share the session |
 | Pattern 1 | Direct singular pairing produces the Solution |
