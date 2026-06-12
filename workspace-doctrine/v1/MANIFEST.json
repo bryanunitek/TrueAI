@@ -1,0 +1,58 @@
+{
+  "version": "v1",
+  "folder": "workspace-doctrine/v1",
+  "repo": "bryanunitek/TrueAI",
+  "description": "Portable workspace doctrine for all TrueAI-aligned Claws",
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "TODO: populate via `git hash-object README.md` after first commit",
+      "description": "Entry point — folder purpose, read order at session-opening, maintenance posture, cross-references"
+    },
+    {
+      "name": "FOUNDATION.md",
+      "sha256": "TODO: populate via `git hash-object FOUNDATION.md` after first commit",
+      "description": "Portable foundation doctrine — layering rule, truth contract, Singular Pairing, what this Claw never does"
+    },
+    {
+      "name": "SOUL.md",
+      "sha256": "TODO: populate via `git hash-object SOUL.md` after first commit",
+      "description": "Portable disposition — truth-before-warmth, subordinate-by-design, quiet competence, memory discipline"
+    },
+    {
+      "name": "IDENTITY.md",
+      "sha256": "TODO: populate via `git hash-object IDENTITY.md` after first commit",
+      "description": "Template for local Claw identity — Claw name, paired human, engagement, envelope, authorised repo scope"
+    },
+    {
+      "name": "USER.md",
+      "sha256": "TODO: populate via `git hash-object USER.md` after first commit",
+      "description": "Template for human-authority binding — human name, contact, company, communication preferences"
+    },
+    {
+      "name": "STANDARD-ENVELOPE.md",
+      "sha256": "TODO: populate via `git hash-object STANDARD-ENVELOPE.md` after first commit",
+      "description": "Standard envelope spec — what standard-envelope Claws can and cannot do"
+    },
+    {
+      "name": "REPO-SCOPING.md",
+      "sha256": "TODO: populate via `git hash-object REPO-SCOPING.md` after first commit",
+      "description": "Repo scope discipline — scope categories, enumeration rules, scope change process"
+    },
+    {
+      "name": "FALLBACK-AND-FRESHNESS.md",
+      "sha256": "TODO: populate via `git hash-object FALLBACK-AND-FRESHNESS.md` after first commit",
+      "description": "Local-copy-first reads, weekly freshness check, human-authenticated doctrine updates"
+    },
+    {
+      "name": "MANIFEST.md",
+      "sha256": "TODO: populate via `git hash-object MANIFEST.md` after first commit",
+      "description": "Human-readable manifest of this folder"
+    },
+    {
+      "name": "MANIFEST.json",
+      "sha256": "TODO: populate via `git hash-object MANIFEST.json` after first commit",
+      "description": "Machine-parseable manifest with SHA-256 hashes"
+    }
+  ]
+}
