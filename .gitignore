@@ -3,3 +3,7 @@ AGENTS.md
 
 # Local-only drafts — never commit
 public-drafts/
+
+# Local operational pointer — created per-Claw at onboarding, not part of canonical
+# See workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md for purpose.
+workspace-doctrine/ACTIVE-VERSION
