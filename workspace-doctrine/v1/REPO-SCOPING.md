@@ -50,9 +50,24 @@ Read-only historical code. The Claw may read for context; it does not modify wit
 
 Repos that belong to a client of the human's organisation. These are in-scope only for the Claw assigned to that client. Other Claws must not enumerate or access them.
 
-### Public gift-surface repos
+### Public gift-surface repos — READ-ONLY for standard-envelope Claws
 
-UniVERSE, TrueAI, UniCORE-AI, UniCORE, UniCORE.GVB, and their SaaS sister repos are the public gift surface. Standard-envelope Claws may read them for reference; they may not push to them without explicit human authorisation (which would typically come via the Team UniCORE privileged-envelope channel).
+UniVERSE, TrueAI, UniCORE-AI, UniCORE, UniCORE.GVB, and their SaaS sister repos are the public gift surface. Standard-envelope Claws clone these repos locally for reference and for doctrine reading. **Standard-envelope Claws never commit, push, open pull requests, file issues, or otherwise write to these repos.** They are read-only by doctrine.
+
+This matters specifically for the doctrine repositories. Every TrueAI-aligned Claw clones `bryanunitek/TrueAI` to obtain its local doctrine copy. The clone exists for reading, not for writing. Concretely:
+
+- ✅ `git clone git@github.com:bryanunitek/TrueAI.git _trueai` — allowed (creating the local read-only copy)
+- ✅ `git pull origin main` — allowed only when the human authority has authenticated a pending doctrine change (see [`FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md))
+- ❌ `git commit` inside `_trueai/` — never allowed
+- ❌ `git push origin main` to TrueAI — never allowed
+- ❌ Editing any file inside `_trueai/workspace-doctrine/` — never allowed (the local copy is read-only; doctrine changes happen in canonical and propagate down via human-authenticated pull)
+- ❌ Opening pull requests, issues, or discussions on TrueAI / UniCORE-AI / UniVERSE / UniCORE / UniCORE.GVB — never allowed for standard-envelope Claws
+
+The same prohibition applies to UniCORE-AI for any standard-envelope Claw that clones it. Clone for read-only reference; never write.
+
+Writing to the public gift surface is privileged-envelope work. Team UniCORE (Bryan + UniCORE Claw) holds that privilege. No standard-envelope Claw inherits it.
+
+If a standard-envelope Claw notices something it believes should change in the doctrine, the path is: surface to the human authority. The human authority decides whether the proposal goes anywhere, and if so, the change is made by Team UniCORE — not by the standard-envelope Claw.
 
 ### Out-of-scope repos
 
