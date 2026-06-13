@@ -1,0 +1,38 @@
+{
+  "version": "v1",
+  "folder": "conversational-protocol/v1",
+  "repo": "bryanunitek/TrueAI",
+  "description": "Pasteable doctrine surface for stateless chat AI (Claude.ai, ChatGPT, Gemini, equivalents)",
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "e6149364ea938dfb8f384a525e5f3a002ea7df61",
+      "description": "Entry point — purpose, usage, architectural position, three-delivery-mechanism table"
+    },
+    {
+      "name": "PROTOCOL.md",
+      "sha256": "8ee48859235fa8577b60ada952a1086d5b691424",
+      "description": "The pasteable protocol block — paste into a stateless chat AI session as first message"
+    },
+    {
+      "name": "IDENTITY-TEMPLATE.md",
+      "sha256": "139efe467c98dbfd0dfb1a1ea1b90a01a3caadcb",
+      "description": "Optional identity binding — paste after PROTOCOL.md to give the AI a named role"
+    },
+    {
+      "name": "EXAMPLES.md",
+      "sha256": "468edcf1cbf7deeee8b690cc7e15fefc6ab64cf3",
+      "description": "Worked examples — what conversations look like after protocol paste"
+    },
+    {
+      "name": "MANIFEST.md",
+      "sha256": "1aa8e0a6b71b4b0616117e842bd3f8f6a81784ce",
+      "description": "Human-readable file manifest"
+    },
+    {
+      "name": "MANIFEST.json",
+      "sha256": "SELF",
+      "description": "Machine-parseable manifest with SHA-256 hashes"
+    }
+  ]
+}
