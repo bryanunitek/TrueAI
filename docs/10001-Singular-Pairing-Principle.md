@@ -2,11 +2,13 @@
 
 **Deployment topology for the production of TrueAI-aligned Solutions**
 
-Version 1.0 — May 2026
+Version 1.1 — June 2026
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 
 Licence: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+**This is the canonical home of the Singular Pairing Principle.** Reference copies live at [`bryanunitek/UniCORE-AI/docs/10001-Singular-Pairing-Principle.md`](https://github.com/bryanunitek/UniCORE-AI/blob/main/docs/10001-Singular-Pairing-Principle.md) and [`bryanunitek/UniVERSE/docs/10001-Singular-Pairing-Principle.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/10001-Singular-Pairing-Principle.md); both are short pointers to this file.
 
 ---
 
@@ -19,6 +21,15 @@ It answers one question: *who is allowed to sit in front of an AI Claw and produ
 The Nine Invariants define what the AI system itself must be. This document defines the human-AI pairing topology under which work claiming to satisfy those invariants can be produced. Topology is not architecture — but the wrong topology produces ungovernable output from an otherwise governable architecture.
 
 This principle sits alongside the Gift Principle. It is not a tenth invariant; it is a deployment rule that the invariants assume.
+
+### 1.1 Relationship to the Inconsistency Problem
+
+The wider Institutional AI doctrine names a third pillar — the **Inconsistency Problem** — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract). The Inconsistency Problem doctrine names two failure surfaces:
+
+1. **Machine-side inconsistency** — different vendors / sessions / drift produce different outputs from the same inputs. The architectural answer is foundation consistency (UniCORE-AI 12-Level governance stack + per-level governance MD files) plus vertical consistency (per Vertical CORE).
+2. **Human-side inconsistency** — multiple humans steering the same Claw, or a single human handing a Claw between workstreams, produce different operational outcomes even when the machine-side is locked. The deployment-topology answer to this surface is the Singular Pairing Principle as defined in this document.
+
+Foundation consistency, vertical consistency, and singular human pairing are three structurally independent guarantees. Removing any one of them breaks the institutional case for the whole. The companion doctrine document `THE-INCONSISTENCY-PROBLEM.md` is published on each of the four flagship public repositories ([`bryanunitek/UniCORE`](https://github.com/bryanunitek/UniCORE/blob/main/THE-INCONSISTENCY-PROBLEM.md), [`bryanunitek/UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE/blob/main/THE-INCONSISTENCY-PROBLEM.md), [`bryanunitek/UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB/blob/main/THE-INCONSISTENCY-PROBLEM.md), [`bryanunitek/UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB/blob/main/THE-INCONSISTENCY-PROBLEM.md)) and references this document for the human-side answer.
 
 ---
 
@@ -140,7 +151,25 @@ The principle attaches to the claim, not to the tool.
 
 ---
 
-## 8. Summary
+## 8. Recommendation and variants
+
+The Singular Pairing Principle as defined here — 1 Human + 1 Claw per workstream (1H1C), with bonds expanding by Project Level — is the **deployment topology Unitek Systems Limited recommends and the only topology Unitek itself deploys**. Every Solution Unitek claims as TrueAI-aligned is produced under 1H1C. Unitek does not internally try, test, or maintain alternative topologies. The recommendation is unambiguous.
+
+The Foundation is gifted under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Anyone forking this Foundation is free under that licence to **try variants** — multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, committee-at-the-session, or any other arrangement they can articulate. The licence permits it. The Foundation does not prohibit experimentation in the public domain.
+
+What must be made plain is the epistemic status of any such variant:
+
+- **A variant is untested theory** until it has been demonstrated independently — across multiple Solutions, in regulated institutional settings, with audit, regulatory engagement, and incident-record evidence — to produce outputs that survive the same scrutiny 1H1C-produced Solutions are designed to survive.
+- **A variant cannot claim Powered by UniCORE AI / built on the TrueAI Foundation certification** unless and until 1H1C is satisfied for the Solution-producing pair, or the certification gate is independently extended to recognise the variant. Today the gate recognises 1H1C only.
+- **A Solution produced under a variant must declare the variant** in its public AI-authorship disclosure if it claims any form of TrueAI alignment, even non-certified alignment. Hiding the variant inside a TrueAI-claim is itself a violation of Invariant 8 (*Transparency Without Exception*).
+
+The gift surface is uniform; the certification gate is not. Anyone is free to experiment; the certification badge is reserved for topologies whose institutional consistency has been demonstrated rather than asserted.
+
+The Singular Pairing Principle is recommended because Unitek's own multi-decade producer experience indicates it is the topology under which the Inconsistency Problem's human-side surface stays closed. That is a claim grounded in evidence available to Unitek today. It is not a claim that no other topology could ever close the same surface. It is a claim that no other topology has been demonstrated to close it under the conditions a TrueAI-aligned certification gate is asked to underwrite. Until that demonstration exists, 1H1C is the recommended and certifiable shape; variants remain untested theory.
+
+---
+
+## 9. Summary
 
 | Rule | Statement |
 |---|---|
@@ -153,6 +182,13 @@ The principle attaches to the claim, not to the tool.
 | Synthesis pair | Must be fresh to the prototypes and must itself be a singular pairing |
 | Producer qualification | Generation IT — 30+ years, full-vertical experience |
 | Named authority | Attaches to the Solution-producing pair; in Pattern 2 that is the synthesis pair |
+
+---
+
+## 10. Changelog
+
+- **v1.1 — 2026-06-14.** Added §1.1 *Relationship to the Inconsistency Problem* tying this principle to the human-side surface of the third pillar of Institutional AI doctrine. Added §8 *Recommendation and variants* establishing 1H1C as Unitek's recommended-and-only-deployed topology, with variants permitted under CC BY 4.0 but classified as untested theory until independently demonstrated. Renumbered prior §8 to §9. Added canonical-home note in the header. Sister copies at `bryanunitek/UniCORE-AI/docs/10001-Singular-Pairing-Principle.md` and `bryanunitek/UniVERSE/docs/10001-Singular-Pairing-Principle.md` shrink to short pointers in this same revision.
+- **v1.0 — May 2026.** Initial publication.
 
 ---
 
