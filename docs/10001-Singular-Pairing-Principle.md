@@ -139,6 +139,30 @@ Per-level governance authors work with AI at their level under their own pairing
 
 ---
 
+## 6.5 Production layer vs operations layer (v1.2)
+
+The Singular Pairing Principle governs the **production layer** of a TrueAI-aligned Solution: the layer that designs, architects, authors, governs and certifies the Solution. It does **not** govern the **operations layer**: the layer that runs the certified Solution 24/7 at scale across multiple Nodes after certification.
+
+**Production layer — 1H1C.** The certified Solution itself (its governance MD-file set, its 12-Level path, its substrate, its Vertical-CORE classification, its certification artefacts) is produced by a Singular Pairing. Without 1H1C at the production layer, the certified Solution inherits the inconsistency of its producers before any operator touches it. 1H1C closes the human-side Inconsistency Problem **for the artefacts being deployed**, not for the 24/7 running of those artefacts.
+
+**Operations layer — certified runbook discipline.** A deployed UniCORE-conformant Solution is run 24/7 by a structured operations cohort, not by a 1H1C pair. Operations consistency is held by the **certified runbook**: the explicit, version-locked, hash-attested set of operational procedures that translate the producer-pair's certified envelope into shift-by-shift execution. Operators do not steer the architecture; they run it under the runbook. The 1H1C principle does not apply at this layer because operations is not Solution production; it is the disciplined execution of an already-produced Solution.
+
+**Interface — Reasonable Governance Threshold.** The interface between the two layers is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniCORE-AI/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md). Inside the threshold, the operations cohort handles the runtime question under the certified runbook. Outside the threshold — architectural change, governance-MD update, vertical reclassification, novel incident class, vendor model change, regulatory inquiry, new Vertical-CORE going live — the question escalates back to the producer-pair. The threshold is what makes the two-layer composition honest: operations consistency does not claim to be producer-pair consistency, and the producer-pair does not claim to be running 24/7 ops.
+
+**Intervention curve.** Producer-pair engagement varies over the Solution's lifecycle:
+
+- **Day-N stabilisation phase** (first 12-18 months post-certification, or post-major-version): producer-pair engagement is high; operations cohort is supported by the producer-pair; runbook iterates frequently.
+- **Steady-state phase**: producer-pair engagement is low; operations cohort runs the runbook with rare threshold-crossing events.
+- **Incident phase**: producer-pair re-engages at the level the incident requires (security event, vendor model release, major outage, regulatory inquiry, new Vertical-CORE classification).
+
+The operations cohort scales correspondingly: high during stabilisation and incident phases, smoothing toward a baseline at steady-state.
+
+**Why the split is mandatory.** A literal-reading 1H1C principle applied to operations would force 24/7 production-grade running onto a single human per Claw role per Node — cognitively impossible at human physiology, operationally impossible across shift boundaries, and structurally wrong because operations is not Solution production. Conversely, allowing a multi-human operations cohort to steer the architecture would re-open the human-side Inconsistency surface 1H1C exists to close. Splitting the layers at the Reasonable Governance Threshold preserves 1H1C where it matters (production) and permits realistic ops topologies where they belong (runtime), with a deterministic, certified interface between them.
+
+**Operations-cohort sizing is not specified at this Foundation layer.** Per-Solution sizing depends on Level count, Node count, vertical classification, shift topology, incident-class frequency, and the certified runbook itself. That sizing model lives at the Solution Producer's operational layer, not at the Foundation layer. The Foundation specifies only that operations is structured and certified-runbook-disciplined, not how many heads carry it out.
+
+---
+
 ## 7. Scope
 
 This principle applies to any work that is claimed as TrueAI-aligned or as a component of a UniCORE Solution. It does not apply to:
@@ -187,6 +211,7 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 
 ## 10. Changelog
 
+- **v1.2 — 2026-06-15.** Added §6.5 *Production layer vs operations layer* establishing the structural distinction between the layer 1H1C governs (Solution production: design / architecture / governance authoring / certification) and the layer it does not (24/7 operations of the certified Solution by a structured cohort under a certified runbook). The interface between the two layers is the Reasonable Governance Threshold. The amendment also introduces the intervention-curve framing (stabilisation / steady-state / incident phases) and explicitly de-scopes operations-cohort sizing from the Foundation layer. This corrects an implicit doctrine error in v1.1 that read as if 1H1C governed runtime consistency across vendors, sessions, nodes, and years — it governs production-time consistency; runtime consistency is held by the certified runbook against the certified envelope produced under 1H1C.
 - **v1.1 — 2026-06-14.** Added §1.1 *Relationship to the Inconsistency Problem* tying this principle to the human-side surface of the third pillar of Institutional AI doctrine. Added §8 *Recommendation and variants* establishing 1H1C as Unitek's recommended-and-only-deployed topology, with variants permitted under CC BY 4.0 but classified as untested theory until independently demonstrated. Renumbered prior §8 to §9. Added canonical-home note in the header. Sister copies at `bryanunitek/UniCORE-AI/docs/10001-Singular-Pairing-Principle.md` and `bryanunitek/UniVERSE/docs/10001-Singular-Pairing-Principle.md` shrink to short pointers in this same revision.
 - **v1.0 — May 2026.** Initial publication.
 
