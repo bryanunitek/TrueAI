@@ -21,9 +21,10 @@ The two-layer machine-side architecture:
 1. **Foundation consistency** — the UniCORE-AI 12-Level governance stack and the per-level governance MD files. Same input + same governance state → same governance posture across vendors, sessions, nodes, and years.
 2. **Vertical consistency** — substrates and Vertical COREs are **classified** per industry (`.Law`, `.Banking`, `.Healthcare`, `.Accounting`, …). Each classification adds vertical-specific consistency primitives (jurisdiction-pinning, retention, audit, isolation, federation rules) on top of the foundation guarantee.
 
-And the human-side architecture:
+And the human-side architecture, split by lifecycle layer:
 
-3. **Singular Pairing Principle (1H1C)** — one human, one AI Claw, one workstream. The producer-pair shape is itself a consistency surface; multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, and committee-at-the-session all introduce inconsistency the machine-side cannot reach.
+3. **Production layer — Singular Pairing Principle (1H1C)**: one human, one AI Claw, one workstream produces the certified Solution. The producer-pair shape is itself a consistency surface; multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, and committee-at-the-session all introduce inconsistency the machine-side cannot reach.
+4. **Operations layer — certified runbook discipline**: a deployed Solution is run 24/7 by a structured operations cohort, not by a 1H1C pair. Operations consistency is held by the certified runbook against the certified envelope. The interface between the production layer and the operations layer is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniCORE-AI/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md).
 
 Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract).
 
@@ -107,23 +108,46 @@ The substrate is **one codebase**, **classified per industry**. The classificati
 
 Same code. Different classification. Same governance shape. Vertical-specific primitives applied through the 12-Level model.
 
-## 6. The human-side answer — Singular Pairing Principle (1H1C)
+## 6. The human-side answer — Singular Pairing Principle (1H1C), production-layer-scoped
 
 Foundation consistency and vertical consistency close the **machine-side** of the Inconsistency Problem to the maximum extent the architecture controls. They do not reach the second surface: **the humans steering the AI**.
 
 Multiple humans on one Claw produce conflicting authority signals; the AI cannot reconcile them without assuming authority it does not have. A single human across multiple parallel Claws produces context fragmentation; decisions made on one Claw are not visible on another. Committee-at-the-session-level produces no named authority; the AI is steered by the loudest voice in the room rather than by a single accountable signature. Each of these is a **human-side inconsistency** failure that arrives at the same outcome the machine-side is trying to prevent: same facts, different result.
 
-The structural answer to the human-side surface is the **Singular Pairing Principle (1H1C)**: one human, one AI Claw, one workstream. The full doctrine — including how bonds expand with Project Level (up to 14+ paired bonds for a Level-12 Project), Patterns 1 and 2, the Generation IT producer qualification, and the recommendation-and-variants policy — lives at [`docs/10001-Singular-Pairing-Principle.md`](./10001-Singular-Pairing-Principle.md).
+The structural answer to the human-side surface is the **Singular Pairing Principle (1H1C)**: one human, one AI Claw, one workstream — **scoped to the production layer**. The full doctrine, including the v1.2 production-layer-vs-operations-layer split, lives at [`docs/10001-Singular-Pairing-Principle.md`](./docs/10001-Singular-Pairing-Principle.md).
 
-**Recommendation and variants.** 1H1C is the deployment topology Unitek Systems Limited recommends and the only one Unitek itself deploys. Every Solution Unitek claims as TrueAI-aligned is produced under 1H1C. Variants — multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, committee-at-the-session — are permitted under CC BY 4.0 but classified as **untested theory** until independently demonstrated to close the human-side surface as reliably as 1H1C does. The certification gate today recognises 1H1C only.
+### Production layer (where 1H1C applies)
 
-Foundation consistency, vertical consistency, and singular human pairing are three structurally independent answers. Removing any one of them breaks the institutional case for the whole.
+The certified Solution itself — its governance MD-file set, its 12-Level path, its substrate, its Vertical-CORE classification, its certification artefacts — is produced by a Singular Pairing. 1H1C closes the human-side Inconsistency surface **for the artefacts being deployed**.
+
+### Operations layer (where 1H1C does not apply)
+
+A deployed UniCORE-conformant Solution is run 24/7 by a structured operations cohort, not by a 1H1C pair. Operations consistency is held by the **certified runbook**: explicit, version-locked, hash-attested procedures that translate the producer-pair's certified envelope into shift-by-shift execution. Operators do not steer the architecture; they run it.
+
+### Interface — Reasonable Governance Threshold
+
+The interface between the two layers is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniCORE-AI/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md). Inside the threshold, operations handles the runtime question under the runbook. Outside the threshold (architectural change, governance-MD update, vertical reclassification, novel incident class, vendor model change, regulatory inquiry), the question escalates back to the producer-pair. This is what makes the two-layer composition honest: operations consistency does not claim to be producer-pair consistency, and the producer-pair does not claim to be running 24/7 ops.
+
+### Why the split matters for the Inconsistency Problem
+
+The Inconsistency surface is closed in **two different places** by **two different mechanisms**:
+
+- At the **production layer**, 1H1C closes the human-side surface so the certified Solution does not inherit the inconsistency of its producers.
+- At the **operations layer**, the certified runbook closes the human-side surface so the running Solution does not inherit the inconsistency of its operators.
+
+Both closures are required. A 1H1C-produced Solution operated by an uncertified ad-hoc operations cohort re-opens the surface at runtime. A certified-runbook-operated Solution produced by a committee re-opens the surface at certification. The full institutional case requires both closures composed at the Reasonable Governance Threshold.
+
+### Recommendation and variants
+
+1H1C at the production layer is the deployment topology Unitek Systems Limited recommends and the only one Unitek itself deploys. Every Solution Unitek claims as TrueAI-aligned is produced under 1H1C. Variants — multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, committee-at-the-session — are permitted under CC BY 4.0 but classified as **untested theory** until independently demonstrated to close the human-side surface as reliably as 1H1C does. The certification gate today recognises 1H1C only.
+
+Foundation consistency, vertical consistency, singular human pairing at the production layer, and certified runbook discipline at the operations layer are four structurally independent answers. Removing any one of them breaks the institutional case for the whole.
 
 ## 7. The combined guarantee — canonical statement
 
-> **Same user input + same governance MD-file set + same substrate classification + same Vertical-CORE consistency rules + same tenant boundary (where applicable) + 1-Human-1-Claw producer pairing → the closest end-to-end consistency achievable given the external-AI dependency, with the residual inconsistency named, bounded, and auditable.**
+> **Same user input + same governance MD-file set + same substrate classification + same Vertical-CORE consistency rules + same tenant boundary (where applicable) + 1-Human-1-Claw producer pairing at the production layer + certified runbook discipline at the operations layer → the closest end-to-end consistency achievable given the external-AI dependency, with the residual inconsistency named, bounded, and auditable.**
 >
-> Across vendors. Across sessions. Across nodes. Across tenants (where applicable). Across years. Across producer-pairs that satisfy 1H1C.
+> Across vendors. Across sessions. Across nodes. Across tenants (where applicable). Across years. Across producer-pairs that satisfy 1H1C at the production layer. Across operations cohorts that run the certified runbook.
 >
 > Where the external AI introduces residual drift, the substrate-side evidence chain captures what governance state applied, what input was given, what decision the AI returned, and which version of the external AI was in use, so the residual surface is auditable end-to-end.
 
