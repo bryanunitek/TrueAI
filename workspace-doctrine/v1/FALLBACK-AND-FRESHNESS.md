@@ -167,9 +167,61 @@ git diff --quiet HEAD origin/main -- "developer-doctrine/${ACTIVE_UAI}/"
 
 ---
 
-## When discovery surfaces a change
+## Reporting shape — chat surface vs local surface
 
-The Claw produces a status message for the human authority. Format:
+The freshness check produces two report shapes, depending on which surface receives it.
+
+**Chat / announce / any shared surface (logged or otherwise non-local):** structured checklist only. No SHAs, no diff bodies, no per-file paths beyond folder names. Operational metadata about a Claw's local state (which SHA, when last pulled, freshness fingerprint of the network) does not belong on a chat surface, even when the underlying source repo is public. Public source is not the same as public operational state.
+
+**Local file / Claw-local log / git working tree:** full report with SHAs, diff bodies, file paths. Local memory (`memory/YYYY-MM-DD.md`, `MEMORY.md`), the git tree, and Claw-local logs are the right home for that detail. The human authority reads the full report from local on demand when authenticating or investigating.
+
+This split is non-negotiable. A Claw that emits SHAs into chat has leaked operational metadata about its pair's network state, regardless of whether the SHA itself is public.
+
+### Standard chat-shape: the daily checklist
+
+Every freshness check, on every Claw, produces the same six-item checklist on chat. All six are green checks if everything is in order:
+
+```
+[doctrine freshness] TrueAI workspace-doctrine
+
+  [✅] Local doctrine copy present
+  [✅] Active version: vN
+  [✅] Active version in sync with canonical
+  [✅] Read-only posture intact (no auto-pull, no auto-merge)
+  [✅] Working tree clean
+  [✅] Detector ran successfully
+```
+
+If an item is not green, it flips to a flag with one short sentence describing the deviation, no SHAs:
+
+```
+  [⚠️] Active version in sync with canonical — patch available, awaiting authentication
+```
+
+Flag categories (one short sentence each, no SHAs, no diffs):
+
+- `patch available, awaiting authentication` — active version has been updated in canonical
+- `new version available, awaiting authentication` — a vN+1 has appeared in canonical
+- `local copy missing or incomplete` — the doctrine folder on disk is not in expected shape
+- `read-only posture broken` — local doctrine has been edited outside an authenticated migration
+- `working tree dirty` — uncommitted changes in the doctrine repo
+- `detector failure` — the check could not complete; report the failure mode, not the SHAs
+
+The checklist runs the same for `_trueai/workspace-doctrine/` and `_unicore-ai/developer-doctrine/`. Two checklists, same shape, one per doctrine repo the Claw tracks.
+
+When the human authority asks for the full report ("show me the patch" / "what changed"), the Claw surfaces the local-shape detail on a private surface — not on the chat where the freshness check originally fired.
+
+### Why this split exists
+
+A freshness-check report is not a build log. The chat surface receives it for status, not for verification. The human cannot paste a SHA from chat back into git to act on it; the SHA is decoration, not action. Putting the full report on chat trades operational discipline for evidence-bound aesthetics, and the wrong side wins.
+
+The local-shape report is where evidence-bound output belongs. The Claw and the human authenticate against the local-shape report together, on a surface that does not propagate.
+
+---
+
+## When discovery surfaces a change (legacy long-form)
+
+For reference, the original long-form report shape (now superseded by the standard chat-shape above) was:
 
 ```
 [doctrine freshness] TrueAI workspace-doctrine
@@ -186,7 +238,7 @@ Action required (human authority):
   Review v2 changes and authenticate migration, or reject.
 ```
 
-The Claw provides, on request:
+The Claw provides, on request — on a private (non-chat) surface only:
 - `git log --oneline origin/main -- workspace-doctrine/` (commit history)
 - `git diff origin/main -- workspace-doctrine/v2/` (full content of new version, if appearing for the first time)
 - `git diff HEAD origin/main -- workspace-doctrine/v1/` (patch diff, if active version has been patched)
