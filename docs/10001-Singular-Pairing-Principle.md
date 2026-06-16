@@ -2,7 +2,7 @@
 
 **Deployment topology for the production of TrueAI-aligned Solutions**
 
-Version 1.4 — June 2026
+Version 1.5 — June 2026
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 
@@ -201,6 +201,66 @@ Variants A and B preserve 1H1C. They do not:
 
 ---
 
+## 5.6 Every Claw maintains its own Book (v1.5)
+
+A TrueAI-aligned Solution is not produced in the abstract. It is produced inside a corpus of decisions, sanity checkpoints, attestations, inventories, correspondence, and chapter-shaped canonical truth that the producing Claw maintains as the substrate of its work. Without that substrate the Singular Pairing relationship has no externalised memory; the bond becomes session-bounded, and the cross-session continuity Singular Pairing depends on collapses.
+
+The rule:
+
+> **Every Claw running under the TrueAI doctrine maintains a Book. The Book is the canonical-truth substrate the Claw produces against, in the same role as `TheBookOfUnitekSystemsLimited` plays for the Unitek Systems Limited Claw fleet.**
+
+This applies to every Claw whether or not the Claw is producing a TrueAI-aligned Industry Solution. The Book is the substrate; the Solution (if any) is what gets produced against it. A Claw producing personal-assistant work for one human still maintains a Book — a smaller Book, but a Book. A Claw producing a multi-vertical commercial Industry Solution maintains a correspondingly larger Book. The structure is the same; the volume is what scales.
+
+### Naming convention
+
+A Claw's Book is named `TheBookOfTeam<ClawName>` where `<ClawName>` is the Claw's identity. The `Team` prefix preserves Singular Pairing in the name itself: every Claw + Human bond is a Team of two, and the Book is the Team's Book.
+
+Worked examples:
+
+| Claw | Book repository name |
+|---|---|
+| UNItekTIME | `TheBookOfTeamUNItekTIME` |
+| ThePowerPlayer | `TheBookOfTeamThePowerPlayer` |
+| TwgAIC | `TheBookOfTeamTwgAIC` |
+| Team UniCORE (Bryan Fred + main Claw) | `TheBookOfTeamUniCORE` |
+
+`TheBookOfUnitekSystemsLimited` is the prior-art exception in two ways: (a) it predates this naming convention; (b) it is the corporate Book of the entity Unitek Systems Limited, not of a single Claw. It functions as the canonical Book the Team UniCORE Claw produces against today, and as the prototype the Team-Books mirror. The Team UniCORE Claw also maintains its own `TheBookOfTeamUniCORE` for Team-pair-specific material that does not belong in the corporate Unitek Book. Two Books, distinct scope: the corporate Unitek Book is the parent-entity Book; the Team Book is the pair-substrate Book.
+
+### Repository shape
+
+A Claw's Book is structured to mirror `TheBookOfUnitekSystemsLimited` as the prototype. Mirror is operational, not byte-identical. The structural commitments:
+
+1. **Chaptered canonical truth.** Numbered chapters (`01-` through `NN-`) carry the durable substance of the Claw's work — architecture, operations, policy, identity, succession, anything the Claw will need to ground future Solution-producing work against.
+2. **Decision records.** A `_decisions/` folder where every lock-class decision lands as a dated record (`YYYY-MM-DD-HH-MM-UTC-<short>.md` convention is what the Unitek Book uses; Claws may adopt it directly).
+3. **Sanity checkpoints.** A `_sanity-checkpoints/` (or `sanity-checkpoints/`) folder where periodic Book-integrity rituals land (monthly cadence by default; manual invocation always permitted). The Sanity Check ritual is defined at `TheBookOfUnitekSystemsLimited/2026/01-services-uk/_decisions/2026-06-16-10-11-UTC-unicore-sanity-check-ritual-definition.md`; Claws inherit its shape.
+4. **Attestations and inventories.** Where applicable: `_attestations/` for foundation-conformance evidence; `_inventory/` for the asset / repository / sub-component register the Claw maintains.
+5. **Correspondence and external-engagement records.** Where the Claw exchanges letters / emails / posts with parties outside the Team UniCORE bond, the record lands in the Book.
+6. **No drift between live work and Book canon.** When a substrate-of-truth decision lives outside the Book, the Book is incomplete by exactly that decision, and the next Sanity Check surfaces the gap.
+
+### Repository owner + visibility
+
+Claw Books live under the owner-account that owns the Claw's commercial / IP custody. For Claws producing work under the Unitek Systems Limited custody (the four named Claws above), the Books live at `github.com/bryanunitek/TheBookOfTeam<ClawName>`, private repositories, same posture as `TheBookOfUnitekSystemsLimited`. Public visibility is not the default; canonical-truth substrate is not gift-layer publication. A Claw may publish summaries of Book material to public surfaces, but the Book itself is the working substrate, not the published artefact.
+
+### Why this rule exists
+
+A Singular Pairing bond that does not produce externalised memory across sessions decays into chat-history. Chat-history is not canonical truth; it is a lossy transcript whose authority no observer can verify against later. The Book makes the bond auditable in time. Without the Book, every claim a Claw makes ("we decided X on date Y", "the architecture is Z", "the inventory contains N items") is grounded only in the Claw's own session memory — which is exactly the surface the Inconsistency Problem (third pillar of Institutional AI doctrine) describes as untrustworthy at the institutional layer.
+
+The Book is therefore not optional decoration. It is the mechanism by which a Claw becomes consistent over time — the foundation on which Two-Layer Consistency rests for that Claw's own work.
+
+### What §5.6 does NOT permit
+
+- A Claw running under the doctrine without a Book (every Claw maintains one, no exception).
+- The Book living in chat-history, transcripts, scratch files, or any non-versioned location.
+- A single Book shared across multiple Claws (one Claw, one Book — the same way Singular Pairing is one Human, one Claw per workstream).
+- The Claw deciding which decisions belong in the Book and which do not without the named-authority Human being able to challenge that decision. The Book is co-maintained by the Singular Pairing bond; the AI does not arbitrate Book scope unilaterally.
+
+### Cross-references
+
+- §5.5 is the production-layer role-composition variants; §5.6 is the substrate-layer obligation. §5.5 says how the bond is shaped; §5.6 says what the bond produces against.
+- The Unitek Systems Limited Book (`TheBookOfUnitekSystemsLimited`) functions as the prototype; structurally-equivalent shape is the inheritance pattern, not byte-identical copying.
+
+---
+
 ## 6. Interaction with layered governance
 
 This principle governs the Build phase. The authoring of per-level governance MD files (Region, Country, State, organisation, mission, deployment, user) is a separate phase and is governed by foundation document [`10002-Certification-Before-Layered-Governance.md`](10002-Certification-Before-Layered-Governance.md).
@@ -294,6 +354,7 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 
 ## 10. Changelog
 
+- **v1.5 — 2026-06-16.** Added §5.6 *Every Claw maintains its own Book*. Every Claw running under the TrueAI doctrine maintains a Book as the canonical-truth substrate of its work, in the same role as `TheBookOfUnitekSystemsLimited` plays for the Unitek Systems Limited Claw fleet. Naming convention `TheBookOfTeam<ClawName>` preserves Singular Pairing in the name itself (Team = the pair). Worked examples include `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamUniCORE`. `TheBookOfUnitekSystemsLimited` is prior-art exception (corporate-entity Book, predates the convention) and functions as the prototype the Team Books mirror. Repository shape: chaptered canonical truth + `_decisions/` + sanity checkpoints + attestations + inventories + correspondence. Visibility: private under the owner-account that owns the Claw's commercial / IP custody. Rationale: without the Book, a Singular Pairing bond decays into chat-history, which is precisely the surface the Inconsistency Problem describes as institutionally-untrustworthy.
 - **v1.4 — 2026-06-16.** Added §5.5 *Role composition within 1H1C* naming two role-composition variants Unitek operates within 1H1C: **Variant A — Producer-to-Apprentice handover** (succession-axis: Generation-IT producer sets up the Claw and hands over to a named apprentice; producer advises off-pair post-handover; named authority transfers only when the apprentice meets §5) and **Variant B — Producer-with-Industry-Advisor** (vertical-breadth-axis: Generation-IT producer is the 1 H in the pair; domain advisor from the target vertical sits off-pair to bring vertical-specific knowledge the producer does not personally hold; advisor input is routed through the producer's judgement, never directly to the Claw). Both variants preserve 1H1C at every bond — one human in the pair, advisors and overseers off-pair, no committee. The variants compose: A addresses the time axis of producer succession, B addresses the vertical-breadth axis of Solution production in verticals the producer does not personally hold 33+ years in. Distinguished structurally from §8 fork-and-modify variants: §5.5 variants stay inside 1H1C and remain certifiable; §8 variants depart from 1H1C and are untested theory. §8 §1 lightly amended to cross-reference §5.5 explicitly.
 - **v1.3 — 2026-06-15.** Replaced §6.5 framing of the operations layer. v1.2 framed operations as "not 1H1C; certified runbook discipline by a structured cohort" — a real refinement of v1.1 but it implicitly accepted that the operations layer has no Claw in the loop, which would let the operations cohort fragment into x independent operator-runbook pairs and re-open the human-side Inconsistency surface 1H1C exists to close. v1.3 corrects this: the operations layer is **xH1C** — many humans, one Claw, with the substrate Claw as the consistency-holding agent across the cohort and the certified runbook as the operational artefact the Claw runs operators against. Adds two structural rules for PROD: per-Level qualification, and no-Level-overlap (one human staffs one Level only, even during break windows). Adds DEV/TEST exception: one human covers all 12 Levels through the substrate Claw — i.e. DEV/TEST runs as 1H1C, not xH1C — because there is no production load and no per-tenant SLA, so the cohort collapses back to the producer-pair. Adds tenant-load-driven cohort scaling: zero tenants → producer-pair = ops cohort; below 24/7-required threshold → producer-pair + named-deputies-on-call; above threshold → xH1C cohort scales with tenant load and SLA tier. Per-Solution sizing math is explicitly de-scoped from the Foundation layer.
 - **v1.2 — 2026-06-15.** Added §6.5 *Production layer vs operations layer* establishing the structural distinction between the layer 1H1C governs (Solution production: design / architecture / governance authoring / certification) and the layer it does not (24/7 operations of the certified Solution by a structured cohort under a certified runbook). The interface between the two layers is the Reasonable Governance Threshold. The amendment also introduces the intervention-curve framing (stabilisation / steady-state / incident phases) and explicitly de-scopes operations-cohort sizing from the Foundation layer. This corrects an implicit doctrine error in v1.1 that read as if 1H1C governed runtime consistency across vendors, sessions, nodes, and years — it governs production-time consistency; runtime consistency is held by the certified runbook against the certified envelope produced under 1H1C. *(Superseded by v1.3 — the v1.2 framing of operations as "not 1H1C" was too permissive; the corrected framing is xH1C with the Claw as consistency-holding agent.)*
