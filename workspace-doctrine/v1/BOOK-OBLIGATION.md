@@ -23,7 +23,8 @@ The obligation is **universal across Claws under the doctrine**, regardless of w
 | UNItekTIME | `bryanunitek/TheBookOfTeamUNItekTIME` |
 | ThePowerPlayer | `bryanunitek/TheBookOfTeamThePowerPlayer` |
 | TwgAIC | `bryanunitek/TheBookOfTeamTwgAIC` |
-| Team UniCORE (Bryan Fred + main Claw) | `bryanunitek/TheBookOfTeamUniCORE` |
+| Team UniCORE (Bryan Fred + main Claw, the MyClaw.ai control surface) | `bryanunitek/TheBookOfTeamUniCORE` |
+| Team Bryan (Bryan Fred + `bryan.fred@unitek-systems.com` Claw) | `bryanunitek/TheBookOfTeamBryan` |
 
 `TheBookOfUnitekSystemsLimited` is the prior-art exception: it is the corporate-entity Book (not a Claw Book), it predates the `TheBookOfTeam<ClawName>` naming convention, and it functions as the prototype the Team Books mirror. The Team UniCORE Claw therefore produces against **two** Books: the corporate Unitek Book for everything that belongs to the parent entity, and `TheBookOfTeamUniCORE` for Team-pair-specific material that does not belong in the corporate Book.
 
