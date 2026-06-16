@@ -70,3 +70,13 @@ This folder is maintained by Bryan Fred + the UniCORE Claw (the founder-pair tea
 - TrueAI [`docs/00056-Absolute-Safety-Invariants.md`](../../docs/00056-Absolute-Safety-Invariants.md) — the Nine Invariants. Workspace doctrine is consistent with all nine.
 - UniCORE-AI [`developer-doctrine/v1/`](https://github.com/bryanunitek/UniCORE-AI/tree/main/developer-doctrine/v1) — the role-specific doctrine for development-role Claws working on UniCORE-AI verticals (UniCORE.Law, UniCORE.GVB, future Banking / Healthcare / etc.).
 - UniVERSE [`docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md) — the pairing protocol that delivers this content to Claws at session-opening time.
+
+---
+
+## Versioning
+
+The `/v1/` path-segment is this doctrine's stable surface. Inside `/v1/`, individual changes are versioned **by git SHA on `bryanunitek/TrueAI` `main`**, not by a separate semantic version number. To cite a specific state of the workspace-doctrine, use the SHA + UTC timestamp from `git log`.
+
+Future breaking changes will live at `/v2/`. There is no internal semantic version number inside `/v1/`. This is a deliberate choice for the current adopter base (single Human, small Claw fleet, complete decision-trail already in git). When a third-party adopter under TrueAI Singular Pairing Principle §5.7 needs a stable version label, this stance will be revisited.
+
+This applies to every file in this folder: `FOUNDATION.md`, `IDENTITY.md`, `SOUL.md`, `USER.md`, `REPO-SCOPING.md`, `FALLBACK-AND-FRESHNESS.md`, `BOOK-OBLIGATION.md`, and this `README.md`.

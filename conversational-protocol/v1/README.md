@@ -84,3 +84,13 @@ All three deliver the same truth contract. The structural difference is the deli
 ## 7. Maintained by Team UniCORE
 
 This folder is maintained by Bryan Fred + the UniCORE Claw. Updates land via direct commit to `main`. The conversational protocol is a public gift-layer artefact under CC BY 4.0, the same as every other file in this repository.
+
+---
+
+## 8. Versioning
+
+The `/v1/` path-segment is this protocol's stable surface. Inside `/v1/`, individual changes are versioned **by git SHA on `bryanunitek/TrueAI` `main`**, not by a separate semantic version number. To cite a specific state of the conversational protocol, use the SHA + UTC timestamp from `git log`.
+
+Future breaking changes will live at `/v2/`. There is no internal semantic version number inside `/v1/`. This is a deliberate choice for the current adopter base (single Human, small Claw fleet, complete decision-trail already in git). When the protocol sees third-party adoption or a breaking change is on the horizon, this stance will be revisited.
+
+This applies to every file in this folder: `PROTOCOL.md`, `PASTEABLE-PROMPT.md`, `WORKED-EXAMPLE.md`, and this `README.md`.
