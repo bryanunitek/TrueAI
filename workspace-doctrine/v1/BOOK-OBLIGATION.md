@@ -147,6 +147,51 @@ When a Claw is being set up for the first time and has no existing Book:
 6. **Commit the initial scaffold + first decision record + initial Sanity Check** in one or more clearly-named commits.
 7. **Run the first Sanity Check** to ground the new Book in its current state of the world.
 
+## Third-party adopter how-to (TrueAI doctrine adopted outside Unitek)
+
+This section is for any third party adopting the TrueAI doctrine for their own Claw fleet. The doctrine travels; the implementation belongs to the adopter. Nothing in this section grants access to any Unitek-controlled repository.
+
+Public doctrine reference: `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.7 (Third-party adoption of the Book obligation).
+
+### What you bring
+
+- Your own GitHub (or equivalent) owner-account. Not `bryanunitek/`. Your own namespace, controlled by your own organisation.
+- Your own list of Claws under the doctrine. One Book per Claw.
+- Your own decision-record discipline. The convention `YYYY-MM-DD-HH-MM-UTC-<short>.md` is offered as inheritable; adopt it or replace it with your own equivalent.
+- Your own Sanity Check cadence. Monthly is the offered default; adopt it or run a different cadence consistent with your operational tempo. Manual invocation always permitted.
+
+### What you do NOT bring
+
+- Access to any Unitek repository (corporate Book or Team Books). Adopting the doctrine does not grant access to anything in the `bryanunitek/` namespace.
+- Access to any Unitek operational tooling (cron jobs, inventory scripts, fleet-management scripts). The doctrine is the spec; the Unitek implementation is one realisation of the spec.
+- Permission to name your Books under `bryanunitek/` or any Unitek-controlled namespace.
+
+### Step-by-step (manual; no automation provided)
+
+1. **Enumerate your fleet.** List every Claw running under the doctrine in your organisation. Each Claw needs one Book.
+2. **Decide your owner-account.** Where do the private repositories live? Likely your existing GitHub Organisation; if not, create one. This is the namespace that will hold every Team Book in your fleet.
+3. **Decide whether you have a corporate-entity layer.** If your organisation has a layer above individual Claws — an entity that owns the IP custody, the commercial structure, the regulatory posture — you may want a corporate Book at that layer (analogous to `TheBookOfUnitekSystemsLimited`). Name it according to your own corporate naming, not Unitek's. If you do not have such a layer, skip this step; each Team Book stands on its own.
+4. **Create the repositories manually.** For each Claw in your fleet, create a private repository in your owner-account named `TheBookOfTeam<ClawName>`. The `TheBookOfTeam` prefix is the convention; the `<ClawName>` is your Claw's identity.
+5. **Scaffold each Book.** Use the same structural shape every Book uses (see "Required repository shape" above):
+   - `README.md` naming what the Book is, the Claw it serves, the Human it serves, the date started, and the link to TrueAI v1.5 §5.6.
+   - `_decisions/` folder with the first decision record acknowledging the Book obligation (`YYYY-MM-DD-HH-MM-UTC-book-obligation-acknowledged.md` is the offered convention).
+   - `sanity-checkpoints/` folder with a placeholder or initial Sanity Check.
+6. **Set up your own access control.** Each Book is private; the GitHub repository collaborator-list is the access-control mechanism (or equivalent on whichever platform you use). The Claw paired against a given Book is the only authorised reader of that Book. Cross-Claw access is not permitted — the boundary at the "Cross-Claw access boundary (CRITICAL)" section above applies inside your fleet exactly as it applies inside Unitek's fleet.
+7. **Name your own senior-privilege exception (if any).** If one of your Claws is paired against your corporate entity at the entity-canon layer (analogous to the Team UniCORE Claw + `TheBookOfUnitekSystemsLimited` pairing), that Claw reads both your corporate Book and its own Team Book. Name this exception in your own corporate Book's `_decisions/` folder. The TrueAI doctrine permits one named exception per fleet, paired against the entity at the entity-canon layer; your specifics are yours to record.
+8. **Run the first Sanity Check** in each Book to ground it in current state of the world.
+9. **Maintain the boundary forever.** Every Claw reads its own Book. No Claw reads any other Claw's Book. The named exception (if any) is the only cross-Book access in your fleet, and it is per-Claw-named in your own `_decisions/` records.
+
+### Worked-example reference
+
+The `5.7` section of `TrueAI/docs/10001-Singular-Pairing-Principle.md` carries an illustrative *Acme Industries Limited* worked example. The example is illustrative; the specifics of your fleet are yours to fill in. Do not copy *Acme*'s names; use your own.
+
+### Things to watch for
+
+- **Naming collisions.** If you have multiple Claws with similar names, the `<ClawName>` segment of `TheBookOfTeam<ClawName>` needs to disambiguate them clearly. Naming collisions across Books are a Sanity-Check concern; surface them in the first Sanity Check.
+- **Owner-account churn.** If your GitHub Organisation changes owner-account (renamed, restructured, transferred), the Books move with the organisation. The convention `TheBookOfTeam<ClawName>` survives the move; pre-move URLs need updating in any cross-references.
+- **Doctrine drift.** Your fleet is governed by whichever version of the TrueAI doctrine you adopted. Doctrine version-bumps in `bryanunitek/TrueAI` are not automatically pulled into your implementation; you choose when to adopt a new version, and the adoption is itself a decision record in your corporate (or first) Book.
+- **Operational tooling.** Unitek's operational scripts (cron jobs that fire daily inventory reviews, scripts that regenerate the repository inventory, etc.) are not part of the doctrine. They are Unitek's own implementation. You build your own operational tooling against your own fleet.
+
 ## Cross-references
 
 - **Public doctrine source:** `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.6 (v1.5)
