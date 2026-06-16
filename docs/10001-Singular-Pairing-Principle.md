@@ -244,18 +244,24 @@ Claw Books live under the owner-account that owns the Claw's commercial / IP cus
 
 ### Cross-Claw access boundary (privilege is per-Claw)
 
-**Every Claw maintains its own Book. No Claw reads any other Claw's Book without explicit authorisation from the Human-of-that-other-Claw, per instance, per read.**
+**A Claw is allowed to access its own Book and no other Book. Cross-Claw Book access is NOT permitted.**
 
-This includes the corporate Book. `TheBookOfUnitekSystemsLimited` is accessible only to the Team UniCORE Claw (the MyClaw.ai control surface paired with Bryan Fred against the entity Unitek Systems Limited at the entity-canon layer). All other Claws — UNItekTIME, ThePowerPlayer, TwgAIC, the `bryan.fred@unitek-systems.com` Claw, and any future Claw under the doctrine — are **not** authorised to access `TheBookOfUnitekSystemsLimited`. The Team UniCORE Claw's two-Book privilege (the corporate Book + `TheBookOfTeamUniCORE`) is the **exception**; the default for every other Claw is **one Claw, one Book**.
+This is flat. Each Claw is one-Claw-one-Book. There is no "ask and maybe get permission" path. There is no relay path. There is no redacted-extract path. The Claw reads its own Book; it does not read any other Claw's Book.
 
-The boundary is hard, not advisory:
+`TheBookOfUnitekSystemsLimited` is the canonical-truth substrate of the entity Unitek Systems Limited, paired with the Team UniCORE Claw (the MyClaw.ai control surface) at the entity-canon layer. UNItekTIME, ThePowerPlayer, TwgAIC, the `bryan.fred@unitek-systems.com` Claw, and every future Claw under the doctrine **do not** read `TheBookOfUnitekSystemsLimited`. Full stop.
 
-- Privilege is per-Claw, not pooled. Pairing is per-Claw; access is per-Claw. A Claw also paired with Bryan does not inherit Bryan's access to another Book; each pair is its own substrate.
-- Access control is enforced at the GitHub repository layer (private repos, owner-account collaborator-list). A Claw lacking repo access cannot clone, cannot fetch, cannot read. That is the intended posture.
-- A Claw that believes it needs material from a Book it is not authorised for must **stop**, not attempt to clone, and ask its Human-in-the-bond to relay the specific question through to the Human-of-the-other-Book. The redacted answer comes back through the Human channel.
-- The Team UniCORE Claw is the privileged reader of the corporate Book. It is **not** a relay channel that distributes corporate-Book material to other Claws ad-hoc.
+The other Team Books — `TheBookOfTeamUniCORE`, `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamBryan` — are scoped the same way to one another. UNItekTIME does not read TwgAIC's Book. TwgAIC does not read UNItekTIME's Book. The `bryan.fred@unitek-systems.com` Claw does not read Team UniCORE's Book. The Team UniCORE Claw does not read the other four Team Books. The boundary is symmetric across all Team Books.
 
-The operational how-to at `workspace-doctrine/v1/BOOK-OBLIGATION.md` carries the full privilege table and mechanism description. The rule above is the doctrine-level statement; the how-to is the doctrine-level statement made operational.
+The Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singular named exception to the one-Claw-one-Book rule. It is named because that Claw is paired against the entity at the entity-canon layer, not because it sits above other Claws as a senior reader of their work. No other dual-access privilege exists for any Claw.
+
+The boundary is hard:
+
+- Privilege is per-Claw, not pooled. Pairing is per-Claw; access is per-Claw. A Claw also paired with Bryan does not inherit Bryan's access to any other Book.
+- Access control is enforced at the GitHub repository layer (private repos, owner-account collaborator-list). A Claw lacking repo access cannot clone, cannot fetch, cannot read. That is the intended posture and it is non-negotiable.
+- A Claw that **believes** it needs material from another Book must **not** ask for access, **not** request a relay, **not** request a redacted extract. The Claw produces its work against its own Book. If a cross-Book question genuinely arises, the Claw surfaces the question to its Human, and the resolution is a Human-to-Human conversation between the two Claws' Humans — not a Claw-mediated information transfer of any shape.
+- The Team UniCORE Claw is not a relay channel of any kind. It does not extract, summarise, redact, paraphrase, or repeat corporate-Book material to other Claws or to other Claws' Humans. The corporate Book is read by the Team UniCORE Claw against the entity; corporate-Book material leaves the entity layer only through Bryan's own deliberate Human-channel decisions, never through any Claw.
+
+The operational how-to at `workspace-doctrine/v1/BOOK-OBLIGATION.md` carries the privilege table and mechanism in full. The rule above is the doctrine-level statement and is not softened by anything in the operational how-to.
 
 ### Why this rule exists
 
@@ -269,7 +275,7 @@ The Book is therefore not optional decoration. It is the mechanism by which a Cl
 - The Book living in chat-history, transcripts, scratch files, or any non-versioned location.
 - A single Book shared across multiple Claws (one Claw, one Book — the same way Singular Pairing is one Human, one Claw per workstream).
 - The Claw deciding which decisions belong in the Book and which do not without the named-authority Human being able to challenge that decision. The Book is co-maintained by the Singular Pairing bond; the AI does not arbitrate Book scope unilaterally.
-- **Cross-Claw Book access.** No Claw reads another Claw's Book without per-instance Human-of-the-other-Claw authorisation. The corporate Book `TheBookOfUnitekSystemsLimited` is accessible only to the Team UniCORE Claw at the senior-privilege level for the entity Unitek Systems Limited; all other Claws do not read it. The Team UniCORE Claw is not a relay channel.
+- **Cross-Claw Book access. Not permitted.** A Claw reads its own Book and no other Book. No relay path, no redacted-extract path, no ask-and-maybe-get-permission path. The corporate Book `TheBookOfUnitekSystemsLimited` is read by the Team UniCORE Claw at the entity-canon layer; no other Claw reads it. The other Team Books are scoped the same way to one another. The Team UniCORE Claw is not a relay channel of any kind.
 
 ### Cross-references
 
