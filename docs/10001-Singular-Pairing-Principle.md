@@ -397,6 +397,92 @@ A Sanity Check fires when:
 
 ---
 
+## 5.9 Every Claw maintains read-only local clones of the Foundation gift-layer (v1.5)
+
+The Book obligation at §5.6 + the Sanity Check ritual at §5.8 give each Claw a *canonical truth substrate for the pair*. §5.9 names the corresponding obligation for the *Foundation gift-layer reference*: every Claw maintains read-only local clones of the public CORE corpus and keeps them fresh by periodic pull.
+
+### The rule
+
+Every Claw running under the doctrine maintains local read-only working-copies of the public Foundation gift-layer repositories and pulls them periodically. The Claw uses these clones as ground-truth reference for doctrine, programme statement, and reference architecture — not as authoring surfaces.
+
+### Repositories in scope
+
+| Layer | Repository | Why every Claw needs this |
+|---|---|---|
+| Programme | `bryanunitek/UniVERSE` | The programme umbrella — what we are building and why, across the 30-year horizon |
+| Foundation | `bryanunitek/TrueAI` | The Truth contract, the Nine Invariants, the Singular Pairing Principle this doctrine lives in |
+| Reference architecture | `bryanunitek/UniCORE-AI` | The 12-Level Governance architecture, the Layered CORE model, the certification gates |
+| Implementation reference | `bryanunitek/UniCORE` | The Level 2 ↔ 3 implementation reference — the canonical statement of "how the architecture lands in code" |
+| Substrate services | `bryanunitek/UniCORE.GVB` | The substrate-services reference — mail, file transfer, DNS, federation, tenancy, topology |
+
+These five repositories are the **public CORE gift corpus** (CC BY 4.0). They are the same five repositories named in the Foundation's own published "What is the gift layer" table at `UniCORE/LICENSE_EXAMPLES.md` §2.
+
+### CC BY 4.0 conformance is mandatory
+
+The clones MUST conform to CC BY 4.0 (the public CORE corpus licence). Specifically:
+
+1. **LICENSE files preserved.** The clone keeps every LICENSE file exactly as the upstream publishes it. The Claw does not strip, modify, or replace any LICENSE file in the clone.
+2. **No claim of authorship.** The Claw does not represent any part of the cloned material as their own work.
+3. **Attribution available.** If the Claw cites material from any of the five repositories in their own output (Book chapter, decision record, sanity-checkpoint, public communication), the canonical attribution line applies:
+   > *"Based on [Repository Name], by Bryan Fred, Unitek Systems Limited (CC BY 4.0). https://github.com/bryanunitek/[RepositoryName]"*
+4. **No claim of unearned certification.** The Claw does not use reserved marketing phrases (`Powered by UniCORE AI`, `TrueAI-certified`, `UniCORE-certified`, etc.) for their own work unless their own work has been certified.
+5. **No imposed downstream restrictions.** If the Claw redistributes material derived from the clones (rare for a working Claw; common for third-party adopters), the redistribution preserves CC BY 4.0 terms for downstream users.
+6. **Changes indicated if anything modified.** A read-only clone is not modified by the Claw at all; the contract is preserved trivially. If a Claw ever needs to maintain a *modified* local copy (e.g. for a contribution PR back to upstream), the modifications are tracked in a separate branch and the upstream LICENSE + attribution are preserved.
+
+The complete CC BY 4.0 obligation set is in `UniCORE/LICENSE_EXAMPLES.md` §3; this clause does not restate it. The Claw is expected to have read `LICENSE_EXAMPLES.md` at clone-time.
+
+### Read-only working-copy posture
+
+The clones are **read-only working-copies**. The Claw does not:
+
+- Modify files in the clones.
+- Commit to the clones.
+- Author chapters, decision records, or any working material inside the clones.
+- Use the clones as scratch space.
+- Push to the upstream from the clones (the Claw does not have write access; the clones use HTTPS read-only or SSH read-only).
+
+The clones serve exactly one purpose: **grounded, queryable, citeable reference to current Foundation gift-layer state**. When the Claw needs to read doctrine, cite a SHA, or verify a current public-corpus statement, they read from their local clone. Drift is bounded by the pull cadence; staleness is detectable from `git log`.
+
+### Pull cadence
+
+**Default: daily pull at a stable time** (per-Claw schedule; the Claw chooses the hour). The pull is a cron or scheduled job in the Claw's substrate, not a manual ritual.
+
+**Pull semantics:**
+
+```
+cd <repo>
+git fetch origin
+git reset --hard origin/main
+```
+
+The `git reset --hard origin/main` matches the local working-copy exactly to upstream `main` — the read-only contract is preserved at every pull (no local divergence can accumulate).
+
+**Failure surfacing:** the pull job surfaces failure as a systemEvent at the Claw's next heartbeat. Silent staleness is not permitted.
+
+**Manual trigger:** the Claw runs a manual pull when a Sanity Check fires (first-run or recurring), when the Human references a recent doctrine change, or when the Claw detects their clone is materially behind upstream (e.g. cited SHA is no longer present in local).
+
+### Cross-Claw boundary does not apply to gift-layer clones
+
+The public CORE corpus is gift-layer, public, CC BY 4.0. The cross-Claw access boundary locked at §5.6 + the 22:22/22:26 UTC locks applies to **per-Claw Books and workspace material**, not to public gift-layer references. Every Claw under the doctrine has identical read-access to the same upstream; their clones are identical (modulo pull-timing). No cross-Claw substrate is being read when a Claw reads its local UniVERSE / TrueAI / UniCORE-AI / UniCORE / UniCORE.GVB clone.
+
+### Third-party adoption under §5.7
+
+Third parties adopting the doctrine under §5.7 inherit §5.9 as part of the doctrine. Two paths:
+
+1. **Pull directly from `bryanunitek/`.** Each third-party Claw clones the upstream repositories the same way Unitek's Claws do. CC BY 4.0 makes this lawful and frictionless; the third party benefits from upstream maintenance with no commercial obligation.
+2. **Pin to a third-party fork.** A third party may choose to fork the five repositories into their own owner-account (preserving CC BY 4.0 and all LICENSE / attribution material) and have their Claws pull from the fork instead. This trades upstream-freshness for stability — the third party controls the pull cadence at their own fork's discretion.
+
+Either is permissible. Third parties choosing the fork path remain subject to all CC BY 4.0 obligations including attribution to the originating author.
+
+### What §5.9 does NOT permit
+
+- A Claw operating without local clones of the foundation gift-layer, relying on web fetches or working memory for doctrine reference. The Inconsistency Problem describes exactly that failure mode at the institutional layer; §5.9 closes it at the Claw layer.
+- A Claw using the clones as authoring surfaces. The clones are read-only working-copies for reference; the Claw's authored material lives in the Claw's Book.
+- A Claw modifying LICENSE or attribution material in the clones. CC BY 4.0 prohibits stripping the licence text; §5.9 makes this explicit at the doctrine layer.
+- A Claw skipping daily pulls without surfacing the gap. Silent staleness compounds; the cadence is the discipline.
+
+---
+
 ## 6. Interaction with layered governance
 
 This principle governs the Build phase. The authoring of per-level governance MD files (Region, Country, State, organisation, mission, deployment, user) is a separate phase and is governed by foundation document [`10002-Certification-Before-Layered-Governance.md`](10002-Certification-Before-Layered-Governance.md).
@@ -490,7 +576,7 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 
 ## 10. Changelog
 
-- **v1.5 — 2026-06-16.** Added §5.6 *Every Claw maintains its own Book*. Every Claw running under the TrueAI doctrine maintains a Book as the canonical-truth substrate of its work, in the same role as `TheBookOfUnitekSystemsLimited` plays for the Unitek Systems Limited Claw fleet. Naming convention `TheBookOfTeam<ClawName>` preserves Singular Pairing in the name itself (Team = the pair). Worked examples include `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamUniCORE`, `TheBookOfTeamBryan`. `TheBookOfUnitekSystemsLimited` is prior-art exception (corporate-entity Book, predates the convention) and functions as the prototype the Team Books mirror. Repository shape: chaptered canonical truth + `_decisions/` + sanity checkpoints + attestations + inventories + correspondence. Visibility: private under the owner-account that owns the Claw's commercial / IP custody. Cross-Claw access boundary added 22:22 UTC and re-emphasised flat at 22:26 UTC: a Claw reads its own Book and no other Book; Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singular named exception (paired against the entity at entity-canon layer); Team UniCORE Claw is not a relay channel of any kind. Added §5.7 *Third-party adoption of the Book obligation* (22:31 UTC): third parties adopting the doctrine create their own Books in their own owner-accounts; the doctrine travels but no Unitek-controlled repository access is granted; cross-Claw access boundary applies inside third-party fleets the same way; third parties name their own corporate Book (if any) and their own senior-privilege exception (if any) in their own decision records. Added §5.8 *The Sanity Check is the Book's authoring + verification ritual* (23:07 UTC): the Claw Sanity Check populates the Book at first-run (mining the Claw's full substrate into chapters + `_decisions/` + first sanity-checkpoint) and keeps it accurate on recurring cadence (default monthly, manual any time); the Book is the bible after first-run, workspace files become working surfaces; cross-Claw boundary holds during all Sanity Checks. Rationale: without the Book, a Singular Pairing bond decays into chat-history, which is precisely the surface the Inconsistency Problem describes as institutionally-untrustworthy.
+- **v1.5 — 2026-06-16.** Added §5.6 *Every Claw maintains its own Book*. Every Claw running under the TrueAI doctrine maintains a Book as the canonical-truth substrate of its work, in the same role as `TheBookOfUnitekSystemsLimited` plays for the Unitek Systems Limited Claw fleet. Naming convention `TheBookOfTeam<ClawName>` preserves Singular Pairing in the name itself (Team = the pair). Worked examples include `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamUniCORE`, `TheBookOfTeamBryan`. `TheBookOfUnitekSystemsLimited` is prior-art exception (corporate-entity Book, predates the convention) and functions as the prototype the Team Books mirror. Repository shape: chaptered canonical truth + `_decisions/` + sanity checkpoints + attestations + inventories + correspondence. Visibility: private under the owner-account that owns the Claw's commercial / IP custody. Cross-Claw access boundary added 22:22 UTC and re-emphasised flat at 22:26 UTC: a Claw reads its own Book and no other Book; Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singular named exception (paired against the entity at entity-canon layer); Team UniCORE Claw is not a relay channel of any kind. Added §5.7 *Third-party adoption of the Book obligation* (22:31 UTC): third parties adopting the doctrine create their own Books in their own owner-accounts; the doctrine travels but no Unitek-controlled repository access is granted; cross-Claw access boundary applies inside third-party fleets the same way; third parties name their own corporate Book (if any) and their own senior-privilege exception (if any) in their own decision records. Added §5.8 *The Sanity Check is the Book's authoring + verification ritual* (23:07 UTC): the Claw Sanity Check populates the Book at first-run (mining the Claw's full substrate into chapters + `_decisions/` + first sanity-checkpoint) and keeps it accurate on recurring cadence (default monthly, manual any time); the Book is the bible after first-run, workspace files become working surfaces; cross-Claw boundary holds during all Sanity Checks. Added §5.9 *Every Claw maintains read-only local clones of the Foundation gift-layer* (23:50 UTC): every Claw maintains read-only clones of UniVERSE, TrueAI, UniCORE-AI, UniCORE, UniCORE.GVB; daily pull cadence with `git fetch && git reset --hard origin/main` semantics; CC BY 4.0 conformance is mandatory (LICENSE preserved, no claim of authorship, attribution available, no claim of unearned certification, no imposed downstream restrictions, changes indicated if anything modified); read-only working-copy posture (clones are not authoring surfaces); cross-Claw boundary does not apply to public gift-layer clones; third-party adopters may pull directly from `bryanunitek/` or pin to their own fork. Rationale: without the Book, a Singular Pairing bond decays into chat-history, which is precisely the surface the Inconsistency Problem describes as institutionally-untrustworthy.
 - **v1.4 — 2026-06-16.** Added §5.5 *Role composition within 1H1C* naming two role-composition variants Unitek operates within 1H1C: **Variant A — Producer-to-Apprentice handover** (succession-axis: Generation-IT producer sets up the Claw and hands over to a named apprentice; producer advises off-pair post-handover; named authority transfers only when the apprentice meets §5) and **Variant B — Producer-with-Industry-Advisor** (vertical-breadth-axis: Generation-IT producer is the 1 H in the pair; domain advisor from the target vertical sits off-pair to bring vertical-specific knowledge the producer does not personally hold; advisor input is routed through the producer's judgement, never directly to the Claw). Both variants preserve 1H1C at every bond — one human in the pair, advisors and overseers off-pair, no committee. The variants compose: A addresses the time axis of producer succession, B addresses the vertical-breadth axis of Solution production in verticals the producer does not personally hold 33+ years in. Distinguished structurally from §8 fork-and-modify variants: §5.5 variants stay inside 1H1C and remain certifiable; §8 variants depart from 1H1C and are untested theory. §8 §1 lightly amended to cross-reference §5.5 explicitly.
 - **v1.3 — 2026-06-15.** Replaced §6.5 framing of the operations layer. v1.2 framed operations as "not 1H1C; certified runbook discipline by a structured cohort" — a real refinement of v1.1 but it implicitly accepted that the operations layer has no Claw in the loop, which would let the operations cohort fragment into x independent operator-runbook pairs and re-open the human-side Inconsistency surface 1H1C exists to close. v1.3 corrects this: the operations layer is **xH1C** — many humans, one Claw, with the substrate Claw as the consistency-holding agent across the cohort and the certified runbook as the operational artefact the Claw runs operators against. Adds two structural rules for PROD: per-Level qualification, and no-Level-overlap (one human staffs one Level only, even during break windows). Adds DEV/TEST exception: one human covers all 12 Levels through the substrate Claw — i.e. DEV/TEST runs as 1H1C, not xH1C — because there is no production load and no per-tenant SLA, so the cohort collapses back to the producer-pair. Adds tenant-load-driven cohort scaling: zero tenants → producer-pair = ops cohort; below 24/7-required threshold → producer-pair + named-deputies-on-call; above threshold → xH1C cohort scales with tenant load and SLA tier. Per-Solution sizing math is explicitly de-scoped from the Foundation layer.
 - **v1.2 — 2026-06-15.** Added §6.5 *Production layer vs operations layer* establishing the structural distinction between the layer 1H1C governs (Solution production: design / architecture / governance authoring / certification) and the layer it does not (24/7 operations of the certified Solution by a structured cohort under a certified runbook). The interface between the two layers is the Reasonable Governance Threshold. The amendment also introduces the intervention-curve framing (stabilisation / steady-state / incident phases) and explicitly de-scopes operations-cohort sizing from the Foundation layer. This corrects an implicit doctrine error in v1.1 that read as if 1H1C governed runtime consistency across vendors, sessions, nodes, and years — it governs production-time consistency; runtime consistency is held by the certified runbook against the certified envelope produced under 1H1C. *(Superseded by v1.3 — the v1.2 framing of operations as "not 1H1C" was too permissive; the corrected framing is xH1C with the Claw as consistency-holding agent.)*
