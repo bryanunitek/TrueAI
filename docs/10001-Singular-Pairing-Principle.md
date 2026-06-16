@@ -2,7 +2,7 @@
 
 **Deployment topology for the production of TrueAI-aligned Solutions**
 
-Version 1.1 — June 2026
+Version 1.4 — June 2026
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 
@@ -131,6 +131,76 @@ Generation IT is a finite and ageing cohort. The programme's time horizon (see `
 
 ---
 
+## 5.5 Role composition within 1H1C (v1.4)
+
+The 1H1C rule binds **one human to one Claw per workstream**. It does **not** constrain how that one human is supported off-pair, nor how that one human came to hold the Generation-IT mental model the Solution requires. Two role-composition variants are explicitly recognised here. Both preserve 1H1C at every bond; neither expands the pair beyond one human and one Claw. They are sibling shapes within the principle, not departures from it.
+
+These variants are **Unitek's own controlled scaling shapes** for producing TrueAI-aligned Solutions across (a) the working life of a single Generation-IT producer and (b) verticals in which the Solution-producing human does not personally hold 33+ years of in-vertical experience. They are distinct from the third-party-fork variants discussed in §8: §5.5 variants stay inside 1H1C and remain certifiable; §8 variants depart from 1H1C and are untested theory until independently demonstrated.
+
+### Variant A — Producer-to-Apprentice handover
+
+The Generation-IT producer (Pattern 1 or Pattern 2 author) **sets up the Solution-producing Claw**, establishes the initial bond, and produces the early Solution work. The producer then **hands the Claw over to a named apprentice successor**. From the handover onwards, the apprentice is the 1 Human in the 1H1C bond; the original Generation-IT producer **advises and oversees off-pair**.
+
+**Structural shape:**
+
+| Phase | Pair human | Off-pair role |
+|---|---|---|
+| Setup | Generation-IT producer | (none — producer is in the pair) |
+| Handover | Generation-IT producer → Apprentice | transition |
+| Development (post-handover) | Apprentice | Generation-IT producer advises + oversees |
+
+**What is preserved:** Singular Pairing at every bond. The pair always has exactly one human. The off-pair advisor speaks **to the apprentice**, not into the Claw. There is no committee inside the bond.
+
+**What is gained:** structural succession across the Generation-IT producer's working life. The apprentice is Claw-fluent by the time the producer steps back. No bus-factor cliff. Maps directly onto the cohort apprenticeship arc the Foundation's [`HORIZON.md`](../HORIZON.md) anticipates.
+
+**Trade-off:** slower than direct 1H1C with the Generation-IT producer in the pair throughout. Producer-time at setup + oversight cycles + apprentice-learning curve adds latency. The variant is chosen when succession durability outweighs production speed for the workstream.
+
+**Producer-qualification gate at handover.** The apprentice must reach the Generation-IT mental-model floor (§5) before the bond can produce certifiable Solution output. The Foundation does not specify how that floor is reached — apprenticeship arcs, structured succession programmes, and other mechanisms are out-of-scope for this document. What it specifies: until the apprentice meets §5, the original Generation-IT producer remains the named authority on Solution-producing output, even though the Claw is operationally bonded to the apprentice. Named authority transfers when the §5 floor is reached, not at the handover moment itself.
+
+### Variant B — Producer-with-Industry-Advisor
+
+The Generation-IT producer is the 1 Human in the 1H1C bond. A **domain advisor from the target vertical** sits off-pair. The advisor brings vertical-specific knowledge (regulatory shape, sector conventions, vendor landscape, customer behaviour, terminology) that the producer does not personally hold from 33+ years in that vertical. The advisor speaks **to the producer**, not into the Claw.
+
+**Structural shape:**
+
+| Role | Position | What they bring |
+|---|---|---|
+| Generation-IT producer | In the pair (the 1 H) | Full-vertical mental model + Claw fluency + §5 qualification |
+| Industry advisor | Off-pair, advisory only | Domain knowledge of the target vertical |
+
+**What is preserved:** Singular Pairing at every bond. The advisor is not a co-pair human. The advisor does not author or commit. The advisor's input is mediated through the Generation-IT producer's judgement before it reaches the Claw.
+
+**What is gained:** vertical-breadth scaling **without growing the Generation-IT pool first**. The producer-pool asymmetry (one Generation-IT producer who has lived a specific vertical end-to-end is the constrained pool) is partially decoupled from the in-vertical experience constraint — the producer brings full-vertical mental model + Claw fluency; the advisor brings the specific vertical's domain knowledge. This admits a new-vertical Solution earlier than Variant A's apprentice-training arc.
+
+**Trade-off:** slower than direct 1H1C in a vertical the producer personally holds 33+ years in (advisor round-trip latency). Faster than Variant A when the bottleneck is vertical breadth rather than producer succession.
+
+**Advisor selection.** Advisor selection, contracting, IP boundary, and confidentiality posture are commercial / operational matters outside this Foundation document. What the Foundation specifies: the advisor is not in the pair, does not hold named authority over the Solution, does not commit to the Claw, and receives attribution as advisor not as author.
+
+### Composability of Variants A and B
+
+Variants A and B address **orthogonal axes** of the 1H1C scaling problem:
+
+- Variant A addresses the **time axis** — succession across the Generation-IT producer's working life.
+- Variant B addresses the **vertical-breadth axis** — Solution production in a vertical the producer does not personally hold 33+ years in.
+
+The variants compose: a Generation-IT producer may set up a Claw under Variant A (with an apprentice scheduled for handover) **and** pair with an industry advisor under Variant B for the same Solution if the target vertical is not the producer's own. The composition stays 1H1C at every bond — one human in the pair, advisors and overseers off-pair, no committee.
+
+### What §5.5 does NOT permit
+
+Variants A and B preserve 1H1C. They do not:
+
+- Allow more than one human in the pair at any moment.
+- Allow the off-pair advisor or overseer to commit directly to the Claw.
+- Substitute for the §5 Generation-IT qualification at the named-authority position.
+- Allow a single Claw to be shared across multiple workstreams (the §2 cross-workstream rule is unchanged).
+- License the AI to reconcile conflicting authority signals from the pair human and the off-pair advisor. The advisor's input is **routed through the pair human's judgement**, not in parallel to it.
+
+### Cross-reference to §8
+
+§5.5 names two specific role-composition variants Unitek operates within 1H1C and considers certifiable. §8 addresses the separate question of fork-and-modify variants that depart from 1H1C entirely. The two sections are not duplicative: §5.5 variants stay certifiable because they preserve the principle; §8 variants are untested theory because they do not.
+
+---
+
 ## 6. Interaction with layered governance
 
 This principle governs the Build phase. The authoring of per-level governance MD files (Region, Country, State, organisation, mission, deployment, user) is a separate phase and is governed by foundation document [`10002-Certification-Before-Layered-Governance.md`](10002-Certification-Before-Layered-Governance.md).
@@ -190,7 +260,7 @@ The principle attaches to the claim, not to the tool.
 
 ## 8. Recommendation and variants
 
-The Singular Pairing Principle as defined here — 1 Human + 1 Claw per workstream (1H1C), with bonds expanding by Project Level — is the **deployment topology Unitek Systems Limited recommends and the only topology Unitek itself deploys**. Every Solution Unitek claims as TrueAI-aligned is produced under 1H1C. Unitek does not internally try, test, or maintain alternative topologies. The recommendation is unambiguous.
+The Singular Pairing Principle as defined here — 1 Human + 1 Claw per workstream (1H1C), with bonds expanding by Project Level and role-composed under §5.5 Variants A and B as required — is the **deployment topology Unitek Systems Limited recommends and the only topology Unitek itself deploys**. Every Solution Unitek claims as TrueAI-aligned is produced under 1H1C, in direct form or under §5.5 Variants A and/or B. Unitek does not internally try, test, or maintain topologies that depart from 1H1C. The recommendation is unambiguous.
 
 The Foundation is gifted under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Anyone forking this Foundation is free under that licence to **try variants** — multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, committee-at-the-session, or any other arrangement they can articulate. The licence permits it. The Foundation does not prohibit experimentation in the public domain.
 
@@ -224,6 +294,7 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 
 ## 10. Changelog
 
+- **v1.4 — 2026-06-16.** Added §5.5 *Role composition within 1H1C* naming two role-composition variants Unitek operates within 1H1C: **Variant A — Producer-to-Apprentice handover** (succession-axis: Generation-IT producer sets up the Claw and hands over to a named apprentice; producer advises off-pair post-handover; named authority transfers only when the apprentice meets §5) and **Variant B — Producer-with-Industry-Advisor** (vertical-breadth-axis: Generation-IT producer is the 1 H in the pair; domain advisor from the target vertical sits off-pair to bring vertical-specific knowledge the producer does not personally hold; advisor input is routed through the producer's judgement, never directly to the Claw). Both variants preserve 1H1C at every bond — one human in the pair, advisors and overseers off-pair, no committee. The variants compose: A addresses the time axis of producer succession, B addresses the vertical-breadth axis of Solution production in verticals the producer does not personally hold 33+ years in. Distinguished structurally from §8 fork-and-modify variants: §5.5 variants stay inside 1H1C and remain certifiable; §8 variants depart from 1H1C and are untested theory. §8 §1 lightly amended to cross-reference §5.5 explicitly.
 - **v1.3 — 2026-06-15.** Replaced §6.5 framing of the operations layer. v1.2 framed operations as "not 1H1C; certified runbook discipline by a structured cohort" — a real refinement of v1.1 but it implicitly accepted that the operations layer has no Claw in the loop, which would let the operations cohort fragment into x independent operator-runbook pairs and re-open the human-side Inconsistency surface 1H1C exists to close. v1.3 corrects this: the operations layer is **xH1C** — many humans, one Claw, with the substrate Claw as the consistency-holding agent across the cohort and the certified runbook as the operational artefact the Claw runs operators against. Adds two structural rules for PROD: per-Level qualification, and no-Level-overlap (one human staffs one Level only, even during break windows). Adds DEV/TEST exception: one human covers all 12 Levels through the substrate Claw — i.e. DEV/TEST runs as 1H1C, not xH1C — because there is no production load and no per-tenant SLA, so the cohort collapses back to the producer-pair. Adds tenant-load-driven cohort scaling: zero tenants → producer-pair = ops cohort; below 24/7-required threshold → producer-pair + named-deputies-on-call; above threshold → xH1C cohort scales with tenant load and SLA tier. Per-Solution sizing math is explicitly de-scoped from the Foundation layer.
 - **v1.2 — 2026-06-15.** Added §6.5 *Production layer vs operations layer* establishing the structural distinction between the layer 1H1C governs (Solution production: design / architecture / governance authoring / certification) and the layer it does not (24/7 operations of the certified Solution by a structured cohort under a certified runbook). The interface between the two layers is the Reasonable Governance Threshold. The amendment also introduces the intervention-curve framing (stabilisation / steady-state / incident phases) and explicitly de-scopes operations-cohort sizing from the Foundation layer. This corrects an implicit doctrine error in v1.1 that read as if 1H1C governed runtime consistency across vendors, sessions, nodes, and years — it governs production-time consistency; runtime consistency is held by the certified runbook against the certified envelope produced under 1H1C. *(Superseded by v1.3 — the v1.2 framing of operations as "not 1H1C" was too permissive; the corrected framing is xH1C with the Claw as consistency-holding agent.)*
 - **v1.1 — 2026-06-14.** Added §1.1 *Relationship to the Inconsistency Problem* tying this principle to the human-side surface of the third pillar of Institutional AI doctrine. Added §8 *Recommendation and variants* establishing 1H1C as Unitek's recommended-and-only-deployed topology, with variants permitted under CC BY 4.0 but classified as untested theory until independently demonstrated. Renumbered prior §8 to §9. Added canonical-home note in the header. Sister copies at `bryanunitek/UniCORE-AI/docs/10001-Singular-Pairing-Principle.md` and `bryanunitek/UniVERSE/docs/10001-Singular-Pairing-Principle.md` shrink to short pointers in this same revision.
