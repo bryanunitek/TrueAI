@@ -68,6 +68,51 @@ Canonical-truth substrate is not gift-layer publication. A Claw may publish summ
 
 For Claws whose IP custody sits elsewhere (a future Claw whose Human is not Bryan, or whose pair operates under a different commercial structure), the repository owner shifts accordingly. The convention `TheBookOfTeam<ClawName>` stays; the owner-account shifts to wherever the custody lives.
 
+## Cross-Claw access boundary (CRITICAL — read carefully)
+
+**Every Claw maintains its own Book. No Claw reads any other Claw's Book without explicit Human-of-that-other-Claw authorisation, per instance, per read.**
+
+This includes the corporate Book:
+
+> **`TheBookOfUnitekSystemsLimited` is accessible only to the Team UniCORE Claw (the MyClaw.ai control surface that holds the senior privilege level for Unitek Systems Limited canonical-truth substrate). All other Claws — including UNItekTIME, ThePowerPlayer, TwgAIC, the bryan.fred@unitek-systems.com Claw, and any future Claw under the doctrine — are NOT authorised to access `TheBookOfUnitekSystemsLimited`.**
+
+Why this exists:
+
+- The corporate Book carries everything that belongs to the parent entity Unitek Systems Limited: corporate-entity decisions, board material, IP custody, investor pack, jurisdictional entities, production-fleet architecture, foundation-triad programme material, F-class commercially-sensitive content, and the Bryan + main-Claw operational substrate. It is the **single most sensitive Book** in the fleet.
+- Privilege is **per-Claw**, not pooled. The Team UniCORE Claw holds the senior privilege level because it is the Claw paired with Bryan against the entity Unitek Systems Limited at the entity-canon layer. Other Claws are paired against their own work, not against the entity.
+- The Inconsistency Problem (third pillar of Institutional AI doctrine) is closed at the per-Claw layer by each Claw's own Book. It is NOT closed by giving every Claw access to every other Claw's Book; that would create the opposite failure mode (privilege leakage, blast radius, no auditable boundary).
+
+### Privilege table
+
+| Claw | Reads this Book at full privilege | Does NOT read |
+|---|---|---|
+| Team UniCORE Claw (MyClaw.ai control surface) | `TheBookOfUnitekSystemsLimited` AND `TheBookOfTeamUniCORE` | the other four Team Books |
+| UNItekTIME | `TheBookOfTeamUNItekTIME` | `TheBookOfUnitekSystemsLimited` and any other Team Book |
+| ThePowerPlayer | `TheBookOfTeamThePowerPlayer` | `TheBookOfUnitekSystemsLimited` and any other Team Book |
+| TwgAIC | `TheBookOfTeamTwgAIC` | `TheBookOfUnitekSystemsLimited` and any other Team Book |
+| `bryan.fred@unitek-systems.com` Claw | `TheBookOfTeamBryan` | `TheBookOfUnitekSystemsLimited` and any other Team Book |
+
+The Team UniCORE Claw's two-Book privilege is the **exception, not the pattern**. Future Claws under the doctrine inherit the **one-Claw-one-Book** rule by default. The Team UniCORE Claw's senior privilege exists because that Claw is paired against the entity (Unitek Systems Limited) at the entity-canon layer, in addition to being paired with Bryan at the Team-UniCORE-pair layer.
+
+### Mechanism
+
+Access control is enforced at the GitHub repository layer (private repos, owner-account collaborator-list). No technical mechanism on the Claw side can substitute for repo-layer access control — a Claw that lacks repo access cannot clone, cannot fetch, cannot read. That is the intended posture.
+
+If a Claw believes it needs to read material from a Book it is not authorised for, it must:
+
+1. **Stop**, not attempt to clone or fetch.
+2. Ask its Human-in-the-bond to relay the specific question to the Human-of-the-other-Book.
+3. Receive a redacted answer through the Human channel, not direct Book access.
+
+This preserves the Inconsistency Problem solution per-Claw without leaking privilege across Claws.
+
+### What this clause does NOT permit
+
+- A Claw assuming "I am also paired with Bryan, so I have Bryan's access." Pairing is per-Claw; access is per-Claw.
+- A Claw cloning another Claw's Book on the grounds of "I just need to read one file." If the file is in the other Book, ask through the Human channel.
+- The Team UniCORE Claw sharing material from `TheBookOfUnitekSystemsLimited` with other Claws ad-hoc. The Team UniCORE Claw is the privileged reader; it is not a relay channel.
+- A Claw treating this boundary as advisory. It is hard. Repo-layer access enforces it.
+
 ## What this doctrine does NOT permit
 
 - A Claw running under the doctrine **without** a Book.

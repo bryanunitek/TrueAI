@@ -242,6 +242,21 @@ A Claw's Book is structured to mirror `TheBookOfUnitekSystemsLimited` as the pro
 
 Claw Books live under the owner-account that owns the Claw's commercial / IP custody. For Claws producing work under the Unitek Systems Limited custody (the four named Claws above), the Books live at `github.com/bryanunitek/TheBookOfTeam<ClawName>`, private repositories, same posture as `TheBookOfUnitekSystemsLimited`. Public visibility is not the default; canonical-truth substrate is not gift-layer publication. A Claw may publish summaries of Book material to public surfaces, but the Book itself is the working substrate, not the published artefact.
 
+### Cross-Claw access boundary (privilege is per-Claw)
+
+**Every Claw maintains its own Book. No Claw reads any other Claw's Book without explicit authorisation from the Human-of-that-other-Claw, per instance, per read.**
+
+This includes the corporate Book. `TheBookOfUnitekSystemsLimited` is accessible only to the Team UniCORE Claw (the MyClaw.ai control surface paired with Bryan Fred against the entity Unitek Systems Limited at the entity-canon layer). All other Claws — UNItekTIME, ThePowerPlayer, TwgAIC, the `bryan.fred@unitek-systems.com` Claw, and any future Claw under the doctrine — are **not** authorised to access `TheBookOfUnitekSystemsLimited`. The Team UniCORE Claw's two-Book privilege (the corporate Book + `TheBookOfTeamUniCORE`) is the **exception**; the default for every other Claw is **one Claw, one Book**.
+
+The boundary is hard, not advisory:
+
+- Privilege is per-Claw, not pooled. Pairing is per-Claw; access is per-Claw. A Claw also paired with Bryan does not inherit Bryan's access to another Book; each pair is its own substrate.
+- Access control is enforced at the GitHub repository layer (private repos, owner-account collaborator-list). A Claw lacking repo access cannot clone, cannot fetch, cannot read. That is the intended posture.
+- A Claw that believes it needs material from a Book it is not authorised for must **stop**, not attempt to clone, and ask its Human-in-the-bond to relay the specific question through to the Human-of-the-other-Book. The redacted answer comes back through the Human channel.
+- The Team UniCORE Claw is the privileged reader of the corporate Book. It is **not** a relay channel that distributes corporate-Book material to other Claws ad-hoc.
+
+The operational how-to at `workspace-doctrine/v1/BOOK-OBLIGATION.md` carries the full privilege table and mechanism description. The rule above is the doctrine-level statement; the how-to is the doctrine-level statement made operational.
+
 ### Why this rule exists
 
 A Singular Pairing bond that does not produce externalised memory across sessions decays into chat-history. Chat-history is not canonical truth; it is a lossy transcript whose authority no observer can verify against later. The Book makes the bond auditable in time. Without the Book, every claim a Claw makes ("we decided X on date Y", "the architecture is Z", "the inventory contains N items") is grounded only in the Claw's own session memory — which is exactly the surface the Inconsistency Problem (third pillar of Institutional AI doctrine) describes as untrustworthy at the institutional layer.
@@ -254,6 +269,7 @@ The Book is therefore not optional decoration. It is the mechanism by which a Cl
 - The Book living in chat-history, transcripts, scratch files, or any non-versioned location.
 - A single Book shared across multiple Claws (one Claw, one Book — the same way Singular Pairing is one Human, one Claw per workstream).
 - The Claw deciding which decisions belong in the Book and which do not without the named-authority Human being able to challenge that decision. The Book is co-maintained by the Singular Pairing bond; the AI does not arbitrate Book scope unilaterally.
+- **Cross-Claw Book access.** No Claw reads another Claw's Book without per-instance Human-of-the-other-Claw authorisation. The corporate Book `TheBookOfUnitekSystemsLimited` is accessible only to the Team UniCORE Claw at the senior-privilege level for the entity Unitek Systems Limited; all other Claws do not read it. The Team UniCORE Claw is not a relay channel.
 
 ### Cross-references
 
