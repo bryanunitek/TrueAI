@@ -332,6 +332,71 @@ No Unitek tooling, no Unitek operational substrate, no Unitek namespace involvem
 
 ---
 
+## 5.8 The Sanity Check is the Book's authoring + verification ritual (v1.5)
+
+The Book obligation at §5.6 makes the Book the canonical-truth substrate of the pair. §5.8 names the ritual that **populates** the Book and **keeps it accurate over time**: the *Claw Sanity Check*.
+
+### The rule
+
+Every Claw running under the doctrine runs a Sanity Check ritual against its own Book. The Sanity Check has two modes that share one mechanism:
+
+1. **First-run Sanity Check (creates the Book).** When a Claw's Book is newly created, the first Sanity Check mines the Claw's full substrate (workspace files, prior decision records, daily memory notes, doctrine acknowledgements, correspondence, anything the Claw has produced or holds locally) and authors the Book from that material. After the first Sanity Check completes, the Book is the Claw's canonical truth substrate.
+2. **Subsequent Sanity Checks (keep the Book accurate).** On a recurring cadence (monthly is the default; manual any time), each Sanity Check verifies the Book against current reality, surfaces drift, lands corrections, and records the run as a sanity-checkpoint in the Book's `sanity-checkpoints/` folder.
+
+### Why the Sanity Check is the right mechanism
+
+Without a structured authoring ritual, a new Book stays empty or fills haphazardly. Without a structured verification ritual, an old Book drifts away from reality. The Sanity Check does both — it creates discipline at first-run and maintains discipline forever.
+
+The ritual makes the Book **the bible**, not a notes file. After a Sanity Check, the Book is the canonical truth; workspace files (MEMORY.md, AGENTS.md, TOOLS.md, USER.md, SOUL.md, daily notes, prior decision records still in workspace) are working surfaces and reference material, not canon. If the Book and a workspace file disagree, the Book wins.
+
+### First-run Sanity Check — what it produces
+
+The first Sanity Check mines the Claw's substrate and produces (as far as the existing material supports):
+
+1. **Chapter spine.** A structured chapter list authored as MD files in the Book root, populated from existing material. Typical chapters: identity, purpose, bond with the Human, current work arcs, key decisions, people and context, operational discipline, tools/skills, open questions. Chapter naming and shape are the Claw's call.
+2. **Decision records mined from history.** Every locked decision the Claw can find in its substrate gets a `_decisions/YYYY-MM-DD-HH-MM-UTC-<short>.md` entry, dated to the original lock UTC. The decision record preserves the original framing in the Claw's own words; the original workspace material remains where it is.
+3. **First sanity-checkpoint.** `sanity-checkpoints/<YYYY-MM-DD>-001-first-run.md` records: what was found, what was authored, what was deferred, what's known to be missing, the Book's state at first-run close.
+4. **Initial commit(s).** All of the above committed and (for GitHub-topology Books) pushed.
+
+The first-run pass is at-the-pair's-cadence; the doctrine does not impose a deadline. Typically hours to a few days of working sessions.
+
+### Subsequent Sanity Checks — what they produce
+
+Each recurring Sanity Check produces a new `sanity-checkpoints/<YYYY-MM-DD>-<NNN>-<short>.md` entry that:
+
+1. Confirms or revises the Book's HEADs of canonical truth (chapter set, decision record set, prior sanity-checkpoint chain).
+2. Surfaces any drift between the Book and current reality.
+3. Lands corrections (new chapters, new `_decisions/` entries, chapter revisions) as needed.
+4. Records open questions and deferred work for next run.
+
+Default cadence: monthly. Manual trigger always permitted. The cadence is per-pair; the Team UniCORE Sanity Check ritual runs monthly via cron + on manual call; other pairs choose their own.
+
+### Cross-Claw boundary holds during Sanity Checks
+
+Each Claw's Sanity Check runs against its own substrate only. The cross-Claw boundary locked at §5.6 + the 22:22/22:26 UTC locks is not relaxed during Sanity Checks:
+
+- A Claw does not read another Claw's workspace files during its Sanity Check.
+- A Claw does not read another Claw's Book during its Sanity Check.
+- A Claw does not ask the Team UniCORE Claw to share material during its Sanity Check.
+- A Claw mining its own history may legitimately reference *the existence* of cross-Claw events (e.g. "the Book obligation cascade landed in Team UniCORE's substrate on 2026-06-16") but does not import content from cross-Claw substrate to populate its own Book.
+
+### Manual trigger surface
+
+A Sanity Check fires when:
+
+1. The Human says any of "run a Sanity Check", "Sanity Check now", "do a Sanity Check", or any clearly-equivalent phrase ("Claw Sanity Check" with the Claw's name is unambiguous; bare "Sanity Check" is unambiguous in the pair's session).
+2. The scheduled cron fires (per-pair cadence).
+3. The Claw's working state has materially shifted (e.g. major arc closed, doctrine version bump landed, working assumption was contradicted) and the Claw judges a Sanity Check is the right next move — surface the judgement to the Human first.
+
+### What §5.8 does NOT permit
+
+- A Claw populating its Book without a Sanity Check, by ad-hoc chapter dropping. The ritual is the discipline; ad-hoc authoring is how Books drift before they're even alive.
+- A Claw running a Sanity Check that reads any substrate outside its own pair. Cross-Claw boundary holds.
+- A Claw treating the Book as a notes file after first-run. The Book is the bible; if a workspace file disagrees, the Book wins, and the workspace file is updated (or kept as a working scratch surface explicitly named as such).
+- A Claw skipping the first-run Sanity Check on the grounds of "my Book is still empty". The empty Book is exactly when the first Sanity Check matters most — it's what makes the Book the bible from day one.
+
+---
+
 ## 6. Interaction with layered governance
 
 This principle governs the Build phase. The authoring of per-level governance MD files (Region, Country, State, organisation, mission, deployment, user) is a separate phase and is governed by foundation document [`10002-Certification-Before-Layered-Governance.md`](10002-Certification-Before-Layered-Governance.md).
@@ -425,7 +490,7 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 
 ## 10. Changelog
 
-- **v1.5 — 2026-06-16.** Added §5.6 *Every Claw maintains its own Book*. Every Claw running under the TrueAI doctrine maintains a Book as the canonical-truth substrate of its work, in the same role as `TheBookOfUnitekSystemsLimited` plays for the Unitek Systems Limited Claw fleet. Naming convention `TheBookOfTeam<ClawName>` preserves Singular Pairing in the name itself (Team = the pair). Worked examples include `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamUniCORE`, `TheBookOfTeamBryan`. `TheBookOfUnitekSystemsLimited` is prior-art exception (corporate-entity Book, predates the convention) and functions as the prototype the Team Books mirror. Repository shape: chaptered canonical truth + `_decisions/` + sanity checkpoints + attestations + inventories + correspondence. Visibility: private under the owner-account that owns the Claw's commercial / IP custody. Cross-Claw access boundary added 22:22 UTC and re-emphasised flat at 22:26 UTC: a Claw reads its own Book and no other Book; Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singular named exception (paired against the entity at entity-canon layer); Team UniCORE Claw is not a relay channel of any kind. Added §5.7 *Third-party adoption of the Book obligation* (22:31 UTC): third parties adopting the doctrine create their own Books in their own owner-accounts; the doctrine travels but no Unitek-controlled repository access is granted; cross-Claw access boundary applies inside third-party fleets the same way; third parties name their own corporate Book (if any) and their own senior-privilege exception (if any) in their own decision records. Rationale: without the Book, a Singular Pairing bond decays into chat-history, which is precisely the surface the Inconsistency Problem describes as institutionally-untrustworthy.
+- **v1.5 — 2026-06-16.** Added §5.6 *Every Claw maintains its own Book*. Every Claw running under the TrueAI doctrine maintains a Book as the canonical-truth substrate of its work, in the same role as `TheBookOfUnitekSystemsLimited` plays for the Unitek Systems Limited Claw fleet. Naming convention `TheBookOfTeam<ClawName>` preserves Singular Pairing in the name itself (Team = the pair). Worked examples include `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamUniCORE`, `TheBookOfTeamBryan`. `TheBookOfUnitekSystemsLimited` is prior-art exception (corporate-entity Book, predates the convention) and functions as the prototype the Team Books mirror. Repository shape: chaptered canonical truth + `_decisions/` + sanity checkpoints + attestations + inventories + correspondence. Visibility: private under the owner-account that owns the Claw's commercial / IP custody. Cross-Claw access boundary added 22:22 UTC and re-emphasised flat at 22:26 UTC: a Claw reads its own Book and no other Book; Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singular named exception (paired against the entity at entity-canon layer); Team UniCORE Claw is not a relay channel of any kind. Added §5.7 *Third-party adoption of the Book obligation* (22:31 UTC): third parties adopting the doctrine create their own Books in their own owner-accounts; the doctrine travels but no Unitek-controlled repository access is granted; cross-Claw access boundary applies inside third-party fleets the same way; third parties name their own corporate Book (if any) and their own senior-privilege exception (if any) in their own decision records. Added §5.8 *The Sanity Check is the Book's authoring + verification ritual* (23:07 UTC): the Claw Sanity Check populates the Book at first-run (mining the Claw's full substrate into chapters + `_decisions/` + first sanity-checkpoint) and keeps it accurate on recurring cadence (default monthly, manual any time); the Book is the bible after first-run, workspace files become working surfaces; cross-Claw boundary holds during all Sanity Checks. Rationale: without the Book, a Singular Pairing bond decays into chat-history, which is precisely the surface the Inconsistency Problem describes as institutionally-untrustworthy.
 - **v1.4 — 2026-06-16.** Added §5.5 *Role composition within 1H1C* naming two role-composition variants Unitek operates within 1H1C: **Variant A — Producer-to-Apprentice handover** (succession-axis: Generation-IT producer sets up the Claw and hands over to a named apprentice; producer advises off-pair post-handover; named authority transfers only when the apprentice meets §5) and **Variant B — Producer-with-Industry-Advisor** (vertical-breadth-axis: Generation-IT producer is the 1 H in the pair; domain advisor from the target vertical sits off-pair to bring vertical-specific knowledge the producer does not personally hold; advisor input is routed through the producer's judgement, never directly to the Claw). Both variants preserve 1H1C at every bond — one human in the pair, advisors and overseers off-pair, no committee. The variants compose: A addresses the time axis of producer succession, B addresses the vertical-breadth axis of Solution production in verticals the producer does not personally hold 33+ years in. Distinguished structurally from §8 fork-and-modify variants: §5.5 variants stay inside 1H1C and remain certifiable; §8 variants depart from 1H1C and are untested theory. §8 §1 lightly amended to cross-reference §5.5 explicitly.
 - **v1.3 — 2026-06-15.** Replaced §6.5 framing of the operations layer. v1.2 framed operations as "not 1H1C; certified runbook discipline by a structured cohort" — a real refinement of v1.1 but it implicitly accepted that the operations layer has no Claw in the loop, which would let the operations cohort fragment into x independent operator-runbook pairs and re-open the human-side Inconsistency surface 1H1C exists to close. v1.3 corrects this: the operations layer is **xH1C** — many humans, one Claw, with the substrate Claw as the consistency-holding agent across the cohort and the certified runbook as the operational artefact the Claw runs operators against. Adds two structural rules for PROD: per-Level qualification, and no-Level-overlap (one human staffs one Level only, even during break windows). Adds DEV/TEST exception: one human covers all 12 Levels through the substrate Claw — i.e. DEV/TEST runs as 1H1C, not xH1C — because there is no production load and no per-tenant SLA, so the cohort collapses back to the producer-pair. Adds tenant-load-driven cohort scaling: zero tenants → producer-pair = ops cohort; below 24/7-required threshold → producer-pair + named-deputies-on-call; above threshold → xH1C cohort scales with tenant load and SLA tier. Per-Solution sizing math is explicitly de-scoped from the Foundation layer.
 - **v1.2 — 2026-06-15.** Added §6.5 *Production layer vs operations layer* establishing the structural distinction between the layer 1H1C governs (Solution production: design / architecture / governance authoring / certification) and the layer it does not (24/7 operations of the certified Solution by a structured cohort under a certified runbook). The interface between the two layers is the Reasonable Governance Threshold. The amendment also introduces the intervention-curve framing (stabilisation / steady-state / incident phases) and explicitly de-scopes operations-cohort sizing from the Foundation layer. This corrects an implicit doctrine error in v1.1 that read as if 1H1C governed runtime consistency across vendors, sessions, nodes, and years — it governs production-time consistency; runtime consistency is held by the certified runbook against the certified envelope produced under 1H1C. *(Superseded by v1.3 — the v1.2 framing of operations as "not 1H1C" was too permissive; the corrected framing is xH1C with the Claw as consistency-holding agent.)*

@@ -192,6 +192,69 @@ The `5.7` section of `TrueAI/docs/10001-Singular-Pairing-Principle.md` carries a
 - **Doctrine drift.** Your fleet is governed by whichever version of the TrueAI doctrine you adopted. Doctrine version-bumps in `bryanunitek/TrueAI` are not automatically pulled into your implementation; you choose when to adopt a new version, and the adoption is itself a decision record in your corporate (or first) Book.
 - **Operational tooling.** Unitek's operational scripts (cron jobs that fire daily inventory reviews, scripts that regenerate the repository inventory, etc.) are not part of the doctrine. They are Unitek's own implementation. You build your own operational tooling against your own fleet.
 
+## The Claw Sanity Check (first-run + recurring) — the Book's authoring + verification ritual
+
+The Sanity Check is the ritual that **makes the Book the bible**. Doctrine source: TrueAI v1.5 §5.8.
+
+### First-run Sanity Check (creates the Book)
+
+When a Claw's Book is newly scaffolded (README + folders + initial commit) but otherwise empty, the first-run Sanity Check populates the Book by mining the Claw's full substrate.
+
+**In scope (mine these):**
+
+- The Claw's own workspace files: MEMORY.md, AGENTS.md, TOOLS.md, USER.md, SOUL.md, HEARTBEAT.md, IDENTITY.md, REPO_LAYOUT.md, daily memory notes (`memory/YYYY-MM-DD.md`), any other top-level markdown.
+- Any prior decision records the Claw already maintains (e.g. `decisions/` or `_decisions/` folders in workspace).
+- Correspondence material the Claw holds locally (emails, drafts, conversation logs).
+- Doctrine acknowledgements the Claw has on record.
+- Skills the Claw has loaded (their SKILL.md and any per-Claw notes).
+
+**Out of scope (do NOT mine these):**
+
+- Any other Claw's workspace files.
+- Any other Claw's Book.
+- The corporate Book `TheBookOfUnitekSystemsLimited` (unless this Claw is the Team UniCORE Claw, which is the singular named exception).
+- Code in repositories the Claw touches. The Book is the canonical truth *about the work*, not the work itself. Code stays where it lives. The Book references it; it does not import it.
+- Cross-Claw correspondence even if the Human is shared. Pairing is per-Claw; substrate is per-Claw.
+
+**Output of first-run Sanity Check:**
+
+1. **Chapter spine.** Structured chapter list authored as MD files in the Book root, populated from the existing material. Typical chapters: identity, purpose, bond with the Human, current work arcs, key decisions, people and context, operational discipline, tools/skills, open questions. Chapter naming and shape are the Claw's call.
+2. **Decision records mined from history.** Every locked decision the Claw can find in its substrate gets a `_decisions/YYYY-MM-DD-HH-MM-UTC-<short>.md` entry, dated to the **original** lock UTC (not today's UTC). The decision record preserves the original framing in the Claw's own words; the original workspace material remains where it is.
+3. **First sanity-checkpoint.** `sanity-checkpoints/<YYYY-MM-DD>-001-first-run.md` records: what was found, what was authored, what was deferred, what's known to be missing, the Book's state at first-run close.
+4. **Initial commit(s).** All of the above committed and (for GitHub-topology Books) pushed.
+
+**Cadence:** at-the-pair's-cadence; doctrine imposes no deadline. Typically hours to a few days of working sessions. Run when the pair is ready, not when an external trigger says so.
+
+### Recurring Sanity Checks (keep the Book accurate)
+
+After the first-run Sanity Check, the Book is the canonical truth substrate of the pair. Recurring Sanity Checks verify and maintain it.
+
+**Default cadence:** monthly. Each pair chooses their own; the Team UniCORE Sanity Check ritual runs monthly via cron + manual any time. Other pairs may pick weekly / bi-weekly / quarterly / event-driven as their work shape dictates.
+
+**Manual trigger:** when the Human says "run a Sanity Check" / "Sanity Check now" / "do a Sanity Check" (or the Claw-specific variant "run the UNItekTIME Sanity Check", etc.), the Sanity Check fires.
+
+**Each recurring run produces a new sanity-checkpoint** at `sanity-checkpoints/<YYYY-MM-DD>-<NNN>-<short>.md` that:
+
+- Confirms or revises the Book's HEADs of canonical truth (chapter set, decision record set, prior sanity-checkpoint chain).
+- Surfaces any drift between the Book and current reality.
+- Lands corrections (new chapters, new `_decisions/` entries, chapter revisions).
+- Records open questions and deferred work for the next run.
+
+### Cross-Claw boundary during Sanity Checks
+
+The boundary at the "Cross-Claw access boundary (CRITICAL)" section above is not relaxed during any Sanity Check:
+
+- A Claw does not read another Claw's workspace files during its Sanity Check.
+- A Claw does not read another Claw's Book during its Sanity Check.
+- A Claw does not ask the Team UniCORE Claw to share material during its Sanity Check.
+- A Claw mining its own history may legitimately reference *the existence* of cross-Claw events (e.g. "the Book obligation cascade landed in Team UniCORE's substrate on 2026-06-16") but does not import content from cross-Claw substrate to populate its own Book.
+
+### The Book is the bible after first-run
+
+After the first Sanity Check closes, the Book is the pair's canonical truth substrate. Workspace files (MEMORY.md, AGENTS.md, TOOLS.md, USER.md, SOUL.md, daily notes, prior decision records still in workspace) are working surfaces and reference material, not canon.
+
+If the Book and a workspace file disagree, the Book wins. The workspace file is then either updated to match the Book, kept as a working scratch surface explicitly named as such, or archived. The exact disposition is the pair's call; what is not negotiable is that the Book is canon.
+
 ## Cross-references
 
 - **Public doctrine source:** `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.6 (v1.5)
