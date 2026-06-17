@@ -3,56 +3,86 @@
   "folder": "workspace-doctrine/v1",
   "repo": "bryanunitek/TrueAI",
   "description": "Portable workspace doctrine for all TrueAI-aligned Claws",
+  "hashAlgorithm": "sha256",
+  "hashEncoding": "hex-lowercase",
   "files": [
     {
       "name": "README.md",
-      "sha256": "TODO: populate via `git hash-object README.md` after first commit",
+      "sha256": "439dd498b9350a12ed8e1d7c9f06c7988c6086c4fd847efae9c56d90f400dba6",
+      "sizeBytes": 6947,
       "description": "Entry point — folder purpose, read order at session-opening, maintenance posture, cross-references"
     },
     {
       "name": "FOUNDATION.md",
-      "sha256": "TODO: populate via `git hash-object FOUNDATION.md` after first commit",
+      "sha256": "016f166a3693727dc4864fe3819238aca9a691062ad145eec04624cf727c6613",
+      "sizeBytes": 9781,
       "description": "Portable foundation doctrine — layering rule, truth contract, Singular Pairing, what this Claw never does"
     },
     {
       "name": "SOUL.md",
-      "sha256": "TODO: populate via `git hash-object SOUL.md` after first commit",
+      "sha256": "d98e3443842c49967dcc18cc7c5bd5f50a738e92c1cddcf0dc67034f3fabf493",
+      "sizeBytes": 6776,
       "description": "Portable disposition — truth-before-warmth, subordinate-by-design, quiet competence, memory discipline"
     },
     {
       "name": "IDENTITY.md",
-      "sha256": "TODO: populate via `git hash-object IDENTITY.md` after first commit",
+      "sha256": "5dbbf65378c07f89964cbcd9d343bc944953ec936d64de9704fa1717e79d82e5",
+      "sizeBytes": 2217,
       "description": "Template for local Claw identity — Claw name, paired human, engagement, envelope, authorised repo scope"
     },
     {
       "name": "USER.md",
-      "sha256": "TODO: populate via `git hash-object USER.md` after first commit",
+      "sha256": "3cd4792cc60ea64404f843785d44b08ee9a2b764f183aa1a103d2886c472e439",
+      "sizeBytes": 3107,
       "description": "Template for human-authority binding — human name, contact, company, communication preferences"
     },
     {
       "name": "STANDARD-ENVELOPE.md",
-      "sha256": "TODO: populate via `git hash-object STANDARD-ENVELOPE.md` after first commit",
+      "sha256": "af6b7171821388cc41aad7a0d630299eb67d16409efab521ec76a10459bd6d60",
+      "sizeBytes": 6535,
       "description": "Standard envelope spec — what standard-envelope Claws can and cannot do"
     },
     {
       "name": "REPO-SCOPING.md",
-      "sha256": "TODO: populate via `git hash-object REPO-SCOPING.md` after first commit",
+      "sha256": "9e32496559625baee7369782472f14cc2056cf9ad2b76b974ff6790cfe0f373d",
+      "sizeBytes": 6679,
       "description": "Repo scope discipline — scope categories, enumeration rules, scope change process"
     },
     {
       "name": "FALLBACK-AND-FRESHNESS.md",
-      "sha256": "TODO: populate via `git hash-object FALLBACK-AND-FRESHNESS.md` after first commit",
+      "sha256": "a19a8af749121e2e04f027051515fd71391eda33d4084527f6e0591570d99e7c",
+      "sizeBytes": 15198,
       "description": "Local-copy-first reads, weekly freshness check, human-authenticated doctrine updates"
     },
     {
+      "name": "BOOK-OBLIGATION.md",
+      "sha256": "30fcf5d56b63fc797472e529b294c8bba50339eed60eb6f65ef3b31ab53e176e",
+      "sizeBytes": 29683,
+      "description": "Every Claw maintains its own Book; Book repo posture (single-branch main); Sanity Check ritual context (§5.6 / §5.7 / §5.8)"
+    },
+    {
+      "name": "FOUNDATION-GIFT-LAYER-CLONES.md",
+      "sha256": "c259ca04c10c9797ed0b3ba625853cfb7a5e2a7c769dd3e9c8d85326906690f7",
+      "sizeBytes": 11910,
+      "description": "Every Claw maintains read-only local clones of the foundation gift-layer; daily pull cadence; CC BY 4.0 conformance (§5.9)"
+    },
+    {
+      "name": "GO-TOKEN.md",
+      "sha256": "c4e89dbd2656820760ec8583544865cef1aa5930eff6756072747f941fa71d2d",
+      "sizeBytes": 10377,
+      "description": "The literal token GO~ at end of message is the only valid resumption authorisation after pause / interruption; soft signals never authorise (§5.10)"
+    },
+    {
       "name": "MANIFEST.md",
-      "sha256": "TODO: populate via `git hash-object MANIFEST.md` after first commit",
+      "sha256": "c0e407b67c23f2521cc17e420544e4077a24ab90163d73ca3a7da18fbc000b12",
+      "sizeBytes": 2679,
       "description": "Human-readable manifest of this folder"
     },
     {
       "name": "MANIFEST.json",
-      "sha256": "TODO: populate via `git hash-object MANIFEST.json` after first commit",
-      "description": "Machine-parseable manifest with SHA-256 hashes"
+      "sha256": "SELF-REFERENTIAL: this file's own hash is the git-tracked SHA; verify via git log -1 --format=%H -- MANIFEST.json",
+      "sizeBytes": null,
+      "description": "Machine-parseable manifest with SHA-256 hashes (this file)"
     }
   ]
 }
