@@ -31,7 +31,7 @@ for the full file list.
 ## Table 2: EU-13 (newer Member States)
 
 | Invariant | Poland | Czech Rep | Hungary | Romania | Bulgaria | Croatia | Slovakia | Slovenia | Estonia | Latvia | Lithuania | Cyprus | Malta |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1. No Autonomy | KRiBSI draft | ÚOOÚ | NAIH | ANSPDCP | KZLD | AZOP | Úrad na ochranu osobných údajov | IP | AKI | DVI | VDAI | Office of the Commissioner | IDPC |
 | 2. No Self-Modification | NIS2 transp | HDPA | ANSPDCP | NUKIB | CIT; DK/ENISA | NCSC | NBS | NCSC | CIT; DK/ENISA | Traficom | NCSC-FI; Traficom | BVT; ISMB | MITD; OESD |
 | 3. No Emergent Behaviour | KNF | CNB; SÚKL | BNR; ANMDMR | BNB; ANMDMR | BNB; BDA | HNB; HALMED | NBS; ŠÚKL | Banka Slovenije; JAZMP | Eesti Pank; Ravimiamet | Latvijas Banka; ZVA | Lietuvos bankas; VVKT | Central Bank of Cyprus; CySEC | MFSA; CB Malta |
