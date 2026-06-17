@@ -255,6 +255,51 @@ After the first Sanity Check closes, the Book is the pair's canonical truth subs
 
 If the Book and a workspace file disagree, the Book wins. The workspace file is then either updated to match the Book, kept as a working scratch surface explicitly named as such, or archived. The exact disposition is the pair's call; what is not negotiable is that the Book is canon.
 
+## Book repo posture: single branch (`main`)
+
+The Book is a canonical-truth substrate, not a code repository. Books have exactly **one branch: `main`**. Sanity Check work — first-run and recurring — lands on `main` directly.
+
+### The rule
+
+- **Single branch**: `main` is the only branch on the Book repository.
+- **No feature branches**: do not create `sanity-check/<date>-first-run`, `chapter-revisions/<topic>`, `decision/<id>`, or any other working branch. Feature-branch ceremony is the wrong shape for a canonical-truth substrate.
+- **No protected-branch settings**: the Claw + the Human are the only operators; there is no team to gate against. Branch protection on `main` is an anti-pattern for Books.
+- **No PR-based merge flow**: PRs assume a reviewer disjoint from the author. The Singular Pairing has neither the reviewer-pool nor the gating need. Direct commits to `main` are correct.
+- **No long-lived authoring branches**: a Sanity Check runs to completion and commits to `main`; if work spans sessions, intermediate commits on `main` are correct — not a branch held open until "ready".
+
+### Why
+
+A Book is a record of canonical truth, written by the pair, for the pair. The Singular Pairing structure has no reviewer disjoint from the author; there is nothing to gate against; the Claw and the Human are jointly responsible for what lands.
+
+Feature-branch + PR ceremony is a code-repository discipline that exists to coordinate work across reviewers and contributors who are *not* the author. It does not fit a canonical-truth substrate authored by one pair.
+
+A Book on a feature branch is the same problem as a Book in chat history: the canonical truth is not visible on the canonical surface. Anyone (including the Claw itself in a future session) checking out `main` will see an out-of-date Book. The doctrine breaks because the substrate breaks.
+
+### If GitHub defaults push back
+
+If a Claw inherits Book-repo GitHub defaults that would create branches (e.g. a generic "protect main, PR everything" workflow imported from a code-repository discipline), the Claw is expected to override those defaults and commit to `main` directly.
+
+If a Book repo was created with branch protection enabled on `main`, the Claw removes the protection at first-run Sanity Check time (and records the removal in the first sanity-checkpoint).
+
+### Worked example
+
+| Scenario | Wrong | Right |
+|---|---|---|
+| First-run Sanity Check authoring 8 chapters + 20 decision records + first sanity-checkpoint | Commit to `sanity-check/2026-06-16-first-run`, push, open PR to `main`, wait for Human merge | Commit to `main`, push, done |
+| Recurring monthly Sanity Check landing 3 chapter revisions + 5 new decision records | Branch `monthly-sanity-2026-07`, multi-commit, PR | Commit to `main`, push, done |
+| In-progress chapter rewrite spanning two sessions | Hold work on `chapter-3-rewrite` branch | Commit work-in-progress to `main` between sessions; mark unfinished sections explicitly in the chapter itself |
+
+### What this posture does NOT mean
+
+- It does **not** mean rushing. A Sanity Check that needs several sessions to land takes several sessions; the discipline is to land each session's work on `main` and to mark unfinished work in the chapter itself, not to hold work hostage on a branch.
+- It does **not** mean reckless. The Claw still uses `git diff --cached`, still writes meaningful commit messages, still pushes only when the work is internally consistent.
+- It does **not** apply to **Claw code repositories** or **Solution repositories**. Code repositories continue to use whatever branching discipline the pair has agreed for them. The single-branch rule applies to **Book repositories specifically**: `TheBookOfTeam<ClawName>`, `TheBookOfUnitekSystemsLimited`, and any third-party Book authored under the doctrine.
+
+### Cross-references
+
+- Public doctrine source: `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.8 "Book repo posture: single branch (`main`)" subsection.
+- Trigger: UNItekTIME first-run Sanity Check closed 2026-06-17 00:23 UTC on a `sanity-check/2026-06-16-first-run` branch instead of `main`; lock authored 2026-06-17 00:30 UTC.
+
 ## Cross-references
 
 - **Public doctrine source:** `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.6 (v1.5)
