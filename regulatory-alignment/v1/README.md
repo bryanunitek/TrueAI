@@ -1,48 +1,21 @@
-# Regulatory Alignment — v1
+# Regulatory Alignment — v1 (CC BY 4.0)
 
-How the TrueAI Foundation, the UniCORE-AI reference architecture, the UniCORE
-implementation reference, and the UniCORE.GVB substrate layer align with
-AI-relevant law across the major jurisdictions.
+> *Public-corpus shelf mapping the global AI regulatory landscape onto the*
+> *Nine Invariants of TrueAI and the 12 UniCORE-AI Levels.*
 
-This is the canonical home. The other six public repositories
-(`bryanunitek/UniVERSE`, `bryanunitek/UniCORE-AI`, `bryanunitek/UniCORE`,
-`bryanunitek/UniCORE.GVB`, `bryanunitek/UniSaaS.UniCORE`,
-`bryanunitek/UniSaaS.UniCORE.GVB`) carry a pointer file
-`REGULATORY-ALIGNMENT.md` directing readers here. The pattern matches the
-Singular Pairing Principle consolidation locked 2026-06-14 23:30 UTC:
-canonical-in-TrueAI, pointers elsewhere.
+This shelf catalogues, per jurisdiction, the laws, regulations, official
+strategies, draft bills, and sector-specific frameworks that apply to AI
+systems — and how the structural design of the public corpus
+(TrueAI / UniCORE-AI / UniCORE / UniCORE.GVB / UniSaaS.UniCORE /
+UniSaaS.UniCORE.GVB) supports deployers who must comply with them.
 
-## What this document is
+**Scope**: this shelf is architecture-and-documentation-only under CC BY
+4.0. It does NOT provide legal advice, claim regulatory approval,
+attest conformity, or accept liability. Per-deployment compliance
+determinations are the responsibility of the deployer and their
+qualified legal counsel.
 
-A jurisdiction-by-jurisdiction map of how the public corpus aligns with each
-named AI-relevant legal framework. For each jurisdiction the structure is:
-
-1. **The law** — the regulation, statute, framework, or guidance in force,
-   with citation and effective dates.
-2. **The provisions in scope** — which articles, sections, or principles
-   speak to AI systems.
-3. **How the corpus fulfils each provision** — mapped against the Nine
-   Invariants of TrueAI, the 12 Levels of UniCORE-AI, and the substrate
-   services of UniCORE.GVB, with named cross-references into the
-   repositories.
-4. **Honest gaps** — what the corpus does not yet deliver, what
-   certification infrastructure is not yet stood up, what the architecture
-   anticipates but has not yet implemented.
-
-## What this document is not
-
-- Not a conformity assessment. Conformity assessment is performed by an
-  accredited body or competent authority against an in-scope AI system
-  placed on the market or put into service. This document maps the
-  architecture against the legal framework; it does not replace the
-  assessment process the framework specifies.
-- Not legal advice. Operators deploying any TrueAI-conformant AI system in
-  any jurisdiction must take their own legal advice for their specific
-  deployment.
-- Not a representation that any deployed AI system using the corpus is
-  compliant. Compliance is a property of a specific deployment in a
-  specific jurisdiction for a specific use, assessed against the framework
-  by the entity placing the system on the market.
+---
 
 ## Read order
 
@@ -51,231 +24,224 @@ named AI-relevant legal framework. For each jurisdiction the structure is:
 1. [`EU-AI-ACT.md`](./EU-AI-ACT.md) — Regulation (EU) 2024/1689.
 2. [`UK-AI-FRAMEWORK.md`](./UK-AI-FRAMEWORK.md) — UK Government's
    pro-innovation regulatory framework + sector regulator guidance.
-3. [`USA-FEDERAL-AND-STATES.md`](./USA-FEDERAL-AND-STATES.md) — NIST AI Risk
-   Management Framework + federal executive actions + state laws (Colorado,
-   California, Utah, Illinois, Texas, New York City).
-4. [`CANADA.md`](./CANADA.md) — Artificial Intelligence and Data Act
-   (AIDA) framework + Directive on Automated Decision-Making + PIPEDA.
-5. [`AUSTRALIA.md`](./AUSTRALIA.md) — AI Ethics Framework + Voluntary AI
-   Safety Standard + Privacy Act + sector regulator guidance.
+3. [`USA-FEDERAL-AND-STATES.md`](./USA-FEDERAL-AND-STATES.md) — NIST AI
+   Risk Management Framework + federal executive actions + state laws.
+4. [`CANADA.md`](./CANADA.md) — AIDA + Directive on Automated
+   Decision-Making + PIPEDA.
+5. [`AUSTRALIA.md`](./AUSTRALIA.md) — AI Ethics Framework + Voluntary
+   AI Safety Standard + Privacy Act + sector guidance.
+6. [`NEW-ZEALAND.md`](./NEW-ZEALAND.md) — Algorithm Charter for
+   Aotearoa New Zealand + Privacy Act 2020.
 
-### EU Member-State national overlays
+### EU Member-State national overlays (all 27)
 
-For jurisdictions where the national layer adds material obligations beyond
-the EU AI Act baseline:
+7. [`GERMANY.md`](./GERMANY.md)
+8. [`FRANCE.md`](./FRANCE.md)
+9. [`SPAIN.md`](./SPAIN.md)
+10. [`IRELAND.md`](./IRELAND.md)
+11. [`ITALY.md`](./ITALY.md)
+12. [`NETHERLANDS.md`](./NETHERLANDS.md)
+13. [`POLAND.md`](./POLAND.md)
+14. [`SWEDEN.md`](./SWEDEN.md)
+15. [`BELGIUM.md`](./BELGIUM.md)
+16. [`DENMARK.md`](./DENMARK.md)
+17. [`FINLAND.md`](./FINLAND.md)
+18. [`AUSTRIA.md`](./AUSTRIA.md)
+19. [`PORTUGAL.md`](./PORTUGAL.md)
+20. [`GREECE.md`](./GREECE.md)
+21. [`CZECH-REPUBLIC.md`](./CZECH-REPUBLIC.md)
+22. [`ROMANIA.md`](./ROMANIA.md)
+23. [`HUNGARY.md`](./HUNGARY.md)
+24. [`LUXEMBOURG.md`](./LUXEMBOURG.md)
+25. [`SLOVAKIA.md`](./SLOVAKIA.md)
+26. [`SLOVENIA.md`](./SLOVENIA.md)
+27. [`CROATIA.md`](./CROATIA.md)
+28. [`BULGARIA.md`](./BULGARIA.md)
+29. [`ESTONIA.md`](./ESTONIA.md)
+30. [`LATVIA.md`](./LATVIA.md)
+31. [`LITHUANIA.md`](./LITHUANIA.md)
+32. [`CYPRUS.md`](./CYPRUS.md)
+33. [`MALTA.md`](./MALTA.md)
 
-6. [`GERMANY.md`](./GERMANY.md) — KI-Marktüberwachungsgesetz draft, BDSG,
-   BSI Act + IT-SiG 2.0, NIS2 transposition, TDDDG.
-7. [`FRANCE.md`](./FRANCE.md) — CNIL designation, Loi Informatique et
-   Libertés, ACPR + HAS guidance, Loi SREN, Code du travail algorithmic
-   management.
-8. [`SPAIN.md`](./SPAIN.md) — AESIA (first dedicated EU AI authority),
-   Draft AI Governance Law (March 2025), LOPDGDD, Ley Rider.
-9. [`IRELAND.md`](./IRELAND.md) — Eight-authority national framework, DPC
-   lead supervisory authority, Coimisiún na Meán Online Safety Code.
-10. [`ITALY.md`](./ITALY.md) — DDL Intelligenza Artificiale (first
-    EU Member State to enact comprehensive national AI law), Garante
-    Privacy ChatGPT precedent, Transparency Decree algorithmic management.
-11. [`NETHERLANDS.md`](./NETHERLANDS.md) — AP coordinating role,
-    Algoritmeregister, IAMA Human-Rights-and-Algorithms impact assessment,
-    DNB-AFM SAFEST AI.
-12. [`POLAND.md`](./POLAND.md) — KRiBSI draft framework, Personal Data
-    Protection Act, KNF expectations, Kodeks pracy Article 22^2.
-13. [`SWEDEN.md`](./SWEDEN.md) — National Approach to AI, Dataskyddslagen,
-    Finansinspektionen alignment with EBA/EIOPA/ESMA, Diskrimineringslagen.
+### EEA (non-EU) and EU candidate countries
 
-### EEA (non-EU)
-
-14. [`NORWAY.md`](./NORWAY.md) — EU AI Act via EEA, Datatilsynet AI
-    Regulatory Sandbox, National AI Strategy.
-
-### Middle East and North Africa
-
-15. [`UAE.md`](./UAE.md) — UAE Charter for the Development and Use of AI,
-    Federal PDPL, DIFC AI Code of Practice, SAMA-equivalent CBUAE
-    expectations, AI Strategy 2031.
-16. [`SAUDI-ARABIA.md`](./SAUDI-ARABIA.md) — SDAIA seven Ethics Principles,
-    PDPL, NCA Essential Cybersecurity Controls, SAMA AI expectations,
-    Vision 2030 alignment.
-17. [`ISRAEL.md`](./ISRAEL.md) — National AI Policy, PPA guidance, Privacy
-    Protection Law (Amendment 13), Ministry of Justice generative AI
-    policy.
-18. [`GCC-QATAR-KUWAIT-BAHRAIN-OMAN.md`](./GCC-QATAR-KUWAIT-BAHRAIN-OMAN.md)
-    — the four remaining GCC member states (after Saudi Arabia and UAE):
-    Qatar Law 13/2016, Kuwait CITRA Regulation 26/2024, Bahrain Law
-    30/2018, Oman Royal Decree 6/2022, plus GCC AI Coordinating Mechanism.
-19. [`EGYPT.md`](./EGYPT.md) — Egyptian National AI Strategy, Law 151 of
-    2020 on Personal Data Protection, Egyptian Charter on Responsible AI.
-20. [`TURKEY.md`](./TURKEY.md) — National AI Strategy 2021-2025, Draft AI
-    Law, KVKK Law 6698 (as amended March 2024), BDDK/TCMB expectations.
-
-### Switzerland
-
-21. [`SWITZERLAND.md`](./SWITZERLAND.md) — Federal Council AI position +
-    Council of Europe Framework Convention + FADP + sector frameworks.
-
-### Asia-Pacific
-
-22. [`SINGAPORE.md`](./SINGAPORE.md) — Model AI Governance Framework + AI
-    Verify + Generative AI Model Framework + PDPA + MAS FEAT Principles.
-23. [`JAPAN.md`](./JAPAN.md) — AI Promotion Act (Hou No. 53 of 2025), AI
-    Operator Guidelines, Hiroshima AI Process, APPI, FSA Model Risk
-    Management.
-24. [`SOUTH-KOREA.md`](./SOUTH-KOREA.md) — AI Basic Act (effective January
-    2026), PIPA Article 37-2 automated decision-making, KAISI, FSC AI
-    guidelines.
-25. [`CHINA.md`](./CHINA.md) — Generative AI Services Measures, Deep
-    Synthesis Provisions, Algorithm Recommendation Provisions, PIPL, Data
-    Security Law, draft horizontal AI Law.
-26. [`HONG-KONG.md`](./HONG-KONG.md) — PCPD Model Personal Data Protection
-    Framework for AI (June 2024), PDPO, HKMA AI Principles, Critical
-    Infrastructures Computer Systems Ordinance 2025.
-27. [`TAIWAN.md`](./TAIWAN.md) — Draft AI Basic Act, Executive Yuan GenAI
-    Guidelines, PDPA, PDPC (established August 2025), Cyber Security
-    Management Act.
-28. [`INDIA.md`](./INDIA.md) — IndiaAI Mission, MeitY Generative AI
-    Advisory, DPDP Act, RBI FREE-AI framework, NITI Aayog Responsible AI
-    for All.
-29. [`VIETNAM.md`](./VIETNAM.md) — National Strategy on AI to 2030,
-    Decree 13/2023 + draft PDP Law, Cybersecurity Law 2018 with data
-    localisation.
-30. [`INDONESIA.md`](./INDONESIA.md) — UU PDP (Law 27/2022) Article 17,
-    Kominfo Circular Letter 9/2023 on AI Ethics, National AI Strategy
-    2020-2045.
-31. [`THAILAND.md`](./THAILAND.md) — Draft Royal Decree on Use of AI
-    Systems (EU-AI-Act-aligned), PDPA 2019 Section 32, Bank of Thailand AI
-    guidance.
-
-### South America
-
-32. [`BRAZIL.md`](./BRAZIL.md) — PL 2338/2023 Marco Legal IA (Senate
-    approved December 2024), LGPD Article 20, BCB + CVM + ANVISA + CNJ
-    Resolution 332/2020.
-33. [`ARGENTINA.md`](./ARGENTINA.md) — Plan Nacional de IA (2019),
-    Recomendaciones para una IA Fiable (2023), Ley 25.326, draft
-    modernised PDPL.
-34. [`CHILE.md`](./CHILE.md) — PNIA, Proyecto de Ley AI (Bulletin
-    15869-19, 2023), Ley 21.719 (effective December 2026), Ley 21.663
-    Cybersecurity Framework Law.
-35. [`COLOMBIA.md`](./COLOMBIA.md) — CONPES 3975, Marco Ético para la IA
-    (2021), Ley 1581, SFC Circular Externa 008 of 2024.
-
-### North America (non-USA)
-
-36. [`MEXICO.md`](./MEXICO.md) — Agenda Nacional Mexicana de IA, LFPDPPP +
-    LGPDPPSO, Banxico + CNBV + COFEPRIS sector frameworks.
+34. [`NORWAY.md`](./NORWAY.md) — EU AI Act via EEA
+35. [`ICELAND.md`](./ICELAND.md) — EU AI Act via EEA
+36. [`LIECHTENSTEIN.md`](./LIECHTENSTEIN.md) — EU AI Act via EEA
+37. [`SWITZERLAND.md`](./SWITZERLAND.md) — Federal Council position +
+    Council of Europe Framework Convention + FADP
+38. [`SERBIA.md`](./SERBIA.md) — EU candidate
+39. [`UKRAINE.md`](./UKRAINE.md) — EU candidate (wartime context)
+40. [`MOLDOVA.md`](./MOLDOVA.md) — EU candidate
+41. [`ALBANIA.md`](./ALBANIA.md) — EU candidate
+42. [`NORTH-MACEDONIA.md`](./NORTH-MACEDONIA.md) — EU candidate
+43. [`MONTENEGRO.md`](./MONTENEGRO.md) — EU candidate
+44. [`BOSNIA-AND-HERZEGOVINA.md`](./BOSNIA-AND-HERZEGOVINA.md) — EU
+    candidate
+45. [`GEORGIA.md`](./GEORGIA.md) — EU candidate
 
 ### Eurasia
 
-37. [`RUSSIA.md`](./RUSSIA.md) — National AI Strategy (Presidential
-    Decree 490, as amended by Decree 124 of 2024), Federal Law 123-FZ
-    (Moscow AI experimental regime), AI Code of Ethics, Personal Data
-    Law 152-FZ, CBR AI expectations.
+46. [`RUSSIA.md`](./RUSSIA.md) — sovereignty + sanctions context
+47. [`BELARUS.md`](./BELARUS.md) — sovereignty + sanctions context
+48. [`KAZAKHSTAN.md`](./KAZAKHSTAN.md)
 
-### Africa
+### Middle East and North Africa
 
-38. [`SOUTH-AFRICA.md`](./SOUTH-AFRICA.md) — National AI Policy Framework,
-    POPIA Section 71 automated decision-making, SARB/FSCA, PEPUDA.
-39. [`NIGERIA.md`](./NIGERIA.md) — National AI Strategy, NDPA 2023,
-    Cybercrimes Act 2015 (as amended 2024), CBN circulars.
-40. [`KENYA.md`](./KENYA.md) — Kenya National AI Strategy 2025-2030, Data
-    Protection Act 2019 Section 35, ODPC, CBK guidance.
-41. [`GHANA.md`](./GHANA.md) — Ghana National AI Strategy 2023-2033, Data
-    Protection Act 2012 (Act 843), Cybersecurity Act 2020 (Act 1038),
-    Bank of Ghana guidance.
+49. [`UAE.md`](./UAE.md)
+50. [`SAUDI-ARABIA.md`](./SAUDI-ARABIA.md)
+51. [`ISRAEL.md`](./ISRAEL.md)
+52. [`GCC-QATAR-KUWAIT-BAHRAIN-OMAN.md`](./GCC-QATAR-KUWAIT-BAHRAIN-OMAN.md)
+    — Qatar + Kuwait + Bahrain + Oman in one file
+53. [`EGYPT.md`](./EGYPT.md)
+54. [`TURKEY.md`](./TURKEY.md)
+55. [`JORDAN.md`](./JORDAN.md)
+56. [`LEBANON.md`](./LEBANON.md)
+57. [`IRAN.md`](./IRAN.md) — sovereignty + sanctions context
+58. [`IRAQ.md`](./IRAQ.md)
+59. [`MOROCCO.md`](./MOROCCO.md)
+60. [`TUNISIA.md`](./TUNISIA.md)
+61. [`ALGERIA.md`](./ALGERIA.md)
+
+### Asia-Pacific
+
+62. [`SINGAPORE.md`](./SINGAPORE.md)
+63. [`JAPAN.md`](./JAPAN.md)
+64. [`SOUTH-KOREA.md`](./SOUTH-KOREA.md)
+65. [`CHINA.md`](./CHINA.md)
+66. [`HONG-KONG.md`](./HONG-KONG.md)
+67. [`TAIWAN.md`](./TAIWAN.md)
+68. [`INDIA.md`](./INDIA.md)
+69. [`PAKISTAN.md`](./PAKISTAN.md)
+70. [`BANGLADESH.md`](./BANGLADESH.md)
+71. [`SRI-LANKA.md`](./SRI-LANKA.md)
+72. [`NEPAL.md`](./NEPAL.md)
+73. [`VIETNAM.md`](./VIETNAM.md)
+74. [`INDONESIA.md`](./INDONESIA.md)
+75. [`THAILAND.md`](./THAILAND.md)
+76. [`MALAYSIA.md`](./MALAYSIA.md)
+77. [`PHILIPPINES.md`](./PHILIPPINES.md)
+78. [`CAMBODIA.md`](./CAMBODIA.md)
+79. [`MONGOLIA.md`](./MONGOLIA.md)
+80. [`FIJI.md`](./FIJI.md)
+
+### North America (non-USA)
+
+81. [`MEXICO.md`](./MEXICO.md)
+
+### South America
+
+82. [`BRAZIL.md`](./BRAZIL.md)
+83. [`ARGENTINA.md`](./ARGENTINA.md)
+84. [`CHILE.md`](./CHILE.md)
+85. [`COLOMBIA.md`](./COLOMBIA.md)
+86. [`PERU.md`](./PERU.md)
+87. [`URUGUAY.md`](./URUGUAY.md) — EU adequacy
+88. [`ECUADOR.md`](./ECUADOR.md)
+89. [`PARAGUAY.md`](./PARAGUAY.md)
+90. [`BOLIVIA.md`](./BOLIVIA.md)
+91. [`VENEZUELA.md`](./VENEZUELA.md) — sovereignty + sanctions context
+
+### Central America and Caribbean
+
+92. [`COSTA-RICA.md`](./COSTA-RICA.md)
+93. [`PANAMA.md`](./PANAMA.md)
+94. [`DOMINICAN-REPUBLIC.md`](./DOMINICAN-REPUBLIC.md)
+95. [`CUBA.md`](./CUBA.md) — sovereignty + sanctions context
+96. [`JAMAICA.md`](./JAMAICA.md)
+97. [`TRINIDAD-AND-TOBAGO.md`](./TRINIDAD-AND-TOBAGO.md)
+98. [`BARBADOS.md`](./BARBADOS.md)
+99. [`BAHAMAS.md`](./BAHAMAS.md)
+
+### Sub-Saharan Africa
+
+100. [`SOUTH-AFRICA.md`](./SOUTH-AFRICA.md)
+101. [`NIGERIA.md`](./NIGERIA.md)
+102. [`KENYA.md`](./KENYA.md)
+103. [`GHANA.md`](./GHANA.md)
+104. [`RWANDA.md`](./RWANDA.md)
+105. [`TANZANIA.md`](./TANZANIA.md)
+106. [`UGANDA.md`](./UGANDA.md)
+107. [`ETHIOPIA.md`](./ETHIOPIA.md)
+108. [`SENEGAL.md`](./SENEGAL.md)
+109. [`COTE-DIVOIRE.md`](./COTE-DIVOIRE.md)
+110. [`MAURITIUS.md`](./MAURITIUS.md)
+111. [`ZIMBABWE.md`](./ZIMBABWE.md)
+112. [`ZAMBIA.md`](./ZAMBIA.md)
+113. [`NAMIBIA.md`](./NAMIBIA.md)
+114. [`BOTSWANA.md`](./BOTSWANA.md)
+115. [`ANGOLA.md`](./ANGOLA.md)
 
 ### Cross-cutting
 
-42. [`CROSS-CUTTING-MATRIX.md`](./CROSS-CUTTING-MATRIX.md) — single table
-    mapping the Nine Invariants × the 12 UniCORE-AI Levels × the major
-    regulatory provisions across all jurisdictions in this v1.
-    mapping the Nine Invariants × the 12 UniCORE-AI Levels × the major
-    regulatory provisions across all jurisdictions in this v1.
+116. [`CROSS-CUTTING-MATRIX.md`](./CROSS-CUTTING-MATRIX.md) — Nine
+     Invariants × 12 UniCORE-AI Levels × major regulatory provisions,
+     **split into regional tables** (6-8 jurisdictions per row) for
+     GitHub-UI legibility.
 
-## How the corpus answers regulatory questions, architecturally
+### Monitoring (jurisdictions without dedicated files yet)
 
-Three properties of the corpus matter most for regulatory alignment across
-every jurisdiction surveyed:
+117. [`MONITORING-LIST.md`](./MONITORING-LIST.md) — all UN member
+     states not yet covered with a dedicated file, plus the corrections
+     and additions invitation.
 
-### 1. Structural, not aspirational
+---
 
-The Nine Invariants are prohibitions on what a conformant system *may be*,
-not policies a company says it will follow. A policy can be revised; an
-invariant cannot. This is conformity-assessable by design — an assessor can
-inspect whether the system has the structural property, not whether the
-operator has the intention.
+## Coverage at a glance
 
-### 2. Boundary-enforced, not model-enforced
+| Region | Files | Jurisdictions covered |
+|---|---|---|
+| Supra-national + Anglosphere | 6 | EU, UK, USA, Canada, Australia, NZ |
+| EU Member-State overlays | 27 | All 27 EU MS |
+| EEA (non-EU) + EU candidates | 9 | Norway, Iceland, Liechtenstein, Switzerland, Serbia, Ukraine, Moldova, Albania, N. Macedonia, Montenegro, BiH, Georgia |
+| Eurasia | 3 | Russia, Belarus, Kazakhstan |
+| MENA | 13 | UAE, SA, Israel, Qatar, Kuwait, Bahrain, Oman, Egypt, Turkey, Jordan, Lebanon, Iran, Iraq, Morocco, Tunisia, Algeria |
+| Asia-Pacific | 19 | Singapore, Japan, South Korea, China, Hong Kong, Taiwan, India, Pakistan, Bangladesh, Sri Lanka, Nepal, Vietnam, Indonesia, Thailand, Malaysia, Philippines, Cambodia, Mongolia, Fiji, New Zealand |
+| Americas (N + S + Caribbean) | 18 | Mexico, Brazil, Argentina, Chile, Colombia, Peru, Uruguay, Ecuador, Paraguay, Bolivia, Venezuela, Costa Rica, Panama, Dominican Republic, Cuba, Jamaica, Trinidad and Tobago, Barbados, Bahamas |
+| Sub-Saharan Africa | 16 | South Africa, Nigeria, Kenya, Ghana, Rwanda, Tanzania, Uganda, Ethiopia, Senegal, Côte d'Ivoire, Mauritius, Zimbabwe, Zambia, Namibia, Botswana, Angola |
+| Monitoring (no dedicated file) | 1 list | ~70 UN member states |
 
-Governance lives at boundary surfaces — the tool-layer access control, the
-Reasonable Governance Threshold, the Human Override Protocol, the
-attribution couplet, the audit trail, Singular Pairing, the certification
-mark. It does not live inside the model weights. This is what makes the
-architecture compatible with regulatory frameworks designed for systems
-whose behaviour must be auditable from outside the model. The model itself
-is treated as untrusted by design (see `UniVERSE/docs/20001-Why-Rules-Don-t-Live-in-the-Prompt.md`).
+**Total dedicated files: 115 covering ~118 jurisdictions** (GCC file
+groups 4 jurisdictions).
 
-### 3. UNVERIFIED as a first-class output
+---
 
-The architecture refuses to fabricate. Every output is classified TRUE,
-FALSE, or UNVERIFIED based on governed evidence. This addresses the central
-failure mode that regulators across every jurisdiction surveyed are most
-concerned with for institutional AI: confident-sounding output that has no
-basis in fact.
+## Discussions invitation — corrections welcome
 
-## Cross-cutting honest gaps
+If you spot any inaccuracy, omission, or out-of-date entry in this shelf
+— per-jurisdiction file or monitoring list — please open a thread in
+the public Discussions of the relevant sibling repo:
 
-Some gaps apply across every jurisdiction. Stating them once here so each
-per-jurisdiction file can focus on jurisdiction-specific detail.
+- **TrueAI** Discussions — for shelf-level structural issues.
+- **UniVERSE**, **UniCORE-AI**, **UniCORE**, **UniCORE.GVB**,
+  **UniSaaS.UniCORE**, **UniSaaS.UniCORE.GVB** Discussions — for
+  jurisdiction-specific corrections affecting the corpus alignment.
 
-1. **Certification body does not yet exist.** The architecture relies on an
-   independent assessment body or competent authority to perform conformity
-   assessment against the Nine Invariants and the 12 UniCORE-AI Levels.
-   Standing up such a body is a 3–7 year horizon per the public roadmap
-   (`HORIZON.md`).
-2. **First conformant production demonstration targets December 2027.**
-   The UniCORE.Law Vertical CORE prototype targets December 2026; the
-   first fully conformant production deployment is targeted for December
-   2027. Vertical COREs for Energy / Healthcare / Government / Banking are
-   programme-future, not present.
-3. **The public surface is documentation.** The commercial layer — the
-   working code Claws (UniCORE.Law-Claw, UniCORE.GVB-Claw, sister SaaS
-   Claws, substrate-harness Claws) — is private. Deployers see the
-   implementation under a service relationship with Unitek Systems Limited,
-   not on the public gift surface. Conformity assessment of any deployed
-   system is performed against the deployed implementation, not against the
-   public documentation alone.
-4. **Five public repositories are CC BY 4.0 (irrevocably given).** Anyone
-   may build a TrueAI-conformant AI system using the public foundation
-   triad + UniCORE + UniCORE.GVB under attribution. Conformity assessment
-   of any such third-party system is performed by whatever competent
-   authority the deploying jurisdiction designates.
+What we particularly welcome:
 
-## Versioning
+1. **Missing-country reports** — a country not in any list and not in
+   any file should be added.
+2. **Country-promotion requests** — a monitoring-list country now has a
+   binding AI law, comprehensive PDPL, or substantive AI strategy worth
+   dedicated treatment.
+3. **Inaccuracy reports** — an existing file misstates a law, date,
+   authority, scope, or citation.
+4. **Source improvements** — a more authoritative or up-to-date source
+   for any cited regulation.
+5. **Architecture-mapping refinements** — a more precise mapping
+   between an obligation and a Nine-Invariants / 12-Levels element.
 
-This is v1. The artefact is hash-anchored at every published update.
-Programme-level versioning across the public repositories activates when
-the first GitHub Discussion is opened across the five public repos, per
-the policy in `HORIZON.md`. Until that activation, this document remains v1.
+We will respond. The shelf is CC BY 4.0 and the public surface is the
+point.
 
-## Sources and verification
+---
 
-Every regulation, article, section, and date in this document is sourced
-from the official publishing body (OJ EU, gov.uk, NIST, Innovation Science
-and Economic Development Canada, etc.). The architecture's mapping cites
-file paths inside the public repositories. UNVERIFIED claims are not
-included in this document — if a regulatory mapping could not be supported
-by verifiable evidence at authoring time, it is omitted, not asserted.
+## Companion: Tax / VAT seed coverage
 
-## Cross-references
-
-- `THE-INCONSISTENCY-PROBLEM.md` (each repo) — the architectural problem
-  the regulatory frameworks each name in their own language.
-- `LANDSCAPE.md` (TrueAI) — comparison of the TrueAI framework against
-  other AI governance frameworks.
-- `HORIZON.md` (TrueAI) — programme horizon including certification
-  infrastructure timeline.
-- `docs/10001-Singular-Pairing-Principle.md` (TrueAI) — Singular Pairing
-  doctrine that grounds the architectural human-sovereignty claim.
-- `workspace-doctrine/v1/` (TrueAI) — operational doctrine for Claws built
-  under the TrueAI framework.
+Each regulatory-alignment jurisdiction should also have a `TaxRates-XX.json`
+seed file in `UniCORE.Law.Module/SeedData/TaxRates/`. The Tax/VAT seed
+coverage is a separate workstream (coding side) and is being tracked
+against this regulatory-alignment shelf as the canonical jurisdiction
+list. Current coding-side coverage is limited to DE / FR / GB / NL +
+five US states; expansion to match this shelf is on the implementation
+roadmap.

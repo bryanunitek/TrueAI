@@ -59,7 +59,7 @@ for the full file list.
 - Per-jurisdiction files: see `README.md` Read order (entries 49–61).
 - Nine Invariants: `TrueAI/README.md`.
 - 12 UniCORE-AI Levels: `UniCORE-AI/docs/`.
-- Continental matrices: `AFRICA.md`, `ASIA-PACIFIC.md`,
-  `NORTH-AMERICA.md`, `SOUTH-AMERICA.md`, `EUROPE.md`,
-  `EURASIA.md`, `GLOBAL-SUPRANATIONAL.md`.
+- Continental matrices: `X_AFRICA.md`, `X_ASIA-PACIFIC.md`,
+  `X_NORTH-AMERICA.md`, `X_SOUTH-AMERICA.md`, `X_EUROPE.md`,
+  `X_EURASIA.md`, `X_GLOBAL-SUPRANATIONAL.md`.
 - Cross-cutting overview: `CROSS-CUTTING-MATRIX.md`.
