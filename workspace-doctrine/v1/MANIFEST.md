@@ -18,6 +18,9 @@ This file lists every document in the `workspace-doctrine/v1/` folder, with a on
 | [`STANDARD-ENVELOPE.md`](STANDARD-ENVELOPE.md) | Standard envelope spec — what standard-envelope Claws can and cannot do |
 | [`REPO-SCOPING.md`](REPO-SCOPING.md) | Repo scope discipline — scope categories, enumeration rules, scope change process |
 | [`FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) | Local-copy-first reads, weekly freshness check, human-authenticated doctrine updates |
+| [`BOOK-OBLIGATION.md`](BOOK-OBLIGATION.md) | Every Claw maintains its own Book; Book repo posture (single-branch `main`); Sanity Check ritual context (§5.6 / §5.7 / §5.8) |
+| [`FOUNDATION-GIFT-LAYER-CLONES.md`](FOUNDATION-GIFT-LAYER-CLONES.md) | Every Claw maintains read-only local clones of the foundation gift-layer; daily pull cadence; CC BY 4.0 conformance (§5.9) |
+| [`GO-TOKEN.md`](GO-TOKEN.md) | The literal token **GO** is the only valid resumption authorisation after pause / interruption; soft signals never authorise (§5.10) |
 | [`MANIFEST.md`](MANIFEST.md) | This file — human-readable file list |
 | [`MANIFEST.json`](MANIFEST.json) | Machine-parseable manifest with SHA-256 hashes |
 
