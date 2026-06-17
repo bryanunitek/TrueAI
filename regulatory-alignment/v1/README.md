@@ -46,7 +46,7 @@ named AI-relevant legal framework. For each jurisdiction the structure is:
 
 ## Read order
 
-The major-jurisdiction files in canonical order:
+### Supra-national + Anglosphere
 
 1. [`EU-AI-ACT.md`](./EU-AI-ACT.md) — Regulation (EU) 2024/1689.
 2. [`UK-AI-FRAMEWORK.md`](./UK-AI-FRAMEWORK.md) — UK Government's
@@ -59,19 +59,74 @@ The major-jurisdiction files in canonical order:
 5. [`AUSTRALIA.md`](./AUSTRALIA.md) — AI Ethics Framework + Voluntary AI
    Safety Standard + Privacy Act + sector regulator guidance.
 
-National-level deep-dives, for jurisdictions where the national layer adds
-material obligations beyond the EU AI Act baseline:
+### EU Member-State national overlays
+
+For jurisdictions where the national layer adds material obligations beyond
+the EU AI Act baseline:
 
 6. [`GERMANY.md`](./GERMANY.md) — KI-Marktüberwachungsgesetz draft, BDSG,
-   BSI Act + IT-SiG 2.0, NIS2 transposition, TMG / TTDSG.
-7. [`SWITZERLAND.md`](./SWITZERLAND.md) — Federal Council AI position +
-   FADP + sector-specific frameworks.
+   BSI Act + IT-SiG 2.0, NIS2 transposition, TDDDG.
+7. [`FRANCE.md`](./FRANCE.md) — CNIL designation, Loi Informatique et
+   Libertés, ACPR + HAS guidance, Loi SREN, Code du travail algorithmic
+   management.
+8. [`SPAIN.md`](./SPAIN.md) — AESIA (first dedicated EU AI authority),
+   Draft AI Governance Law (March 2025), LOPDGDD, Ley Rider.
+9. [`IRELAND.md`](./IRELAND.md) — Eight-authority national framework, DPC
+   lead supervisory authority, Coimisiún na Meán Online Safety Code.
+10. [`ITALY.md`](./ITALY.md) — DDL Intelligenza Artificiale (first
+    EU Member State to enact comprehensive national AI law), Garante
+    Privacy ChatGPT precedent, Transparency Decree algorithmic management.
+11. [`NETHERLANDS.md`](./NETHERLANDS.md) — AP coordinating role,
+    Algoritmeregister, IAMA Human-Rights-and-Algorithms impact assessment,
+    DNB-AFM SAFEST AI.
+12. [`POLAND.md`](./POLAND.md) — KRiBSI draft framework, Personal Data
+    Protection Act, KNF expectations, Kodeks pracy Article 22^2.
 
-Cross-cutting matrix:
+### Middle East
 
-8. [`CROSS-CUTTING-MATRIX.md`](./CROSS-CUTTING-MATRIX.md) — single table
-   mapping the Nine Invariants × the 12 UniCORE-AI Levels × the major
-   regulatory provisions across all jurisdictions in this v1.
+13. [`UAE.md`](./UAE.md) — UAE Charter for the Development and Use of AI,
+    Federal PDPL, DIFC AI Code of Practice, SAMA-equivalent CBUAE
+    expectations, AI Strategy 2031.
+14. [`SAUDI-ARABIA.md`](./SAUDI-ARABIA.md) — SDAIA seven Ethics Principles,
+    PDPL, NCA Essential Cybersecurity Controls, SAMA AI expectations,
+    Vision 2030 alignment.
+15. [`ISRAEL.md`](./ISRAEL.md) — National AI Policy, PPA guidance, Privacy
+    Protection Law (Amendment 13), Ministry of Justice generative AI
+    policy.
+
+### Switzerland
+
+16. [`SWITZERLAND.md`](./SWITZERLAND.md) — Federal Council AI position +
+    Council of Europe Framework Convention + FADP + sector frameworks.
+
+### Asia-Pacific
+
+17. [`SINGAPORE.md`](./SINGAPORE.md) — Model AI Governance Framework + AI
+    Verify + Generative AI Model Framework + PDPA + MAS FEAT Principles.
+18. [`JAPAN.md`](./JAPAN.md) — AI Promotion Act (Hou No. 53 of 2025), AI
+    Operator Guidelines, Hiroshima AI Process, APPI, FSA Model Risk
+    Management.
+19. [`SOUTH-KOREA.md`](./SOUTH-KOREA.md) — AI Basic Act (effective January
+    2026), PIPA Article 37-2 automated decision-making, KAISI, FSC AI
+    guidelines.
+20. [`CHINA.md`](./CHINA.md) — Generative AI Services Measures, Deep
+    Synthesis Provisions, Algorithm Recommendation Provisions, PIPL, Data
+    Security Law, draft horizontal AI Law.
+21. [`INDIA.md`](./INDIA.md) — IndiaAI Mission, MeitY Generative AI
+    Advisory, DPDP Act, RBI FREE-AI framework, NITI Aayog Responsible AI
+    for All.
+
+### South America
+
+22. [`BRAZIL.md`](./BRAZIL.md) — PL 2338/2023 Marco Legal IA (Senate
+    approved December 2024), LGPD Article 20, BCB + CVM + ANVISA + CNJ
+    Resolution 332/2020.
+
+### Cross-cutting
+
+23. [`CROSS-CUTTING-MATRIX.md`](./CROSS-CUTTING-MATRIX.md) — single table
+    mapping the Nine Invariants × the 12 UniCORE-AI Levels × the major
+    regulatory provisions across all jurisdictions in this v1.
 
 ## How the corpus answers regulatory questions, architecturally
 

@@ -6,48 +6,109 @@ covered in v1 of this regulatory-alignment shelf.
 
 This matrix is a navigation aid, not a substitute for the per-jurisdiction
 files. For substantive detail on each cell, see the corresponding section
-in `EU-AI-ACT.md`, `UK-AI-FRAMEWORK.md`, `USA-FEDERAL-AND-STATES.md`,
-`CANADA.md`, `AUSTRALIA.md`, `GERMANY.md`, or `SWITZERLAND.md`.
+in the per-jurisdiction file.
+
+## Coverage map (v1)
+
+22 jurisdictions across six regions:
+
+| Region | Jurisdictions |
+|---|---|
+| Supra-national + Anglosphere | EU, UK, USA, Canada, Australia |
+| EU Member-State national overlays | Germany, France, Spain, Ireland, Italy, Netherlands, Poland |
+| Middle East | UAE, Saudi Arabia, Israel |
+| Switzerland | Switzerland |
+| Asia-Pacific | Singapore, Japan, South Korea, China, India |
+| South America | Brazil |
 
 ## Nine Invariants × Regulatory Frameworks
 
-| Invariant | EU AI Act | UK | USA (federal + state) | Canada | Australia | Germany | Switzerland |
-|---|---|---|---|---|---|---|---|
-| 1. No Autonomy | Art 14 oversight; Art 26 deployer | DSIT P4 Accountability | NIST GOVERN; CFPB Circ 2023-03 | TBS Directive; PIPEDA P1 | Voluntary Std G5 human control; AEF P8 | KI-MüG; BDSG §22 | FADP Art 21; FINMA |
-| 2. No Self-Modification | Art 14; Art 72 monitoring | DSIT P1 Safety | NIST MANAGE | AIDA §9 monitoring | Voluntary Std G4 testing/monitoring | KI-MüG; BSIG §8a | ISG; FINMA |
-| 3. No Emergent Behaviour | Art 9 risk mgmt; Art 15 robustness | DSIT P1 Safety; FCA SS1/23 | NIST MAP; NIST GenAI Profile | TBS Directive; AIDA §8 | Voluntary Std G2 risk mgmt | KI-MüG; MaRisk | FINMA; ISG |
-| 4. No Human Influence | Art 5(1)(a)-(b) prohibited | DSIT P3 Fairness; Equality Act 2010 | FTC §5; EEOC; CA SB 1001 | Quebec Law 25; Human Rights Act | AEF P2/P3; ACL §18 | AGG; KI-MüG | CoE Convention; GIG; BehiG |
-| 5. No Domain Merging | Art 13 transparency; Art 26(4) | DSIT P2 Transparency | NIST MAP context | TBS Directive; OPC | Voluntary Std G3 data governance | BDSG; DDG | FADP Art 6 |
-| 6. No Authority Assumption | Art 5(1)(c)-(h) prohibited | DSIT P3 Fairness; UK GDPR Art 22 | EEOC; NYC LL 144; CO SB 24-205 | TBS Directive; Quebec Law 25 | AEF P3; Anti-discrim Acts | AGG; BetrVG §87(1)(6) | CoE Convention; GIG |
-| 7. Determinism with Reversibility | Art 15 accuracy; Art 13 transparency | DSIT P2/P5; ICO Guidance | NIST MEASURE; NIST GenAI Profile (confabulation) | TBS Directive; PIPEDA Acc | AEF P5/P6; Voluntary Std G4 | BDSG; BaFin | FADP; FINMA |
-| 8. Transparency Without Exception | Art 12 record-keeping; Art 13 | DSIT P2; UK GDPR Art 5(2) | NIST GOVERN; NYC LL 144; CO SB 24-205 | TBS Directive; AIDA §10; OPC | AEF P6; Voluntary Std G6/G9 | BDSG §35; BSIG §8b | FADP Art 22; ISG |
-| 9. Human Sovereignty as Root | Art 14 oversight; Art 26(2) | DSIT P5 Contestability; UK GDPR Art 22 | NIST GOVERN; OMB M-25-21 | TBS Directive recourse; AIDA §11 | AEF P7/P8; Voluntary Std G5/G7 | KI-MüG; BetrVG | CoE Convention; FADP Art 21 |
+### Anglosphere + supra-national
 
-## Twelve UniCORE-AI Levels × Regulatory Frameworks
+| Invariant | EU AI Act | UK | USA (federal + state) | Canada | Australia |
+|---|---|---|---|---|---|
+| 1. No Autonomy | Art 14 oversight; Art 26 deployer | DSIT P4 Accountability | NIST GOVERN; CFPB Circ 2023-03 | TBS Directive; PIPEDA P1 | Voluntary Std G5; AEF P8 |
+| 2. No Self-Modification | Art 14; Art 72 monitoring | DSIT P1 Safety | NIST MANAGE | AIDA §9 monitoring | Voluntary Std G4 |
+| 3. No Emergent Behaviour | Art 9 risk mgmt; Art 15 robustness | DSIT P1 Safety; FCA SS1/23 | NIST MAP; NIST GenAI Profile | TBS Directive; AIDA §8 | Voluntary Std G2 risk mgmt |
+| 4. No Human Influence | Art 5(1)(a)-(b) prohibited | DSIT P3 Fairness; Equality Act 2010 | FTC §5; EEOC; CA SB 1001 | Quebec Law 25; Human Rights Act | AEF P2/P3; ACL §18 |
+| 5. No Domain Merging | Art 13 transparency; Art 26(4) | DSIT P2 Transparency | NIST MAP context | TBS Directive; OPC | Voluntary Std G3 |
+| 6. No Authority Assumption | Art 5(1)(c)-(h) prohibited | DSIT P3 Fairness; UK GDPR Art 22 | EEOC; NYC LL 144; CO SB 24-205 | TBS Directive; Quebec Law 25 | AEF P3; Anti-discrim Acts |
+| 7. Determinism with Reversibility | Art 15 accuracy; Art 13 transparency | DSIT P2/P5; ICO Guidance | NIST MEASURE; NIST GenAI Profile | TBS Directive; PIPEDA Acc | AEF P5/P6; Voluntary Std G4 |
+| 8. Transparency Without Exception | Art 12 record-keeping; Art 13 | DSIT P2; UK GDPR Art 5(2) | NIST GOVERN; NYC LL 144; CO SB 24-205 | TBS Directive; AIDA §10; OPC | AEF P6; Voluntary Std G6/G9 |
+| 9. Human Sovereignty as Root | Art 14 oversight; Art 26(2) | DSIT P5 Contestability; UK GDPR Art 22 | NIST GOVERN; OMB M-25-21 | TBS Directive recourse; AIDA §11 | AEF P7/P8; Voluntary Std G5 |
 
-| Level | EU AI Act | UK | USA (federal + state) | Canada | Australia | Germany | Switzerland |
+### EU Member-State national overlays
+
+| Invariant | Germany | France | Spain | Ireland | Italy | Netherlands | Poland |
 |---|---|---|---|---|---|---|---|
-| 1. Truth | Art 10 data governance | DSIT P2 Transparency | NIST MAP | PIPEDA Acc | AEF P6 | BDSG | FADP Art 6 |
-| 2. Evidence | Art 10; Art 12 logs | DSIT P2; ICO | NIST MEASURE | TBS Directive | Voluntary Std G3 | BDSG | FADP |
-| 3. Verification | Art 10; Art 15 accuracy | DSIT P1 Safety | NIST MEASURE | TBS Directive | Voluntary Std G4 | BaFin; MaRisk | FINMA |
-| 4. Context | Art 13 instructions for use | DSIT P2 | NIST MAP context | TBS Directive | AEF P6 | BDSG §32 | FADP Art 6 |
-| 5. Interpretation | Art 13 explainability | DSIT P2; FCA SS1/23 | NIST GenAI Profile | TBS Directive | AEF P6 | BDSG §31; BaFin | FINMA |
-| 6. Governance | Art 9 risk mgmt; Art 17 quality mgmt | DSIT P4 Accountability | NIST GOVERN | TBS Directive | Voluntary Std G1/G2 | KI-MüG; MaRisk | FINMA |
-| 7. Compliance | Arts 16-26 obligations | All UK frameworks | All federal + state | All federal + provincial | All federal + state | All German layers | All Swiss layers |
-| 8. Operations | Art 13 functioning | DSIT P1 Safety | NIST MANAGE | TBS Directive | Voluntary Std G4 | KI-MüG | FINMA |
-| 9. Execution | Art 13; Art 14 human oversight | DSIT P5 Contestability | NIST GenAI Profile | TBS Directive recourse | AEF P7; Voluntary Std G5 | KI-MüG | FADP Art 21 |
-| 10. Audit | Art 12 record-keeping | UK GDPR Art 5(2) | NIST GOVERN; NYC LL 144 | TBS Directive; AIDA §10 | Voluntary Std G6/G9 | BDSG §35; BSIG §8b | FADP Art 22 |
-| 11. Stability | Art 15 robustness; Art 72 monitoring | DSIT P1; FCA SS1/23 | NIST GenAI Profile | AIDA §9 | Voluntary Std G4 | BSIG; MaRisk | ISG; FINMA |
-| 12. Human Governance | Art 14; Art 26 deployer | DSIT P4 Accountability | OMB M-25-21 named CAIO | TBS Directive | Voluntary Std G1 | KI-MüG; BetrVG | FADP; CoE Convention |
+| 1. No Autonomy | KI-MüG; BDSG §22 | CNIL Article 77 | AESIA; LOPDGDD | DPC + 8-authority | DDL IA Art (justice/health) | AP DCA | KRiBSI draft |
+| 2. No Self-Modification | KI-MüG; BSIG §8a | LPM/OIV; ANSSI | ENS Royal Decree 311/22 | NCSC-NL; CSB 2024 | Codice cybersicurezza | NCSC-NL | NIS2 transp |
+| 3. No Emergent Behaviour | KI-MüG; MaRisk | ACPR; HAS | KNF; Banco España | CBI; CCPC | Banca d'Italia; CONSOB | DNB-AFM SAFEST | KNF |
+| 4. No Human Influence | AGG; KI-MüG | Défenseur des droits; Loi SREN | LOPDGDD; AEPD; Ley Rider | Equality Acts; CnaM Code | Garante; DDL IA | AWGB; AP | Kodeks pracy 22^2 |
+| 5. No Domain Merging | BDSG; DDG | CNIL Fiches IA | AEPD purpose limitation | DPA 2018; DPC | Codice Privacy; Garante | UAVG | UODO |
+| 6. No Authority Assumption | AGG; BetrVG §87(1)(6) | Code du travail L.2312-38 | Estatuto Trabajadores 64.4(d) | Employment Equality Acts | DDL IA (justice) | AWGB | Kodeks pracy 22^2 |
+| 7. Determinism with Reversibility | BDSG; BaFin | ACPR; HAS | KNF; AEPD | CBI | Banca d'Italia | DNB-AFM SAFEST | KNF |
+| 8. Transparency Without Exception | BDSG §35; BSIG §8b | CNIL; Loi SREN | LOPDGDD; AEPD | DPC | Garante; AGCOM | AP DCA; Algoritmeregister | UODO |
+| 9. Human Sovereignty as Root | KI-MüG; BetrVG | CNIL Article 77 | Anteproyecto Ley IA | DPC; CnaM | DDL IA Art (human-centred) | IAMA; AP | KRiBSI |
+
+### Middle East + Switzerland
+
+| Invariant | UAE | Saudi Arabia | Israel | Switzerland |
+|---|---|---|---|---|
+| 1. No Autonomy | UAE Charter P1; DIFC AI CoP | SDAIA P6 Human well-being | Israel Policy human-centric | CoE Convention; FADP Art 21 |
+| 2. No Self-Modification | UAE PDPL Art 13; DIFC AI CoP | PDPL; NCA ECC | INCD | ISG; FINMA |
+| 3. No Emergent Behaviour | UAE Charter; CBUAE | SDAIA P2; SAMA | Bank of Israel | FINMA; ISG |
+| 4. No Human Influence | UAE Charter P3; Cybercrime Law | SDAIA P1 Fairness; Anti-Cyber Crime | Equal Opportunities Law | CoE Convention; GIG; BehiG |
+| 5. No Domain Merging | DIFC AI CoP transparency | PDPL purpose limitation | PPL Amendment 13 | FADP Art 6 |
+| 6. No Authority Assumption | UAE Charter; DIFC AI CoP | PDPL; Anti-discrim | Equal Opportunities Law | CoE Convention; GIG |
+| 7. Determinism with Reversibility | UAE GenAI Guidelines | SDAIA P2 Reliability | Min Justice GenAI policy | FADP; FINMA |
+| 8. Transparency Without Exception | UAE Charter P4; DIFC AI CoP | SDAIA P3; SDAIA AI Guidelines | PPA Guidance public sector | FADP Art 22; ISG |
+| 9. Human Sovereignty as Root | UAE Charter P1 | SDAIA P6 Human well-being | Israel Policy human-centric; Basic Law | CoE Convention; FADP Art 21 |
+
+### Asia-Pacific + South America
+
+| Invariant | Singapore | Japan | South Korea | China | India | Brazil |
+|---|---|---|---|---|---|---|
+| 1. No Autonomy | Model Framework S2 human involvement | AI Promotion Act; AI Operator Guidelines | AI Basic Act high-impact | Algorithm Recommendation Provisions | MeitY Advisory | PL 2338 Art 13-14; LGPD Art 20 |
+| 2. No Self-Modification | AI Verify | METI/MIC Guidelines | KAISI; AI Basic Act | DSL; CSL | DPDP §18 | PL 2338 high-risk obligations |
+| 3. No Emergent Behaviour | MAS FEAT; Veritas | FSA Model Risk Mgmt | FSC AI guidelines | NMPA; PIPL | RBI FREE-AI | BCB; CVM |
+| 4. No Human Influence | POFMA; Model Framework | Hiroshima Code; APPI | PIPA Art 37-2; AI Basic Act | Algorithm Recommendation Art 8 | Constitution Art 14/15 | Constitution Art 5; LGPD; CNJ 332/20 |
+| 5. No Domain Merging | PDPC AI Guidelines purpose | APPI purpose specification | PIPA purpose limitation | PIPL Art 24; DSL classification | DPDP §6 consent | LGPD Art 7 |
+| 6. No Authority Assumption | Tripartite Fair Employment | Labour Standards Act | AI Basic Act high-impact (recruitment) | Algorithm Recommendation Art 8 | Constitution Art 14/15 | PL 2338; CNJ 332/20 |
+| 7. Determinism with Reversibility | Model Framework GenAI safety | AI Operator Guidelines safety | PIPA Art 37-2 explanation | Generative AI Measures Art 4 | MeitY Advisory reliability | PL 2338 Art 38-39 generative |
+| 8. Transparency Without Exception | Model Framework S4 communication | AI Operator Guidelines transparency | AI Basic Act labelling; PIPA explanation | Algorithm Recommendation Art 9; Deep Synthesis labelling | MeitY Advisory labelling | PL 2338 Art 13; LGPD Art 50-51 |
+| 9. Human Sovereignty as Root | Model Framework S2 human involvement | Social Principles Human-centric | AI Basic Act; PIPA Art 37-2 review | PIPL Art 24 (within sovereignty constraints) | NITI Aayog Responsible AI | PL 2338 Art 5 human dignity |
+
+## Twelve UniCORE-AI Levels — summary mapping
+
+For each Level, the architectural property is structurally aligned with the
+*same family* of obligations across all 22 jurisdictions. The
+per-jurisdiction file provides substantive detail; this matrix shows the
+mapping family.
+
+| Level | Mapping family across all 22 jurisdictions |
+|---|---|
+| 1. Truth | Data protection accuracy + AI ethics transparency principles |
+| 2. Evidence | Data governance + training data legitimacy + record-keeping |
+| 3. Verification | AI testing + validation + accuracy obligations |
+| 4. Context | Purpose limitation + use-case scope + instructions for use |
+| 5. Interpretation | Explainability + adverse-action explanation + AI explainability obligations |
+| 6. Governance | Risk management + accountability + AI governance frameworks |
+| 7. Compliance | All conformity/compliance obligations under jurisdictional law |
+| 8. Operations | Functioning + deployer obligations + operational guidance |
+| 9. Execution | Human oversight + intervention + recourse mechanisms |
+| 10. Audit | Record-keeping + audit trail + transparency reporting + algorithm filings |
+| 11. Stability | Post-market surveillance + monitoring + robustness obligations |
+| 12. Human Governance | Named accountable individual + DPO + CAIO + senior management responsibility |
 
 ## How to use this matrix
 
 1. **Forward direction (architecture → regulation)**: pick an Invariant or
-   Level. Read along the row. Every regulatory framework covered in v1 is
-   addressed by that architectural property at the cells noted.
+   Level. Read along the row. The cells show where in each jurisdiction
+   the architectural property engages the framework.
 2. **Backward direction (regulation → architecture)**: pick a jurisdiction
-   column. Read down. Every Invariant and Level that engages that
-   jurisdiction's framework is shown.
+   column. Read down. Every Invariant that engages that jurisdiction's
+   framework is shown.
 3. **Substantive detail**: each cell points at the relevant article,
    principle, section, or standard. The full mapping with substantive
    discussion is in the per-jurisdiction file.
@@ -68,9 +129,7 @@ in `EU-AI-ACT.md`, `UK-AI-FRAMEWORK.md`, `USA-FEDERAL-AND-STATES.md`,
 
 ## Cross-references
 
-- Per-jurisdiction files: `EU-AI-ACT.md`, `UK-AI-FRAMEWORK.md`,
-  `USA-FEDERAL-AND-STATES.md`, `CANADA.md`, `AUSTRALIA.md`,
-  `GERMANY.md`, `SWITZERLAND.md`.
-- Read order: `README.md`.
+- Per-jurisdiction files: see `README.md` Read order section for the
+  complete list.
 - The Nine Invariants and the 12 UniCORE-AI Levels: `TrueAI/README.md`,
   `TrueAI/FULL_FORMAL_STATEMENT.md`, `UniCORE-AI/docs/`.
