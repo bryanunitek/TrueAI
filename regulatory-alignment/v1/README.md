@@ -122,9 +122,16 @@ the EU AI Act baseline:
     approved December 2024), LGPD Article 20, BCB + CVM + ANVISA + CNJ
     Resolution 332/2020.
 
+### Eurasia
+
+23. [`RUSSIA.md`](./RUSSIA.md) — National AI Strategy (Presidential
+    Decree 490, as amended by Decree 124 of 2024), Federal Law 123-FZ
+    (Moscow AI experimental regime), AI Code of Ethics, Personal Data
+    Law 152-FZ, CBR AI expectations.
+
 ### Cross-cutting
 
-23. [`CROSS-CUTTING-MATRIX.md`](./CROSS-CUTTING-MATRIX.md) — single table
+24. [`CROSS-CUTTING-MATRIX.md`](./CROSS-CUTTING-MATRIX.md) — single table
     mapping the Nine Invariants × the 12 UniCORE-AI Levels × the major
     regulatory provisions across all jurisdictions in this v1.
 

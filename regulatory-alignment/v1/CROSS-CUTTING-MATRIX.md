@@ -20,6 +20,9 @@ in the per-jurisdiction file.
 | Switzerland | Switzerland |
 | Asia-Pacific | Singapore, Japan, South Korea, China, India |
 | South America | Brazil |
+| Eurasia | Russia |
+
+(Updated count: 23 jurisdictions across 7 regions.)
 
 ## Nine Invariants × Regulatory Frameworks
 
@@ -65,19 +68,19 @@ in the per-jurisdiction file.
 | 8. Transparency Without Exception | UAE Charter P4; DIFC AI CoP | SDAIA P3; SDAIA AI Guidelines | PPA Guidance public sector | FADP Art 22; ISG |
 | 9. Human Sovereignty as Root | UAE Charter P1 | SDAIA P6 Human well-being | Israel Policy human-centric; Basic Law | CoE Convention; FADP Art 21 |
 
-### Asia-Pacific + South America
+### Asia-Pacific + South America + Eurasia
 
-| Invariant | Singapore | Japan | South Korea | China | India | Brazil |
-|---|---|---|---|---|---|---|
-| 1. No Autonomy | Model Framework S2 human involvement | AI Promotion Act; AI Operator Guidelines | AI Basic Act high-impact | Algorithm Recommendation Provisions | MeitY Advisory | PL 2338 Art 13-14; LGPD Art 20 |
-| 2. No Self-Modification | AI Verify | METI/MIC Guidelines | KAISI; AI Basic Act | DSL; CSL | DPDP §18 | PL 2338 high-risk obligations |
-| 3. No Emergent Behaviour | MAS FEAT; Veritas | FSA Model Risk Mgmt | FSC AI guidelines | NMPA; PIPL | RBI FREE-AI | BCB; CVM |
-| 4. No Human Influence | POFMA; Model Framework | Hiroshima Code; APPI | PIPA Art 37-2; AI Basic Act | Algorithm Recommendation Art 8 | Constitution Art 14/15 | Constitution Art 5; LGPD; CNJ 332/20 |
-| 5. No Domain Merging | PDPC AI Guidelines purpose | APPI purpose specification | PIPA purpose limitation | PIPL Art 24; DSL classification | DPDP §6 consent | LGPD Art 7 |
-| 6. No Authority Assumption | Tripartite Fair Employment | Labour Standards Act | AI Basic Act high-impact (recruitment) | Algorithm Recommendation Art 8 | Constitution Art 14/15 | PL 2338; CNJ 332/20 |
-| 7. Determinism with Reversibility | Model Framework GenAI safety | AI Operator Guidelines safety | PIPA Art 37-2 explanation | Generative AI Measures Art 4 | MeitY Advisory reliability | PL 2338 Art 38-39 generative |
-| 8. Transparency Without Exception | Model Framework S4 communication | AI Operator Guidelines transparency | AI Basic Act labelling; PIPA explanation | Algorithm Recommendation Art 9; Deep Synthesis labelling | MeitY Advisory labelling | PL 2338 Art 13; LGPD Art 50-51 |
-| 9. Human Sovereignty as Root | Model Framework S2 human involvement | Social Principles Human-centric | AI Basic Act; PIPA Art 37-2 review | PIPL Art 24 (within sovereignty constraints) | NITI Aayog Responsible AI | PL 2338 Art 5 human dignity |
+| Invariant | Singapore | Japan | South Korea | China | India | Brazil | Russia |
+|---|---|---|---|---|---|---|---|
+| 1. No Autonomy | Model Framework S2 human involvement | AI Promotion Act; AI Operator Guidelines | AI Basic Act high-impact | Algorithm Recommendation Provisions | MeitY Advisory | PL 2338 Art 13-14; LGPD Art 20 | National Strategy human-centric; Code of Ethics |
+| 2. No Self-Modification | AI Verify | METI/MIC Guidelines | KAISI; AI Basic Act | DSL; CSL | DPDP §18 | PL 2338 high-risk obligations | FSTEC Order 21; 187-FZ CII |
+| 3. No Emergent Behaviour | MAS FEAT; Veritas | FSA Model Risk Mgmt | FSC AI guidelines | NMPA; PIPL | RBI FREE-AI | BCB; CVM | CBR; Roszdravnadzor |
+| 4. No Human Influence | POFMA; Model Framework | Hiroshima Code; APPI | PIPA Art 37-2; AI Basic Act | Algorithm Recommendation Art 8 | Constitution Art 14/15 | Constitution Art 5; LGPD; CNJ 332/20 | Labour Code; Civil Code |
+| 5. No Domain Merging | PDPC AI Guidelines purpose | APPI purpose specification | PIPA purpose limitation | PIPL Art 24; DSL classification | DPDP §6 consent | LGPD Art 7 | 152-FZ Art 5 |
+| 6. No Authority Assumption | Tripartite Fair Employment | Labour Standards Act | AI Basic Act high-impact (recruitment) | Algorithm Recommendation Art 8 | Constitution Art 14/15 | PL 2338; CNJ 332/20 | Labour Code |
+| 7. Determinism with Reversibility | Model Framework GenAI safety | AI Operator Guidelines safety | PIPA Art 37-2 explanation | Generative AI Measures Art 4 | MeitY Advisory reliability | PL 2338 Art 38-39 generative | Code of Ethics traceability |
+| 8. Transparency Without Exception | Model Framework S4 communication | AI Operator Guidelines transparency | AI Basic Act labelling; PIPA explanation | Algorithm Recommendation Art 9; Deep Synthesis labelling | MeitY Advisory labelling | PL 2338 Art 13; LGPD Art 50-51 | 152-FZ Art 14; Code of Ethics |
+| 9. Human Sovereignty as Root | Model Framework S2 human involvement | Social Principles Human-centric | AI Basic Act; PIPA Art 37-2 review | PIPL Art 24 (within sovereignty constraints) | NITI Aayog Responsible AI | PL 2338 Art 5 human dignity | National Strategy human-centric; Code of Ethics |
 
 ## Twelve UniCORE-AI Levels — summary mapping
 
@@ -109,6 +112,11 @@ mapping family.
 2. **Backward direction (regulation → architecture)**: pick a jurisdiction
    column. Read down. Every Invariant that engages that jurisdiction's
    framework is shown.
+3. **Substantive detail**: each cell points at the relevant article,
+   principle, section, or standard. The full mapping with substantive
+   discussion is in the per-jurisdiction file.
+
+(Coverage updated: 23 jurisdictions across 7 regions; Russia added.)
 3. **Substantive detail**: each cell points at the relevant article,
    principle, section, or standard. The full mapping with substantive
    discussion is in the per-jurisdiction file.
