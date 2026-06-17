@@ -134,7 +134,7 @@ Full per-jurisdiction detail: individual files and regional matrices in continen
 ## Table: South America
 
 | Invariant | Brazil | Argentina | Chile | Colombia | Peru | Uruguay | Ecuador | Paraguay | Bolivia | Venezuela |
-|---|---|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|---|---|---|---|---|---|
 | 1. No Autonomy | PL 2338/2024; LGPD Art 20 | AI Law project; PDPA 25336 | CNIA Strategy; Law 21305 | CONPES 4017 AI Strat; Draft AI Law | Ley 31814 AI Law 2023; UETI | AI Strategy 2020; Law 18331 | AI Strategy dev; LOPDP 2021 | MITIC AI Strat; Draft PDPL | Ministry Economy AI Strat; Draft PDPL | Ley de Infogobierno 2013 |
 | 2. No Self-Modification | LGPD; Marco Civil; ABNT AI | PDPA 25336; Resolucion 55/2018 | Law 21305; Cybersecurity Act 2024 | Law 1581/2012; Mintic Res 1239/2020 | Ley 31814; Supreme Decree 008-2024 | Law 18331; Law 19410 | LOPDP 2021; Cybersecurity Regs | Law 1789/2021; Computer Crimes Law | Law 351/2013; SD 3043 | Ley Especial Contra Delitos Informaticos 2001 |
 | 3. No Emergent Behaviour | BCB; CVM; ANS; MAPROA | BCRA; SSN; superintendencias | CMF; SBIF; ACHM | SFC; Superfinanciera; Supersalud | BCRP; SBS | BCU; Banco Republica | BCE; SEPS; BANCOMEXT | BCP; BCPV; SIS | BCB; SUDEBAN | BCV; Sudeban |
