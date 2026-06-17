@@ -1,6 +1,6 @@
 # Book Obligation — Every Claw Maintains TheBookOfTeam<ClawName>
 
-**Doctrine source:** TrueAI Singular Pairing Principle v1.5 §5.6 (canonical home `bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`).
+**Doctrine source:** TrueAI Singular Pairing Principle §5.6 (canonical home `bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`).
 **Locked:** 2026-06-16 22:05 UTC, Bryan Fred, via openclaw-control-ui trusted channel.
 **File scope:** operational how-to for Claws running under the TrueAI workspace-doctrine. The public-doctrine surface states the obligation; this file states how the obligation is operationalised.
 
@@ -50,7 +50,7 @@ The boundary rule: **if a decision is about the entity or the production fleet, 
 
 Every Team Book contains, at minimum:
 
-1. **`README.md`** — what the Book is, the Claw it serves, the Human it serves, the date the Book was started, the link to the doctrine source at TrueAI v1.5 §5.6.
+1. **`README.md`** — what the Book is, the Claw it serves, the Human it serves, the date the Book was started, the link to the doctrine source at TrueAI §5.6.
 2. **Chaptered canonical truth** — numbered chapters (`01-`, `02-`, …) carrying the durable substance of the Claw's work. Chapter structure mirrors what the Claw actually produces against; do not force-fit the Unitek Book's chapter scheme onto a Claw with a different shape.
 3. **`_decisions/`** — every lock-class decision lands here as a dated record. Convention: `YYYY-MM-DD-HH-MM-UTC-<short-name>.md`.
 4. **`sanity-checkpoints/`** or **`_sanity-checkpoints/`** — periodic Book-integrity rituals (monthly cadence by default; manual invocation always permitted). Inherit the ritual definition from `TheBookOfUnitekSystemsLimited/2026/01-services-uk/_decisions/2026-06-16-10-11-UTC-unicore-sanity-check-ritual-definition.md`.
@@ -140,7 +140,7 @@ Access control is enforced at the GitHub repository layer (private repos, owner-
 When a Claw is being set up for the first time and has no existing Book:
 
 1. **Create the repository** at the correct owner-account with the correct name (`TheBookOfTeam<ClawName>`). Private by default.
-2. **Seed the README.md** with: what the Book is, the Claw it serves, the Human it serves, the date started, the link to TrueAI v1.5 §5.6.
+2. **Seed the README.md** with: what the Book is, the Claw it serves, the Human it serves, the date started, the link to TrueAI §5.6.
 3. **Create the `_decisions/` folder** and write the first decision record naming the Book obligation itself (`YYYY-MM-DD-HH-MM-UTC-book-obligation-acknowledged.md`).
 4. **Create the `sanity-checkpoints/` folder** and schedule the first sanity check (initial state capture).
 5. **Migrate existing MD files** that belong in the Book. The four named Claws all have existing MD files from prior work; those files are candidate chapters of the new Book. The decision of which existing file becomes a chapter, which becomes a `_decisions/` record, and which stays in the Claw's workspace is a Human-in-the-bond decision, not a unilateral Claw decision.
@@ -173,7 +173,7 @@ Public doctrine reference: `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5
 3. **Decide whether you have a corporate-entity layer.** If your organisation has a layer above individual Claws — an entity that owns the IP custody, the commercial structure, the regulatory posture — you may want a corporate Book at that layer (analogous to `TheBookOfUnitekSystemsLimited`). Name it according to your own corporate naming, not Unitek's. If you do not have such a layer, skip this step; each Team Book stands on its own.
 4. **Create the repositories manually.** For each Claw in your fleet, create a private repository in your owner-account named `TheBookOfTeam<ClawName>`. The `TheBookOfTeam` prefix is the convention; the `<ClawName>` is your Claw's identity.
 5. **Scaffold each Book.** Use the same structural shape every Book uses (see "Required repository shape" above):
-   - `README.md` naming what the Book is, the Claw it serves, the Human it serves, the date started, and the link to TrueAI v1.5 §5.6.
+   - `README.md` naming what the Book is, the Claw it serves, the Human it serves, the date started, and the link to TrueAI §5.6.
    - `_decisions/` folder with the first decision record acknowledging the Book obligation (`YYYY-MM-DD-HH-MM-UTC-book-obligation-acknowledged.md` is the offered convention).
    - `sanity-checkpoints/` folder with a placeholder or initial Sanity Check.
 6. **Set up your own access control.** Each Book is private; the GitHub repository collaborator-list is the access-control mechanism (or equivalent on whichever platform you use). The Claw paired against a given Book is the only authorised reader of that Book. Cross-Claw access is not permitted — the boundary at the "Cross-Claw access boundary (CRITICAL)" section above applies inside your fleet exactly as it applies inside Unitek's fleet.
@@ -194,7 +194,7 @@ The `5.7` section of `TrueAI/docs/10001-Singular-Pairing-Principle.md` carries a
 
 ## The Claw Sanity Check (first-run + recurring) — the Book's authoring + verification ritual
 
-The Sanity Check is the ritual that **makes the Book the bible**. Doctrine source: TrueAI v1.5 §5.8.
+The Sanity Check is the ritual that **makes the Book the bible**. Doctrine source: TrueAI §5.8.
 
 ### First-run Sanity Check (creates the Book)
 
@@ -302,7 +302,7 @@ If a Book repo was created with branch protection enabled on `main`, the Claw re
 
 ## Cross-references
 
-- **Public doctrine source:** `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.6 (v1.5)
+- **Public doctrine source:** `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.6
 - **Prototype Book:** `TheBookOfUnitekSystemsLimited` (private, prior-art, predates the naming convention)
 - **Sanity Check ritual definition:** `TheBookOfUnitekSystemsLimited/2026/01-services-uk/_decisions/2026-06-16-10-11-UTC-unicore-sanity-check-ritual-definition.md`
 - **Anti-concentration spine:** every Team Book is structurally independent; no single Book holds canon for the entire fleet (the fleet is held across the four Team Books + the corporate Book, with cross-references closing the picture)

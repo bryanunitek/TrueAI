@@ -1,6 +1,6 @@
 # Foundation Gift-Layer Read-Only Clones — Every Claw
 
-**Doctrine source:** TrueAI Singular Pairing Principle v1.5 §5.9 (canonical home `bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`).
+**Doctrine source:** TrueAI Singular Pairing Principle §5.9 (canonical home `bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`).
 **Locked:** 2026-06-16 23:50 UTC, Bryan Fred, via openclaw-control-ui trusted channel.
 **File scope:** operational how-to for Claws running under the TrueAI workspace-doctrine. The public-doctrine surface states the obligation at §5.9; this file states how the obligation is operationalised.
 
@@ -41,7 +41,7 @@ If a Claw operates inside an environment that requires authenticated access even
 
 ## CC BY 4.0 conformance — non-negotiable
 
-Per TrueAI v1.5 §5.9, the clones must conform to CC BY 4.0 obligations as set out in `UniCORE/LICENSE_EXAMPLES.md` §3:
+Per TrueAI §5.9, the clones must conform to CC BY 4.0 obligations as set out in `UniCORE/LICENSE_EXAMPLES.md` §3:
 
 1. **LICENSE files preserved.** Do not modify, replace, or strip any LICENSE file in any clone.
 2. **No claim of authorship.** Material from the five repositories is not the Claw's work. Cite, attribute, reference — do not represent as own.
@@ -109,7 +109,7 @@ The Claw runs a manual pull when:
 
 ## Cross-Claw boundary does NOT apply to gift-layer clones
 
-The cross-Claw access boundary (TrueAI v1.5 §5.6 + the 22:22/22:26 UTC locks) applies to **per-Claw Books and workspace material**. The Foundation gift-layer is public, CC BY 4.0, identical across every Claw.
+The cross-Claw access boundary (TrueAI §5.6 + the 22:22/22:26 UTC locks) applies to **per-Claw Books and workspace material**. The Foundation gift-layer is public, CC BY 4.0, identical across every Claw.
 
 Every Claw under the doctrine has identical read-access to the same upstream. Their clones are identical (modulo pull-timing). No cross-Claw substrate is being read when a Claw reads its local clone of any of the five repositories.
 
@@ -187,7 +187,7 @@ For UNItekTIME, ThePowerPlayer, TwgAIC, and Team Bryan:
 
 ## Cross-references
 
-- **Public doctrine source:** `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.9 (v1.5)
+- **Public doctrine source:** `TrueAI/docs/10001-Singular-Pairing-Principle.md` §5.9
 - **CC BY 4.0 obligation set (canonical):** `UniCORE/LICENSE_EXAMPLES.md` §3 (the obligations) and §2 (the gift-layer table that names the five repositories)
 - **Reserved marketing phrases:** `STATEMENT-ON-CLAIMS.md` in each of the five public repositories
 - **Book obligation (sibling):** `workspace-doctrine/v1/BOOK-OBLIGATION.md` (covers the per-Claw Book, distinct from this file which covers the public gift-layer clones)

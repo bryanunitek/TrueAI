@@ -23,8 +23,8 @@ This folder is distinct from sibling folders in this repository:
 | [`SOUL.md`](SOUL.md) | The portable soul prelude: foundation governs everything; this Claw's personality and development-role traits are subordinate. |
 | [`IDENTITY.md`](IDENTITY.md) | Template for the local instance binding. The local Claw fills in name, role, vibe, emoji, avatar. |
 | [`USER.md`](USER.md) | Template for the local human binding. The local Claw fills in human name, contact, context. |
-| [`BOOK-OBLIGATION.md`](BOOK-OBLIGATION.md) | The Book obligation: every Claw running under the doctrine maintains `TheBookOfTeam<ClawName>` as canonical-truth substrate (TrueAI v1.5 §5.6). |
-| [`FOUNDATION-GIFT-LAYER-CLONES.md`](FOUNDATION-GIFT-LAYER-CLONES.md) | The Foundation gift-layer clone obligation: every Claw maintains read-only local clones of UniVERSE / TrueAI / UniCORE-AI / UniCORE / UniCORE.GVB with daily pull cadence (TrueAI v1.5 §5.9). |
+| [`BOOK-OBLIGATION.md`](BOOK-OBLIGATION.md) | The Book obligation: every Claw running under the doctrine maintains `TheBookOfTeam<ClawName>` as canonical-truth substrate (TrueAI §5.6). |
+| [`FOUNDATION-GIFT-LAYER-CLONES.md`](FOUNDATION-GIFT-LAYER-CLONES.md) | The Foundation gift-layer clone obligation: every Claw maintains read-only local clones of UniVERSE / TrueAI / UniCORE-AI / UniCORE / UniCORE.GVB with daily pull cadence (TrueAI §5.9). |
 | [`FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) | The local-copy-first read pattern, the freshness-check protocol against this canonical repo, and the human-authentication requirement for any update. |
 | [`MANIFEST.md`](MANIFEST.md) | Integrity index, human-readable form. |
 | [`MANIFEST.json`](MANIFEST.json) | Integrity index, machine-parseable form. |

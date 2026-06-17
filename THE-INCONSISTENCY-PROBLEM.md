@@ -114,7 +114,7 @@ Foundation consistency and vertical consistency close the **machine-side** of th
 
 Multiple humans on one Claw produce conflicting authority signals; the AI cannot reconcile them without assuming authority it does not have. A single human across multiple parallel Claws produces context fragmentation; decisions made on one Claw are not visible on another. Committee-at-the-session-level produces no named authority; the AI is steered by the loudest voice in the room rather than by a single accountable signature. Each of these is a **human-side inconsistency** failure that arrives at the same outcome the machine-side is trying to prevent: same facts, different result.
 
-The structural answer splits across two layers — the **Singular Pairing Principle (1H1C)** at the production layer and **xH1C** (with one Claw as the consistency-holding agent across the cohort) at the operations layer. The full doctrine, including the v1.3 production-layer-vs-operations-layer split, lives at [`docs/10001-Singular-Pairing-Principle.md`](./docs/10001-Singular-Pairing-Principle.md).
+The structural answer splits across two layers — the **Singular Pairing Principle (1H1C)** at the production layer and **xH1C** (with one Claw as the consistency-holding agent across the cohort) at the operations layer. The full doctrine, including the production-layer-vs-operations-layer split, lives at [`docs/10001-Singular-Pairing-Principle.md`](./docs/10001-Singular-Pairing-Principle.md).
 
 ### Production layer — 1H1C
 

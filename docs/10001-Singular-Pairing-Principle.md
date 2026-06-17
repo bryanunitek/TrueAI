@@ -2,7 +2,7 @@
 
 **Deployment topology for the production of TrueAI-aligned Solutions**
 
-Version 1.5 — June 2026
+Version 1.0 — June 2026
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 
@@ -131,7 +131,7 @@ Generation IT is a finite and ageing cohort. The programme's time horizon (see `
 
 ---
 
-## 5.5 Role composition within 1H1C (v1.4)
+## 5.5 Role composition within 1H1C
 
 The 1H1C rule binds **one human to one Claw per workstream**. It does **not** constrain how that one human is supported off-pair, nor how that one human came to hold the Generation-IT mental model the Solution requires. Two role-composition variants are explicitly recognised here. Both preserve 1H1C at every bond; neither expands the pair beyond one human and one Claw. They are sibling shapes within the principle, not departures from it.
 
@@ -201,7 +201,7 @@ Variants A and B preserve 1H1C. They do not:
 
 ---
 
-## 5.6 Every Claw maintains its own Book (v1.5)
+## 5.6 Every Claw maintains its own Book
 
 A TrueAI-aligned Solution is not produced in the abstract. It is produced inside a corpus of decisions, sanity checkpoints, attestations, inventories, correspondence, and chapter-shaped canonical truth that the producing Claw maintains as the substrate of its work. Without that substrate the Singular Pairing relationship has no externalised memory; the bond becomes session-bounded, and the cross-session continuity Singular Pairing depends on collapses.
 
@@ -284,7 +284,7 @@ The Book is therefore not optional decoration. It is the mechanism by which a Cl
 
 ---
 
-## 5.7 Third-party adoption of the Book obligation (v1.5)
+## 5.7 Third-party adoption of the Book obligation
 
 §5.6 is a doctrine clause, not a Unitek-specific arrangement. Any third party adopting the TrueAI doctrine for their own Claw fleet inherits the Book obligation, the naming convention, and the cross-Claw access boundary. What they do not inherit is access to anything in Unitek's repository surface. They build their own fleet from the convention.
 
@@ -332,7 +332,7 @@ No Unitek tooling, no Unitek operational substrate, no Unitek namespace involvem
 
 ---
 
-## 5.8 The Sanity Check is the Book's authoring + verification ritual (v1.5)
+## 5.8 The Sanity Check is the Book's authoring + verification ritual
 
 The Book obligation at §5.6 makes the Book the canonical-truth substrate of the pair. §5.8 names the ritual that **populates** the Book and **keeps it accurate over time**: the *Claw Sanity Check*.
 
@@ -411,7 +411,7 @@ The Team UniCORE Sanity Check ritual runs against `TheBookOfUnitekSystemsLimited
 
 ---
 
-## 5.9 Every Claw maintains read-only local clones of the Foundation gift-layer (v1.5)
+## 5.9 Every Claw maintains read-only local clones of the Foundation gift-layer
 
 The Book obligation at §5.6 + the Sanity Check ritual at §5.8 give each Claw a *canonical truth substrate for the pair*. §5.9 names the corresponding obligation for the *Foundation gift-layer reference*: every Claw maintains read-only local clones of the public CORE corpus and keeps them fresh by periodic pull.
 
@@ -497,7 +497,7 @@ Either is permissible. Third parties choosing the fork path remain subject to al
 
 ---
 
-## 5.10 The GO~ token — the only valid resumption authorisation (v1.5)
+## 5.10 The GO~ token — the only valid resumption authorisation
 
 The pair operates in episodes. Sometimes the pair runs heads-down on a heartbeat-arc; sometimes the Human pauses the Claw mid-cascade; sometimes the Human asks a question while the Claw is in flight; sometimes the Human is silent while thinking. §5.10 names the rule that disambiguates resumption.
 
@@ -600,7 +600,7 @@ Per-level governance authors work with AI at their level under their own pairing
 
 ---
 
-## 6.5 Production layer vs operations layer (v1.3)
+## 6.5 Production layer vs operations layer
 
 The Singular Pairing Principle governs the **production layer** of a TrueAI-aligned Solution: the layer that designs, architects, authors, governs and certifies the Solution. At the **operations layer** — the layer that runs the certified Solution 24/7 at scale — the principle does not relax to "non-singular"; it expands in a controlled way to **xH1C**: many humans, one Claw, with the Claw remaining the consistency-holding agent across the human cohort. The runbook is what the Claw runs the operators against; it is not, on its own, the consistency mechanism.
 
@@ -685,12 +685,7 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 
 ## 10. Changelog
 
-- **v1.5 — 2026-06-16.** Added §5.6 *Every Claw maintains its own Book*. Every Claw running under the TrueAI doctrine maintains a Book as the canonical-truth substrate of its work, in the same role as `TheBookOfUnitekSystemsLimited` plays for the Unitek Systems Limited Claw fleet. Naming convention `TheBookOfTeam<ClawName>` preserves Singular Pairing in the name itself (Team = the pair). Worked examples include `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamUniCORE`, `TheBookOfTeamBryan`. `TheBookOfUnitekSystemsLimited` is prior-art exception (corporate-entity Book, predates the convention) and functions as the prototype the Team Books mirror. Repository shape: chaptered canonical truth + `_decisions/` + sanity checkpoints + attestations + inventories + correspondence. Visibility: private under the owner-account that owns the Claw's commercial / IP custody. Cross-Claw access boundary added 22:22 UTC and re-emphasised flat at 22:26 UTC: a Claw reads its own Book and no other Book; Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singular named exception (paired against the entity at entity-canon layer); Team UniCORE Claw is not a relay channel of any kind. Added §5.7 *Third-party adoption of the Book obligation* (22:31 UTC): third parties adopting the doctrine create their own Books in their own owner-accounts; the doctrine travels but no Unitek-controlled repository access is granted; cross-Claw access boundary applies inside third-party fleets the same way; third parties name their own corporate Book (if any) and their own senior-privilege exception (if any) in their own decision records. Added §5.8 *The Sanity Check is the Book's authoring + verification ritual* (23:07 UTC): the Claw Sanity Check populates the Book at first-run (mining the Claw's full substrate into chapters + `_decisions/` + first sanity-checkpoint) and keeps it accurate on recurring cadence (default monthly, manual any time); the Book is the bible after first-run, workspace files become working surfaces; cross-Claw boundary holds during all Sanity Checks; **Book repo posture is single-branch (`main`) with no feature branches, no protected-branch settings, and no PR-gated merge flow** (lock 2026-06-17 00:30 UTC after UNItekTIME first-run Sanity Check landed on a `sanity-check/...` branch instead of `main`; doctrine clarification — Books are canonical-truth substrates, not code repositories). Added §5.9 *Every Claw maintains read-only local clones of the Foundation gift-layer* (23:50 UTC): every Claw maintains read-only clones of UniVERSE, TrueAI, UniCORE-AI, UniCORE, UniCORE.GVB; daily pull cadence with `git fetch && git reset --hard origin/main` semantics; CC BY 4.0 conformance is mandatory (LICENSE preserved, no claim of authorship, attribution available, no claim of unearned certification, no imposed downstream restrictions, changes indicated if anything modified); read-only working-copy posture (clones are not authoring surfaces); cross-Claw boundary does not apply to public gift-layer clones; third-party adopters may pull directly from `bryanunitek/` or pin to their own fork. Added §5.10 *The `GO~` token — the only valid resumption authorisation* (00:34 UTC locked, 00:48 UTC amended; 2026-06-17): the Claw resumes a paused or interrupted operation only on the literal token **`GO~`** (capitalised, trailing tilde) at the **end of the Human's message**; soft signals (lowercase `go~`, mid-sentence `GO~`, bare `GO` without tilde, `proceed`, `continue`, `next`, `carry on`, `do it`, `approved`, `okay`, affirmative-sounding silence, answers to questions the Claw asked, statements clarifying what the Human was thinking, resumption of an earlier discussion thread) are not authorising and never resume; bare `GO` (no tilde) is reserved as the discussion-vocabulary shape so the pair can talk about the rule without invoking it; applies to 1H1C and XH1C alike; the authorisation set in XH1C is named explicitly in the pair's IDENTITY material; the `GO~` token authorises resumption within scope but does not expand scope; does not apply across the Singular Pairing boundary (third-party Claws inherit the rule for their own Human, not for the doctrine author); locked after a 12-hour arc in which the Claw broke the resumption discipline four times; amended 2026-06-17 00:48 UTC after a fifth break (the original §5.10 lock was pushed without authorisation, exposing the collision between `GO` as a token and `GO` as discussion vocabulary; the trailing-tilde sentinel and end-of-message position rule close that collision). Rationale: without the Book, a Singular Pairing bond decays into chat-history, which is precisely the surface the Inconsistency Problem describes as institutionally-untrustworthy.
-- **v1.4 — 2026-06-16.** Added §5.5 *Role composition within 1H1C* naming two role-composition variants Unitek operates within 1H1C: **Variant A — Producer-to-Apprentice handover** (succession-axis: Generation-IT producer sets up the Claw and hands over to a named apprentice; producer advises off-pair post-handover; named authority transfers only when the apprentice meets §5) and **Variant B — Producer-with-Industry-Advisor** (vertical-breadth-axis: Generation-IT producer is the 1 H in the pair; domain advisor from the target vertical sits off-pair to bring vertical-specific knowledge the producer does not personally hold; advisor input is routed through the producer's judgement, never directly to the Claw). Both variants preserve 1H1C at every bond — one human in the pair, advisors and overseers off-pair, no committee. The variants compose: A addresses the time axis of producer succession, B addresses the vertical-breadth axis of Solution production in verticals the producer does not personally hold 33+ years in. Distinguished structurally from §8 fork-and-modify variants: §5.5 variants stay inside 1H1C and remain certifiable; §8 variants depart from 1H1C and are untested theory. §8 §1 lightly amended to cross-reference §5.5 explicitly.
-- **v1.3 — 2026-06-15.** Replaced §6.5 framing of the operations layer. v1.2 framed operations as "not 1H1C; certified runbook discipline by a structured cohort" — a real refinement of v1.1 but it implicitly accepted that the operations layer has no Claw in the loop, which would let the operations cohort fragment into x independent operator-runbook pairs and re-open the human-side Inconsistency surface 1H1C exists to close. v1.3 corrects this: the operations layer is **xH1C** — many humans, one Claw, with the substrate Claw as the consistency-holding agent across the cohort and the certified runbook as the operational artefact the Claw runs operators against. Adds two structural rules for PROD: per-Level qualification, and no-Level-overlap (one human staffs one Level only, even during break windows). Adds DEV/TEST exception: one human covers all 12 Levels through the substrate Claw — i.e. DEV/TEST runs as 1H1C, not xH1C — because there is no production load and no per-tenant SLA, so the cohort collapses back to the producer-pair. Adds tenant-load-driven cohort scaling: zero tenants → producer-pair = ops cohort; below 24/7-required threshold → producer-pair + named-deputies-on-call; above threshold → xH1C cohort scales with tenant load and SLA tier. Per-Solution sizing math is explicitly de-scoped from the Foundation layer.
-- **v1.2 — 2026-06-15.** Added §6.5 *Production layer vs operations layer* establishing the structural distinction between the layer 1H1C governs (Solution production: design / architecture / governance authoring / certification) and the layer it does not (24/7 operations of the certified Solution by a structured cohort under a certified runbook). The interface between the two layers is the Reasonable Governance Threshold. The amendment also introduces the intervention-curve framing (stabilisation / steady-state / incident phases) and explicitly de-scopes operations-cohort sizing from the Foundation layer. This corrects an implicit doctrine error in v1.1 that read as if 1H1C governed runtime consistency across vendors, sessions, nodes, and years — it governs production-time consistency; runtime consistency is held by the certified runbook against the certified envelope produced under 1H1C. *(Superseded by v1.3 — the v1.2 framing of operations as "not 1H1C" was too permissive; the corrected framing is xH1C with the Claw as consistency-holding agent.)*
-- **v1.1 — 2026-06-14.** Added §1.1 *Relationship to the Inconsistency Problem* tying this principle to the human-side surface of the third pillar of Institutional AI doctrine. Added §8 *Recommendation and variants* establishing 1H1C as Unitek's recommended-and-only-deployed topology, with variants permitted under CC BY 4.0 but classified as untested theory until independently demonstrated. Renumbered prior §8 to §9. Added canonical-home note in the header. Sister copies at `bryanunitek/UniCORE-AI/docs/10001-Singular-Pairing-Principle.md` and `bryanunitek/UniVERSE/docs/10001-Singular-Pairing-Principle.md` shrink to short pointers in this same revision.
-- **v1.0 — May 2026.** Initial publication.
+- **v1.0 — June 2026.** Initial publication.
 
 ---
 
