@@ -81,57 +81,114 @@ the EU AI Act baseline:
     DNB-AFM SAFEST AI.
 12. [`POLAND.md`](./POLAND.md) — KRiBSI draft framework, Personal Data
     Protection Act, KNF expectations, Kodeks pracy Article 22^2.
+13. [`SWEDEN.md`](./SWEDEN.md) — National Approach to AI, Dataskyddslagen,
+    Finansinspektionen alignment with EBA/EIOPA/ESMA, Diskrimineringslagen.
 
-### Middle East
+### EEA (non-EU)
 
-13. [`UAE.md`](./UAE.md) — UAE Charter for the Development and Use of AI,
+14. [`NORWAY.md`](./NORWAY.md) — EU AI Act via EEA, Datatilsynet AI
+    Regulatory Sandbox, National AI Strategy.
+
+### Middle East and North Africa
+
+15. [`UAE.md`](./UAE.md) — UAE Charter for the Development and Use of AI,
     Federal PDPL, DIFC AI Code of Practice, SAMA-equivalent CBUAE
     expectations, AI Strategy 2031.
-14. [`SAUDI-ARABIA.md`](./SAUDI-ARABIA.md) — SDAIA seven Ethics Principles,
+16. [`SAUDI-ARABIA.md`](./SAUDI-ARABIA.md) — SDAIA seven Ethics Principles,
     PDPL, NCA Essential Cybersecurity Controls, SAMA AI expectations,
     Vision 2030 alignment.
-15. [`ISRAEL.md`](./ISRAEL.md) — National AI Policy, PPA guidance, Privacy
+17. [`ISRAEL.md`](./ISRAEL.md) — National AI Policy, PPA guidance, Privacy
     Protection Law (Amendment 13), Ministry of Justice generative AI
     policy.
+18. [`GCC-QATAR-KUWAIT-BAHRAIN-OMAN.md`](./GCC-QATAR-KUWAIT-BAHRAIN-OMAN.md)
+    — the four remaining GCC member states (after Saudi Arabia and UAE):
+    Qatar Law 13/2016, Kuwait CITRA Regulation 26/2024, Bahrain Law
+    30/2018, Oman Royal Decree 6/2022, plus GCC AI Coordinating Mechanism.
+19. [`EGYPT.md`](./EGYPT.md) — Egyptian National AI Strategy, Law 151 of
+    2020 on Personal Data Protection, Egyptian Charter on Responsible AI.
+20. [`TURKEY.md`](./TURKEY.md) — National AI Strategy 2021-2025, Draft AI
+    Law, KVKK Law 6698 (as amended March 2024), BDDK/TCMB expectations.
 
 ### Switzerland
 
-16. [`SWITZERLAND.md`](./SWITZERLAND.md) — Federal Council AI position +
+21. [`SWITZERLAND.md`](./SWITZERLAND.md) — Federal Council AI position +
     Council of Europe Framework Convention + FADP + sector frameworks.
 
 ### Asia-Pacific
 
-17. [`SINGAPORE.md`](./SINGAPORE.md) — Model AI Governance Framework + AI
+22. [`SINGAPORE.md`](./SINGAPORE.md) — Model AI Governance Framework + AI
     Verify + Generative AI Model Framework + PDPA + MAS FEAT Principles.
-18. [`JAPAN.md`](./JAPAN.md) — AI Promotion Act (Hou No. 53 of 2025), AI
+23. [`JAPAN.md`](./JAPAN.md) — AI Promotion Act (Hou No. 53 of 2025), AI
     Operator Guidelines, Hiroshima AI Process, APPI, FSA Model Risk
     Management.
-19. [`SOUTH-KOREA.md`](./SOUTH-KOREA.md) — AI Basic Act (effective January
+24. [`SOUTH-KOREA.md`](./SOUTH-KOREA.md) — AI Basic Act (effective January
     2026), PIPA Article 37-2 automated decision-making, KAISI, FSC AI
     guidelines.
-20. [`CHINA.md`](./CHINA.md) — Generative AI Services Measures, Deep
+25. [`CHINA.md`](./CHINA.md) — Generative AI Services Measures, Deep
     Synthesis Provisions, Algorithm Recommendation Provisions, PIPL, Data
     Security Law, draft horizontal AI Law.
-21. [`INDIA.md`](./INDIA.md) — IndiaAI Mission, MeitY Generative AI
+26. [`HONG-KONG.md`](./HONG-KONG.md) — PCPD Model Personal Data Protection
+    Framework for AI (June 2024), PDPO, HKMA AI Principles, Critical
+    Infrastructures Computer Systems Ordinance 2025.
+27. [`TAIWAN.md`](./TAIWAN.md) — Draft AI Basic Act, Executive Yuan GenAI
+    Guidelines, PDPA, PDPC (established August 2025), Cyber Security
+    Management Act.
+28. [`INDIA.md`](./INDIA.md) — IndiaAI Mission, MeitY Generative AI
     Advisory, DPDP Act, RBI FREE-AI framework, NITI Aayog Responsible AI
     for All.
+29. [`VIETNAM.md`](./VIETNAM.md) — National Strategy on AI to 2030,
+    Decree 13/2023 + draft PDP Law, Cybersecurity Law 2018 with data
+    localisation.
+30. [`INDONESIA.md`](./INDONESIA.md) — UU PDP (Law 27/2022) Article 17,
+    Kominfo Circular Letter 9/2023 on AI Ethics, National AI Strategy
+    2020-2045.
+31. [`THAILAND.md`](./THAILAND.md) — Draft Royal Decree on Use of AI
+    Systems (EU-AI-Act-aligned), PDPA 2019 Section 32, Bank of Thailand AI
+    guidance.
 
 ### South America
 
-22. [`BRAZIL.md`](./BRAZIL.md) — PL 2338/2023 Marco Legal IA (Senate
+32. [`BRAZIL.md`](./BRAZIL.md) — PL 2338/2023 Marco Legal IA (Senate
     approved December 2024), LGPD Article 20, BCB + CVM + ANVISA + CNJ
     Resolution 332/2020.
+33. [`ARGENTINA.md`](./ARGENTINA.md) — Plan Nacional de IA (2019),
+    Recomendaciones para una IA Fiable (2023), Ley 25.326, draft
+    modernised PDPL.
+34. [`CHILE.md`](./CHILE.md) — PNIA, Proyecto de Ley AI (Bulletin
+    15869-19, 2023), Ley 21.719 (effective December 2026), Ley 21.663
+    Cybersecurity Framework Law.
+35. [`COLOMBIA.md`](./COLOMBIA.md) — CONPES 3975, Marco Ético para la IA
+    (2021), Ley 1581, SFC Circular Externa 008 of 2024.
+
+### North America (non-USA)
+
+36. [`MEXICO.md`](./MEXICO.md) — Agenda Nacional Mexicana de IA, LFPDPPP +
+    LGPDPPSO, Banxico + CNBV + COFEPRIS sector frameworks.
 
 ### Eurasia
 
-23. [`RUSSIA.md`](./RUSSIA.md) — National AI Strategy (Presidential
+37. [`RUSSIA.md`](./RUSSIA.md) — National AI Strategy (Presidential
     Decree 490, as amended by Decree 124 of 2024), Federal Law 123-FZ
     (Moscow AI experimental regime), AI Code of Ethics, Personal Data
     Law 152-FZ, CBR AI expectations.
 
+### Africa
+
+38. [`SOUTH-AFRICA.md`](./SOUTH-AFRICA.md) — National AI Policy Framework,
+    POPIA Section 71 automated decision-making, SARB/FSCA, PEPUDA.
+39. [`NIGERIA.md`](./NIGERIA.md) — National AI Strategy, NDPA 2023,
+    Cybercrimes Act 2015 (as amended 2024), CBN circulars.
+40. [`KENYA.md`](./KENYA.md) — Kenya National AI Strategy 2025-2030, Data
+    Protection Act 2019 Section 35, ODPC, CBK guidance.
+41. [`GHANA.md`](./GHANA.md) — Ghana National AI Strategy 2023-2033, Data
+    Protection Act 2012 (Act 843), Cybersecurity Act 2020 (Act 1038),
+    Bank of Ghana guidance.
+
 ### Cross-cutting
 
-24. [`CROSS-CUTTING-MATRIX.md`](./CROSS-CUTTING-MATRIX.md) — single table
+42. [`CROSS-CUTTING-MATRIX.md`](./CROSS-CUTTING-MATRIX.md) — single table
+    mapping the Nine Invariants × the 12 UniCORE-AI Levels × the major
+    regulatory provisions across all jurisdictions in this v1.
     mapping the Nine Invariants × the 12 UniCORE-AI Levels × the major
     regulatory provisions across all jurisdictions in this v1.
 

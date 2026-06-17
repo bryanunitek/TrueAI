@@ -10,19 +10,31 @@ in the per-jurisdiction file.
 
 ## Coverage map (v1)
 
-22 jurisdictions across six regions:
+41 jurisdictions across 10 regions:
 
 | Region | Jurisdictions |
 |---|---|
 | Supra-national + Anglosphere | EU, UK, USA, Canada, Australia |
-| EU Member-State national overlays | Germany, France, Spain, Ireland, Italy, Netherlands, Poland |
-| Middle East | UAE, Saudi Arabia, Israel |
+| EU Member-State national overlays | Germany, France, Spain, Ireland, Italy, Netherlands, Poland, Sweden |
+| EEA (non-EU) | Norway |
+| Middle East and North Africa | UAE, Saudi Arabia, Israel, Qatar, Kuwait, Bahrain, Oman, Egypt, Turkey |
 | Switzerland | Switzerland |
-| Asia-Pacific | Singapore, Japan, South Korea, China, India |
-| South America | Brazil |
+| Asia-Pacific | Singapore, Japan, South Korea, China, Hong Kong, Taiwan, India, Vietnam, Indonesia, Thailand |
+| South America | Brazil, Argentina, Chile, Colombia |
+| North America (non-USA) | Mexico |
 | Eurasia | Russia |
+| Africa | South Africa, Nigeria, Kenya, Ghana |
 
-(Updated count: 23 jurisdictions across 7 regions.)
+Note: GCC-QATAR-KUWAIT-BAHRAIN-OMAN.md groups four GCC members in one
+file (so the file count is 38 jurisdiction files covering 41
+jurisdictions).
+
+The per-jurisdiction substantive cells below are not regenerated for
+the newly added 18 jurisdictions in this commit — each new
+jurisdiction's per-Invariant alignment is fully captured in the
+respective jurisdiction file. Future Matrix updates will integrate the
+new columns; in the interim, refer to the individual files for the
+newly added jurisdictions.
 
 ## Nine Invariants × Regulatory Frameworks
 
