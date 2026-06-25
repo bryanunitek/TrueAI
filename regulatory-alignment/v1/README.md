@@ -242,6 +242,8 @@ Each regulatory-alignment jurisdiction should also have a `TaxRates-XX.json`
 seed file in `UniCORE.Law.Module/SeedData/TaxRates/`. The Tax/VAT seed
 coverage is a separate workstream (coding side) and is being tracked
 against this regulatory-alignment shelf as the canonical jurisdiction
-list. Current coding-side coverage is limited to DE / FR / GB / NL +
-five US states; expansion to match this shelf is on the implementation
+list. Current coding-side coverage comprises 178 VAT/GST submission gates
+covering 112 jurisdictions (Tier-4 cascade complete as of June 2025). The
+TaxRates JSON seed files cover a smaller initial set (~9 jurisdictions);
+expansion of the seed data to match this shelf is on the implementation
 roadmap.

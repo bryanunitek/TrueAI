@@ -213,7 +213,7 @@ contestability principle (Principle 7) above.
 Be transparent with other organisations across the AI supply chain about
 data, models and systems.
 
-**How the corpus fulfils this**: The five public repositories themselves
+**How the corpus fulfils this**: The seven public repositories themselves
 are the canonical supply-chain transparency artefact. The licence
 (CC BY 4.0, irrevocably given) makes the architectural layer freely
 inspectable. Per-deployment supply-chain transparency is deployer

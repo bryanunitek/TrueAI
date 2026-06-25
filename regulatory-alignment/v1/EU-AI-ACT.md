@@ -170,7 +170,7 @@ conformity; post-market monitoring system description.
 
 **How the corpus fulfils this**: The public corpus itself is the canonical
 technical documentation surface for any TrueAI-conformant AI system. The
-five public repositories provide: general description (`README.md`
+seven public repositories provide: general description (`README.md`
 in each repo); detailed architectural description (`UniCORE-AI/docs/`);
 monitoring and control (`UniCORE.GVB/`); risk management (UniCORE-AI Level
 6); standards (the Nine Invariants); the brand and trademark policy

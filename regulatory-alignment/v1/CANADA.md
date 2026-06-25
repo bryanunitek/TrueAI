@@ -106,7 +106,7 @@ including their purpose, content of recommendations, and mitigation
 measures.
 
 **How the corpus fulfils this**: The architecture's public-corpus
-transparency posture (the five public repositories themselves) sets the
+transparency posture (the seven public repositories themselves) sets the
 plain-language description baseline at the architectural layer. Each
 deployment publishes a per-deployment description against this baseline.
 
