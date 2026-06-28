@@ -4,7 +4,7 @@
 
 This folder holds the markdown files that define **what is required to be built on the TrueAI Foundation**. Solutions pairing an external Claw deliver this content to the Claw at session-opening time, from a versioned local copy embedded in the Solution's deployment.
 
-This folder is distinct from [`docs/`](docs/):
+This folder is distinct from [`docs/`](../docs/):
 
 - **`docs/`** holds long-form Foundation documents — the whitepaper, the Nine Invariants, the Reversibility specification, the Gift Principle, the Singular Pairing Principle, and so on. These are written for human readers studying the Foundation.
 - **`foundation-requirements/`** holds the runtime content that gets delivered to Claws during pairing. It is for runtime consumption: a Solution reads these files into its deployment, and the Solution serves them to paired Claws at session opening.

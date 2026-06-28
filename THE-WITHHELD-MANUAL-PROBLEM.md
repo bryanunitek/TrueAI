@@ -52,7 +52,7 @@ The pattern is dangerous in an app. It is civilisational when the operating syst
 
 When AI is a feature inside an application, an operator can in principle choose, govern, or wrap it. When the operating system *is* the AI, the AI is the substrate: every action passes through it by definition, and there is no userland vantage point from which to govern what sits beneath userland. Shipping an AI-as-OS with no manual for lawful institutional use, and no accountability spine, puts ungoverned AI in the default path for the whole population — not in a tool someone opted into.
 
-This is why the audience pillar — **Consumer AI vs Institutional AI** — has to be resolved at the point of use, bound to identity, not to the device. The same human is one person at home and an accountable office-holder at work; the governance posture must follow *which accountable identity is acting*, chosen at login, carried through every action. (See the audience pillar and the [1U1C identity model](https://github.com/bryanunitek/UniVERSE).) A platform owner can provide the AI substrate; it must not also own the definition of what lawful institutional use means, nor the spine that enforces it.
+This is why the audience pillar — **Consumer AI vs Institutional AI** — has to be resolved at the point of use, bound to identity, not to the device. The same human is one person at home and an accountable office-holder at work; the governance posture must follow *which accountable identity is acting*, chosen at login, carried through every action. (See the audience pillar and the [1U1C accountability model](https://github.com/bryanunitek/TrueAI/blob/main/regulatory-alignment/v1/CROSS-CUTTING-HUMAN-RESPONSIBILITY.md) — 1 Person : 1 User : 1 Claw.) A platform owner can provide the AI substrate; it must not also own the definition of what lawful institutional use means, nor the spine that enforces it.
 
 ## 4. Why the governance layer cannot be owned by the AI maker
 
@@ -67,7 +67,7 @@ A market needs these separated. If the maker of the AI also authors the rules fo
 The structural separations the TrueAI Foundation and the UniCORE-AI reference architecture insist on are all refusals to be that chokepoint:
 
 - **The manual is a gift, not a product.** The foundation triad is CC BY 4.0 — given, not sold, irrevocable. The instructions for lawful AI use are owned by no one because they are given to everyone.
-- **The accountability spine is owner-neutral.** [1U1C](https://github.com/bryanunitek/UniVERSE) — one person, one user, one Claw, resolving every consequential action to one named, never-erased human — binds *even the platform owner's* AI. It is not a feature the maker graciously provides; if the maker owns the spine, the spine is theirs to bend.
+- **The accountability spine is owner-neutral.** [1U1C](https://github.com/bryanunitek/TrueAI/blob/main/regulatory-alignment/v1/CROSS-CUTTING-HUMAN-RESPONSIBILITY.md) — one person, one user, one Claw, resolving every consequential action to one named, never-erased human — binds *even the platform owner's* AI. It is not a feature the maker graciously provides; if the maker owns the spine, the spine is theirs to bend.
 - **Government auditors are read-only inspectors, never authors.** Oversight does not become ownership.
 - **Per-jurisdiction court-order quorum; the Foundation does not adjudicate between courts.** No single entity, and no single jurisdiction, holds the master key.
 - **Foundations hold no IP and cannot commercialise.** Legitimacy is separated from revenue by construction.

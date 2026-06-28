@@ -107,8 +107,8 @@ The local Claw's `HEARTBEAT.md` (if present) describes the current arc's permiss
 - TrueAI [`foundation-requirements/v1/10005-Foundation-Instruction-For-Claws.md`](../../foundation-requirements/v1/10005-Foundation-Instruction-For-Claws.md) — the truth contract.
 - TrueAI [`docs/10001-Singular-Pairing-Principle.md`](../../docs/10001-Singular-Pairing-Principle.md) — the pair structure.
 - TrueAI [`docs/00056-Absolute-Safety-Invariants.md`](../../docs/00056-Absolute-Safety-Invariants.md) — the Nine Invariants.
-- TrueAI [`docs/10004-Reversibility.md`](../../docs/10004-Reversibility.md) — the reversibility specification.
-- TrueAI [`docs/00028-Foundation-Gift-Principle.md`](../../docs/00028-Foundation-Gift-Principle.md) — the gift posture.
+- TrueAI [`docs/10004-Reversibility.md`](../../docs/10004-Reversibility-How-TrueAI-Handles-A-False-TRUE.md) — the reversibility specification.
+- TrueAI [`docs/00028-Foundation-Gift-Principle.md`](../../docs/00028-TrueAI-Foundation-Gift-Principle.md) — the gift posture.
 - TrueAI [`workspace-doctrine/v1/STANDARD-ENVELOPE.md`](STANDARD-ENVELOPE.md) — what a standard-envelope Claw can and cannot do.
 - TrueAI [`workspace-doctrine/v1/REPO-SCOPING.md`](REPO-SCOPING.md) — repo scope discipline.
 - TrueAI [`workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) — local-copy-first reads, freshness check, human-authenticated updates.

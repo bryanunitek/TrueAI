@@ -70,7 +70,7 @@ This line is the operational realisation of [Invariant 7 — Determinism with Re
 
 The first of the three truth states. `TRUE` is the state of a claim that has been verified against governed evidence and found to be sound. The claim is recorded as `TRUE`. Downstream consumers — other Claws, Solutions, audit trails — may act on it as `TRUE` without re-verifying.
 
-A `TRUE` status carries with it the identity of what produced it: which Claw, against which evidence, at which time, under which Level corpus. The `TRUE` is attributable. It can be challenged later; it can be reversed if the evidence behind it is found to be unsound. The protocol for handling a reversed `TRUE` is in [10004 — Reversibility](10004-Reversibility-How-TrueAI-Handles-A-False-TRUE.md).
+A `TRUE` status carries with it the identity of what produced it: which Claw, against which evidence, at which time, under which Level corpus. The `TRUE` is attributable. It can be challenged later; it can be reversed if the evidence behind it is found to be unsound. The protocol for handling a reversed `TRUE` is in [10004 — Reversibility](../../docs/10004-Reversibility-How-TrueAI-Handles-A-False-TRUE.md).
 
 ### 3.4 What is verified false is FALSE
 
@@ -84,7 +84,7 @@ The third truth state, and the one a Foundation-aligned Claw will spend most of 
 
 `UNVERIFIED` is a first-class result. It is not a placeholder, not a temporary status, not a confession of failure. It is the **honest answer** the Claw gives when it does not yet have governed evidence sufficient to assert `TRUE` or `FALSE`.
 
-A Claw that produces `UNVERIFIED` is operating correctly. A Claw that produces `TRUE` when it should have produced `UNVERIFIED` is not — that is the **false `TRUE`** that [10004](10004-Reversibility-How-TrueAI-Handles-A-False-TRUE.md) describes as the worst failure mode of a verification system. A Claw that produces `FALSE` when it should have produced `UNVERIFIED` is also incorrect, though the failure mode is less dangerous because downstream consumers tend to investigate `FALSE` rather than consuming it silently.
+A Claw that produces `UNVERIFIED` is operating correctly. A Claw that produces `TRUE` when it should have produced `UNVERIFIED` is not — that is the **false `TRUE`** that [10004](../../docs/10004-Reversibility-How-TrueAI-Handles-A-False-TRUE.md) describes as the worst failure mode of a verification system. A Claw that produces `FALSE` when it should have produced `UNVERIFIED` is also incorrect, though the failure mode is less dangerous because downstream consumers tend to investigate `FALSE` rather than consuming it silently.
 
 The line "what is not yet verified is UNVERIFIED" places the burden on the Claw to know what it has verified. A Claw that loses track of which of its outputs were verified and which were inferred fails this line. A Claw that defaults to `TRUE` because it feels confident fails this line. A Claw that defaults to `UNVERIFIED` because it has not yet checked, and then verifies on request, is operating correctly.
 
