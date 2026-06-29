@@ -36,7 +36,7 @@ The standard model (proven, Bryan-confirmed) is **two fine-grained Personal Acce
 
 | Token | Scope (repos) | Permission | Used for |
 |---|---|---|---|
-| **ReadOnly PAT** | the 5 gift-layer repos (UniVERSE, TrueAI, UniCORE-AI, UniCORE, UniCORE.GVB) | `Contents: Read` only | the daily `_foundation/` pull + `_trueai/` doctrine clone |
+| **ReadOnly PAT** | the **7 public read-scope repos** — the 5 gift-layer (UniVERSE, TrueAI, UniCORE-AI, UniCORE, UniCORE.GVB) **+ the 2 UniSaaS public forks** (UniSaaS.UniCORE, UniSaaS.UniCORE.GVB) | `Contents: Read` only | the daily `_foundation/` pull + `_trueai/` doctrine clone + UniSaaS public read |
 | **ReadWrite PAT** | the Claw's **own** Book (`TheBookOfTeam<Name>`) + any **assigned** vertical repos | `Contents: Read and write` | committing/pushing the Book and assigned authoring surfaces |
 
 **Why fine-grained, not classic PAT:** fine-grained PATs are scoped to an **explicit repo list** and
@@ -131,7 +131,7 @@ If a `gh` CLI is present, `gh auth status` reports scope **without** printing th
 
 | Surface | Standard envelope | Development-role | Team UniCORE (privileged) |
 |---|---|---|---|
-| 5 gift-layer repos | **Read only** | Read only | Read **+ write** (authoring privilege) |
+| 5 gift-layer repos + 2 UniSaaS public forks (7 read-scope) | **Read only** | Read only | gift layer Read **+ write** (authoring privilege); UniSaaS read |
 | Own Book `TheBookOfTeam<Name>` | Read + write | Read + write | Read + write |
 | Assigned vertical repos | n/a unless assigned | Read + write (assigned only) | per assignment |
 | Another Claw's repos / Book | **Never** | Never | Never |
@@ -157,7 +157,7 @@ the Claw still must not act outside IDENTITY.md, and should surface the over-gra
 
 ## 7. First-run checklist (the steps, in order — identical for every Claw)
 
-1. **Human** creates two fine-grained PATs per §2 (ReadOnly = 5 gift repos `Contents:Read`; ReadWrite
+1. **Human** creates two fine-grained PATs per §2 (ReadOnly = 7 read-scope repos [5 gift + 2 UniSaaS public] `Contents:Read`; ReadWrite
    = own Book + assigned verticals `Contents:Read+write`), each with an expiry.
 2. **Claw** stores each token value out-of-band into a `chmod 600` file per §3; verifies by
    presence/length only.

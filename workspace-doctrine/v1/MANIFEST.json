@@ -74,9 +74,9 @@
     },
     {
       "name": "GITHUB-ACCESS.md",
-      "sha256": "2c0f9aab66b1d2b9d1c158cd78841df185ac2986ba577f0d3cf232241a93736d",
-      "sizeBytes": 10350,
-      "description": "Single source of truth for how a Claw obtains + holds GitHub credentials securely: two fine-grained PATs (RO gift layer / RW own Book), credential labels follow the Technical Name, scope boundary + secret boundary, human-creates-tokens, chmod 600 presence-not-value storage, first-run checklist"
+      "sha256": "dc93fffe8ebd0121d5d79fadf87c74e76a1580b2d4f06ab78e406c9186ec35be",
+      "sizeBytes": 10575,
+      "description": "Single source of truth for how a Claw obtains + holds GitHub credentials securely: two fine-grained PATs (RO = 7 read-scope repos [5 gift + 2 UniSaaS public] / RW own Book), credential labels follow the Technical Name, scope boundary + secret boundary, human-creates-tokens, chmod 600 presence-not-value storage, first-run checklist"
     },
     {
       "name": "MANIFEST.md",
