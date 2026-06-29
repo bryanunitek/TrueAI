@@ -38,13 +38,32 @@ AI, as currently distributed, breaks this rule. The capability is shipped to hun
 
 This is distinct from the [Inconsistency Problem](./THE-INCONSISTENCY-PROBLEM.md). Inconsistency is about the *output* drifting. The Withheld-Manual Problem is about the *instructions for use* being absent by design. A consistent AI with no manual for lawful operation is still undeployable in a setting that touches money, freedom, health, or rights — because the operator has been handed power without the discipline that makes power safe.
 
-## 2. The absence is a position, not an accident
+## 2. The absence is a position, not an accident — and the liability shift is the mechanism
 
-The omission is monetisable, and that is why it persists.
+The omission of the operating manual is monetisable, and that is why it persists. But the mechanism is now more visible than it was when this document was first drafted.
 
-A manual for responsible and lawful use would tell the operator where the AI must not be trusted, what governance the law already requires, and who must remain accountable. That manual reduces the operator's dependence on the vendor. Its absence increases that dependence. The vendor that withholds the manual keeps the operator reliant — first on the capability, then on the vendor's eventual remedy for the harms the missing manual would have prevented.
+**The deal that was made.** The AI companies and the governments that regulate them are not adversaries in this story. The large AI platform owners have the resources to shape regulation through lobbying, through revolving-door appointments, and through the simple fact that no government can afford to be seen as anti-innovation. The result is a regulatory architecture that **looks like enforcement** — hard fines, named obligations, documented enforcement dates — but whose actual incidence falls on the party downstream of the AI vendor: the software company, the SI, the law firm, the bank, the hospital that deployed the AI into a consequential workflow.
 
-This is the **manufactured-saviour** pattern. The crisis is not external to the business model; it is upstream of it. Withhold the discipline, let the consequences accumulate, then sell the cure. A genuine public good does not engineer the crisis it later resolves. The arrival of the maker as the rescuer — with proprietary governance, proprietary compliance, proprietary trust — is the tell that the gap was an asset all along.
+The fines are real. The deterrent effect is not the point — the point is that the fine is visible enough to show "something is being done," while the liability it creates lands on operators who were not at the table when the terms were set.
+
+**The liability shift.** Between 2023 and 2025, the major AI platform owners revised their terms of service with a structural move that went largely unremarked in the trade press:
+
+> *"The Customer is responsible for ensuring outputs are accurate, lawful, and fit for purpose."*
+
+That is the liability stack, relocated. The AI vendor retains the capability and the revenue. The deployer absorbs the accountability for everything the AI does in practice. No terms-of-service amendment can fully export this — not because the clause is unenforceable, but because governments have now overlaid statutory obligations on the same deployer, regardless of what the contract says.
+
+**The overlay no one told you about.**
+
+- **EU AI Act — Article 10(5) and Annex I.** High-risk AI systems in employment, credit, critical infrastructure, justice. Fines up to **€30 million or 6% of global annual turnover**, whichever is higher. Applies to **deployers**, not AI vendors. Enforcement date: **December 2026**.
+- **UK Product Liability Act 2024.** Software and AI-assisted products now covered without requiring proof of defect at manufacture. The deployer that put the AI in the consequential path bears the liability.
+- **UK ICO — AI guidance.** Automated-decision obligations under UK GDPR Article 22 fall on the deploying organisation, not the AI vendor.
+- **US FDA.** Deployers of AI-assisted medical devices cannot rely on the vendor's 510(k) clearance as their compliance shield.
+
+These are not hypothetical. They are on the statute books, in force or approaching their enforcement date.
+
+**The software company is the last to know.** The operators absorbing this stacked liability — the ISVs, the system integrators, the law firms, the banks, the hospitals — are not in the AI regulation working groups. They were not in the EU trilogue negotiations. They were not in the Senate tech briefings. They are not in the rooms where the fines are sized to be visible and the liability exposure is quietly redirected. When the enforcement action or the product-liability claim arrives, it arrives on their door, not the AI vendor's.
+
+This is the financial expression of the Withheld-Manual Problem. The manual for lawful deployment would have told the deployer that the liability floor had dropped — that the AI vendor's contract had already shifted the stack, and that regulators had then layered enforcement on top of the same deployer. Its absence kept the deployer uniformed about the exposure accumulating on their balance sheet. The crisis was manufactured; the deployer paid for it without knowing the bill was coming.
 
 ## 3. The OS-as-AI escalation
 
