@@ -74,8 +74,8 @@
     },
     {
       "name": "GITHUB-ACCESS.md",
-      "sha256": "dc93fffe8ebd0121d5d79fadf87c74e76a1580b2d4f06ab78e406c9186ec35be",
-      "sizeBytes": 10575,
+      "sha256": "ed91567d5015f72b28c883d784e7f4bc8c0be36723153fcf219f6911daeeb00a",
+      "sizeBytes": 12849,
       "description": "Single source of truth for how a Claw obtains + holds GitHub credentials securely: two fine-grained PATs (RO = 7 read-scope repos [5 gift + 2 UniSaaS public] / RW own Book), credential labels follow the Technical Name, scope boundary + secret boundary, human-creates-tokens, chmod 600 presence-not-value storage, first-run checklist"
     },
     {

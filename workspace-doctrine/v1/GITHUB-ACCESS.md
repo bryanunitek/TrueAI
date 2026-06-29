@@ -112,6 +112,44 @@ credential by **presence + byte-length + file-exists-0600** only — never by re
 
 ---
 
+## 3a. Shared-host model — MANDATORY when multiple Claws share one OS account (locked 2026-06-29 23:43 UTC)
+
+The single-host-per-Claw assumption is **wrong** for fleets where several Claws run under **one OS
+account on one box** (e.g. `uk-unicoreclaw-001` hosting bryan / twgaic / thepowerplayer / unitektime /
+unicore as one Linux user). On a shared account, three pieces of GLOBAL state collide and a naive
+per-Claw setup silently clobbers the others. This was found live (surfaced by the unitektime Claw):
+duplicate `Host github.com` blocks meant SSH honoured only the FIRST, so every Claw's git used ONE
+Claw's key; `git config --global` identity was last-writer-wins; a truncating `> ~/.git-credentials`
+wiped other Claws' PATs.
+
+**The shared-host rules (all three mandatory):**
+
+1. **SSH — one Host ALIAS per Claw, never a bare `Host github.com`.** Each Claw gets a distinct alias
+   pointing at its own staged key, and its repo remotes use that alias:
+   ```
+   Host github-<project>
+     HostName github.com
+     User git
+     IdentityFile /home/<acct>/.openclaw-<project>/uk-unicoreclaw-001-<project>
+     IdentitiesOnly yes
+   ```
+   Remote form: `git@github-<project>:bryanunitek/<repo>.git`. Do **not** leave a bare
+   `Host github.com` default — a mis-scoped remote must fail loudly, not silently borrow another key.
+2. **git identity — PER-REPO, never `--global`.** Set `git -C <repo> config user.name`
+   `uk-unicoreclaw-001-<project>` / `user.email <human>` in each in-scope repo. `--global` is shared
+   and will clobber siblings.
+3. **Credentials — never truncate shared `~/.git-credentials`.** SSH (per-alias key) is the
+   authoritative boundary on a shared host; the HTTPS PAT store is fallback only. If used at all,
+   **merge** lines, never `>`-overwrite. Prefer a per-Claw store path
+   (`credential.helper "store --file=~/.openclaw-<project>/.git-credentials"`) set per-repo.
+
+**Detection:** before any wiring on a shared host, inspect `~/.ssh/config` (count `Host github.com`),
+`git config --global user.name`, and `~/.git-credentials` (line count). If global state already
+belongs to another Claw, switch to the alias/per-repo model and **repair** the shared config (fixing
+all siblings) rather than appending a fourth dead block.
+
+---
+
 ## 4. Verification (how a Claw proves access works — without leaking)
 
 ```bash
