@@ -8,14 +8,14 @@
   "files": [
     {
       "name": "README.md",
-      "sha256": "439dd498b9350a12ed8e1d7c9f06c7988c6086c4fd847efae9c56d90f400dba6",
-      "sizeBytes": 6947,
+      "sha256": "080830708899cd71a0a69af36c70bed95258f176eef23e3b498a8c9aab71f24c",
+      "sizeBytes": 7282,
       "description": "Entry point — folder purpose, read order at session-opening, maintenance posture, cross-references"
     },
     {
       "name": "FOUNDATION.md",
-      "sha256": "016f166a3693727dc4864fe3819238aca9a691062ad145eec04624cf727c6613",
-      "sizeBytes": 9781,
+      "sha256": "f530930f36c7db9a38f2d36889b94229a735fa30c14c1eda82f61926324846a1",
+      "sizeBytes": 9820,
       "description": "Portable foundation doctrine — layering rule, truth contract, Singular Pairing, what this Claw never does"
     },
     {
@@ -56,14 +56,14 @@
     },
     {
       "name": "BOOK-OBLIGATION.md",
-      "sha256": "30fcf5d56b63fc797472e529b294c8bba50339eed60eb6f65ef3b31ab53e176e",
-      "sizeBytes": 29683,
+      "sha256": "8b1273b14c55242f4bc889d5f02ffa1b5a1a83c35ef2717731c8d319b22247fa",
+      "sizeBytes": 29651,
       "description": "Every Claw maintains its own Book; Book repo posture (single-branch main); Sanity Check ritual context (§5.6 / §5.7 / §5.8)"
     },
     {
       "name": "FOUNDATION-GIFT-LAYER-CLONES.md",
-      "sha256": "c259ca04c10c9797ed0b3ba625853cfb7a5e2a7c769dd3e9c8d85326906690f7",
-      "sizeBytes": 11910,
+      "sha256": "4d89db4026d57018b87ba7bcd9d3d5d7585f74ad55717c66b4106c4fc68bc0f1",
+      "sizeBytes": 11888,
       "description": "Every Claw maintains read-only local clones of the foundation gift-layer; daily pull cadence; CC BY 4.0 conformance (§5.9)"
     },
     {
