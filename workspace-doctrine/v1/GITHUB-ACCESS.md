@@ -43,6 +43,20 @@ The standard model (proven, Bryan-confirmed) is **two fine-grained Personal Acce
 expire. A classic PAT or an account-wide key grants everything the human can reach — that violates
 the scope boundary. **Use fine-grained, repo-listed, with an expiry.**
 
+**Credential labels follow the Technical Name (`IDENTITY.md`).** Each authoring Claw's credentials
+are labelled off its **Technical Name** (`<host>-<project>`), never its Personal Team Name:
+
+| Credential | Label |
+|---|---|
+| ReadOnly PAT | `<host>-<project> {ReadOnly}` |
+| ReadWrite PAT | `<host>-<project> {ReadWrite}` |
+| SSH key | `<host>-<project>` |
+| API key (model provider) | `<host>-<project>` |
+
+This keeps every credential traceable to one Claw by its operational identifier. The Personal Team
+Name (`Team <Project>` / `<Project> Claw`) is the pairing anchor and **never** appears on a
+credential label. (See `IDENTITY.md` → "Two name namespaces".)
+
 **SSH key vs PAT — both are acceptable; do not mix verdicts:**
 - A **read-only SSH deploy key** (no write scope) is an acceptable substitute for the ReadOnly PAT.
 - A PAT is generally simpler for the two-tier (RO + RW) split and is the **default** this doctrine

@@ -13,7 +13,7 @@ This file lists every document in the `workspace-doctrine/v1/` folder, with a on
 | [`README.md`](README.md) | Entry point — folder purpose, read order at session-opening, maintenance posture, cross-references |
 | [`FOUNDATION.md`](FOUNDATION.md) | Portable foundation doctrine — layering rule, truth contract, Singular Pairing, what this Claw never does |
 | [`SOUL.md`](SOUL.md) | Portable disposition — truth-before-warmth, subordinate-by-design, quiet competence, memory discipline |
-| [`IDENTITY.md`](IDENTITY.md) | Template for local Claw identity — Claw name, paired human, engagement, envelope, authorised repo scope |
+| [`IDENTITY.md`](IDENTITY.md) | Template for local Claw identity — Technical Name vs Personal Team Name namespaces, Claw name, paired human, engagement, envelope, authorised repo scope |
 | [`USER.md`](USER.md) | Template for human-authority binding — human name, contact, company, communication preferences |
 | [`STANDARD-ENVELOPE.md`](STANDARD-ENVELOPE.md) | Standard envelope spec — what standard-envelope Claws can and cannot do |
 | [`REPO-SCOPING.md`](REPO-SCOPING.md) | Repo scope discipline — scope categories, enumeration rules, scope change process |
