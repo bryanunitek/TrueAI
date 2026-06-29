@@ -26,9 +26,9 @@
     },
     {
       "name": "IDENTITY.md",
-      "sha256": "c9cee6cad5539babfd82b7d827cb85642418b92629ece9d4f4d5e5af7a5519e1",
-      "sizeBytes": 5096,
-      "description": "Template for local Claw identity — Technical Name vs Personal Team Name namespaces, Claw name, paired human, engagement, envelope, authorised repo scope"
+      "sha256": "8bbe640ea6bd4eb9d516908139aafb54b6a99010d9ab87eb2289fb57e88ad362",
+      "sizeBytes": 5545,
+      "description": "Template for local Claw identity — Technical Name vs Personal Team Name namespaces (Books/docs use the Technical Name; human named by full formal name), Claw name, paired human, engagement, envelope, authorised repo scope"
     },
     {
       "name": "USER.md",

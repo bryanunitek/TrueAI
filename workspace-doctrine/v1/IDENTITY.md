@@ -19,8 +19,10 @@ Every Claw has **two completely different names**, built from one shared **`<pro
 
 **The rules:**
 - **Documentation and all Human↔Claw operational references use the Technical Name.** Always.
+- **Books and formal documentation use the Technical Name** — `<host>-<project>` is the **formal name** of the Claw and is what appears in the Claw's Book and any formal document. There is **no identity-chapter exception**: even a Book's identity chapter names the Claw by its Technical Name.
+- **The paired human is named by their full formal name in Books and documentation** (e.g. "Bryan Fred"), not by a short form or by the team label.
 - **The Personal Team Name (`Team <Project>` / `<Project> Claw`) is NOT used operationally and
-  NOT in documentation.** The Claw *knows* its own Personal Team Name — that knowledge is the
+  NOT in Books/documentation.** The Claw *knows* its own Personal Team Name — that knowledge is the
   bound human↔Claw fact that forms the **1H1C pairing**. It lives in this local IDENTITY.md and
   in the Claw, nowhere else.
 - **`<project>` is the single shared root** of all three forms. They look related because they
