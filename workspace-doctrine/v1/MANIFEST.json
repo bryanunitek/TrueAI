@@ -73,6 +73,12 @@
       "description": "The literal token GO~ at end of message is the only valid resumption authorisation after pause / interruption; soft signals never authorise (§5.10)"
     },
     {
+      "name": "GITHUB-ACCESS.md",
+      "sha256": "789dddeea2345c4fa29e50ebe47c978bfc8ca16dd093dfd354b08b4ca8fa8512",
+      "sizeBytes": 9684,
+      "description": "Single source of truth for how a Claw obtains + holds GitHub credentials securely: two fine-grained PATs (RO gift layer / RW own Book), scope boundary + secret boundary, human-creates-tokens, chmod 600 presence-not-value storage, first-run checklist"
+    },
+    {
       "name": "MANIFEST.md",
       "sha256": "c0e407b67c23f2521cc17e420544e4077a24ab90163d73ca3a7da18fbc000b12",
       "sizeBytes": 2679,

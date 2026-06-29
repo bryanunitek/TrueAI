@@ -25,6 +25,7 @@ This folder is distinct from sibling folders in this repository:
 | [`USER.md`](USER.md) | Template for the local human binding. The local Claw fills in human name, contact, context. |
 | [`BOOK-OBLIGATION.md`](BOOK-OBLIGATION.md) | The Book obligation: every Claw running under the doctrine maintains `TheBookOfTeam<ClawName>` as canonical-truth substrate (TrueAI §5.6). |
 | [`FOUNDATION-GIFT-LAYER-CLONES.md`](FOUNDATION-GIFT-LAYER-CLONES.md) | The Foundation gift-layer clone obligation: every Claw maintains read-only local clones of UniVERSE / TrueAI / UniCORE-AI / UniCORE / UniCORE.GVB with daily pull cadence (TrueAI §5.9). |
+| [`GITHUB-ACCESS.md`](GITHUB-ACCESS.md) | **Single source of truth for GitHub credentials.** Two fine-grained PATs (RO gift layer / RW own Book), the scope boundary + the secret boundary, human-creates-tokens, `chmod 600` presence-not-value storage, first-run checklist. If two Claws disagree on whether a setup is secure, this file decides. |
 | [`FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) | The local-copy-first read pattern, the freshness-check protocol against this canonical repo, and the human-authentication requirement for any update. |
 | [`MANIFEST.md`](MANIFEST.md) | Integrity index, human-readable form. |
 | [`MANIFEST.json`](MANIFEST.json) | Integrity index, machine-parseable form. |
