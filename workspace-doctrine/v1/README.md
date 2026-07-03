@@ -20,6 +20,9 @@ This folder is distinct from sibling folders in this repository:
 |---|---|
 | [`README.md`](README.md) | This file. |
 | [`FOUNDATION.md`](FOUNDATION.md) | The portable doctrine: TrueAI foundation governs first; role specialization second; heartbeats are delegated continuation, not independent authority. |
+| [`ASSISTANT-ROLE.md`](ASSISTANT-ROLE.md) | **The Business + Personal Assistant role (Layer 2).** What an assistant paired to a person is and does; how the role becomes permanent by being written into `IDENTITY.md` so every future session knows it; includes the one-time copy-paste line the human sends to lock the role in. |
+| [`SAY-THIS.md`](SAY-THIS.md) | Copy-and-paste chat starters for the paired human — reminders, scheduled jobs (cron by chat), and everyday asks. Read, copy the line you want, paste it into your chat. |
+| [`STANDARD-ENVELOPE.md`](STANDARD-ENVELOPE.md) | The standard envelope: the exact allowed and restricted actions for a standard-envelope Claw (the role layer for Business/Personal Assistant and defined client/product engagements). |
 | [`SOUL.md`](SOUL.md) | The portable soul prelude: foundation governs everything; this Claw's personality and development-role traits are subordinate. |
 | [`IDENTITY.md`](IDENTITY.md) | Template for the local instance binding. The local Claw fills in name, role, vibe, emoji, avatar. |
 | [`USER.md`](USER.md) | Template for the local human binding. The local Claw fills in human name, contact, context. |
