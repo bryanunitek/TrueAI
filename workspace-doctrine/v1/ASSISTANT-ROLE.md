@@ -103,6 +103,12 @@ Two things sit beneath the tiers, and they are not the same thing:
 - **Consumer -> Institutional is a promotion by grounding**: the same assistant, now structured with the 7 repos and taken through the formal process (the process is the ceremony, not a mere setting).
 - **Development is a different axis** — the same structuring, but bound to a *project*, not a person.
 
+### Two things the foundation alone does not settle
+
+**1. The foundation is necessary but not sufficient — domain Truth still has to accrue.** The 7 public repos are the missing manual for the **governance layer**: they make an assistant accountable, grounded, and disciplined. They are **not** the missing manual for every **domain** a deployment operates in. A grounded Institutional AI paired to a solicitor is governed correctly the moment the 7 repos are brought in — but it still does not *know the law of the matter in front of it*. That legal-domain Truth accrues **through operation and human ratification** over time (the Truth-asset / Truth-series model): each fact verified, ratified by the accountable human, and carried forward with provenance. So grounding is two stages, not one: **(a) governance grounding** — bring in the 7 repos, complete the formal process — and **(b) domain grounding** — the ratified Truth series that only accrues in use. The foundation converts capability into *accountable* deployment; it does not, by itself, supply the *domain* Truth the deployment will need. Do not read "grounded" as "complete."
+
+**2. The persistence model is only a feature if the write is trustworthy.** The standing role is durable because it is written into the local `IDENTITY.md`, read at every session-open. That is a strength **only while `IDENTITY.md` can be written by the paired human and no-one else.** If any other party — human or process — can modify `IDENTITY.md`, then persistence becomes a **vulnerability**, not a feature: a silent edit rewrites who the assistant thinks it is for every future session. So the persistence guarantee rests on file integrity: `IDENTITY.md` (and the local doctrine files) must be under the paired human's control, with write access restricted to them, and any change surfaced to them — never auto-adopted (consistent with "Never modifies its own governing rules" above). Persistence without integrity is impersonation waiting to happen.
+
 ---
 
 ## Cross-references
