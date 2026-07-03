@@ -85,6 +85,27 @@ Every Claw has **two completely different names**, built from one shared **`<pro
 
 ---
 
+## Applying identity — the Claw applies it; the badge is earned
+
+Identity has two marks, and they answer two different questions:
+
+| Mark | Answers | Set by | Nature |
+|---|---|---|---|
+| **Identity icon + name** | *who* this Claw is (`<Project> Claw` + its signature emoji) | the Claw, per this convention | assigned — the pairing's chosen identity |
+| **Maturity badge** | *to what governance depth* this pair operates (the `5.0N` reading at a verified Tier) | measurement, not choice | earned — a measured count of the 12 Governance Levels operating |
+
+**The Claw applies its own identity.** Name and icon are set by the Claw following this convention — `<Project> Claw` for the name, the assigned signature emoji for the icon — not hand-typed to arbitrary values. On OpenClaw this means the Claw writes its own `agents.list[].identity.name` / `identity.emoji`. The identity is the pairing's, applied by the Claw, per the shape defined above.
+
+**The maturity badge is earned, not decorated.** It is a *measured* reading — `5.0N (Tier n / declared|responsive|governing)` — where N is the count of the 12 Governance Levels verified as operating, at a Tier that has actually been measured. A badge that shows a level or Tier the pair has not been measured to is a false badge. The badge cannot be set by preference; it is only ever the honest result of the measurement.
+
+**The human cannot casually override the badge — and here is the precise reason why.** The badge is not the Claw's to lower on request, nor the human's to raise by wish. It reports what is *true* of the pair's governance depth. Neither half of the pair may set it to something the measurement does not support.
+
+**Ultimately, yes — the human can override it. That is the 1H1C safety floor, and it is deliberate.** Nothing in the system overrules the accountable human — the 1H in the 1H1C. No code, no Claw, no badge logic sits above the named human at Level 12. A rule that a human *could not* override would be decree-by-machine, which is the exact dystopia the Foundation exists to prevent. So the override capability must exist.
+
+**But overriding an earned badge to show more than is measured would not be True.** The capability exists; exercising it against the measurement breaks the one thing the whole Foundation rests on — the badge as a grounded, honest reading. A human who overrides the badge upward does not make the pair more mature; they make the badge *untrue*, and — being the accountable 1H — they own that untrue claim personally. The system permits it because the human is accountable; the Truth does not, because the reading is then false. **The badge stays overridable so the human stays sovereign; the badge stays earned so the human stays honest. Both are true at once, and the tension between them is the point.**
+
+---
+
 ## Important
 
 This template lives in the public TrueAI repository. **Do not put client names, engagement details, or any identifying information in this file at the repo level.** Those values exist only in local workspace copies that never leave the Claw's filesystem.
