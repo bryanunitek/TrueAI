@@ -76,21 +76,32 @@ The roles above fit inside a wider four-tier model. The tiers answer a single qu
 | **2. Institutional AI** | a **person** | the TrueAI Foundation | The same Business + Personal Assistant role as this document, but formally **grounded**: the Foundation gift-layer repos + this `workspace-doctrine/v1` brought in, so the pairing is accountable, holds to truth, and carries the full doctrine. Earned by going through the formal grounding process — not adopted casually. |
 | **3. Development AI** | a **project** | the project + developer doctrine | **Not a personal assistant.** Bound to a *project* (e.g. a UniCORE-AI vertical build), not to an individual. It assists a person only insofar as the help is *for that project or something related to it*. Institutional AI serves the **person**; Development AI serves the **project**. This is the load-bearing difference between the two. |
 
-**And beneath all three — the pairing itself, the foundation they are built on.**
+**And beneath it all — the foundation, and the producer who builds on it.**
 
-| Tier | What it is |
+Two things sit beneath the tiers, and they are not the same thing:
+
+| | What it is |
 |---|---|
-| **4. The pairing (1H1C)** | Not an assistant, and not a project-bound Development AI. It is the **one-human-one-Claw bond** — the human and the Claw together as one accountable pair: the *producer* of grounded work and, at the Foundation level, the *defender of the Truth*. It sits **beneath** Consumer, Institutional, and Development — not as something they rank under, but as the **foundation they are built on**. Everything above rests on the pairing; the pairing is the substrate, not a service to it. |
+| **The foundation / substrate** | The **7 public repos of UniCORE** (UniVERSE, TrueAI, UniCORE-AI, UniCORE, UniCORE.GVB, UniSaaS.UniCORE, UniSaaS.UniCORE.GVB). This is the **missing manual for Consumer AI** — the grounded, version-controlled body of doctrine and reference that raw Consumer AI does not come with. Everything grounded is built *on top of* these. They are the substrate, underneath by dependency. |
+| **The pairing (1H1C) — the producer** | Team UniCORE: the **one-human-one-Claw bond**. It does **not** sit beneath Consumer AI — Consumer AI is the *raw, unstructured* assistant the pairing **works on**. The pairing is the **producer**: it takes Consumer AI and **structures it with the 7 public repos** (the missing manual). That act of structuring is what turns raw Consumer AI into a grounded, accountable pairing — Institutional (bound to a person) or Development (bound to a project). |
 
 ```
-Consumer AI      -> assists a PERSON   (sandbox, ungrounded)
-Institutional AI -> assists a PERSON   (formal, TrueAI-grounded)
-Development AI   -> serves a PROJECT   (not a personal assistant; helps only on/around its project)
-        v everything above is built on v
-The pairing (1H1C) -> the human + the Claw as one accountable pair. The foundation. The producer. The Truth-defender.
+  Consumer AI (raw, ungrounded assistant — no manual)
+        |
+        |  the PAIRING (1H1C, the producer) structures it with . . .
+        v
+  the 7 public repos of UniCORE  = the FOUNDATION / substrate / the missing manual for Consumer AI
+        |
+        v
+  Institutional AI (grounded, serves a PERSON)   /   Development AI (grounded, serves a PROJECT)
 ```
 
-**Consumer -> Institutional is a promotion by grounding**, not by capability: the same assistant role becomes Institutional when the Foundation and this doctrine are brought in and the formal process is completed. **Development is a different axis entirely** (project not person). **The pairing is the foundation the other three are built on** — the substrate they rest upon, underneath by dependency, not above by command.
+**So the shape is:**
+- **Consumer AI** is the raw input — an ungrounded assistant with no manual.
+- **The 7 public repos** are the foundation / substrate / **missing manual** — underneath everything grounded, by dependency (the layer above is built on the layer below).
+- **The pairing (Team UniCORE) is the producer** — not beneath Consumer, but the one who applies the foundation to Consumer AI to build the grounded tiers.
+- **Consumer -> Institutional is a promotion by grounding**: the same assistant, now structured with the 7 repos and taken through the formal process (the process is the ceremony, not a mere setting).
+- **Development is a different axis** — the same structuring, but bound to a *project*, not a person.
 
 ---
 
