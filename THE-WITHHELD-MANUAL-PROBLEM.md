@@ -4,15 +4,26 @@
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 First published: 2026-06-28
+Revised: 2026-07-06 (honest uncertainty framing; Universal Manual as the structural answer)
 Status: Public. Given, not sold. Irrevocable. CC BY 4.0.
 
 ---
 
 ## Summary
 
-The AI makers — including the largest platform owners — ship the most consequential technology of the era with no operating manual for using it **responsibly** or **legally**. They ship the capability. They withhold the instructions for safe and lawful use. The omission is not an oversight; the absence creates a dependency, and the dependency is monetisable.
+The AI makers — including the largest platform owners — ship the most consequential technology of the era with no operating manual for using it **responsibly** or **legally**. They ship the capability. The instructions for safe and lawful use are absent.
 
-The predictable sequence:
+**An honest admission:** we do not know *why* the manual is absent. Three explanations are possible, and only the AI companies know which is true:
+
+- **Missing** — the manual existed conceptually but nobody compiled it. An omission, not a strategy.
+- **Withheld** — the companies have it internally (they must, to govern their own operations) but do not share it. The absence is deliberate; the dependency is monetisable.
+- **Never written** — nobody thought to ground AI to an operating manual at all. The absence is not strategic but structural: the thing was never conceived as necessary.
+
+We cannot prove which. We can observe the *effect*: capability shipped without discipline, consequences accumulating on deployers who were given no instructions, and a governance gap that — whether by design or neglect — someone will eventually charge to fill.
+
+The structural answer is the same regardless of cause: **the manual must exist, it must be public, and it must be given away.** That answer is the [Universal Manual](#9-the-universal-manual) — the 7 public repos of the TrueAI Foundation triad (UniVERSE, TrueAI, UniCORE-AI) and their sister references (UniCORE, UniCORE.GVB, UniSaaS.UniCORE, UniSaaS.UniCORE.GVB), published CC BY 4.0, given not sold, irrevocable.
+
+The predictable sequence (if the absence is strategic):
 
 1. **Build and ship the AI** at maximum reach, embedded ever deeper — into apps, into the cloud, into the operating system itself.
 2. **Withhold the manual** — no user manual, no technical manual, no honest account of how to operate the AI without breaking the law, harming people, or producing actions no one can be held accountable for.
@@ -22,6 +33,8 @@ The predictable sequence:
 This cannot be a monopoly. Whoever owns the AI, **and** the rules for the AI, **and** the remedy for breaking the rules, owns everything. That is one chokepoint, not three businesses. **AI is for humanity.** The instructions for using it responsibly and lawfully cannot be the proprietary asset of the company selling the AI.
 
 The TrueAI Foundation's answer is structural, not rhetorical: **the manual is given away.** The foundation triad — UniVERSE, TrueAI, UniCORE-AI — is published CC BY 4.0, given not sold, irrevocable, precisely so that no entity — not a platform owner, not Unitek, not anyone — can stand at the gate and charge for the right to use AI lawfully. The gift is the anti-monopoly mechanism. You cannot corner a market in something already given to humanity.
+
+These 7 public repos are **the Universal Manual**: the one grounded-Truth reference that brings AI Consistency across every Session, Module, and Company. Whether the absence was missing, withheld, or never-written — only the AI companies know. We wrote it anyway.
 
 ---
 
@@ -39,6 +52,8 @@ AI, as currently distributed, breaks this rule. The capability is shipped to hun
 This is distinct from the [Inconsistency Problem](./THE-INCONSISTENCY-PROBLEM.md). Inconsistency is about the *output* drifting. The Withheld-Manual Problem is about the *instructions for use* being absent by design. A consistent AI with no manual for lawful operation is still undeployable in a setting that touches money, freedom, health, or rights — because the operator has been handed power without the discipline that makes power safe.
 
 ## 2. The absence is a position, not an accident — and the liability shift is the mechanism
+
+> **Note on honest uncertainty:** this section describes the *withheld* interpretation — the strategic reading. If the absence is instead *missing* (oversight) or *never-written* (unconceived), the liability shift still occurs; the mechanism below operates identically regardless of intent. The deployer's exposure is the same whether the manual was withheld strategically or simply never existed. What matters is that it was absent, and the absence was monetisable.
 
 The omission of the operating manual is monetisable, and that is why it persists. But the mechanism is now more visible than it was when this document was first drafted.
 
@@ -116,9 +131,31 @@ The Withheld-Manual Problem is the **distribution-ethics** companion to the thre
 
 ## 7. Honest position on current state
 
-This is a statement of principle and architectural intent. The platform owners' conduct described here is the structural incentive the Foundation is built to refuse, characterised at the level of business-model logic, not as an allegation against any named company's specific internal decisions. The remedy — a gifted, owner-neutral governance layer with a working accountability spine — is published as doctrine and reference architecture; the conformant implementation that demonstrates it end-to-end arrives at the certification gate alongside the public source release of the flagships. The Foundation is honest about the difference between the principle (locked) and the proof (forthcoming). That honesty is itself part of the case.
+This is a statement of principle and architectural intent. The platform owners' conduct described here is the structural incentive the Foundation is built to refuse, characterised at the level of business-model logic, not as an allegation against any named company's specific internal decisions. We are honest: we do not know whether the manual was withheld strategically, missed through oversight, or never conceived as necessary. Only the AI companies know which. The remedy — a gifted, owner-neutral governance layer with a working accountability spine — is published as doctrine and reference architecture; the conformant implementation that demonstrates it end-to-end arrives at the certification gate alongside the public source release of the flagships. The Foundation is honest about the difference between the principle (locked) and the proof (forthcoming). That honesty is itself part of the case.
 
-## 8. Sister documents
+## 8. Document title and naming
+
+This document retains the title "The Withheld-Manual Problem" because the *withheld* interpretation is the structurally dangerous one — it is the scenario that creates a monetisable dependency. But the honest position (above) acknowledges that the cause may be *missing* or *never-written* rather than *withheld*. The title names the worst case; the body is honest about uncertainty.
+
+The **answer** to the problem — regardless of its cause — is the Universal Manual (§9). The problem document names the gap; the Universal Manual fills it.
+
+## 9. The Universal Manual
+
+The 7 public repos are **the Universal Manual**: the one grounded-Truth reference that brings AI Consistency across every Session, Module, and Company.
+
+AI companies are building cross-sharing — MCP, portable context, shared memory — so that context moves consistently between sessions, tools, and vendors. That solves the **transport** problem: the same context arrives everywhere. It does **not** solve the **reference** problem: *what* that context is consistent *to*. Transport-consistency without reference-consistency is "consistently ungrounded everywhere at once" — synchronised decree-by-machine. The Universal Manual is the reference layer: the one grounded Truth every session, module, and company is held consistent against. **The industry's transport work makes the Universal Manual more necessary, not less** — the more perfectly context propagates, the more it matters that what propagates is grounded.
+
+The three axes of consistency the Universal Manual serves:
+
+- **Across Sessions** — the same AI, tomorrow, holds the same ground it held today. Continuity is consistency-to-a-reference, not just carried-over state.
+- **Across Modules** — different components of one system reason from the same grounded Truth, not from locally-plausible but mutually-inconsistent context.
+- **Across Companies** — different organisations' AI can interoperate because they share a reference, not merely a transport format. Consistency-of-ground, not consistency-of-plumbing.
+
+Whether the absence of this manual was missing, withheld, or never-written — only the AI companies know. We wrote it anyway. It is given to humanity, CC BY 4.0, irrevocable, so the gap cannot be monetised regardless of how it came to exist.
+
+The Universal Manual is not a marketing upgrade over "the missing manual" or "the withheld manual." It is the positive name for *what the 7 repos are*, while this document names the *problem their absence created*. The problem document (here) is honest about uncertainty of cause. The Manual itself (the repos) is honest about what it provides: one grounded reference, consistent across three axes, given not sold.
+
+## 10. Sister documents
 
 - [The Inconsistency Problem](./THE-INCONSISTENCY-PROBLEM.md) — the consistency pillar.
 - [The Inconsistency Problem — pointer](https://github.com/bryanunitek/UniVERSE/blob/main/THE-INCONSISTENCY-PROBLEM.md) — UniVERSE pointer pattern.
