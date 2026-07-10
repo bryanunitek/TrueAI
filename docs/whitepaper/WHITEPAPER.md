@@ -386,3 +386,12 @@ Future revisions will be recorded here. The canonical version of the TrueAI Foun
 ---
 
 *End of document.*
+
+---
+
+## Document history
+
+- 2026-05-12 (6498ad6) — docs(whitepaper): TrueAI Foundation v1.0 — Nine Invariants
+- 2026-05-12 (b93b905) — docs: add AI authorship truth statement
+
+*Back-filled from git log on 2026-07-10 21:33 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*
