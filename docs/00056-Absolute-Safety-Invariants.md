@@ -300,18 +300,3 @@ interpret
 optimize humanity
 
 This purpose is eternal.
-
----
-
-## Document history
-
-- 2026-05-08 (600788d) — Initial commit: TrueAI Foundation — invariants, gift principle, governance constitution
-- 2026-05-08 (903a8d4) — Renumber docs to 006/007/008/028/056; update README with document index
-- 2026-05-11 (5757f3a) — docs: add LinkedIn for private contact + normalise byline to Bryan Fred
-- 2026-05-11 (09b035b) — docs: full formal byline — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
-- 2026-05-13 (5afd82e) — docs: rename foundation files to 5-digit numeric codes, drop letter codes
-- 2026-05-13 (0570330) — docs: propagate UniVERSE Path-1 style pass to TrueAI mirrors
-- 2026-05-13 (8f94a7d) — docs: TrueAI README index completion, AI-AUTHORSHIP mirror, body sync
-- 2026-05-22 (45c940c) — docs: complete version-marker sweep across public corpus
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

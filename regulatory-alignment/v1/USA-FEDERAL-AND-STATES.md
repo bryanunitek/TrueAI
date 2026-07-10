@@ -343,11 +343,3 @@ human-in-the-loop the state privacy laws require for significant decisions.
   https://www.ilga.gov/legislation/billstatus.asp?DocNum=3773&GAID=17
 - NYC Local Law 144 of 2021:
   https://www.nyc.gov/site/dca/about/automated-employment-decision-tools.page
-
----
-
-## Document history
-
-- 2026-06-17 (cbf512d) — docs(regulatory-alignment): v1 canonical home — EU AI Act + UK + USA + Canada + Australia + Germany + Switzerland + matrix
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

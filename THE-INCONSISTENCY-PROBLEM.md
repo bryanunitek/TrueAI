@@ -196,16 +196,3 @@ The architecture is honest about what it can and cannot guarantee. That honesty 
 Attribution required wherever the Inconsistency Problem doctrine, the 12-Level Governance Model, the TrueAI Foundation, or the UniCORE name is referenced, implemented, or extended.
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom, 2026-06-14 / canonical edition 2026-06-15.
-
----
-
-## Document history
-
-- 2026-06-15 (1978cc3) — docs: THE-INCONSISTENCY-PROBLEM.md — canonical edition at TrueAI
-- 2026-06-15 (3f5256d) — docs: THE-INCONSISTENCY-PROBLEM.md — production-layer-vs-operations-layer correction
-- 2026-06-15 (7e8d6bc) — docs: § "Summary (TL;DR)" → "Summary" (institutional-tone correction)
-- 2026-06-15 (7e627b6) — docs: Inconsistency canonical — xH1C operations layer + per-Level + DEV/TEST 1H1C (SPP v1.3 alignment)
-- 2026-06-15 (16bd892) — docs: fix dead Reasonable Governance Threshold link — UniCORE-AI → UniVERSE
-- 2026-06-17 (ec2167f) — Collapse Singular-Pairing-Principle internal versioning to v1.0
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

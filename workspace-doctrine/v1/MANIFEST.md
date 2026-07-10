@@ -35,14 +35,3 @@ This manifest is versioned alongside the doctrine folder. The version string is 
 ## Maintenance
 
 Changes to this folder (new files, renames, deletions) are committed as atomic changes to the TrueAI repository. The MANIFEST.md and MANIFEST.json are updated in the same commit as the files they describe.
-
----
-
-## Document history
-
-- 2026-06-12 (2de6122) — doc(workspace-doctrine/v1): anchor v1 — portable workspace doctrine for TrueAI-aligned Claws
-- 2026-06-17 (e2daa7a) — docs: §5.10 — GO token is the only valid resumption authorisation
-- 2026-06-17 (c3de0c3) — manifest: populate SHA-256 hashes for all 12 workspace-doctrine/v1 files
-- 2026-06-29 (94f62f7) — workspace-doctrine/v1: add Technical Name vs Personal Team Name convention
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

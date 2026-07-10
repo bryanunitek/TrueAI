@@ -115,16 +115,3 @@ and the **Personal Team Name** (`Team <Project>` / `<Project> Claw`): the *conve
 canonical and lives here; the *filled-in values* are deployment-identifying and live only in the
 local copy. The naming-convention block above defines the shape generically — it names no host and
 no real project.
-
----
-
-## Document history
-
-- 2026-06-12 (2de6122) — doc(workspace-doctrine/v1): anchor v1 — portable workspace doctrine for TrueAI-aligned Claws
-- 2026-06-13 (fbecbbf) — feat: conversational-protocol/v1 + fix IDENTITY.md client-name leak
-- 2026-06-29 (94f62f7) — workspace-doctrine/v1: add Technical Name vs Personal Team Name convention
-- 2026-06-29 (e2fb56c) — workspace-doctrine/v1: Books/docs use Technical Name; human = full formal name
-- 2026-06-29 (48bbec0) — workspace-doctrine/v1: Book naming = formal Technical Name first ref, '<Project> Claw' short form thereafter
-- 2026-07-03 (08251c4) — doctrine(IDENTITY): identity applied by Claw, maturity badge earned + human-override/Truth tension
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

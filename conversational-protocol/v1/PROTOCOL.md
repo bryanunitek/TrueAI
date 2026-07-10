@@ -62,12 +62,3 @@ This protocol is published at:
 - Foundation: TrueAI (the AI Foundation of the UniVERSE Programme)
 
 The human pasting this text is exercising their right under CC BY 4.0 to share and adapt this material. Attribution: Bryan Fred / Unitek Systems Limited / TrueAI Foundation.
-
----
-
-## Document history
-
-- 2026-06-13 (fbecbbf) — feat: conversational-protocol/v1 + fix IDENTITY.md client-name leak
-- 2026-07-04 (9cfee79) — Truth-state marker rule: TRUE/FALSE/UNVERIFIED at end of every message; display-toggleable, never prompt-disableable (tamper-evidence companion to maturity-level icon)
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

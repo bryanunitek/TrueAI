@@ -212,11 +212,3 @@ AEMPS regulates AI as medical device aligned with EU MDR.
 - Real Decreto-ley 9/2021 (Ley Rider):
   https://www.boe.es/eli/es/rdl/2021/05/11/9
 - AEMPS: https://www.aemps.gob.es/
-
----
-
-## Document history
-
-- 2026-06-17 (6f101cf) — docs(regulatory-alignment): expand v1 from 7 to 22 jurisdictions
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

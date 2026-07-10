@@ -60,13 +60,3 @@ He has read this disclosure, authorised its publication, and accepts editorial r
 ---
 
 *This file was written by the AI system assisting this programme and is published under the sole authority of Bryan Fred.*
-
----
-
-## Document history
-
-- 2026-05-12 (b93b905) — docs: add AI authorship truth statement
-- 2026-05-12 (3d859d0) — docs: rename UniCORE-Claw to UniCORE in public references
-- 2026-05-13 (8f94a7d) — docs: TrueAI README index completion, AI-AUTHORSHIP mirror, body sync
-
-*Back-filled from git log on 2026-07-10 21:33 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

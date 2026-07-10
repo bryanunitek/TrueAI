@@ -247,17 +247,3 @@ covering 112 jurisdictions (Tier-4 cascade complete as of June 2026). The
 TaxRates JSON seed files cover a smaller initial set (~9 jurisdictions);
 expansion of the seed data to match this shelf is on the implementation
 roadmap.
-
----
-
-## Document history
-
-- 2026-06-17 (cbf512d) — docs(regulatory-alignment): v1 canonical home — EU AI Act + UK + USA + Canada + Australia + Germany + Switzerland + matrix
-- 2026-06-17 (6f101cf) — docs(regulatory-alignment): expand v1 from 7 to 22 jurisdictions
-- 2026-06-17 (df52658) — docs(regulatory-alignment): add Russia (23rd jurisdiction)
-- 2026-06-17 (2c7938b) — docs(regulatory-alignment): expand v1 from 23 to 41 jurisdictions
-- 2026-06-17 (4eefc7c) — regulatory-alignment/v1: rename 8 continental matrices to X_<REGION>.md
-- 2026-06-25 (fa81e36) — docs(regulatory-alignment/v1): update stale counts — five→seven repos + VAT coverage refresh
-- 2026-06-28 (175f20b) — fix(docs): repair broken links + commit 1U1C cross-cutting note (integrity check 2026-06-28)
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -156,13 +156,3 @@ This document is **canonical**. The six-line contract in §2 is the contract. So
 This file lives under [`foundation-requirements/v1/`](./) and is the first version of the Foundation's instruction set for Claws built on it. Future refinements appear as new versioned subfolders (`v2`, `v3`, and so on) sitting alongside `v1`. Each version's content is frozen once a deployed Solution has been built against it; the Foundation evolves by adding versions, not by editing existing ones.
 
 The `Version: 1.0` line in the front matter is a programme-document placeholder per the [HORIZON.md versioning discipline](https://github.com/bryanunitek/UniVERSE/blob/main/HORIZON.md#versioning-is-not-yet-enabled). The corpus-version that matters for pairing is the subfolder name (`v1`), not the front-matter line.
-
----
-
-## Document history
-
-- 2026-05-16 (fb60420) — foundation-requirements/v1: first canonical Foundation requirement set for Claws
-- 2026-05-22 (45c940c) — docs: complete version-marker sweep across public corpus
-- 2026-06-28 (175f20b) — fix(docs): repair broken links + commit 1U1C cross-cutting note (integrity check 2026-06-28)
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

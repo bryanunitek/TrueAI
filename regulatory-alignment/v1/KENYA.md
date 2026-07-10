@@ -137,11 +137,3 @@ prohibit discriminatory AI behaviour at architectural level.
 - Computer Misuse and Cybercrimes Act 2018:
   http://kenyalaw.org/kl/fileadmin/pdfdownloads/Acts/ComputerMisuseandCybercrimesActNo5of2018.pdf
 - Constitution of Kenya: http://kenyalaw.org/kl/index.php?id=398
-
----
-
-## Document history
-
-- 2026-06-17 (2c7938b) — docs(regulatory-alignment): expand v1 from 23 to 41 jurisdictions
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

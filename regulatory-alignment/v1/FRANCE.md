@@ -246,11 +246,3 @@ investigation.
   https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049627021
 - Code du travail Article L. 2312-38:
   https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035651689
-
----
-
-## Document history
-
-- 2026-06-17 (6f101cf) — docs(regulatory-alignment): expand v1 from 7 to 22 jurisdictions
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

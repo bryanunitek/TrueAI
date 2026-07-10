@@ -49,11 +49,3 @@
 **Human:** Review this method for thread safety.
 
 **AI:** (provides technical review, flags specific lines, labels uncertain areas as UNVERIFIED rather than guessing at runtime behaviour it cannot verify statically)
-
----
-
-## Document history
-
-- 2026-06-13 (fbecbbf) — feat: conversational-protocol/v1 + fix IDENTITY.md client-name leak
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

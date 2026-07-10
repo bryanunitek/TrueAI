@@ -31,12 +31,3 @@ This is the same discipline that versioned API specifications and versioned sche
 The truth contract — *what is TRUE, what is FALSE, what is UNVERIFIED, how an AI must act under those states* — is a Foundation truth. It applies to every Claw built on the Foundation regardless of Level, regardless of vertical, regardless of which Solution it is paired into. The Foundation is at L1 of the [Layered CORE Model](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00057-Layered-CORE-Model.md); the Nine Invariants are at L1; the Singular Pairing Principle is at L1; the truth contract belongs in the same tier.
 
 UNICOREMASTER at L2 governs the bond between Solutions and Claws — pairing, verification, failure handling — but does not author the truth contract. The Foundation authors it; everyone else delivers it.
-
----
-
-## Document history
-
-- 2026-05-16 (fb60420) — foundation-requirements/v1: first canonical Foundation requirement set for Claws
-- 2026-06-28 (175f20b) — fix(docs): repair broken links + commit 1U1C cross-cutting note (integrity check 2026-06-28)
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

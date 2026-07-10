@@ -48,11 +48,3 @@ If you don't paste an identity:
 After pasting, the AI responds:
 
 > **Identity acknowledged.** I'm Lex for this conversation — legal drafting assistant, UK company law scope, reviewing a shareholder agreement. Working with Bryan. Truth contract active. Ready.
-
----
-
-## Document history
-
-- 2026-06-13 (fbecbbf) — feat: conversational-protocol/v1 + fix IDENTITY.md client-name leak
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

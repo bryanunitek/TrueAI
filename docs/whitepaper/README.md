@@ -41,11 +41,3 @@ This is v1.0 (May 2026). Revisions are tracked in Appendix E of the whitepaper i
 
 - Public discussion: https://github.com/bryanunitek/TrueAI/discussions
 - Private contact / connection request: https://www.linkedin.com/in/bryan-fred-02209753/
-
----
-
-## Document history
-
-- 2026-05-12 (6498ad6) — docs(whitepaper): TrueAI Foundation v1.0 — Nine Invariants
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

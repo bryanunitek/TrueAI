@@ -64,11 +64,3 @@ authoring mandate, auditor inspection representation, axis-A vs axis-B level
 semantics) are tracked in workspace `memory/2026-06-28-identity-model-1u1c-state.md`
 (Q-ID-1..6). This note states the principle; the mechanism resolves with the named
 human governance owner as the model is implemented.
-
----
-
-## Document history
-
-- 2026-06-28 (175f20b) — fix(docs): repair broken links + commit 1U1C cross-cutting note (integrity check 2026-06-28)
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

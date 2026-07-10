@@ -334,12 +334,3 @@ properties that satisfy the UK Equality Act 2010 (see
   Act 2010): https://www.legislation.gov.au/C2010A00148/latest/text
 - TGA Software-Based Medical Devices guidance:
   https://www.tga.gov.au/resources/resource/guidance/regulatory-changes-software-based-medical-devices
-
----
-
-## Document history
-
-- 2026-06-17 (cbf512d) — docs(regulatory-alignment): v1 canonical home — EU AI Act + UK + USA + Canada + Australia + Germany + Switzerland + matrix
-- 2026-06-25 (fa81e36) — docs(regulatory-alignment/v1): update stale counts — five→seven repos + VAT coverage refresh
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

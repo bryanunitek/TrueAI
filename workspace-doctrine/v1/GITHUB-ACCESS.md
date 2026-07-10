@@ -219,14 +219,3 @@ the Claw still must not act outside IDENTITY.md, and should surface the over-gra
 - The locked secret-handling rule (Team UniCORE TOOLS.md, 2026-06-29 18:13 UTC) — "never expose
   secrets in commands; presence-not-value; the leak-then-rotate loop is the defect." This file is the
   doctrine-layer expression of that rule for GitHub credentials.
-
----
-
-## Document history
-
-- 2026-06-29 (8c842dc) — workspace-doctrine/v1: add GITHUB-ACCESS.md — single source of truth for Claw GitHub credentials (resolves cross-Claw 'is this secure' disagreement). Two fine-grained PATs RO/RW, scope+secret boundaries, chmod-600 presence-not-value storage, first-run checklist. Bryan GO~ 2026-06-29.
-- 2026-06-29 (94f62f7) — workspace-doctrine/v1: add Technical Name vs Personal Team Name convention
-- 2026-06-29 (18cca12) — workspace-doctrine/v1: ReadOnly PAT scope = 7 read-scope repos
-- 2026-06-29 (c15651d) — workspace-doctrine/v1: shared-host model (multiple Claws, one OS account)
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

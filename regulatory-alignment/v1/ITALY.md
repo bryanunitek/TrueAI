@@ -228,11 +228,3 @@ structures the named accountability.
   https://www.gazzettaufficiale.it/eli/id/2022/07/29/22G00111/sg
 - Statuto dei lavoratori:
   https://www.gazzettaufficiale.it/eli/id/1970/05/27/070U0300/sg
-
----
-
-## Document history
-
-- 2026-06-17 (6f101cf) — docs(regulatory-alignment): expand v1 from 7 to 22 jurisdictions
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -282,11 +282,3 @@ Section 19 indirect-discrimination assessment.
   https://www.legislation.gov.uk/ukpga/2023/50/contents
 - Equality Act 2010:
   https://www.legislation.gov.uk/ukpga/2010/15/contents
-
----
-
-## Document history
-
-- 2026-06-17 (cbf512d) — docs(regulatory-alignment): v1 canonical home — EU AI Act + UK + USA + Canada + Australia + Germany + Switzerland + matrix
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

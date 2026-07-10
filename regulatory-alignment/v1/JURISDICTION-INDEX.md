@@ -48,11 +48,3 @@ If you are a legal or regulatory expert: corrections and refinements to any juri
 ---
 
 *Index generated from a live `ls` of the shelf on 2026-06-27. Re-run the verify command above before citing the count in any public copy — the shelf grows, and the file tree is the ground truth, not any summary of it.*
-
----
-
-## Document history
-
-- 2026-06-27 (bfac649) — docs(regulatory-alignment): add JURISDICTION-INDEX count-of-record (115)
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

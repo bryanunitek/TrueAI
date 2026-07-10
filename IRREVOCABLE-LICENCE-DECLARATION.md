@@ -194,14 +194,3 @@ This document is the formal irrevocability declaration that binds the present cu
 **Address of issuer:** Bedford, United Kingdom (registered office, England and Wales, company number 04228041)
 **Date of issue:** 17 May 2026
 **Signed by:** The Directors of Unitek Systems Limited
-
----
-
-## Document history
-
-- 2026-05-17 (fe22536) — Add Irrevocable Licence Declaration; cross-reference from licensing framework
-- 2026-05-17 (46eb7af) — Irrevocable Licence Declaration v1.1: clarify the living-framework principle
-- 2026-05-17 (ef071c4) — Irrevocable Licence Declaration v1.2: IP custody is at the programme subsidiaries, not the Foundations
-- 2026-05-22 (4a9df13) — docs(IRREVOCABLE-LICENCE-DECLARATION): strip version marker
-
-*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -311,18 +311,3 @@ If a Book repo was created with branch protection enabled on `main`, the Claw re
 ---
 
 *This file is part of the TrueAI workspace-doctrine v1 layer. Delivered at session-opening time to every Claw under the doctrine. Read at session start; do not interpret as optional.*
-
----
-
-## Document history
-
-- 2026-06-16 (99ea788) — docs(singular-pairing+workspace-doctrine): v1.5 — §5.6 Every Claw maintains its own Book
-- 2026-06-16 (c5be3fb) — docs(singular-pairing+book-obligation): add fifth Team Book — TheBookOfTeamBryan
-- 2026-06-16 (31b5bce) — docs(singular-pairing+book-obligation): cross-Claw access boundary — corporate Book is Team UniCORE only
-- 2026-06-16 (0832b7c) — docs(singular-pairing+book-obligation): cross-Claw access — flat prohibition, no exception path
-- 2026-06-16 (1bac4ec) — docs(singular-pairing+book-obligation): §5.7 — third-party adoption of the Book obligation
-- 2026-06-16 (d6f93e6) — docs(singular-pairing+book-obligation): §5.8 — Claw Sanity Check creates + maintains the Book
-- 2026-06-17 (2852cf6) — docs: §5.8 — Book repo posture is single branch (main); no feature branches
-- 2026-06-17 (ec2167f) — Collapse Singular-Pairing-Principle internal versioning to v1.0
-
-*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*
