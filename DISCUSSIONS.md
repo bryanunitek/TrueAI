@@ -52,3 +52,12 @@ Personal email and phone numbers are not published here and are not the right ch
 ## Licence
 
 The foundation, including everything in this repository, is released under **CC BY 4.0**. Anything you post in Discussions is your own. Please do not paste copyrighted material you are not entitled to share.
+
+---
+
+## Document history
+
+- 2026-05-11 (8719fbc) — docs: add DISCUSSIONS.md + publish 12 mirror domains
+- 2026-05-13 (dde771e) — governance: add STATEMENT-ON-CLAIMS.md
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

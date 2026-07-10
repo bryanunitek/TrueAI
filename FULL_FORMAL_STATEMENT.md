@@ -320,3 +320,21 @@ But the operational layer — the one that actually touches Bryan's repositories
 ---
 
 *This section was written by the AI system assisting this programme and is published under the sole authority of Bryan Fred.*
+
+---
+
+## Document history
+
+- 2026-05-08 (600788d) — Initial commit: TrueAI Foundation — invariants, gift principle, governance constitution
+- 2026-05-08 (6c02709) — Clarify Multi-Level vs 12-Level: UniCORE is one example, conformance floor is 4+
+- 2026-05-09 (b481172) — Append founding statement: Why these repositories exist
+- 2026-05-11 (5757f3a) — docs: add LinkedIn for private contact + normalise byline to Bryan Fred
+- 2026-05-11 (09b035b) — docs: full formal byline — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
+- 2026-05-12 (b93b905) — docs: add AI authorship truth statement
+- 2026-05-13 (987303b) — invariant: align README/FFS/LICENSE with canonical Nine Invariants
+- 2026-05-14 (7df8393) — docs: add LANDSCAPE.md (mirror) — AI governance landscape comparison
+- 2026-05-19 (6d45514) — docs(licence): remove residual "non-commercial" surface noise (Option B sweep)
+- 2026-05-22 (2678f94) — fix(public-corpus): repository enumerations updated 3 -> 5 (Foundation triad + gift-layer extension)
+- 2026-05-22 (45c940c) — docs: complete version-marker sweep across public corpus
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

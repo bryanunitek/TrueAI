@@ -162,3 +162,21 @@ Second, this is the author's considered view of where humanity will need to be i
 The programme is the author's considered view of where humanity will be in 10–20 years in its relationship with artificial intelligence, and of the governance foundation that will be needed by the time it arrives. The 10–20 year horizon is not pessimism. It is the respect due to work that is intended to hold up under the weight of real consequence.
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
+
+---
+
+## Document history
+
+- 2026-05-13 (2736c5d) — governance: add HORIZON.md
+- 2026-05-13 (30dff50) — docs: mirror collated HORIZON from UniVERSE master
+- 2026-05-13 (d19502f) — docs(HORIZON): mirror evolution/versioning section from UniVERSE master
+- 2026-05-13 (f107223) — HORIZON: re-sync mirror with UniVERSE master (Long horizon section)
+- 2026-05-13 (196b957) — HORIZON: re-sync mirror with UniVERSE master (Evolution section alignment)
+- 2026-05-13 (bd4072d) — HORIZON: re-sync mirror with UniVERSE master (Solution time horizon, v1.2)
+- 2026-05-13 (b83e0c6) — docs: sync HORIZON.md from UniVERSE master (versioning rule)
+- 2026-05-15 (a21a85a) — docs: HORIZON.md — propagate UniVERSE update (announce 20xxx + 10004)
+- 2026-05-15 (f91534e) — HORIZON.md: mirror UniVERSE rename UniCORE-Claw → UniCORE-Law-Claw
+- 2026-05-22 (2678f94) — fix(public-corpus): repository enumerations updated 3 -> 5 (Foundation triad + gift-layer extension)
+- 2026-05-22 (45c940c) — docs: complete version-marker sweep across public corpus
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -174,3 +174,14 @@ Foundation triad pointers: [`UniVERSE`](https://github.com/bryanunitek/UniVERSE)
 Attribution required wherever the Withheld-Manual Problem doctrine, the 12-Level Governance Model, the TrueAI Foundation, or the UniCORE name is referenced, implemented, or extended.
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom, 2026-06-28.
+
+---
+
+## Document history
+
+- 2026-06-28 (751a561) — doctrine: add The Withheld-Manual Problem (distribution-ethics companion to the three pillars)
+- 2026-06-28 (175f20b) — fix(docs): repair broken links + commit 1U1C cross-cutting note (integrity check 2026-06-28)
+- 2026-06-29 (3293731) — docs: expand §2 — the liability shift as the mechanism of the Withheld-Manual Problem
+- 2026-07-06 (fae7d44) — Honest uncertainty framing + Universal Manual as structural answer
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

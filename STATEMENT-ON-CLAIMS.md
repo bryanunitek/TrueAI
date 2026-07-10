@@ -120,3 +120,15 @@ The author reserves the right to issue public corrections, to request that the c
 TrueAI is the governance foundation of artificial intelligence, grounded in a simple truth model: AI claims must resolve to TRUE, FALSE, or UNVERIFIED. It is not a product. It is not a platform. It is not for sale. It is given, not sold. A gift to humanity for the next century of AI.
 
 — Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
+
+---
+
+## Document history
+
+- 2026-05-13 (dde771e) — governance: add STATEMENT-ON-CLAIMS.md
+- 2026-05-13 (4d914f3) — docs(STATEMENT-ON-CLAIMS): add first-use / prior-use scope section
+- 2026-05-16 (71dc87a) — fix(claims): remove contradictory commercial-licensing line
+- 2026-05-17 (89691f2) — Align licence-companion docs with CC BY 4.0; add Brand and Trademark Use Policy
+- 2026-05-21 (daf3522) — docs: add Military-is-intentionally-absent section to STATEMENT-ON-CLAIMS (Sanity Check #002 F4)
+
+*Back-filled from git log on 2026-07-10 21:34 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*
