@@ -118,3 +118,14 @@ Two things sit beneath the tiers, and they are not the same thing:
 - [`SAY-THIS.md`](SAY-THIS.md) — copy-paste starters for reminders, scheduled jobs, and everyday asks.
 - [`IDENTITY.md`](IDENTITY.md) — the local identity template where the standing role is recorded.
 - [`SOUL.md`](SOUL.md) — the disposition and tone your assistant carries.
+
+---
+
+## Document history
+
+- 2026-07-03 (0bf94ae) — workspace-doctrine/v1: document the four tiers of AI (Consumer/Institutional/Development + the 1H1C pairing above)
+- 2026-07-03 (789210b) — workspace-doctrine/v1: pairing is the foundation BENEATH the three tiers (built-on, not ranked-above)
+- 2026-07-03 (1f22263) — workspace-doctrine/v1: correct the shape - 7 repos are the missing manual/foundation; the pairing is the PRODUCER that structures Consumer AI with them (pairing does NOT sit beneath Consumer)
+- 2026-07-03 (ed0e865) — workspace-doctrine/v1: close two gaps (Sonnet 4.6 review) - (1) foundation necessary-not-sufficient, domain Truth still accrues; (2) IDENTITY.md persistence is a feature only if the write is trustworthy
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

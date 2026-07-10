@@ -85,3 +85,17 @@ The `/v1/` path-segment is this doctrine's stable surface. Inside `/v1/`, indivi
 Future breaking changes will live at `/v2/`. There is no internal semantic version number inside `/v1/`. This is a deliberate choice for the current adopter base (single Human, small Claw fleet, complete decision-trail already in git). When a third-party adopter under TrueAI Singular Pairing Principle §5.7 needs a stable version label, this stance will be revisited.
 
 This applies to every file in this folder: `FOUNDATION.md`, `IDENTITY.md`, `SOUL.md`, `USER.md`, `REPO-SCOPING.md`, `FALLBACK-AND-FRESHNESS.md`, `BOOK-OBLIGATION.md`, and this `README.md`.
+
+---
+
+## Document history
+
+- 2026-06-12 (2de6122) — doc(workspace-doctrine/v1): anchor v1 — portable workspace doctrine for TrueAI-aligned Claws
+- 2026-06-16 (99ea788) — docs(singular-pairing+workspace-doctrine): v1.5 — §5.6 Every Claw maintains its own Book
+- 2026-06-16 (9ba86ca) — docs(v1/READMEs): explicit "versioned by git SHA" note for both /v1/ surfaces
+- 2026-06-16 (6d28f3c) — docs: §5.9 — Every Claw maintains read-only clones of the Foundation gift-layer
+- 2026-06-17 (ec2167f) — Collapse Singular-Pairing-Principle internal versioning to v1.0
+- 2026-06-29 (8c842dc) — workspace-doctrine/v1: add GITHUB-ACCESS.md — single source of truth for Claw GitHub credentials (resolves cross-Claw 'is this secure' disagreement). Two fine-grained PATs RO/RW, scope+secret boundaries, chmod-600 presence-not-value storage, first-run checklist. Bryan GO~ 2026-06-29.
+- 2026-07-03 (50a2b43) — workspace-doctrine: anonymise client refs in envelope/scoping examples; add SAY-THIS + role doc links
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

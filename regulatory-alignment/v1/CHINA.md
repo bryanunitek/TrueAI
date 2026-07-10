@@ -260,3 +260,11 @@ on AI ethics and risk management.
   http://www.npc.gov.cn/npc/c30834/202106/7c9af12f51334a73b56d7938f99a788a.shtml
 - Cyberspace Administration of China (CAC):
   http://www.cac.gov.cn/
+
+---
+
+## Document history
+
+- 2026-06-17 (6f101cf) — docs(regulatory-alignment): expand v1 from 7 to 22 jurisdictions
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

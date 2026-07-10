@@ -127,3 +127,16 @@ The gate exists because the Foundation is the floor. No layered governance is ap
 ---
 
 *End of document.*
+
+---
+
+## Document history
+
+- 2026-05-13 (d9e4223) — governance: add deployment-topology principles 057 and 058
+- 2026-05-13 (5afd82e) — docs: rename foundation files to 5-digit numeric codes, drop letter codes
+- 2026-05-13 (806f862) — docs: move TrueAI-specific docs to 10xxx namespace
+- 2026-05-13 (5ee4442) — docs: mark 10001 and 10002 as mirrors of UniVERSE canonical
+- 2026-05-13 (8b3e444) — docs: TrueAI is canonical home for 10001 and 10002 (revert banner)
+- 2026-05-13 (0570330) — docs: propagate UniVERSE Path-1 style pass to TrueAI mirrors
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

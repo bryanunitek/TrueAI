@@ -94,3 +94,12 @@ The `/v1/` path-segment is this protocol's stable surface. Inside `/v1/`, indivi
 Future breaking changes will live at `/v2/`. There is no internal semantic version number inside `/v1/`. This is a deliberate choice for the current adopter base (single Human, small Claw fleet, complete decision-trail already in git). When the protocol sees third-party adoption or a breaking change is on the horizon, this stance will be revisited.
 
 This applies to every file in this folder: `PROTOCOL.md`, `PASTEABLE-PROMPT.md`, `WORKED-EXAMPLE.md`, and this `README.md`.
+
+---
+
+## Document history
+
+- 2026-06-13 (fbecbbf) — feat: conversational-protocol/v1 + fix IDENTITY.md client-name leak
+- 2026-06-16 (9ba86ca) — docs(v1/READMEs): explicit "versioned by git SHA" note for both /v1/ surfaces
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

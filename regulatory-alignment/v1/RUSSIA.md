@@ -307,3 +307,11 @@ provenance.
 - Bank of Russia: https://cbr.ru/
 - Concept for AI and Robotics Regulation (Order 2129-r of 19 August 2020):
   http://government.ru/docs/all/129505/
+
+---
+
+## Document history
+
+- 2026-06-17 (df52658) — docs(regulatory-alignment): add Russia (23rd jurisdiction)
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

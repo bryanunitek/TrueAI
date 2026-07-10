@@ -158,3 +158,11 @@ prohibit discriminatory AI behaviour at architectural level.
 - TFDA: https://www.fda.gov.tw/eng/
 - Gender Equality in Employment Act:
   https://law.moj.gov.tw/ENG/LawClass/LawAll.aspx?pcode=N0030014
+
+---
+
+## Document history
+
+- 2026-06-17 (2c7938b) — docs(regulatory-alignment): expand v1 from 23 to 41 jurisdictions
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

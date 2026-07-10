@@ -232,3 +232,11 @@ the Framework's expectations.
 - MTCIT: https://www.mtcit.gov.om/
 - Central Bank of Oman: https://cbo.gov.om/
 - OCERT: https://www.cert.gov.om/
+
+---
+
+## Document history
+
+- 2026-06-17 (2c7938b) — docs(regulatory-alignment): expand v1 from 23 to 41 jurisdictions
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

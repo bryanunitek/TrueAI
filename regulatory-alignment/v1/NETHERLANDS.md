@@ -223,3 +223,11 @@ properties that satisfy UK Equality Act 2010 and German AGG.
 - AWGB:
   https://wetten.overheid.nl/BWBR0006502/
 - NCSC-NL: https://www.ncsc.nl/
+
+---
+
+## Document history
+
+- 2026-06-17 (6f101cf) — docs(regulatory-alignment): expand v1 from 7 to 22 jurisdictions
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

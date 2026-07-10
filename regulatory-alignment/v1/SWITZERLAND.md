@@ -227,3 +227,11 @@ non-discrimination frameworks above.
 - Swiss Code of Obligations:
   https://www.fedlex.admin.ch/eli/cc/27/317_321_377/en
 - BehiG: https://www.fedlex.admin.ch/eli/cc/2003/667/en
+
+---
+
+## Document history
+
+- 2026-06-17 (cbf512d) — docs(regulatory-alignment): v1 canonical home — EU AI Act + UK + USA + Canada + Australia + Germany + Switzerland + matrix
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

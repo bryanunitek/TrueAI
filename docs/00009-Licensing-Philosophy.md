@@ -107,3 +107,13 @@ The TrueAI Foundation and the UniCORE Foundation, once constituted, will sit ind
 The licence is CC BY 4.0. The licence is a real gift. The licence is irrevocable. The brand and trademarks are separately protected. The Foundations oversee the ecosystem, not the licence.
 
 For the legal terms of the licence, read `LICENSE.md`.
+
+---
+
+## Document history
+
+- 2026-05-17 (89691f2) — Align licence-companion docs with CC BY 4.0; add Brand and Trademark Use Policy
+- 2026-05-22 (2678f94) — fix(public-corpus): repository enumerations updated 3 -> 5 (Foundation triad + gift-layer extension)
+- 2026-05-22 (45c940c) — docs: complete version-marker sweep across public corpus
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -63,3 +63,13 @@ for the full file list.
   `continents/NORTH-AMERICA.md`, `continents/SOUTH-AMERICA.md`, `continents/EUROPE.md`,
   `continents/EURASIA.md`, `continents/GLOBAL-SUPRANATIONAL.md`.
 - Cross-cutting overview: `CROSS-CUTTING-MATRIX.md`.
+
+---
+
+## Document history
+
+- 2026-06-17 (6ddb243) — regulatory-alignment/v1: world-wide sweep complete — 115 jurisdictions, 8 continental matrices, monitoring list
+- 2026-06-17 (4eefc7c) — regulatory-alignment/v1: rename 8 continental matrices to X_<REGION>.md
+- 2026-06-17 (c261ec9) — regulatory-alignment/v1: move X_ prefixed files into continents/cross-cutting/ subfolder
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

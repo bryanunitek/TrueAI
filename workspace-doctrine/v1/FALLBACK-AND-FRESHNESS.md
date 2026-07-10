@@ -317,3 +317,13 @@ The freshness check uses `git diff` and `git ls-tree` against canonical. The MAN
 - TrueAI [`workspace-doctrine/v1/MANIFEST.md`](MANIFEST.md) — human-readable manifest of v1
 - TrueAI [`workspace-doctrine/v1/MANIFEST.json`](MANIFEST.json) — machine-parseable manifest of v1
 - UniCORE-AI [`developer-doctrine/v1/`](https://github.com/bryanunitek/UniCORE-AI/tree/main/developer-doctrine/v1) — the role-specific doctrine layer (if applicable to this Claw)
+
+---
+
+## Document history
+
+- 2026-06-12 (2de6122) — doc(workspace-doctrine/v1): anchor v1 — portable workspace doctrine for TrueAI-aligned Claws
+- 2026-06-12 (c6f137a) — doc(workspace-doctrine/v1): clarify FALLBACK-AND-FRESHNESS — mandatory local copy + append-only version history
+- 2026-06-15 (4a93561) — docs(workspace-doctrine/v1): FALLBACK-AND-FRESHNESS — chat-shape vs local-shape report split
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

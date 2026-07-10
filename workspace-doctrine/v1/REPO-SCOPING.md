@@ -106,3 +106,13 @@ Scope contractions (removing a repo from the authorised list) are at the human's
 - TrueAI [`workspace-doctrine/v1/IDENTITY.md`](IDENTITY.md) — the local identity template that holds the scope list.
 - TrueAI [`workspace-doctrine/v1/STANDARD-ENVELOPE.md`](STANDARD-ENVELOPE.md) — the envelope that makes this discipline mandatory.
 - TrueAI [`workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) — how scope list changes are authenticated.
+
+---
+
+## Document history
+
+- 2026-06-12 (2de6122) — doc(workspace-doctrine/v1): anchor v1 — portable workspace doctrine for TrueAI-aligned Claws
+- 2026-06-12 (0db9ad9) — doc(workspace-doctrine/v1): clarify REPO-SCOPING — doctrine repos are read-only for standard-envelope Claws
+- 2026-07-03 (50a2b43) — workspace-doctrine: anonymise client refs in envelope/scoping examples; add SAY-THIS + role doc links
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

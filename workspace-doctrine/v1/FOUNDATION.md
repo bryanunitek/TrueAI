@@ -115,3 +115,13 @@ The local Claw's `HEARTBEAT.md` (if present) describes the current arc's permiss
 - TrueAI [`workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) — local-copy-first reads, freshness check, human-authenticated updates.
 - UniVERSE [`docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md) — pairing protocol that delivers this content at session-opening time.
 - UniCORE-AI [`developer-doctrine/v1/`](https://github.com/bryanunitek/UniCORE-AI/tree/main/developer-doctrine/v1) — the role-specific doctrine layer for Claws working on UniCORE-AI verticals.
+
+---
+
+## Document history
+
+- 2026-06-12 (2de6122) — doc(workspace-doctrine/v1): anchor v1 — portable workspace doctrine for TrueAI-aligned Claws
+- 2026-06-28 (175f20b) — fix(docs): repair broken links + commit 1U1C cross-cutting note (integrity check 2026-06-28)
+- 2026-07-04 (9cfee79) — Truth-state marker rule: TRUE/FALSE/UNVERIFIED at end of every message; display-toggleable, never prompt-disableable (tamper-evidence companion to maturity-level icon)
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

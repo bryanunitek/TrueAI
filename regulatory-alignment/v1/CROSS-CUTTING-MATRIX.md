@@ -212,3 +212,16 @@ The same architectural property maps to the same obligation family across all ju
 - Regional matrices: continents/cross-cutting/ (MIDDLE-EAST, AFRICA,
   ASIA-PACIFIC, EUROPE, NORTH-AMERICA, SOUTH-AMERICA, EURASIA,
   GLOBAL-SUPRANATIONAL).
+
+---
+
+## Document history
+
+- 2026-06-17 (cbf512d) — docs(regulatory-alignment): v1 canonical home — EU AI Act + UK + USA + Canada + Australia + Germany + Switzerland + matrix
+- 2026-06-17 (6f101cf) — docs(regulatory-alignment): expand v1 from 7 to 22 jurisdictions
+- 2026-06-17 (df52658) — docs(regulatory-alignment): add Russia (23rd jurisdiction)
+- 2026-06-17 (2c7938b) — docs(regulatory-alignment): expand v1 from 23 to 41 jurisdictions
+- 2026-06-17 (8818e9c) — $regulatory-alignment/v1: CROSS-CUTTING-MATRIX.md rebuilt covering all 115 jurisdictions
+- 2026-06-17 (b23398b) — regulatory-alignment/v1: fix South America table separator row
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

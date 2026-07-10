@@ -82,3 +82,11 @@ architectural level.
 - ANPDCP: https://datepersonale.md/
 - Law 133/2011: https://www.legis.md/
 - BNM: https://www.bnm.md/
+
+---
+
+## Document history
+
+- 2026-06-17 (6ddb243) — regulatory-alignment/v1: world-wide sweep complete — 115 jurisdictions, 8 continental matrices, monitoring list
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

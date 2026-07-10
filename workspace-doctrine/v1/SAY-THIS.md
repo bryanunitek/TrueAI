@@ -91,3 +91,11 @@ What do you remember about [project / person]?
 ---
 
 *This page is part of the TrueAI workspace doctrine (`workspace-doctrine/v1/`). It is a plain-language usage guide for the paired human. The formal rules your assistant operates under live in [`FOUNDATION.md`](FOUNDATION.md) and [`STANDARD-ENVELOPE.md`](STANDARD-ENVELOPE.md).*
+
+---
+
+## Document history
+
+- 2026-07-03 (50a2b43) — workspace-doctrine: anonymise client refs in envelope/scoping examples; add SAY-THIS + role doc links
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

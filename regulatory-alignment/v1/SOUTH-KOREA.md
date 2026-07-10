@@ -199,3 +199,11 @@ provisions inherits the model provider's compliance position.
 - FSC: https://www.fsc.go.kr/eng/
 - MFDS: https://www.mfds.go.kr/eng/
 - Korea Internet & Security Agency (KISA): https://www.kisa.or.kr/EN/
+
+---
+
+## Document history
+
+- 2026-06-17 (6f101cf) — docs(regulatory-alignment): expand v1 from 7 to 22 jurisdictions
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

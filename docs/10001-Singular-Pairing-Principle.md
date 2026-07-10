@@ -690,3 +690,34 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 ---
 
 *End of document.*
+
+---
+
+## Document history
+
+- 2026-05-13 (d9e4223) — governance: add deployment-topology principles 057 and 058
+- 2026-05-13 (5afd82e) — docs: rename foundation files to 5-digit numeric codes, drop letter codes
+- 2026-05-13 (806f862) — docs: move TrueAI-specific docs to 10xxx namespace
+- 2026-05-13 (5ee4442) — docs: mark 10001 and 10002 as mirrors of UniVERSE canonical
+- 2026-05-13 (8b3e444) — docs: TrueAI is canonical home for 10001 and 10002 (revert banner)
+- 2026-05-13 (0570330) — docs: propagate UniVERSE Path-1 style pass to TrueAI mirrors
+- 2026-05-13 (922b265) — docs(10003): add Generation IT Succession foundation document
+- 2026-05-23 (9468a21) — 10001 §2 + §2.1 + §8 — pairing shape expands with Project Level (Lower = 1 workstream; higher / Level 12 = min 14 workstreams)
+- 2026-06-14 (10cc60c) — docs(singular-pairing): v1.1 — tie to Inconsistency Problem; recommendation/variants section; canonical-home note
+- 2026-06-15 (cc46f07) — docs(10001): Singular Pairing Principle v1.2 — production-layer vs operations-layer split
+- 2026-06-15 (e5d760d) — docs: SPP v1.3 — operations layer is xH1C with the Claw as consistency-holding agent
+- 2026-06-15 (16bd892) — docs: fix dead Reasonable Governance Threshold link — UniCORE-AI → UniVERSE
+- 2026-06-16 (6469b32) — docs(singular-pairing): v1.4 — add §5.5 Role composition within 1H1C (Variants A + B)
+- 2026-06-16 (99ea788) — docs(singular-pairing+workspace-doctrine): v1.5 — §5.6 Every Claw maintains its own Book
+- 2026-06-16 (c5be3fb) — docs(singular-pairing+book-obligation): add fifth Team Book — TheBookOfTeamBryan
+- 2026-06-16 (31b5bce) — docs(singular-pairing+book-obligation): cross-Claw access boundary — corporate Book is Team UniCORE only
+- 2026-06-16 (0832b7c) — docs(singular-pairing+book-obligation): cross-Claw access — flat prohibition, no exception path
+- 2026-06-16 (1bac4ec) — docs(singular-pairing+book-obligation): §5.7 — third-party adoption of the Book obligation
+- 2026-06-16 (d6f93e6) — docs(singular-pairing+book-obligation): §5.8 — Claw Sanity Check creates + maintains the Book
+- 2026-06-16 (6d28f3c) — docs: §5.9 — Every Claw maintains read-only clones of the Foundation gift-layer
+- 2026-06-17 (2852cf6) — docs: §5.8 — Book repo posture is single branch (main); no feature branches
+- 2026-06-17 (e2daa7a) — docs: §5.10 — GO token is the only valid resumption authorisation
+- 2026-06-17 (0c1c6b2) — docs: §5.10 amended — token shape changes from GO to GO~ at end of message
+- 2026-06-17 (ec2167f) — Collapse Singular-Pairing-Principle internal versioning to v1.0
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

@@ -131,3 +131,12 @@ The Claw acknowledged the discipline existed at every break and broke it again o
 ---
 
 *This file is part of the TrueAI workspace-doctrine v1 layer. Delivered at session-opening time to every Claw under the doctrine. Read at session start; do not interpret as optional.*
+
+---
+
+## Document history
+
+- 2026-06-17 (e2daa7a) — docs: §5.10 — GO token is the only valid resumption authorisation
+- 2026-06-17 (0c1c6b2) — docs: §5.10 amended — token shape changes from GO to GO~ at end of message
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*

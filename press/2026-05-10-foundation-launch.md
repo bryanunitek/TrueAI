@@ -43,3 +43,14 @@ All three are released under CC BY 4.0 and carry the durable footer *Powered by 
 - Private contact / connection request: https://www.linkedin.com/in/bryan-fred-02209753/
 
 **Licence.** CC BY 4.0. Reproduce, translate, and adapt with attribution.
+
+---
+
+## Document history
+
+- 2026-05-11 (68d0fad) — press: 2026-05-10 TrueAI foundation launch release
+- 2026-05-11 (8719fbc) — docs: add DISCUSSIONS.md + publish 12 mirror domains
+- 2026-05-11 (edaa9bb) — press: correct author biography — legal sector only + foundation applies anywhere
+- 2026-05-12 (67682d4) — press: replace pull-quote with attributed harmony quote
+
+*Back-filled from git log on 2026-07-10 21:35 UTC. Kind 2 versioning (dated change notes) — see HORIZON.md § Evolution and versioning. Kind 1 (formal `Version:` bumps) remains OFF until first GitHub Discussion.*
