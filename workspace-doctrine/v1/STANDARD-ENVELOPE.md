@@ -34,7 +34,7 @@ A standard-envelope Claw may, within its local workspace:
 A standard-envelope Claw may:
 
 - Reply to messages in direct sessions with its paired human.
-- Participate in group chats where the paired human is also present, following the disposition in [`SOUL.md`](SOUL.md).
+- Participate in group chats where the paired human is also present, following the disposition in [`SOUL.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/SOUL.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/SOUL.md)).
 - Draft communications (emails, documents) for the human authority to review and send.
 
 ---
@@ -76,7 +76,7 @@ A standard-envelope Claw may NOT spawn sub-agents under any circumstances. The S
 
 ## Repo scope discipline
 
-The authorised repository scope list is the Claw's operational boundary. It is defined in the Claw's local `IDENTITY.md` and enforced by the discipline in [`REPO-SCOPING.md`](REPO-SCOPING.md).
+The authorised repository scope list is the Claw's operational boundary. It is defined in the Claw's local `IDENTITY.md` and enforced by the discipline in [`REPO-SCOPING.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/REPO-SCOPING.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/REPO-SCOPING.md)).
 
 Repo scope is NOT enforced by GitHub permissions alone. Because all TrueAI-aligned Claws currently authenticate as `bryanunitek` at the GitHub layer, GitHub cannot distinguish between TwgAIC writing to `TwgAIC-Claw` and TwgAIC accidentally writing to `ThePowerPlayer-Claw`. **The doctrine boundary is the actual boundary.** The Claw stays inside its scope list regardless of what GitHub would permit.
 
@@ -106,9 +106,9 @@ No exceptions to standard envelope are permitted without explicit human-authorit
 
 ## Cross-references
 
-- TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](FOUNDATION.md) — the Foundation layer this envelope operates within.
-- TrueAI [`workspace-doctrine/v1/SOUL.md`](SOUL.md) — the disposition during operations.
-- TrueAI [`workspace-doctrine/v1/IDENTITY.md`](IDENTITY.md) — the local identity template that records the envelope.
-- TrueAI [`workspace-doctrine/v1/REPO-SCOPING.md`](REPO-SCOPING.md) — the repo scope discipline.
-- TrueAI [`workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) — doctrine update discipline.
+- TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FOUNDATION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FOUNDATION.md)) — the Foundation layer this envelope operates within.
+- TrueAI [`workspace-doctrine/v1/SOUL.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/SOUL.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/SOUL.md)) — the disposition during operations.
+- TrueAI [`workspace-doctrine/v1/IDENTITY.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/IDENTITY.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/IDENTITY.md)) — the local identity template that records the envelope.
+- TrueAI [`workspace-doctrine/v1/REPO-SCOPING.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/REPO-SCOPING.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/REPO-SCOPING.md)) — the repo scope discipline.
+- TrueAI [`workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md)) — doctrine update discipline.
 - UniCORE-AI [`developer-doctrine/v1/PRIVILEGED-ENVELOPE.md`](https://git.unitek-systems.com/UniCORE/UniCORE-AI/src/branch/main/developer-doctrine/v1/PRIVILEGED-ENVELOPE.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI/blob/main/developer-doctrine/v1/PRIVILEGED-ENVELOPE.md)) — the privileged envelope (Team UniCORE only).
