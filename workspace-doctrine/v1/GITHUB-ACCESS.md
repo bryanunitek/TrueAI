@@ -148,6 +148,41 @@ wiped other Claws' PATs.
 belongs to another Claw, switch to the alias/per-repo model and **repair** the shared config (fixing
 all siblings) rather than appending a fourth dead block.
 
+### 3a.1 Forgejo (`git.unitek-systems.com`) HTTP auth on a shared host — URL-scoped, PER-REPO only (locked 2026-07-13)
+
+Forgejo's git smart-HTTP does **not** honour the credential-helper challenge/response; it requires a
+**pre-emptive** `Authorization: token <TOKEN>` header (same format as the API). The naive way to supply
+that is `git config http."https://git.unitek-systems.com".extraHeader` — but on a shared host that is a
+**credential-bleed defect**, for two compounding reasons:
+
+1. **Host-wide scope.** `http."https://git.unitek-systems.com".extraHeader` fires for **every** URL on
+   that host — so a token meant for one Claw's repos is sent on requests to *all* repos, including other
+   Claws' repos.
+2. **Shared global config.** When that header lives in a shared `~/.gitconfig` (or an `include.path`
+   from it), it is read by **every** co-located profile. Two such includes make git send **both**
+   `Authorization` headers additively → Forgejo rejects with **403**. One include makes every profile
+   push with **that one Claw's** token. Either way, one Claw's secret travels in another Claw's requests.
+
+**The rule (mandatory on any shared host):**
+
+- The shared `~/.gitconfig` carries **NO** credential include and **NO** `user.*` identity. It is
+   credential-free and identity-free. (Both are per-repo; see below.)
+- Each Claw wires auth **per-repo, URL-scoped to that exact repo**, in the repo's own `.git/config`:
+   ```bash
+   # inside each in-scope repo (run once per repo):
+   url="https://git.unitek-systems.com/UniCORE/<Repo>.git"
+   git config http."$url".extraHeader "Authorization: token $(cat ~/.openclaw-<project>/credentials/forgejo-rw.tok)"
+   git config user.name  "<host>-<project>"
+   git config user.email "<human-email>"
+   git remote set-url origin "$url"
+   ```
+   The `http."<full-repo-url>".extraHeader` form scopes the header to **that one repo URL** — it never
+   fires for another repo, so no cross-repo/cross-Claw bleed is possible even under one OS user.
+- **Never** set `http."https://git.unitek-systems.com".extraHeader` (host-level) and **never** put an
+   extraHeader in shared/global config. Token value comes from the Claw's own `chmod 600` file, read at
+   config-set time; it lands in the repo-local `.git/config` (also `chmod 600` the repo config if the
+   host is multi-tenant). Verify by presence, never by printing.
+
 ---
 
 ## 4. Verification (how a Claw proves access works — without leaking)

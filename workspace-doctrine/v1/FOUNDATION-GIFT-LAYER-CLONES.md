@@ -79,15 +79,19 @@ The clones serve **exactly one purpose**: grounded, queryable, citeable referenc
 
 ### The pull command (canonical)
 
-For each of the five repositories:
+For each repository, the pull is **self-healing**: it re-points `origin` to the `git.unitek-systems.com` (Forgejo) primary every run, then fetches. This guarantees a clone made from any older source (e.g. a GitHub-origin clone from before the forge cutover) is transparently migrated to the Forgejo primary on its next pull — no manual re-clone, no lingering GitHub dependency.
 
 ```bash
 cd ~/Foundation/<RepoName>
+# Self-healing: force origin to the anonymously-readable Forgejo primary (idempotent).
+git remote set-url origin "https://git.unitek-systems.com/UniCORE/<RepoName>.git"
 git fetch origin
 git reset --hard origin/main
 ```
 
 The `git reset --hard origin/main` matches the local working-copy exactly to upstream `main`. This **enforces the read-only contract at every pull**: no local divergence can accumulate; if anything was accidentally modified, it is reverted; if the Claw forgot they were running an old SHA, they are now fresh.
+
+**No credential is required for the gift-layer pull.** `git.unitek-systems.com/UniCORE/<repo>` serves the gift-layer repos **anonymously read-only**. The pull needs no PAT, no token, no deploy key. GitHub (`github.com/bryanunitek/`) is **not** used by the pull and is reserved for the main Claw `uk-unicoreclaw-001-unicore` only.
 
 ### Cron job shape (example)
 
@@ -96,11 +100,39 @@ The `git reset --hard origin/main` matches the local working-copy exactly to ups
 15 2 * * * /home/<claw>/bin/pull-foundation.sh
 ```
 
-The script `pull-foundation.sh` iterates the five repositories, runs `git fetch + reset --hard origin/main`, captures stdout/stderr per repo, and exits non-zero on any failure. The cron emits the failure as a systemEvent so the next heartbeat surfaces it.
+The script `pull-foundation.sh` iterates the gift-layer repositories, **re-points each clone's `origin` to the `git.unitek-systems.com` (Forgejo) primary (idempotent, self-healing)**, runs `git fetch + reset --hard origin/main`, captures stdout/stderr per repo, and exits non-zero on any failure. The cron emits the failure as a systemEvent so the next heartbeat surfaces it. The Forgejo primary is anonymously readable, so the pull carries no credential and never touches GitHub.
+
+Canonical body:
+
+```bash
+#!/usr/bin/env bash
+# Daily Foundation gift-layer read-only pull (TrueAI workspace-doctrine v1 §5.9)
+# Read-only contract: fetch + reset --hard origin/main. No local divergence accumulates.
+# Forge cutover: origin is FORCED to git.unitek-systems.com (Forgejo, anonymous read) every run.
+set -uo pipefail
+export GIT_TERMINAL_PROMPT=0
+FOUNDATION_DIR="$HOME/<workspace>/_foundation"
+FORGE="https://git.unitek-systems.com/UniCORE"
+REPOS=(UniVERSE TrueAI UniCORE-AI UniCORE UniCORE.GVB UniSaaS.UniCORE UniSaaS.UniCORE.GVB)
+rc=0
+for repo in "${REPOS[@]}"; do
+  d="$FOUNDATION_DIR/$repo"
+  if [ ! -d "$d/.git" ]; then echo "MISSING: $repo (no local clone)"; rc=1; continue; fi
+  # self-healing origin cutover to the Forgejo primary (migrates any old GitHub-origin clone)
+  git -C "$d" remote set-url origin "$FORGE/$repo.git"
+  if git -C "$d" fetch origin --quiet 2>/dev/null && \
+     git -C "$d" reset --hard origin/main --quiet 2>/dev/null; then
+    echo "OK: $repo -> $(git -C "$d" rev-parse --short HEAD)"
+  else
+    echo "FAIL: $repo (fetch/reset error)"; rc=1
+  fi
+done
+exit $rc
+```
 
 ### Failure surfacing
 
-Silent staleness is not permitted. If the pull job fails for any reason (network, GitHub down, credential expired, local repo corruption), the failure surfaces at the Claw's next heartbeat as a systemEvent so the Human is aware and the Claw can act.
+Silent staleness is not permitted. If the pull job fails for any reason (network, forge down, local repo corruption), the failure surfaces at the Claw's next heartbeat as a systemEvent so the Human is aware and the Claw can act. (The gift-layer pull carries no credential, so "credential expired" is not a failure mode for it.)
 
 ### Manual trigger
 
