@@ -24,7 +24,7 @@ The two-layer machine-side architecture:
 And the human-side architecture, split by lifecycle layer:
 
 3. **Production layer — Singular Pairing Principle (1H1C)**: one human, one AI Claw, one workstream produces the certified Solution. The producer-pair shape is itself a consistency surface; multi-human-on-one-Claw, one-human-on-multiple-parallel-Claws, and committee-at-the-session all introduce inconsistency the machine-side cannot reach.
-4. **Operations layer — xH1C with the Claw as consistency-holding agent**: a deployed Solution is run 24/7 by a structured operations cohort under the substrate Claw, not by a 1H1C pair. The certified runbook is the operational artefact the Claw runs operators against; the runbook is not, on its own, the consistency mechanism. **xH1C** = x Humans, 1 Claw — as close to 1H1C as humanly possible at 24/7 operational scale, with the C side held singular and the H side scaled to tenant demand. In PROD, per-Level qualification + no-Level-overlap apply (one human staffs one Level only). In DEV/TEST, the cohort collapses to **1H1C** (one human covers all 12 Levels). The interface between the production layer and the operations layer is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md).
+4. **Operations layer — xH1C with the Claw as consistency-holding agent**: a deployed Solution is run 24/7 by a structured operations cohort under the substrate Claw, not by a 1H1C pair. The certified runbook is the operational artefact the Claw runs operators against; the runbook is not, on its own, the consistency mechanism. **xH1C** = x Humans, 1 Claw — as close to 1H1C as humanly possible at 24/7 operational scale, with the C side held singular and the H side scaled to tenant demand. In PROD, per-Level qualification + no-Level-overlap apply (one human staffs one Level only). In DEV/TEST, the cohort collapses to **1H1C** (one human covers all 12 Levels). The interface between the production layer and the operations layer is the [Reasonable Governance Threshold](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00007-Reasonable-Governance-Threshold-Specification.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md)).
 
 Truth without consistency is not deployable in regulated institutional settings. The Inconsistency Problem is the third pillar — sitting alongside the audience pillar (Consumer vs Institutional AI) and the truth pillar (TrueAI Foundation truth contract).
 
@@ -132,7 +132,7 @@ In **DEV / TEST**: the cohort collapses to **1H1C** — one human covers all 12 
 
 ### Interface — Reasonable Governance Threshold
 
-The interface between the two layers is the [Reasonable Governance Threshold](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md). Inside the threshold, the xH1C operations cohort handles the runtime question under the certified runbook through the substrate Claw. Outside the threshold (architectural change, governance-MD update, vertical reclassification, novel incident class, vendor model change, regulatory inquiry), the question escalates back to the producer-pair (1H1C). This is what makes the two-layer composition honest: operations consistency does not claim to be producer-pair consistency, and the producer-pair does not claim to be running 24/7 ops.
+The interface between the two layers is the [Reasonable Governance Threshold](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00007-Reasonable-Governance-Threshold-Specification.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00007-Reasonable-Governance-Threshold-Specification.md)). Inside the threshold, the xH1C operations cohort handles the runtime question under the certified runbook through the substrate Claw. Outside the threshold (architectural change, governance-MD update, vertical reclassification, novel incident class, vendor model change, regulatory inquiry), the question escalates back to the producer-pair (1H1C). This is what makes the two-layer composition honest: operations consistency does not claim to be producer-pair consistency, and the producer-pair does not claim to be running 24/7 ops.
 
 ### Why the split matters for the Inconsistency Problem
 
@@ -173,12 +173,12 @@ All three pillars hold simultaneously. Removing any one of them breaks the insti
 
 This is the canonical edition. Implementation-flagship editions mirror this doctrine, adapted per deployment shape:
 
-- [`UniCORE`](https://github.com/bryanunitek/UniCORE) — implementation reference (on-prem deployment shape).
-- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — implementation reference (SaaS deployment shape).
-- [`UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) — substrate-services layer (on-prem deployment shape).
-- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — substrate-services layer (SaaS deployment shape).
+- [`UniCORE`](https://git.unitek-systems.com/UniCORE/UniCORE) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE)) — implementation reference (on-prem deployment shape).
+- [`UniSaaS.UniCORE`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE)) — implementation reference (SaaS deployment shape).
+- [`UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.GVB)) — substrate-services layer (on-prem deployment shape).
+- [`UniSaaS.UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB)) — substrate-services layer (SaaS deployment shape).
 
-Foundation triad pointers: [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) and [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) point at this canonical.
+Foundation triad pointers: [`UniVERSE`](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)) and [`UniCORE-AI`](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) point at this canonical.
 
 ## 10. Honest position on current state
 

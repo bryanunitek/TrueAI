@@ -12,15 +12,15 @@ Every Claw running under the TrueAI doctrine maintains **read-only local clones*
 
 ## Repositories in scope
 
-| Layer | Repository | URL |
-|---|---|---|
-| Programme | UniVERSE | https://github.com/bryanunitek/UniVERSE |
-| Foundation | TrueAI | https://github.com/bryanunitek/TrueAI |
-| Reference architecture | UniCORE-AI | https://github.com/bryanunitek/UniCORE-AI |
-| Implementation reference | UniCORE | https://github.com/bryanunitek/UniCORE |
-| Substrate services | UniCORE.GVB | https://github.com/bryanunitek/UniCORE.GVB |
+| Layer | Repository | URL (recommended: git.unitek-systems.com) | Mirror (GitHub) |
+|---|---|---|---|
+| Programme | UniVERSE | https://git.unitek-systems.com/UniCORE/UniVERSE | https://github.com/bryanunitek/UniVERSE |
+| Foundation | TrueAI | https://git.unitek-systems.com/UniCORE/TrueAI | https://github.com/bryanunitek/TrueAI |
+| Reference architecture | UniCORE-AI | https://git.unitek-systems.com/UniCORE/UniCORE-AI | https://github.com/bryanunitek/UniCORE-AI |
+| Implementation reference | UniCORE | https://git.unitek-systems.com/UniCORE/UniCORE | https://github.com/bryanunitek/UniCORE |
+| Substrate services | UniCORE.GVB | https://git.unitek-systems.com/UniCORE/UniCORE.GVB | https://github.com/bryanunitek/UniCORE.GVB |
 
-All five are CC BY 4.0 (gift-layer corpus). The full licence guidance is `bryanunitek/UniCORE/blob/main/LICENSE_EXAMPLES.md`.
+**Recommended source is `git.unitek-systems.com` (the public, anonymously-readable primary).** GitHub is the mirror/upstream origin. All five are CC BY 4.0 (gift-layer corpus). The full licence guidance is `UniCORE/LICENSE_EXAMPLES.md` (git.unitek-systems.com/UniCORE/UniCORE, mirror: github.com/bryanunitek/UniCORE).
 
 ## Initial clone procedure (first-time setup)
 
@@ -30,8 +30,11 @@ In the Claw's workspace, in a stable location (e.g. `~/Foundation/` or workspace
 mkdir -p Foundation
 cd Foundation
 
+# Recommended: pull from git.unitek-systems.com (public, anonymously readable).
+# GitHub is the mirror/upstream origin (private; only the main Claw uk-unicoreclaw-001-unicore has GitHub access).
 for repo in UniVERSE TrueAI UniCORE-AI UniCORE UniCORE.GVB; do
-    git clone --depth=full https://github.com/bryanunitek/${repo}.git
+    git clone --depth=full https://git.unitek-systems.com/UniCORE/${repo}.git
+    # mirror/origin fallback: https://github.com/bryanunitek/${repo}.git
 done
 ```
 

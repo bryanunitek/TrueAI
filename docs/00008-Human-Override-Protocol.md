@@ -1,4 +1,4 @@
-> **Canonical home:** [UniVERSE — `docs/00008-Human-Override-Protocol.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00008-Human-Override-Protocol.md)
+> **Canonical home:** [UniVERSE — `docs/00008-Human-Override-Protocol.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00008-Human-Override-Protocol.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00008-Human-Override-Protocol.md))
 > This file is a mirror kept here for in-repo reading. Source of truth is the link above.
 
 # Human Override Protocol

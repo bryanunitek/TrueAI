@@ -131,7 +131,7 @@ This is the structural reason the Foundation can hold across long time horizons.
 
 ## 8. Why this matters for harmony
 
-The Foundation describes its long horizon (see [`HORIZON.md`](https://github.com/bryanunitek/TrueAI/blob/main/HORIZON.md)) in the language of harmony, mutual respect, and peace. Reversibility is the operational form of that language.
+The Foundation describes its long horizon (see [`HORIZON.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/HORIZON.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/HORIZON.md))) in the language of harmony, mutual respect, and peace. Reversibility is the operational form of that language.
 
 A system that asserts `TRUE` and cannot reverse it must defend the original assertion to preserve its credibility. Defending wrong determinations to preserve credibility is the engineering substrate of institutional dishonesty. Over long timeframes, an irreversible verification system becomes adversarial to the truth it claims to serve, because every reversal is a threat to the system's standing.
 

@@ -1,4 +1,4 @@
-> **Canonical home:** [UniVERSE — `docs/00056-Absolute-Safety-Invariants.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00056-Absolute-Safety-Invariants.md)
+> **Canonical home:** [UniVERSE — `docs/00056-Absolute-Safety-Invariants.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00056-Absolute-Safety-Invariants.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00056-Absolute-Safety-Invariants.md))
 > This file is a mirror kept here for in-repo reading. Source of truth is the link above.
 
 # UniCORE AI Absolute Safety Invariants

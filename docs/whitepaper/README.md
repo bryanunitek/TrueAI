@@ -20,8 +20,8 @@ v1.0 marks some sections **Stable** (safe to cite as settled) and others **Expec
 
 ## Companion documents
 
-- The [Governed Intelligence whitepaper](https://github.com/bryanunitek/UniVERSE/blob/main/docs/whitepaper/WHITEPAPER.md) (UniVERSE) describes the governance levels that sit above this foundation.
-- The [UniCORE AI architecture](https://github.com/bryanunitek/UniCORE-AI) describes the implementation model.
+- The [Governed Intelligence whitepaper](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/whitepaper/WHITEPAPER.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/whitepaper/WHITEPAPER.md)) (UniVERSE) describes the governance levels that sit above this foundation.
+- The [UniCORE AI architecture](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) describes the implementation model.
 
 This document does not assume familiarity with either of those works.
 

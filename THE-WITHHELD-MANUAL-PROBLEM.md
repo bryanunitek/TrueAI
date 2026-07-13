@@ -86,7 +86,7 @@ The pattern is dangerous in an app. It is civilisational when the operating syst
 
 When AI is a feature inside an application, an operator can in principle choose, govern, or wrap it. When the operating system *is* the AI, the AI is the substrate: every action passes through it by definition, and there is no userland vantage point from which to govern what sits beneath userland. Shipping an AI-as-OS with no manual for lawful institutional use, and no accountability spine, puts ungoverned AI in the default path for the whole population — not in a tool someone opted into.
 
-This is why the audience pillar — **Consumer AI vs Institutional AI** — has to be resolved at the point of use, bound to identity, not to the device. The same human is one person at home and an accountable office-holder at work; the governance posture must follow *which accountable identity is acting*, chosen at login, carried through every action. (See the audience pillar and the [1U1C accountability model](https://github.com/bryanunitek/TrueAI/blob/main/regulatory-alignment/v1/CROSS-CUTTING-HUMAN-RESPONSIBILITY.md) — 1 Person : 1 User : 1 Claw.) A platform owner can provide the AI substrate; it must not also own the definition of what lawful institutional use means, nor the spine that enforces it.
+This is why the audience pillar — **Consumer AI vs Institutional AI** — has to be resolved at the point of use, bound to identity, not to the device. The same human is one person at home and an accountable office-holder at work; the governance posture must follow *which accountable identity is acting*, chosen at login, carried through every action. (See the audience pillar and the [1U1C accountability model](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/regulatory-alignment/v1/CROSS-CUTTING-HUMAN-RESPONSIBILITY.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/regulatory-alignment/v1/CROSS-CUTTING-HUMAN-RESPONSIBILITY.md)) — 1 Person : 1 User : 1 Claw.) A platform owner can provide the AI substrate; it must not also own the definition of what lawful institutional use means, nor the spine that enforces it.
 
 ## 4. Why the governance layer cannot be owned by the AI maker
 
@@ -101,7 +101,7 @@ A market needs these separated. If the maker of the AI also authors the rules fo
 The structural separations the TrueAI Foundation and the UniCORE-AI reference architecture insist on are all refusals to be that chokepoint:
 
 - **The manual is a gift, not a product.** The foundation triad is CC BY 4.0 — given, not sold, irrevocable. The instructions for lawful AI use are owned by no one because they are given to everyone.
-- **The accountability spine is owner-neutral.** [1U1C](https://github.com/bryanunitek/TrueAI/blob/main/regulatory-alignment/v1/CROSS-CUTTING-HUMAN-RESPONSIBILITY.md) — one person, one user, one Claw, resolving every consequential action to one named, never-erased human — binds *even the platform owner's* AI. It is not a feature the maker graciously provides; if the maker owns the spine, the spine is theirs to bend.
+- **The accountability spine is owner-neutral.** [1U1C](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/regulatory-alignment/v1/CROSS-CUTTING-HUMAN-RESPONSIBILITY.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/regulatory-alignment/v1/CROSS-CUTTING-HUMAN-RESPONSIBILITY.md)) — one person, one user, one Claw, resolving every consequential action to one named, never-erased human — binds *even the platform owner's* AI. It is not a feature the maker graciously provides; if the maker owns the spine, the spine is theirs to bend.
 - **Government auditors are read-only inspectors, never authors.** Oversight does not become ownership.
 - **Per-jurisdiction court-order quorum; the Foundation does not adjudicate between courts.** No single entity, and no single jurisdiction, holds the master key.
 - **Foundations hold no IP and cannot commercialise.** Legitimacy is separated from revenue by construction.
@@ -112,7 +112,7 @@ Owner-neutrality is not idealism. It is the mechanism that lets a platform owner
 
 The reason the manual is given away free is precisely so that no one can charge for the right to use AI lawfully — not the AI makers, not Unitek, not any future steward. The gift removes the gate. A withheld manual is a toll booth; a given manual is a public road.
 
-This is why the [Gift Principle](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00028-TrueAI-Foundation-Gift-Principle.md) is structural and not decorative. The foundation triad being a gift is the direct, deliberate answer to the Withheld-Manual Problem:
+This is why the [Gift Principle](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00028-TrueAI-Foundation-Gift-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00028-TrueAI-Foundation-Gift-Principle.md)) is structural and not decorative. The foundation triad being a gift is the direct, deliberate answer to the Withheld-Manual Problem:
 
 - The **diagnosis** is this document: capability shipped, manual withheld, saviour manufactured, monopoly risked.
 - The **remedy** is the gift: the manual for responsible and lawful AI use is published, irrevocable, and free, so the dependency cannot be manufactured and the chokepoint cannot form.
@@ -158,11 +158,11 @@ The Universal Manual is not a marketing upgrade over "the missing manual" or "th
 ## 10. Sister documents
 
 - [The Inconsistency Problem](./THE-INCONSISTENCY-PROBLEM.md) — the consistency pillar.
-- [The Inconsistency Problem — pointer](https://github.com/bryanunitek/UniVERSE/blob/main/THE-INCONSISTENCY-PROBLEM.md) — UniVERSE pointer pattern.
-- [TrueAI Foundation Gift Principle](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00028-TrueAI-Foundation-Gift-Principle.md) — the remedy this diagnosis justifies.
+- [The Inconsistency Problem — pointer](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/THE-INCONSISTENCY-PROBLEM.md)) — UniVERSE pointer pattern.
+- [TrueAI Foundation Gift Principle](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00028-TrueAI-Foundation-Gift-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00028-TrueAI-Foundation-Gift-Principle.md)) — the remedy this diagnosis justifies.
 - [Singular Pairing Principle](./docs/10001-Singular-Pairing-Principle.md) — the human-side accountability spine.
 
-Foundation triad pointers: [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) and [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) point at this canonical.
+Foundation triad pointers: [`UniVERSE`](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)) and [`UniCORE-AI`](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) point at this canonical.
 
 ---
 

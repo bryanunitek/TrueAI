@@ -32,13 +32,15 @@ At onboarding, the human authority initialises the Claw's local copy by cloning 
 
 ```bash
 # TrueAI workspace doctrine (every TrueAI-aligned Claw needs this)
+# Recommended: pull from git.unitek-systems.com (public, anonymously readable).
+# GitHub is the mirror/upstream origin (private; only the main Claw touches GitHub).
 cd ~/.openclaw/workspace/
-git clone git@github.com:bryanunitek/TrueAI.git _trueai
-# Or if SSH not available:
-git clone https://github.com/bryanunitek/TrueAI.git _trueai
+git clone https://git.unitek-systems.com/UniCORE/TrueAI.git _trueai
+# mirror/origin fallback: git clone https://github.com/bryanunitek/TrueAI.git _trueai
 
 # UniCORE-AI developer doctrine (only for Claws working on UniCORE-AI verticals)
-git clone git@github.com:bryanunitek/UniCORE-AI.git _unicore-ai
+git clone https://git.unitek-systems.com/UniCORE/UniCORE-AI.git _unicore-ai
+# mirror/origin fallback: git clone https://github.com/bryanunitek/UniCORE-AI.git _unicore-ai
 ```
 
 After clone, the Claw's local doctrine layout is:
@@ -316,4 +318,4 @@ The freshness check uses `git diff` and `git ls-tree` against canonical. The MAN
 - TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](FOUNDATION.md) — the content this update discipline protects
 - TrueAI [`workspace-doctrine/v1/MANIFEST.md`](MANIFEST.md) — human-readable manifest of v1
 - TrueAI [`workspace-doctrine/v1/MANIFEST.json`](MANIFEST.json) — machine-parseable manifest of v1
-- UniCORE-AI [`developer-doctrine/v1/`](https://github.com/bryanunitek/UniCORE-AI/tree/main/developer-doctrine/v1) — the role-specific doctrine layer (if applicable to this Claw)
+- UniCORE-AI [`developer-doctrine/v1/`](https://git.unitek-systems.com/UniCORE/UniCORE-AI/src/branch/main/developer-doctrine/v1) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI/tree/main/developer-doctrine/v1)) — the role-specific doctrine layer (if applicable to this Claw)

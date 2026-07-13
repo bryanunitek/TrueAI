@@ -44,7 +44,7 @@ It does not:
 - claim retroactive authority over earlier or unrelated uses of "TrueAI", "True AI", "TRUEAI", or similar terms by other parties;
 - substitute for the trademark registration and prior-use review that Unitek Systems Limited is conducting separately.
 
-Where this statement refers to **TrueAI**, it means the TrueAI Foundation as published by Unitek Systems Limited from May 2026 — the work in this repository and its sibling repositories [UniVERSE](https://github.com/bryanunitek/UniVERSE) and [UniCORE-AI](https://github.com/bryanunitek/UniCORE-AI). It does not by itself extend over uses of similar names that pre-date that publication or that operate in unrelated classes.
+Where this statement refers to **TrueAI**, it means the TrueAI Foundation as published by Unitek Systems Limited from May 2026 — the work in this repository and its sibling repositories [UniVERSE](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)) and [UniCORE-AI](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)). It does not by itself extend over uses of similar names that pre-date that publication or that operate in unrelated classes.
 
 The binding rules in the sections below apply to that scope.
 

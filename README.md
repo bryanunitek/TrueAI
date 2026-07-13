@@ -12,9 +12,9 @@ A 30-year programme from apprentice to certified producer. A public foundation g
 
 ---
 
-*This is **TrueAI**, the immutable Foundation layer of UniCORE. The Nine Invariants and the documents that define them. Sister repositories: [UniVERSE](https://github.com/bryanunitek/UniVERSE) (the programme) and [UniCORE-AI](https://github.com/bryanunitek/UniCORE-AI) (the 12-level reference architecture).*
+*This is **TrueAI**, the immutable Foundation layer of UniCORE. The Nine Invariants and the documents that define them. Sister repositories: [UniVERSE](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)) (the programme) and [UniCORE-AI](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) (the 12-level reference architecture).*
 
-*New to producing on the public gift surface? Start with [UniVERSE/GETTING_STARTED.md](https://github.com/bryanunitek/UniVERSE/blob/main/GETTING_STARTED.md).*
+*New to producing on the public gift surface? Start with [UniVERSE/GETTING_STARTED.md](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/GETTING_STARTED.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/GETTING_STARTED.md)).*
 
 ---
 
@@ -28,7 +28,7 @@ Today's frontier AIs are configured for **consumer** use: variability, creativit
 
 ### Pillar 2 — Truth: the TrueAI Foundation truth contract
 
-What an AI system is permitted to claim, and what it is required to mark as unverified. The Nine Invariants of the [TrueAI Foundation](https://github.com/bryanunitek/TrueAI) make explicit: TRUE means evidenced, FALSE means falsified, UNVERIFIED means the system declined to assert. No third state where the system fabricates confidence it does not have.
+What an AI system is permitted to claim, and what it is required to mark as unverified. The Nine Invariants of the [TrueAI Foundation](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)) make explicit: TRUE means evidenced, FALSE means falsified, UNVERIFIED means the system declined to assert. No third state where the system fabricates confidence it does not have.
 
 ### Pillar 3 — Inconsistency: same input → same decision
 
@@ -37,7 +37,7 @@ Truth without consistency is not deployable in regulated institutional settings.
 - **Machine-side**: foundation consistency (UniCORE-AI 12-Level governance + governance MD-files) + vertical consistency (per-Vertical-CORE primitives).
 - **Human-side**: 1H1C at the production layer (Singular Pairing Principle — one human, one AI Claw, one workstream, produces certified artefacts) + xH1C at the operations layer (x humans operating the deployed Solution through one substrate Claw as consistency-holding agent, with per-Level qualification in PROD).
 
-Canonical: [THE-INCONSISTENCY-PROBLEM.md](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md). The Singular Pairing Principle doctrine lives at [`bryanunitek/TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md).
+Canonical: [THE-INCONSISTENCY-PROBLEM.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md)). The Singular Pairing Principle doctrine lives at [`TrueAI/docs/10001-Singular-Pairing-Principle.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10001-Singular-Pairing-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)).
 
 ### Honest framing
 
@@ -184,14 +184,14 @@ This is a structural choice, not a marketing choice. The programme exists to kee
 
 ## Related Repositories
 
-- [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) — The wider vision, whitepapers, strategy, roadmap, and outreach.
-- [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) — A governed AI reference implementation with a 12-Level vertical stack
-- [`UniCORE`](https://github.com/bryanunitek/UniCORE) — The UniCORE name and the open list of `UniCORE.<Industry>` classified names. CC BY 4.0 gift surface.
-- [`UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) — The substrate-services layer of the programme (Global Virtual Bridge). CC BY 4.0 gift surface.
-- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — The SaaS-deployment-shape sister of UniCORE. Same governance, multi-tenant topology. CC BY 4.0 gift surface.
-- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — The SaaS-deployment-shape sister of UniCORE.GVB. Substrate-services layer for the SaaS topology. CC BY 4.0 gift surface.
+- [`UniVERSE`](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)) — The wider vision, whitepapers, strategy, roadmap, and outreach.
+- [`UniCORE-AI`](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) — A governed AI reference implementation with a 12-Level vertical stack
+- [`UniCORE`](https://git.unitek-systems.com/UniCORE/UniCORE) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE)) — The UniCORE name and the open list of `UniCORE.<Industry>` classified names. CC BY 4.0 gift surface.
+- [`UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE.GVB)) — The substrate-services layer of the programme (Global Virtual Bridge). CC BY 4.0 gift surface.
+- [`UniSaaS.UniCORE`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE)) — The SaaS-deployment-shape sister of UniCORE. Same governance, multi-tenant topology. CC BY 4.0 gift surface.
+- [`UniSaaS.UniCORE.GVB`](https://git.unitek-systems.com/UniCORE/UniSaaS.UniCORE.GVB) (mirror: [GitHub](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB)) — The SaaS-deployment-shape sister of UniCORE.GVB. Substrate-services layer for the SaaS topology. CC BY 4.0 gift surface.
 
-The public register of practitioners certified by Unitek Systems Limited to provide Solution Review and other delegated programme services lives in [`UniVERSE/CERTIFIED-EXPERTS.md`](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md).
+The public register of practitioners certified by Unitek Systems Limited to provide Solution Review and other delegated programme services lives in [`UniVERSE/CERTIFIED-EXPERTS.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/CERTIFIED-EXPERTS.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/CERTIFIED-EXPERTS.md)).
 
 ---
 
@@ -240,7 +240,7 @@ TrueAI is a governance foundation, not a product, platform, SaaS offering, tool 
 
 ## Landscape
 
-Where UniCORE AI and the TrueAI Foundation sit in the current AI governance landscape — a structural comparison against the published governance frameworks of OpenAI, Anthropic, Google DeepMind, Microsoft, Meta, and others. See [LANDSCAPE.md](LANDSCAPE.md) for the comparison and what it shows. The canonical version is published at [`UniVERSE/LANDSCAPE.md`](https://github.com/bryanunitek/UniVERSE/blob/main/LANDSCAPE.md).
+Where UniCORE AI and the TrueAI Foundation sit in the current AI governance landscape — a structural comparison against the published governance frameworks of OpenAI, Anthropic, Google DeepMind, Microsoft, Meta, and others. See [LANDSCAPE.md](LANDSCAPE.md) for the comparison and what it shows. The canonical version is published at [`UniVERSE/LANDSCAPE.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/LANDSCAPE.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/LANDSCAPE.md)).
 
 ## Horizon
 

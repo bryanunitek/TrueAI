@@ -73,8 +73,8 @@ This folder is maintained by Bryan Fred + the UniCORE Claw (the founder-pair tea
 
 - TrueAI [`docs/10001-Singular-Pairing-Principle.md`](../../docs/10001-Singular-Pairing-Principle.md) — the 1-human-1-Claw structural rule that governs every Foundation-aligned Claw. No sub-agent spawning. Workspace doctrine reaffirms it.
 - TrueAI [`docs/00056-Absolute-Safety-Invariants.md`](../../docs/00056-Absolute-Safety-Invariants.md) — the Nine Invariants. Workspace doctrine is consistent with all nine.
-- UniCORE-AI [`developer-doctrine/v1/`](https://github.com/bryanunitek/UniCORE-AI/tree/main/developer-doctrine/v1) — the role-specific doctrine for development-role Claws working on UniCORE-AI verticals (UniCORE.Law, UniCORE.GVB, future Banking / Healthcare / etc.).
-- UniVERSE [`docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md) — the pairing protocol that delivers this content to Claws at session-opening time.
+- UniCORE-AI [`developer-doctrine/v1/`](https://git.unitek-systems.com/UniCORE/UniCORE-AI/src/branch/main/developer-doctrine/v1) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI/tree/main/developer-doctrine/v1)) — the role-specific doctrine for development-role Claws working on UniCORE-AI verticals (UniCORE.Law, UniCORE.GVB, future Banking / Healthcare / etc.).
+- UniVERSE [`docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00061-PairedClaw-Bond-File-And-Session-Protocol.md)) — the pairing protocol that delivers this content to Claws at session-opening time.
 
 ---
 

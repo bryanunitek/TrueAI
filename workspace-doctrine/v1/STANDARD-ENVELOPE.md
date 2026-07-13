@@ -111,4 +111,4 @@ No exceptions to standard envelope are permitted without explicit human-authorit
 - TrueAI [`workspace-doctrine/v1/IDENTITY.md`](IDENTITY.md) — the local identity template that records the envelope.
 - TrueAI [`workspace-doctrine/v1/REPO-SCOPING.md`](REPO-SCOPING.md) — the repo scope discipline.
 - TrueAI [`workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) — doctrine update discipline.
-- UniCORE-AI [`developer-doctrine/v1/PRIVILEGED-ENVELOPE.md`](https://github.com/bryanunitek/UniCORE-AI/blob/main/developer-doctrine/v1/PRIVILEGED-ENVELOPE.md) — the privileged envelope (Team UniCORE only).
+- UniCORE-AI [`developer-doctrine/v1/PRIVILEGED-ENVELOPE.md`](https://git.unitek-systems.com/UniCORE/UniCORE-AI/src/branch/main/developer-doctrine/v1/PRIVILEGED-ENVELOPE.md) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI/blob/main/developer-doctrine/v1/PRIVILEGED-ENVELOPE.md)) — the privileged envelope (Team UniCORE only).

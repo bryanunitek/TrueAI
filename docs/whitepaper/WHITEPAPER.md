@@ -4,8 +4,10 @@ author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 version: "Version 1.0 - May 2026"
 status: v1.0
 licence: CC BY 4.0
-repo: https://github.com/bryanunitek/TrueAI
-canonical: https://github.com/bryanunitek/TrueAI/blob/main/docs/whitepaper/WHITEPAPER.md
+repo: https://git.unitek-systems.com/UniCORE/TrueAI
+repo_mirror: https://github.com/bryanunitek/TrueAI
+canonical: https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/whitepaper/WHITEPAPER.md
+canonical_mirror: https://github.com/bryanunitek/TrueAI/blob/main/docs/whitepaper/WHITEPAPER.md
 ---
 
 # TrueAI: The Foundation Principles for Governable Artificial Intelligence
@@ -381,7 +383,7 @@ The author has read the document in full and accepts editorial responsibility fo
 |---|---|---|
 | v1.0 | May 2026 | First publication. Nine invariants stable. Sections 4, 6, 7, 9 marked *expected to evolve*. |
 
-Future revisions will be recorded here. The canonical version of the TrueAI Foundation at any time is whichever git tag in the [TrueAI repository](https://github.com/bryanunitek/TrueAI) carries the label `v-current`. Older versions remain accessible through the repository's tag history.
+Future revisions will be recorded here. The canonical version of the TrueAI Foundation at any time is whichever git tag in the [TrueAI repository](https://git.unitek-systems.com/UniCORE/TrueAI) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI)) carries the label `v-current`. Older versions remain accessible through the repository's tag history.
 
 ---
 

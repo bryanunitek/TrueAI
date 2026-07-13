@@ -1,4 +1,4 @@
-> **Canonical home:** [UniVERSE — `docs/00006-Governance-Constitution-for-TrueAI.md`](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00006-Governance-Constitution-for-TrueAI.md)
+> **Canonical home:** [UniVERSE — `docs/00006-Governance-Constitution-for-TrueAI.md`](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00006-Governance-Constitution-for-TrueAI.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00006-Governance-Constitution-for-TrueAI.md))
 > This file is a mirror kept here for in-repo reading. Source of truth is the link above.
 
 # The Governance Constitution for TrueAI

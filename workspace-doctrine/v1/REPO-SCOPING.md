@@ -56,7 +56,7 @@ UniVERSE, TrueAI, UniCORE-AI, UniCORE, UniCORE.GVB, and their SaaS sister repos 
 
 This matters specifically for the doctrine repositories. Every TrueAI-aligned Claw clones `bryanunitek/TrueAI` to obtain its local doctrine copy. The clone exists for reading, not for writing. Concretely:
 
-- ✅ `git clone git@github.com:bryanunitek/TrueAI.git _trueai` — allowed (creating the local read-only copy)
+- ✅ `git clone https://git.unitek-systems.com/UniCORE/TrueAI.git _trueai` — allowed (creating the local read-only copy; recommended source is git.unitek-systems.com, public + anonymously readable. Mirror/origin: `git@github.com:bryanunitek/TrueAI.git`)
 - ✅ `git pull origin main` — allowed only when the human authority has authenticated a pending doctrine change (see [`FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md))
 - ❌ `git commit` inside `_trueai/` — never allowed
 - ❌ `git push origin main` to TrueAI — never allowed
