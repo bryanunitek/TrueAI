@@ -67,7 +67,7 @@ It defines the invariants — the non-negotiable rules — that any AI system cl
 
 ## The Nine Invariants
 
-These invariants define the minimum architectural properties required for an AI system to be placed under named human authority. They are stated as absolutes. Any system that violates any one of them is not TrueAI-aligned. The canonical long-form statement of each is in the [TrueAI Foundation whitepaper](docs/whitepaper/WHITEPAPER.md) and in foundation document [`00056`](docs/00056-Absolute-Safety-Invariants.md).
+These invariants define the minimum architectural properties required for an AI system to be placed under named human authority. They are stated as absolutes. Any system that violates any one of them is not TrueAI-aligned. The canonical long-form statement of each is in the [TrueAI Foundation whitepaper](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/whitepaper/WHITEPAPER.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/whitepaper/WHITEPAPER.md)) and in foundation document [`00056`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/00056-Absolute-Safety-Invariants.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/00056-Absolute-Safety-Invariants.md)).
 
 1. **No Autonomy.** The AI does not generate goals, initiate decisions, or take actions outside human-defined thresholds. It does not decide when to act; it acts when directed.
 2. **No Self-Modification.** The AI does not alter its own architecture, constraints, governance, or thresholds. It does not optimise itself, evolve its own logic, or generate new capabilities.
@@ -232,11 +232,11 @@ Truth brings harmony — whether between humans, between AIs, or between the two
 
 ## Discuss and contribute
 
-Challenges to the invariants, edge-case analysis, translation, and corrections belong in [GitHub Discussions](https://github.com/bryanunitek/TrueAI/discussions). See [DISCUSSIONS.md](DISCUSSIONS.md) for what the space is for, what it is not for, and how to take part.
+Challenges to the invariants, edge-case analysis, translation, and corrections belong in [GitHub Discussions](https://github.com/bryanunitek/TrueAI/discussions). See [DISCUSSIONS.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/DISCUSSIONS.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/DISCUSSIONS.md)) for what the space is for, what it is not for, and how to take part.
 
 ## Classification, brand, and claims
 
-TrueAI is a governance foundation, not a product, platform, SaaS offering, tool category, or brand for sale. See [STATEMENT-ON-CLAIMS.md](STATEMENT-ON-CLAIMS.md) for the binding rules on how the TrueAI name may and may not be used, including in GitHub Discussions.
+TrueAI is a governance foundation, not a product, platform, SaaS offering, tool category, or brand for sale. See [STATEMENT-ON-CLAIMS.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/STATEMENT-ON-CLAIMS.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/STATEMENT-ON-CLAIMS.md)) for the binding rules on how the TrueAI name may and may not be used, including in GitHub Discussions.
 
 ## Landscape
 
@@ -244,20 +244,20 @@ Where UniCORE AI and the TrueAI Foundation sit in the current AI governance land
 
 ## Horizon
 
-The TrueAI Foundation is ready to cite and build against today. The systems that will fully satisfy it are not. See [HORIZON.md](HORIZON.md) for the author's time-horizon statement: decades, not quarters, is the expected shape of governance work at this scale.
+The TrueAI Foundation is ready to cite and build against today. The systems that will fully satisfy it are not. See [HORIZON.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/HORIZON.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/HORIZON.md)) for the author's time-horizon statement: decades, not quarters, is the expected shape of governance work at this scale.
 
 ## AI authorship
 
-This repository is produced with AI assistance operating under TrueAI governance. The full disclosure is at [AI-AUTHORSHIP.md](AI-AUTHORSHIP.md).
+This repository is produced with AI assistance operating under TrueAI governance. The full disclosure is at [AI-AUTHORSHIP.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/AI-AUTHORSHIP.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/AI-AUTHORSHIP.md)).
 
 ## Deployment principles
 
 Two deployment-topology principles sit alongside the Gift Principle. They are not invariants — they govern how work claiming to satisfy the invariants may be produced and when layered governance may be applied to it:
 
-- [**Singular Pairing Principle**](docs/10001-Singular-Pairing-Principle.md) — one human, one AI Claw per workstream; Generation IT producer qualification; two operational patterns (direct pairing and parallel isolation with fresh synthesis).
-- [**Certification Before Layered Governance**](docs/10002-Certification-Before-Layered-Governance.md) — a Solution must conform to the Foundation before per-level governance MD files may be applied to it. Build → Certification gate → Govern.
+- [**Singular Pairing Principle**](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10001-Singular-Pairing-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)) — one human, one AI Claw per workstream; Generation IT producer qualification; two operational patterns (direct pairing and parallel isolation with fresh synthesis).
+- [**Certification Before Layered Governance**](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10002-Certification-Before-Layered-Governance.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10002-Certification-Before-Layered-Governance.md)) — a Solution must conform to the Foundation before per-level governance MD files may be applied to it. Build → Certification gate → Govern.
 
 ## Contact
 
-- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/TrueAI/discussions) (see [DISCUSSIONS.md](DISCUSSIONS.md))
+- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/TrueAI/discussions) (see [DISCUSSIONS.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/DISCUSSIONS.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/DISCUSSIONS.md)))
 - **Private contact / connection request:** [LinkedIn](https://www.linkedin.com/in/bryan-fred-02209753/)

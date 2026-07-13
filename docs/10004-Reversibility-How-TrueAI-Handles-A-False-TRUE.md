@@ -10,7 +10,7 @@ Status: Public. Given, not sold. Irrevocable.
 
 ## 1. Purpose
 
-[`00006-Governance-Constitution-for-TrueAI.md`](00006-Governance-Constitution-for-TrueAI.md) establishes the rule that, when truth cannot be determined, TrueAI must respond with `UNVERIFIED` and must not infer, assume, or fabricate. That rule handles the case where the system knows it does not know.
+[`00006-Governance-Constitution-for-TrueAI.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/00006-Governance-Constitution-for-TrueAI.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/00006-Governance-Constitution-for-TrueAI.md)) establishes the rule that, when truth cannot be determined, TrueAI must respond with `UNVERIFIED` and must not infer, assume, or fabricate. That rule handles the case where the system knows it does not know.
 
 This document handles the harder case: the system determined `TRUE`, and the determination was wrong.
 
@@ -123,7 +123,7 @@ The corroboration is across **independent lines** with no final arbiter:
 - The lines do not share a single upstream authority that could collapse them all by a single error.
 - No one line is privileged. A disagreement between lines is not resolved by deferring to a designated arbiter; it is resolved by treating the claim as `UNVERIFIED` until the disagreement is investigated and addressed at the evidence layer.
 
-A system that resolves disagreements by deferring to a final arbiter has reduced its verification to the arbiter's authority. That is sovereign authority, which Invariant 9 reserves for humans. The mechanical verification surface must not contain a final arbiter; its disagreements escalate to humans under the Human Override Protocol ([`00008-Human-Override-Protocol.md`](00008-Human-Override-Protocol.md)).
+A system that resolves disagreements by deferring to a final arbiter has reduced its verification to the arbiter's authority. That is sovereign authority, which Invariant 9 reserves for humans. The mechanical verification surface must not contain a final arbiter; its disagreements escalate to humans under the Human Override Protocol ([`00008-Human-Override-Protocol.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/00008-Human-Override-Protocol.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/00008-Human-Override-Protocol.md))).
 
 This is the structural reason the Foundation can hold across long time horizons. A verification system with a final arbiter at the mechanical layer is exactly one wrong arbitrator away from systemic failure. A verification system with no final arbiter at the mechanical layer has no single failure point for an adversary to compromise.
 
@@ -150,7 +150,7 @@ This is why reversibility is in the Invariants and not in the implementation gui
 | What if a verifier is producing bad TRUEs? | Calibration surface flags the verifier's reversal rate. Section 5.4. |
 | What if a TRUE was correct at the time and is no longer correct? | `Became-FALSE` path. Different from `was-FALSE`. Section 6.2. |
 | What if two verifiers disagree? | `UNVERIFIED` until disagreement is addressed at the evidence layer. Section 7. |
-| What if we want to designate a final arbiter to resolve verifier disagreements? | The mechanical layer has no final arbiter. Disagreements escalate to humans under [`00008-Human-Override-Protocol.md`](00008-Human-Override-Protocol.md). |
+| What if we want to designate a final arbiter to resolve verifier disagreements? | The mechanical layer has no final arbiter. Disagreements escalate to humans under [`00008-Human-Override-Protocol.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/00008-Human-Override-Protocol.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/00008-Human-Override-Protocol.md)). |
 | What if a reversal is itself wrong? | Reversals are subject to the same rules. A reversal can be reversed. The audit chain preserves all states. |
 | What if the system never asserts TRUE again to avoid the risk of being wrong? | That is the `UNVERIFIED` failure mode and is its own problem — the system becomes useless. Calibration of verifier thresholds is a human-governance concern, not a system property. |
 
@@ -183,7 +183,7 @@ A surface that does not assert `TRUE` does not need this protocol. The argument 
 | Verifier calibration | Reversal rate is a recorded surface |
 | Temporal distinction | `Was-FALSE` and `became-FALSE` are distinguished |
 | Disagreement resolution | No final arbiter at the mechanical layer; escalates to humans |
-| Sovereignty | Human Override Protocol ([`00008`](00008-Human-Override-Protocol.md)) is the only final arbiter |
+| Sovereignty | Human Override Protocol ([`00008`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/00008-Human-Override-Protocol.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/00008-Human-Override-Protocol.md))) is the only final arbiter |
 
 A false `TRUE` is survivable. An irreversible `TRUE` is not.
 

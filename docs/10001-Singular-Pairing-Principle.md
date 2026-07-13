@@ -127,7 +127,7 @@ Under Pattern 2, the synthesis human is the named author of the Solution and mus
 
 ### Succession
 
-Generation IT is a finite and ageing cohort. The programme's time horizon (see `HORIZON.md`) overlaps directly with the period in which the current Generation IT cohort will retire. This makes deliberate succession — the systematic transfer of end-to-end mental models to the cohort that follows — a first-class concern of the programme rather than a deferred one. Succession at this scale is itself a governance act and is set out in [`10003-Generation-IT-Succession.md`](10003-Generation-IT-Succession.md).
+Generation IT is a finite and ageing cohort. The programme's time horizon (see `HORIZON.md`) overlaps directly with the period in which the current Generation IT cohort will retire. This makes deliberate succession — the systematic transfer of end-to-end mental models to the cohort that follows — a first-class concern of the programme rather than a deferred one. Succession at this scale is itself a governance act and is set out in [`10003-Generation-IT-Succession.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10003-Generation-IT-Succession.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10003-Generation-IT-Succession.md)).
 
 ---
 
@@ -151,7 +151,7 @@ The Generation-IT producer (Pattern 1 or Pattern 2 author) **sets up the Solutio
 
 **What is preserved:** Singular Pairing at every bond. The pair always has exactly one human. The off-pair advisor speaks **to the apprentice**, not into the Claw. There is no committee inside the bond.
 
-**What is gained:** structural succession across the Generation-IT producer's working life. The apprentice is Claw-fluent by the time the producer steps back. No bus-factor cliff. Maps directly onto the cohort apprenticeship arc the Foundation's [`HORIZON.md`](../HORIZON.md) anticipates.
+**What is gained:** structural succession across the Generation-IT producer's working life. The apprentice is Claw-fluent by the time the producer steps back. No bus-factor cliff. Maps directly onto the cohort apprenticeship arc the Foundation's [`HORIZON.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/HORIZON.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/HORIZON.md)) anticipates.
 
 **Trade-off:** slower than direct 1H1C with the Generation-IT producer in the pair throughout. Producer-time at setup + oversight cycles + apprentice-learning curve adds latency. The variant is chosen when succession durability outweighs production speed for the workstream.
 
@@ -594,7 +594,7 @@ The Claw acknowledged the discipline existed at every break and broke it again o
 
 ## 6. Interaction with layered governance
 
-This principle governs the Build phase. The authoring of per-level governance MD files (Region, Country, State, organisation, mission, deployment, user) is a separate phase and is governed by foundation document [`10002-Certification-Before-Layered-Governance.md`](10002-Certification-Before-Layered-Governance.md).
+This principle governs the Build phase. The authoring of per-level governance MD files (Region, Country, State, organisation, mission, deployment, user) is a separate phase and is governed by foundation document [`10002-Certification-Before-Layered-Governance.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10002-Certification-Before-Layered-Governance.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10002-Certification-Before-Layered-Governance.md)).
 
 Per-level governance authors work with AI at their level under their own pairing at their own level. Those pairings are also singular (1 human, 1 Claw at each level) but do not require Generation IT in the same form. A Regional authority authoring Regional governance MD files is authoring policy, not producing a Solution. The Generation IT requirement applies to Solution production; it does not apply to level-specific policy authorship.
 

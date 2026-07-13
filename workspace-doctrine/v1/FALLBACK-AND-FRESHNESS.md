@@ -315,7 +315,7 @@ The freshness check uses `git diff` and `git ls-tree` against canonical. The MAN
 
 ## Cross-references
 
-- TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](FOUNDATION.md) — the content this update discipline protects
-- TrueAI [`workspace-doctrine/v1/MANIFEST.md`](MANIFEST.md) — human-readable manifest of v1
+- TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FOUNDATION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FOUNDATION.md)) — the content this update discipline protects
+- TrueAI [`workspace-doctrine/v1/MANIFEST.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/MANIFEST.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/MANIFEST.md)) — human-readable manifest of v1
 - TrueAI [`workspace-doctrine/v1/MANIFEST.json`](MANIFEST.json) — machine-parseable manifest of v1
 - UniCORE-AI [`developer-doctrine/v1/`](https://git.unitek-systems.com/UniCORE/UniCORE-AI/src/branch/main/developer-doctrine/v1) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI/tree/main/developer-doctrine/v1)) — the role-specific doctrine layer (if applicable to this Claw)

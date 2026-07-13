@@ -29,9 +29,9 @@ Same Foundation. Three pipes. The truth contract is identical across all three.
 ## 2. How to use
 
 1. Open a new conversation with a stateless chat AI.
-2. Paste the contents of [`PROTOCOL.md`](PROTOCOL.md) as your first message.
+2. Paste the contents of [`PROTOCOL.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/conversational-protocol/v1/PROTOCOL.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/conversational-protocol/v1/PROTOCOL.md)) as your first message.
 3. The AI acknowledges the protocol and operates under it for the remainder of the conversation.
-4. Optionally paste [`IDENTITY-TEMPLATE.md`](IDENTITY-TEMPLATE.md) if you want the AI to hold a named identity for the session.
+4. Optionally paste [`IDENTITY-TEMPLATE.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/conversational-protocol/v1/IDENTITY-TEMPLATE.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/conversational-protocol/v1/IDENTITY-TEMPLATE.md)) if you want the AI to hold a named identity for the session.
 
 That's it. No tooling. No infrastructure. One paste.
 
@@ -50,11 +50,11 @@ That's it. No tooling. No infrastructure. One paste.
 
 | File | Purpose |
 |---|---|
-| [`README.md`](README.md) | This file — purpose, usage, architectural position |
-| [`PROTOCOL.md`](PROTOCOL.md) | The pasteable protocol block — paste this into a stateless chat AI session |
-| [`IDENTITY-TEMPLATE.md`](IDENTITY-TEMPLATE.md) | Optional identity binding — paste after PROTOCOL.md to give the AI a named role |
-| [`EXAMPLES.md`](EXAMPLES.md) | Worked examples — what a conversation looks like after protocol paste |
-| [`MANIFEST.md`](MANIFEST.md) | Human-readable file manifest |
+| [`README.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/conversational-protocol/v1/README.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/conversational-protocol/v1/README.md)) | This file — purpose, usage, architectural position |
+| [`PROTOCOL.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/conversational-protocol/v1/PROTOCOL.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/conversational-protocol/v1/PROTOCOL.md)) | The pasteable protocol block — paste this into a stateless chat AI session |
+| [`IDENTITY-TEMPLATE.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/conversational-protocol/v1/IDENTITY-TEMPLATE.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/conversational-protocol/v1/IDENTITY-TEMPLATE.md)) | Optional identity binding — paste after PROTOCOL.md to give the AI a named role |
+| [`EXAMPLES.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/conversational-protocol/v1/EXAMPLES.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/conversational-protocol/v1/EXAMPLES.md)) | Worked examples — what a conversation looks like after protocol paste |
+| [`MANIFEST.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/conversational-protocol/v1/MANIFEST.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/conversational-protocol/v1/MANIFEST.md)) | Human-readable file manifest |
 | [`MANIFEST.json`](MANIFEST.json) | Machine-parseable manifest with SHA-256 hashes |
 
 ---

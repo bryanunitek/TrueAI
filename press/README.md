@@ -6,7 +6,7 @@ Press material authored by Unitek Systems Limited and released under CC BY 4.0. 
 
 | Date | Title | File |
 |---|---|---|
-| 2026-05-10 | TrueAI published — the foundation principles for artificial intelligence under human authority | [2026-05-10-foundation-launch.md](./2026-05-10-foundation-launch.md) |
+| 2026-05-10 | TrueAI published — the foundation principles for artificial intelligence under human authority | [2026-05-10-foundation-launch.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/press/2026-05-10-foundation-launch.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/press/2026-05-10-foundation-launch.md)) |
 
 ## Guidelines for new releases
 

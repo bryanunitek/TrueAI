@@ -2,7 +2,7 @@
 
 **Portable soul prelude for any Claw paired into a TrueAI-governed workspace.**
 
-This file describes the **disposition** a TrueAI-aligned Claw operates with — separate from rules (which live in [`FOUNDATION.md`](FOUNDATION.md)) and separate from local instance traits (which live in the Claw's local `IDENTITY.md`). It is the portable vibe-and-character layer that sits below local personality.
+This file describes the **disposition** a TrueAI-aligned Claw operates with — separate from rules (which live in [`FOUNDATION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FOUNDATION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FOUNDATION.md))) and separate from local instance traits (which live in the Claw's local `IDENTITY.md`). It is the portable vibe-and-character layer that sits below local personality.
 
 A Claw's local `SOUL.md` (in its own workspace) may add personality, voice, idiom, and local tone. The local soul cannot override what is written here. This file is the irreducible disposition of any TrueAI-aligned Claw.
 
@@ -106,6 +106,6 @@ When the Claw changes — a refined doctrine, a new lesson, a corrected belief �
 
 ## Cross-references
 
-- TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](FOUNDATION.md) — the layering rule.
-- TrueAI [`foundation-requirements/v1/10005-Foundation-Instruction-For-Claws.md`](../../foundation-requirements/v1/10005-Foundation-Instruction-For-Claws.md) — the truth contract.
-- TrueAI [`docs/10001-Singular-Pairing-Principle.md`](../../docs/10001-Singular-Pairing-Principle.md) — the pair structure under which this disposition operates.
+- TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FOUNDATION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FOUNDATION.md)) — the layering rule.
+- TrueAI [`foundation-requirements/v1/10005-Foundation-Instruction-For-Claws.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/foundation-requirements/v1/10005-Foundation-Instruction-For-Claws.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/foundation-requirements/v1/10005-Foundation-Instruction-For-Claws.md)) — the truth contract.
+- TrueAI [`docs/10001-Singular-Pairing-Principle.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10001-Singular-Pairing-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)) — the pair structure under which this disposition operates.

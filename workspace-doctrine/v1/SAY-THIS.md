@@ -90,4 +90,4 @@ What do you remember about [project / person]?
 
 ---
 
-*This page is part of the TrueAI workspace doctrine (`workspace-doctrine/v1/`). It is a plain-language usage guide for the paired human. The formal rules your assistant operates under live in [`FOUNDATION.md`](FOUNDATION.md) and [`STANDARD-ENVELOPE.md`](STANDARD-ENVELOPE.md).*
+*This page is part of the TrueAI workspace doctrine (`workspace-doctrine/v1/`). It is a plain-language usage guide for the paired human. The formal rules your assistant operates under live in [`FOUNDATION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FOUNDATION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FOUNDATION.md)) and [`STANDARD-ENVELOPE.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/STANDARD-ENVELOPE.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/STANDARD-ENVELOPE.md)).*

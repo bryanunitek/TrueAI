@@ -4,9 +4,9 @@ The canonical TrueAI Foundation document.
 
 | File | Audience | Length | Use |
 |---|---|---|---|
-| [WHITEPAPER.md](./WHITEPAPER.md) | AI researchers, standards bodies, regulators, educators, organisations deploying AI into consequential decisions | ~17 KB | The artifact of record. Cite this. |
+| [WHITEPAPER.md](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/whitepaper/WHITEPAPER.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/whitepaper/WHITEPAPER.md)) | AI researchers, standards bodies, regulators, educators, organisations deploying AI into consequential decisions | ~17 KB | The artifact of record. Cite this. |
 
-The companion press release lives in [`../../press/`](../../press/) as a dated file. See [`../../press/README.md`](../../press/README.md) for the index.
+The companion press release lives in [`../../press/`](../../press/) as a dated file. See [`../../press/README.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/press/README.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/press/README.md)) for the index.
 
 ## What this document is
 

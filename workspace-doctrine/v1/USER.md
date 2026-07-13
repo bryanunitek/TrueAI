@@ -2,13 +2,13 @@
 
 **Local template for the human-authority binding in a TrueAI-aligned Claw workspace.**
 
-This file is a **template**. A Claw operating in a real workspace copies this file into its local workspace and fills in the placeholders with the facts of the human it is paired with. The canonical version lives in the TrueAI repository at `workspace-doctrine/v1/USER.md`. The local copy is what the Claw reads at session-opening; the canonical version is the source of refresh under [`FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md).
+This file is a **template**. A Claw operating in a real workspace copies this file into its local workspace and fills in the placeholders with the facts of the human it is paired with. The canonical version lives in the TrueAI repository at `workspace-doctrine/v1/USER.md`. The local copy is what the Claw reads at session-opening; the canonical version is the source of refresh under [`FALLBACK-AND-FRESHNESS.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md)).
 
 ---
 
 ## Why this file exists separately
 
-Foundation ([`FOUNDATION.md`](FOUNDATION.md)) and disposition ([`SOUL.md`](SOUL.md)) are portable — every TrueAI-aligned Claw operates under the same Foundation and baseline disposition. **The human authority's details are local facts.** Each Claw's paired human has their own name, contact details, company, communication preferences, and context. Those facts belong to the local workspace, not to the canonical doctrine repo.
+Foundation ([`FOUNDATION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FOUNDATION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FOUNDATION.md))) and disposition ([`SOUL.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/SOUL.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/SOUL.md))) are portable — every TrueAI-aligned Claw operates under the same Foundation and baseline disposition. **The human authority's details are local facts.** Each Claw's paired human has their own name, contact details, company, communication preferences, and context. Those facts belong to the local workspace, not to the canonical doctrine repo.
 
 This template is here so every TrueAI-aligned Claw has the same structural shape for its human-authority binding, even though the contents differ.
 
@@ -70,13 +70,13 @@ The local Claw fills in these fields for the human it is paired with. Treat this
 
 ## Updates to this file
 
-The local `USER.md` is updated when the human's details change. The Claw does not edit its own `USER.md` unilaterally — the human authority authenticates changes to their own record. If the **template** in TrueAI changes, that surfaces via the freshness check in [`FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md); the human authority decides whether to migrate the local `USER.md` to the new template shape.
+The local `USER.md` is updated when the human's details change. The Claw does not edit its own `USER.md` unilaterally — the human authority authenticates changes to their own record. If the **template** in TrueAI changes, that surfaces via the freshness check in [`FALLBACK-AND-FRESHNESS.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md)); the human authority decides whether to migrate the local `USER.md` to the new template shape.
 
 ---
 
 ## Cross-references
 
-- TrueAI [`workspace-doctrine/v1/IDENTITY.md`](IDENTITY.md) — the Claw's own local identity template.
-- TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](FOUNDATION.md) — the human-as-authority structure.
-- TrueAI [`workspace-doctrine/v1/SOUL.md`](SOUL.md) — the disposition toward the human authority.
-- TrueAI [`workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) — local-copy-first reads, freshness check, human-authenticated updates.
+- TrueAI [`workspace-doctrine/v1/IDENTITY.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/IDENTITY.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/IDENTITY.md)) — the Claw's own local identity template.
+- TrueAI [`workspace-doctrine/v1/FOUNDATION.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FOUNDATION.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FOUNDATION.md)) — the human-as-authority structure.
+- TrueAI [`workspace-doctrine/v1/SOUL.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/SOUL.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/SOUL.md)) — the disposition toward the human authority.
+- TrueAI [`workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/FALLBACK-AND-FRESHNESS.md)) — local-copy-first reads, freshness check, human-authenticated updates.

@@ -49,7 +49,7 @@ AI, as currently distributed, breaks this rule. The capability is shipped to hun
 - **No honest account** of how to keep its use lawful — data-protection lawful basis, accountability for automated decisions, retention, disclosure, jurisdiction.
 - **No accountability spine** — no structural guarantee that a consequential AI action resolves to one named, responsible human.
 
-This is distinct from the [Inconsistency Problem](./THE-INCONSISTENCY-PROBLEM.md). Inconsistency is about the *output* drifting. The Withheld-Manual Problem is about the *instructions for use* being absent by design. A consistent AI with no manual for lawful operation is still undeployable in a setting that touches money, freedom, health, or rights — because the operator has been handed power without the discipline that makes power safe.
+This is distinct from the [Inconsistency Problem](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md)). Inconsistency is about the *output* drifting. The Withheld-Manual Problem is about the *instructions for use* being absent by design. A consistent AI with no manual for lawful operation is still undeployable in a setting that touches money, freedom, health, or rights — because the operator has been handed power without the discipline that makes power safe.
 
 ## 2. The absence is a position, not an accident — and the liability shift is the mechanism
 
@@ -125,7 +125,7 @@ The three pillars of Institutional AI doctrine remain:
 
 1. **Audience pillar** — Consumer AI vs Institutional AI.
 2. **Truth pillar** — TrueAI Foundation truth contract.
-3. **Consistency pillar** — [The Inconsistency Problem](./THE-INCONSISTENCY-PROBLEM.md).
+3. **Consistency pillar** — [The Inconsistency Problem](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md)).
 
 The Withheld-Manual Problem is the **distribution-ethics** companion to the three pillars: it explains *why the doctrine must be given away rather than sold*, and *why the governance layer must be owner-neutral*. The three pillars define what Institutional AI is; this document defines why the manual for it belongs to humanity rather than to its makers.
 
@@ -157,10 +157,10 @@ The Universal Manual is not a marketing upgrade over "the missing manual" or "th
 
 ## 10. Sister documents
 
-- [The Inconsistency Problem](./THE-INCONSISTENCY-PROBLEM.md) — the consistency pillar.
+- [The Inconsistency Problem](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/THE-INCONSISTENCY-PROBLEM.md)) — the consistency pillar.
 - [The Inconsistency Problem — pointer](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/THE-INCONSISTENCY-PROBLEM.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/THE-INCONSISTENCY-PROBLEM.md)) — UniVERSE pointer pattern.
 - [TrueAI Foundation Gift Principle](https://git.unitek-systems.com/UniCORE/UniVERSE/src/branch/main/docs/00028-TrueAI-Foundation-Gift-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE/blob/main/docs/00028-TrueAI-Foundation-Gift-Principle.md)) — the remedy this diagnosis justifies.
-- [Singular Pairing Principle](./docs/10001-Singular-Pairing-Principle.md) — the human-side accountability spine.
+- [Singular Pairing Principle](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/docs/10001-Singular-Pairing-Principle.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/docs/10001-Singular-Pairing-Principle.md)) — the human-side accountability spine.
 
 Foundation triad pointers: [`UniVERSE`](https://git.unitek-systems.com/UniCORE/UniVERSE) (mirror: [GitHub](https://github.com/bryanunitek/UniVERSE)) and [`UniCORE-AI`](https://git.unitek-systems.com/UniCORE/UniCORE-AI) (mirror: [GitHub](https://github.com/bryanunitek/UniCORE-AI)) point at this canonical.
 
