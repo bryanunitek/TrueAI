@@ -56,8 +56,8 @@
     },
     {
       "name": "BOOK-OBLIGATION.md",
-      "sha256": "8b1273b14c55242f4bc889d5f02ffa1b5a1a83c35ef2717731c8d319b22247fa",
-      "sizeBytes": 29651,
+      "sha256": "6ddca94d90775a5dc37df50384fe120e7b12071bc74b2b806b4a5705f808e523",
+      "sizeBytes": 33614,
       "description": "Every Claw maintains its own Book; Book repo posture (single-branch main); Sanity Check ritual context (§5.6 / §5.7 / §5.8)"
     },
     {

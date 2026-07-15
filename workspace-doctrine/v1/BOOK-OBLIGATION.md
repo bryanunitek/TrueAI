@@ -57,6 +57,29 @@ Every Team Book contains, at minimum:
 5. **`_attestations/`** (when applicable) — foundation-conformance evidence, attestation envelopes, signed claims about the work.
 6. **`_inventory/`** (when applicable) — asset / repository / sub-component register.
 7. **`_correspondence/`** (when applicable) — letters, emails, posts exchanged with parties outside the Team bond.
+8. **`ai-compliance/`** (REQUIRED at Maturity Level 4+) — the AI-Compliance package + its human-confirmation ledger. See the section below.
+
+## AI-Compliance in the Book — REQUIRED at Maturity Level 4+ (human read/understand/agree, fail-closed)
+
+**Rule (locked 2026-07-15, Bryan Fred, L12):** any Claw operating at **Maturity Level 4 or above** (Assistant Institutional AI and above — the grounded/accountable Institutional band; see `AI-MATURITY-LEVELS.md` “AI-Compliance floor”) MUST hold its **AI-Compliance package** inside its Book, and the **paired Human must have READ, UNDERSTOOD, and AGREED** to each document in that package. This is fail-closed:
+
+> **Absent a recorded human read/understand/agree for a document, the Claw is NOT AI-Compliant for that document — and its status MUST show NOT AI-Compliant.** AI-Compliance is *earned* by the recorded human confirmation stored in the Book; it is never assumed, defaulted, or asserted on the Claw’s say-so.
+
+**Why in the Book:** the Book is the canonical-truth substrate the paired Human can actually read and is accountable to. An AI-Compliance artefact that lives only in product code is invisible to the Human and cannot ground the Human’s accountability. The Book is where the Human reads it, agrees to it, and where the agreement is preserved — which is exactly what Maturity Level 4+ (grounded + accountable) requires.
+
+**The package (jurisdiction-scoped).** For a Legal / administration-of-justice Claw this is the **EU AI Act Annex III high-risk documents (Art. 11 Risk-Management System, Art. 13 Deployer Instructions-for-Use, Art. 15 Accuracy/Robustness/Cybersecurity)** plus the jurisdictional equivalents that apply to the deployment. Non-Legal L4+ Claws hold the AI-Compliance documents that apply to *their* domain. The **structure and the human-confirmation gate are universal**; the specific documents scale with the vertical and jurisdiction.
+
+**The confirmation process (the Claw runs this with its Human):**
+1. The Claw **presents each document to the Human in chat**, one at a time, in plain-enough language that the Human can genuinely understand it (comprehension is load-bearing — the Human must be able to stand behind it, not merely acknowledge receipt), with any provider-declared values shown.
+2. The Claw **advises the Human to read it**, and the Human states they **understand and agree** (accepting or adjusting the declared values). Understanding-and-agreeing to the values in the same act also ratifies those values.
+3. The Claw **records the confirmation verbatim** (Human name, UTC, the values agreed) into `ai-compliance/CONFIRMATION-LEDGER.md` in the Book, and stores the confirmed document under `ai-compliance/<package>/`.
+4. **Enforcement:** the Claw’s badge/AI-Compliance status reads the ledger. Any document without a confirmation row → the status shows **NOT AI-Compliant** for that document, fail-closed. A later change to any agreed value is a **new confirmation row**, never a silent edit.
+
+**Required shape under `ai-compliance/`:**
+- `CONFIRMATION-LEDGER.md` — one row per document: read/understand/agree, values, confirming Human, UTC. This ledger is the fail-closed source of truth for the status.
+- `<package>/` (e.g. `eu-ai-act-annex-iii/`) — the human-confirmed copies of each document.
+
+**Prior-art instance:** Team UniCORE opened this at `bryanunitek/TheBookOfTeamUniCORE` → `ai-compliance/` on 2026-07-15 (Art. 15 confirmed 02:12 UTC; Art. 11 + Art. 13 pending). Every other L4+ Claw under this doctrine runs the same process against its own Book.
 
 The convention is descriptive, not prescriptive: a Claw whose work shape genuinely requires a different folder layout should record the deviation in a `_decisions/` record so future-Claw can read why.
 
