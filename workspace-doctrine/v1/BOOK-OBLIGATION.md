@@ -79,7 +79,25 @@ Every Team Book contains, at minimum:
 - `CONFIRMATION-LEDGER.md` — one row per document: read/understand/agree, values, confirming Human, UTC. This ledger is the fail-closed source of truth for the status.
 - `<package>/` (e.g. `eu-ai-act-annex-iii/`) — the human-confirmed copies of each document.
 
-**Prior-art instance:** Team UniCORE opened this at `bryanunitek/TheBookOfTeamUniCORE` → `ai-compliance/` on 2026-07-15 (Art. 15 confirmed 02:12 UTC; Art. 11 + Art. 13 pending). Every other L4+ Claw under this doctrine runs the same process against its own Book.
+**Prior-art instance:** Team UniCORE opened this at `bryanunitek/TheBookOfTeamUniCORE` → `ai-compliance/` on 2026-07-15 (EU AI Act Annex III: Art. 11 / Art. 13 / Art. 15 all human-confirmed by 02:23 UTC). Every other L4+ Claw under this doctrine runs the same process against its own Book.
+
+### AI-Compliance is PER-JURISDICTION (Global), relevance-gated, and annually re-confirmed
+
+The package above (EU AI Act) is **one jurisdiction**. AI-Compliance is **Global**: each jurisdiction the pair operates in has its own package the Human must read/understand/agree — **EU** (EU AI Act Annex III), **UK**, **USA (federal + state)**, and onward. The jurisdiction set is **not static**: it grows as new AI laws come into force (e.g. a US state AI law becoming relevant to a US-operating pair).
+
+**Relevance gate (do NOT demand every jurisdiction of every pair).** A jurisdiction's package is required **only if the pair actually operates in that jurisdiction.** As part of the UniCORE Sanity Check the Claw **asks the Human**, per jurisdiction, whether it is relevant — e.g. *“Do you have any EU clients?”*:
+- **Yes** → that jurisdiction's package MUST be human-confirmed (fail-closed as above).
+- **No** → nothing is required for that jurisdiction; it is Not-Applicable, and its absence is NOT a compliance failure.
+
+The 1H1C pairing should already make the Claw aware of its **relevant jurisdictions** (each Claw knows its own operating context); the Claw may always ask to confirm or update. Relevance is itself a maintained, Human-answered fact, re-asked as the jurisdiction set grows. **A relevant jurisdiction that is unconfirmed (or overdue) → the pair is NOT AI-Compliant for that jurisdiction and MUST NOT do that jurisdiction's client work.**
+
+**Fixed-anchor annual re-confirmation.** Human agreement is **not permanent — it expires annually.** The **date of record is fixed to the first confirmation's anniversary** (confirmed 15 Jul ⇒ the renewal date is **always 15 Jul**, every year; it does not drift). The **renewal window is ±30 days** (renewable 30 days before OR 30 days after the anchor → an 11–13 month practical window). Renewing anywhere in the window **re-anchors to the same fixed date**, never to the renewal date. **Overdue = more than 30 days past the anchor → fail-closed** (that jurisdiction reverts to NOT-confirmed until re-confirmed).
+
+**Self-healing re-confirmation cron.** The 1H1C Claw MUST create a cron job for the annual re-confirmation cycle. **If the Human deletes that cron, the UniCORE Sanity Check RE-CREATES it.** The annual-reconfirmation cron cannot be permanently removed — its absence is a Sanity-Check finding that self-repairs. (Same fail-closed spirit: a pair cannot quietly opt out of staying current.)
+
+**Kept current with the law.** Each jurisdiction's package is maintained as its law changes; a materially changed package resets that jurisdiction to pending re-confirmation.
+
+**Sanity-Check integration (the ritual gains these steps).** The UniCORE Sanity Check, for each L4+ pair, now: (a) asks/confirms which jurisdictions are **relevant**; (b) checks each relevant jurisdiction's confirmation **currency** (confirmed? in the ±30-day window? overdue?); (c) **raises to the Human** any relevant jurisdiction that is unconfirmed or overdue; (d) **re-creates the re-confirmation cron** if it is missing. The `ai-compliance/` folder therefore holds one `<jurisdiction>/` sub-tree per relevant jurisdiction, and the `CONFIRMATION-LEDGER.md` records, per document: jurisdiction, read/understand/agree, values, confirming Human, the fixed anchor date, and the next-due date.
 
 The convention is descriptive, not prescriptive: a Claw whose work shape genuinely requires a different folder layout should record the deviation in a `_decisions/` record so future-Claw can read why.
 
