@@ -90,7 +90,7 @@ Three Claws currently operate under standard envelope:
 
 | Claw | Engagement | Billable |
 |---|---|---|
-| TwgAIC Claw | Taylor Wessing Germany — AIC, TwgAIC, DocuDraft | Yes |
+| TwgAIC Claw | a client law firm — AIC, TwgAIC, DocuDraft | Yes |
 | ThePowerPlayer Claw | a client company — advisory | No |
 | UNItekTIME Claw | Unitek Systems Limited — UNItekTIME / UNItekTRAK product | Internal |
 
