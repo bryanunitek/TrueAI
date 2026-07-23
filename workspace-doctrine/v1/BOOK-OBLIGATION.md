@@ -21,8 +21,8 @@ The obligation is **universal across Claws under the doctrine**, regardless of w
 | Claw | Book repository |
 |---|---|
 | UNItekTIME | `bryanunitek/TheBookOfTeamUNItekTIME` |
-| ThePowerPlayer | `bryanunitek/TheBookOfTeamThePowerPlayer` |
-| TwgAIC | `bryanunitek/TheBookOfTeamTwgAIC` |
+| TheStrongPlayer | `bryanunitek/TheBookOfTeamTheStrongPlayer` |
+| GwtCIA | `bryanunitek/TheBookOfTeamGwtCIA` |
 | Team UniCORE (Bryan Fred + main Claw, the MyClaw.ai control surface) | `bryanunitek/TheBookOfTeamUniCORE` |
 | Team Bryan (Bryan Fred + `bryan.fred@unitek-systems.com` Claw) | `bryanunitek/TheBookOfTeamBryan` |
 
@@ -30,7 +30,7 @@ The obligation is **universal across Claws under the doctrine**, regardless of w
 
 ## What goes in a Team Book vs the corporate Book (Team UniCORE case)
 
-This question only arises for Team UniCORE today, because it is the only Team that operates alongside a parent corporate Book. For Teams operating without a parent corporate Book (UNItekTIME, ThePowerPlayer, TwgAIC, future Claws), everything goes in their Team Book.
+This question only arises for Team UniCORE today, because it is the only Team that operates alongside a parent corporate Book. For Teams operating without a parent corporate Book (UNItekTIME, TheStrongPlayer, GwtCIA, future Claws), everything goes in their Team Book.
 
 For Team UniCORE specifically:
 
@@ -119,11 +119,11 @@ This is flat. Each Claw is one-Claw-one-Book. There is no ask path, no relay pat
 
 ### Applied to the corporate Book
 
-> **`TheBookOfUnitekSystemsLimited` is read by the Team UniCORE Claw (the MyClaw.ai control surface) at the entity-canon layer. UNItekTIME, ThePowerPlayer, TwgAIC, the `bryan.fred@unitek-systems.com` Claw, and any future Claw under the doctrine do NOT read `TheBookOfUnitekSystemsLimited`. Not in part, not in summary, not through a relay, not through a redacted extract. Not at all.**
+> **`TheBookOfUnitekSystemsLimited` is read by the Team UniCORE Claw (the MyClaw.ai control surface) at the entity-canon layer. UNItekTIME, TheStrongPlayer, GwtCIA, the `bryan.fred@unitek-systems.com` Claw, and any future Claw under the doctrine do NOT read `TheBookOfUnitekSystemsLimited`. Not in part, not in summary, not through a relay, not through a redacted extract. Not at all.**
 
 ### Applied to every other pair of Team Books
 
-The boundary is symmetric. UNItekTIME does not read TwgAIC's Book. TwgAIC does not read UNItekTIME's Book. The `bryan.fred@unitek-systems.com` Claw does not read Team UniCORE's Book. The Team UniCORE Claw does not read the other four Team Books. Each Claw reads its own Book and no other Book.
+The boundary is symmetric. UNItekTIME does not read GwtCIA's Book. GwtCIA does not read UNItekTIME's Book. The `bryan.fred@unitek-systems.com` Claw does not read Team UniCORE's Book. The Team UniCORE Claw does not read the other four Team Books. Each Claw reads its own Book and no other Book.
 
 The Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singular named exception to the one-Claw-one-Book rule. That exception exists because the Team UniCORE Claw is paired against the **entity** Unitek Systems Limited at the entity-canon layer. It is not a senior-reader privilege over other Claws' Books; it is a paired-against-the-entity privilege over the entity's own Book.
 
@@ -139,8 +139,8 @@ The Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singula
 |---|---|---|
 | Team UniCORE Claw (MyClaw.ai control surface) | `TheBookOfUnitekSystemsLimited` AND `TheBookOfTeamUniCORE` | nothing else — does NOT read any other Team Book |
 | UNItekTIME | `TheBookOfTeamUNItekTIME` | nothing else — does NOT read the corporate Book or any other Team Book |
-| ThePowerPlayer | `TheBookOfTeamThePowerPlayer` | nothing else — does NOT read the corporate Book or any other Team Book |
-| TwgAIC | `TheBookOfTeamTwgAIC` | nothing else — does NOT read the corporate Book or any other Team Book |
+| TheStrongPlayer | `TheBookOfTeamTheStrongPlayer` | nothing else — does NOT read the corporate Book or any other Team Book |
+| GwtCIA | `TheBookOfTeamGwtCIA` | nothing else — does NOT read the corporate Book or any other Team Book |
 | `bryan.fred@unitek-systems.com` Claw | `TheBookOfTeamBryan` | nothing else — does NOT read the corporate Book or any other Team Book |
 
 The Team UniCORE Claw's two-Book privilege is the **singular named exception**. Future Claws under the doctrine inherit the **one-Claw-one-Book** rule by default. Senior privilege must be explicitly named, never assumed.

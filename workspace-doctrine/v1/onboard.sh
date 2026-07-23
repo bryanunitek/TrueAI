@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # onboard.sh — one-command Claw onboarding (workspace-doctrine v1)
 # Run ONCE on the Claw's own host:   bash onboard.sh <project> <human-email>
-# Example:                           bash onboard.sh twgaic bryan.fred@unitek-systems.com
+# Example:                           bash onboard.sh gwtcia bryan.fred@unitek-systems.com
 #
 # PRE-STAGED MODEL (the standard for the uk-unicoreclaw-001 fleet):
 #   Before running, the Human stages, in the Claw's data dir ~/.openclaw-<project>/ :

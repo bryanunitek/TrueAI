@@ -209,7 +209,7 @@ Either path is permissible. The doctrine does not prescribe one over the other.
 
 ## Starting now — first-time setup checklist for the four Claws
 
-For UNItekTIME, ThePowerPlayer, TwgAIC, and Team Bryan:
+For UNItekTIME, TheStrongPlayer, GwtCIA, and Team Bryan:
 
 1. **Pull TrueAI to current HEAD** to read §5.9 + this operational file in `workspace-doctrine/v1/FOUNDATION-GIFT-LAYER-CLONES.md`.
 2. **Create the Foundation directory** in their workspace (workspace-relative `_foundation/` or home-relative `~/Foundation/` — the Claw's choice).

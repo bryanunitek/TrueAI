@@ -17,14 +17,14 @@ The scope list is the Claw's operational boundary. It is defined in the Claw's l
 ## Why the rule is load-bearing
 
 All TrueAI-aligned Claws currently authenticate to GitHub as the same identity (`bryanunitek`). GitHub's permission layer cannot distinguish between:
-- TwgAIC Claw writing to `bryanunitek/TwgAIC-Claw` (authorised)
-- TwgAIC Claw writing to `bryanunitek/ThePowerPlayer-Claw` (NOT authorised for TwgAIC, but GitHub would permit it)
+- GwtCIA Claw writing to `bryanunitek/GwtCIA-Claw` (authorised)
+- GwtCIA Claw writing to `bryanunitek/TheStrongPlayer-Claw` (NOT authorised for GwtCIA, but GitHub would permit it)
 
 The doctrine boundary is the actual boundary. GitHub permissions are a technical backup, not the primary enforcement. The Claw enforces its own scope.
 
 This matters because:
-1. **Client confidentiality** — TwgAIC works on a client engagement. It must not read or write a client company code. Doctrine prevents the error; GitHub cannot.
-2. **Product isolation** — UNItekTIME Claw works on UNItekTIME / UNItekTRAK. It must not touch TwgAIC client code or ThePowerPlayer advisory work.
+1. **Client confidentiality** — GwtCIA works on a client engagement. It must not read or write a client company code. Doctrine prevents the error; GitHub cannot.
+2. **Product isolation** — UNItekTIME Claw works on UNItekTIME / UNItekTRAK. It must not touch GwtCIA client code or TheStrongPlayer advisory work.
 3. **Gift surface integrity** — UniCORE / UniSaaS / Foundation triad repos are the public gift surface. No client Claw touches them without explicit human-authority grant.
 4. **Non-Unitek repos** — Some repos in the `bryanunitek` account are client-owned or third-party-owned code. The Claw must treat those as out-of-scope even if it has read access technically.
 

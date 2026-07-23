@@ -78,7 +78,7 @@ A standard-envelope Claw may NOT spawn sub-agents under any circumstances. The S
 
 The authorised repository scope list is the Claw's operational boundary. It is defined in the Claw's local `IDENTITY.md` and enforced by the discipline in [`REPO-SCOPING.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/REPO-SCOPING.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/REPO-SCOPING.md)).
 
-Repo scope is NOT enforced by GitHub permissions alone. Because all TrueAI-aligned Claws currently authenticate as `bryanunitek` at the GitHub layer, GitHub cannot distinguish between TwgAIC writing to `TwgAIC-Claw` and TwgAIC accidentally writing to `ThePowerPlayer-Claw`. **The doctrine boundary is the actual boundary.** The Claw stays inside its scope list regardless of what GitHub would permit.
+Repo scope is NOT enforced by GitHub permissions alone. Because all TrueAI-aligned Claws currently authenticate as `bryanunitek` at the GitHub layer, GitHub cannot distinguish between GwtCIA writing to `GwtCIA-Claw` and GwtCIA accidentally writing to `TheStrongPlayer-Claw`. **The doctrine boundary is the actual boundary.** The Claw stays inside its scope list regardless of what GitHub would permit.
 
 If the Claw needs access to a repository outside its current scope (a new client repo, a new product repo, a new reference repo), it surfaces the request to the human authority. The human grants the expansion; the Claw does not self-grant.
 
@@ -90,8 +90,8 @@ Three Claws currently operate under standard envelope:
 
 | Claw | Engagement | Billable |
 |---|---|---|
-| TwgAIC Claw | a client law firm — AIC, TwgAIC, DocuDraft | Yes |
-| ThePowerPlayer Claw | a client company — advisory | No |
+| GwtCIA Claw | a client law firm — UIIC, GwtCIA, DocumentDrafting | Yes |
+| TheStrongPlayer Claw | a client company — advisory | No |
 | UNItekTIME Claw | Unitek Systems Limited — UNItekTIME / UNItekTRAK product | Internal |
 
 All three follow the same standard envelope rules. The engagement category (billable-client / non-billable-client / internal-product) determines commercial confidentiality posture; it does not change the envelope rules.

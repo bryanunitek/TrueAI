@@ -115,7 +115,7 @@ credential by **presence + byte-length + file-exists-0600** only — never by re
 ## 3a. Shared-host model — MANDATORY when multiple Claws share one OS account (locked 2026-06-29 23:43 UTC)
 
 The single-host-per-Claw assumption is **wrong** for fleets where several Claws run under **one OS
-account on one box** (e.g. `uk-unicoreclaw-001` hosting bryan / twgaic / thepowerplayer / unitektime /
+account on one box** (e.g. `uk-unicoreclaw-001` hosting bryan / gwtcia / thestrongplayer / unitektime /
 unicore as one Linux user). On a shared account, three pieces of GLOBAL state collide and a naive
 per-Claw setup silently clobbers the others. This was found live (surfaced by the unitektime Claw):
 duplicate `Host github.com` blocks meant SSH honoured only the FIRST, so every Claw's git used ONE

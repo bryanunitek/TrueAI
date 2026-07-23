@@ -220,8 +220,8 @@ Worked examples:
 | Claw | Book repository name |
 |---|---|
 | UNItekTIME | `TheBookOfTeamUNItekTIME` |
-| ThePowerPlayer | `TheBookOfTeamThePowerPlayer` |
-| TwgAIC | `TheBookOfTeamTwgAIC` |
+| TheStrongPlayer | `TheBookOfTeamTheStrongPlayer` |
+| GwtCIA | `TheBookOfTeamGwtCIA` |
 | Team UniCORE (Bryan Fred + main Claw, the MyClaw.ai control surface) | `TheBookOfTeamUniCORE` |
 | Team Bryan (Bryan Fred + `bryan.fred@unitek-systems.com` Claw) | `TheBookOfTeamBryan` |
 
@@ -248,9 +248,9 @@ Claw Books live under the owner-account that owns the Claw's commercial / IP cus
 
 This is flat. Each Claw is one-Claw-one-Book. There is no "ask and maybe get permission" path. There is no relay path. There is no redacted-extract path. The Claw reads its own Book; it does not read any other Claw's Book.
 
-`TheBookOfUnitekSystemsLimited` is the canonical-truth substrate of the entity Unitek Systems Limited, paired with the Team UniCORE Claw (the MyClaw.ai control surface) at the entity-canon layer. UNItekTIME, ThePowerPlayer, TwgAIC, the `bryan.fred@unitek-systems.com` Claw, and every future Claw under the doctrine **do not** read `TheBookOfUnitekSystemsLimited`. Full stop.
+`TheBookOfUnitekSystemsLimited` is the canonical-truth substrate of the entity Unitek Systems Limited, paired with the Team UniCORE Claw (the MyClaw.ai control surface) at the entity-canon layer. UNItekTIME, TheStrongPlayer, GwtCIA, the `bryan.fred@unitek-systems.com` Claw, and every future Claw under the doctrine **do not** read `TheBookOfUnitekSystemsLimited`. Full stop.
 
-The other Team Books — `TheBookOfTeamUniCORE`, `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamBryan` — are scoped the same way to one another. UNItekTIME does not read TwgAIC's Book. TwgAIC does not read UNItekTIME's Book. The `bryan.fred@unitek-systems.com` Claw does not read Team UniCORE's Book. The Team UniCORE Claw does not read the other four Team Books. The boundary is symmetric across all Team Books.
+The other Team Books — `TheBookOfTeamUniCORE`, `TheBookOfTeamUNItekTIME`, `TheBookOfTeamTheStrongPlayer`, `TheBookOfTeamGwtCIA`, `TheBookOfTeamBryan` — are scoped the same way to one another. UNItekTIME does not read GwtCIA's Book. GwtCIA does not read UNItekTIME's Book. The `bryan.fred@unitek-systems.com` Claw does not read Team UniCORE's Book. The Team UniCORE Claw does not read the other four Team Books. The boundary is symmetric across all Team Books.
 
 The Team UniCORE Claw's access to `TheBookOfUnitekSystemsLimited` is the singular named exception to the one-Claw-one-Book rule. It is named because that Claw is paired against the entity at the entity-canon layer, not because it sits above other Claws as a senior reader of their work. No other dual-access privilege exists for any Claw.
 
@@ -301,7 +301,7 @@ The Book is therefore not optional decoration. It is the mechanism by which a Cl
 ### What a third party does NOT do
 
 - Does not read `TheBookOfUnitekSystemsLimited`. That Book belongs to the Team UniCORE Claw at the entity-canon layer for Unitek Systems Limited. The doctrine carries the *pattern*; the original Book is not the public surface.
-- Does not read any of the Unitek Team Books (`TheBookOfTeamUniCORE`, `TheBookOfTeamUNItekTIME`, `TheBookOfTeamThePowerPlayer`, `TheBookOfTeamTwgAIC`, `TheBookOfTeamBryan`). Those belong to their pairs.
+- Does not read any of the Unitek Team Books (`TheBookOfTeamUniCORE`, `TheBookOfTeamUNItekTIME`, `TheBookOfTeamTheStrongPlayer`, `TheBookOfTeamGwtCIA`, `TheBookOfTeamBryan`). Those belong to their pairs.
 - Does not name their Books under `bryanunitek/` or under any Unitek-controlled namespace.
 - Does not assume any Unitek-controlled tooling, cron job, or operational mechanism applies to their fleet. They build their own.
 - Does not relax the cross-Claw access boundary inside their fleet on the grounds that "we're a different organisation, so different rules apply." The boundary is part of the doctrine. Adopting the doctrine means adopting the boundary.
