@@ -2,7 +2,7 @@
 
 **Deployment topology for the production of TrueAI-aligned Solutions**
 
-Version 1.0 — June 2026
+Version 1.1 — August 2026
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 
@@ -198,6 +198,60 @@ Variants A and B preserve 1H1C. They do not:
 ### Cross-reference to §8
 
 §5.5 names two specific role-composition variants Unitek operates within 1H1C and considers certifiable. §8 addresses the separate question of fork-and-modify variants that depart from 1H1C entirely. The two sections are not duplicative: §5.5 variants stay certifiable because they preserve the principle; §8 variants are untested theory because they do not.
+
+---
+
+## 5.5a The Authority Gate during A/B composition
+
+Variants A and B introduce a **transition window**: the interval after a **+1H** has joined off-pair (as apprentice-successor under A, as industry advisor under B, or as both under the composability clause) and before named authority has transferred to the successor at the §5 Generation-IT floor. Within this window the pairing must resolve a specific tension — the +1H may not commit directly to the Claw (§5.5), yet certain high-consequence decisions should not be taken by the 1H unilaterally while a successor is ramping or an owning advisor is engaged.
+
+The resolution is an **Authority Gate**, not a second steering seat.
+
+### The two-part test for an authority-class action
+
+An action is **authority-class** — and therefore gated — when it is **both**:
+
+1. **high-consequence**, and
+2. **hard or impossible to reverse**,
+
+and falls within one of the four normative categories below. Both conditions must hold; a high-consequence but reversible action, or an irreversible but trivial one, is not gated.
+
+### The four authority-class categories (normative)
+
+1. **Scope changes** — expanding what the pairing may access or act on: adding a repository, or acting on anything outside the pairing's authorised repository / resource list.
+2. **External commitments** — anything leaving the pairing to a third party: outbound correspondence, public posts, direct contact with external people, or any outward-facing commitment made on the workstream's behalf.
+3. **Doctrine application** — pulling or applying a Foundation (TrueAI) doctrine change into the pairing's local Foundation copy, or acting on a doctrine change as settled.
+4. **Protected-production-surface writes** — direct writes / pushes to the workstream's protected production surface (its production `main` / rebuild repository).
+
+The concrete members of each category — the specific repository names, the specific production surface, and any engagement-specific inclusions (for example, the point at which a draft *becomes a send*) — are pinned in the **pairing's own Book / IDENTITY material**, not here. This document defines the categories; the instance defines their members.
+
+### How the gate operates
+
+- **Everyday and setup work** proceeds under the single 1H, exactly as in direct 1H1C. The gate does not touch ordinary production — reading, analysis, drafting, research, local file work, builds / tests, and writes to the pairing's **Book** are ungated. Slowing every action to two signatures would reintroduce the committee §3 forbids.
+- **Authority-class actions** (the four categories above) require the explicit authorisation of **both the 1H and the +1H** before the 1H executes them.
+- The gate is an **authorisation step, not a session-steering step**. Only the 1H operates the Claw. The +1H's authorisation is given **to the 1H** (out-of-session, in the off-pair channel §5.5 already requires) — or, where the +1H is co-present in-session, given as the +1H's own attributed signal that the 1H still carries as the executing hand — never as a parallel authority signal the AI must arbitrate. The AI receives a **single, already-reconciled authority signal**, with both authorisations confirmed present.
+
+### Why the gate preserves 1H1C
+
+The pairing still has exactly one **executing** human — the 1H. The AI still receives a single reconciled authority signal; it never arbitrates two parallel signals. There is no committee at the session and no second human steering. The gate operates on the **human side of the pair boundary**, before any signal crosses into the Claw. The +1H may be co-present and may give an attributed `GO~` that the 1H counts toward the gate, but the +1H does not otherwise steer the session or commit to the Claw; a +1H driving the Claw directly tips the pairing out of certifiable §5.5 into non-certifiable §8.
+
+### Relationship to named-authority transfer
+
+The Authority Gate is a **transition-window instrument**. Before the §5 floor, named authority rests with the 1H; the gate ensures the ramping successor (or engaged advisor) co-authorises the decisions they must ultimately stand behind, without holding named authority prematurely. When named authority transfers at the §5 floor, the gate **collapses back to single-human authorisation** under the new named authority — the successor is now the 1H, and the shape returns to direct 1H1C.
+
+### Bounds of the +1H's authorisation
+
+The +1H's `GO~` is real but bounded. It **cannot**:
+
+1. **stand alone on an authority-class action** — it co-authorises with the 1H; it never solely authorises;
+2. **override the 1H's named authority** — on genuine conflict the 1H prevails, as named-authority holder until the §5 floor. The +1H **co-signs; it does not veto.** A withheld co-sign is a **recorded event**, not a silent block: the 1H, as named authority, may proceed, and the withholding is preserved in the record;
+3. **reach the Claw as a competing signal** — it is delivered to / carried by the 1H, and enters the session only as the single reconciled signal;
+4. **confer named authority on the +1H** — named authority transfers at the §5 floor, not by accumulated co-signs;
+5. **expand scope on its own** — adding a repository, touching another pairing's Book, or any external commitment still requires the full gate.
+
+### What §5.5a does NOT permit
+
+It does not put a second human in the pair. It does not let the +1H commit to the Claw. It does not create a standing committee — the dual authorisation is scoped to the named authority-class set, not to ordinary work. It does not license the AI to reconcile two parallel authority signals; the reconciliation happens human-side and the AI receives one.
 
 ---
 
@@ -534,6 +588,12 @@ A valid `GO~` is the literal token **`GO~`** at the end of the Human's message. 
 - `do it, but skip step 3. GO~`
 - `start when ready. GO~`
 
+### Speaker identity in a multi-human session (XH1C)
+
+When more than one authorised human may be present in a single session (XH1C — for example a 1H1C+1H composition under §5.5 / §5.5a on a shared call), the Claw must be able to tell whose `GO~` it has received. The pairing therefore names a **default speaker** in its IDENTITY material: absent an explicit identity marker, a message is attributed to that default human. A message that **opens with an explicit identity statement** (a stated "this is <named authorised human>") reassigns attribution to that human for that message.
+
+The Claw **never infers authority from claim-of-identity alone** beyond the named authorised set, and channel-trust discipline (D67) still applies. Identity attribution governs *which authorised human's* signal this is; it does not admit a new authoriser.
+
 What matters: the message **ends** with the literal token `GO~`. Any other position is discussion.
 
 ### Conversational reference shape
@@ -572,6 +632,8 @@ This applies regardless of pair shape:
 - **XH1C** (multiple Humans authorised to direct the same Claw — e.g. the bonded Human plus a named successor, plus a designated Trustee, plus a designated operator): any authorised Human's `GO~` is valid; non-authorised humans never authorise.
 
 The authorisation set in XH1C is named explicitly in the pair's IDENTITY material; the Claw does not infer authorisation from claim-of-identity alone (D67 channel-trust still applies).
+
+- **1H1C+1H during the §5.5a transition window:** an **authority-class action (§5.5a)** requires a **dual `GO~`** — one from the 1H and one from the +1H — made countable by the speaker-identity rule above. Everyday and setup work remains single-`GO~` from the 1H. The dual requirement is the §5.5a Authority Gate expressed in `GO~` terms; it is not a separate mechanic, and satisfying it on one action does not discharge it for the next authority-class action.
 
 ### What §5.10 does NOT mean
 
@@ -685,6 +747,7 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 
 ## 10. Changelog
 
+- **v1.1 — August 2026.** Added §5.5a (The Authority Gate during A/B composition) — the transition-window co-authorisation instrument for 1H1C+1H, with the two-part authority-class test, four normative authority-class categories, named-authority-transfer relationship, and the bounds of the +1H's authorisation. Extended §5.10 with speaker-identity attribution for multi-human (XH1C) sessions and a cross-reference establishing that the §5.5a gate is expressed as a dual `GO~` (one 1H, one +1H) — the same mechanic, not a separate one. Role-typed; instance members deferred to each pairing's Book / IDENTITY.
 - **v1.0 — June 2026.** Initial publication.
 
 ---
