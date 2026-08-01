@@ -2,7 +2,7 @@
 
 **Deployment topology for the production of TrueAI-aligned Solutions**
 
-Version 1.1 — August 2026
+Version 1.0 — June 2026
 
 Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom
 
@@ -747,7 +747,6 @@ The Singular Pairing Principle is recommended because Unitek's own multi-decade 
 
 ## 10. Changelog
 
-- **v1.1 — August 2026.** Added §5.5a (The Authority Gate during A/B composition) — the transition-window co-authorisation instrument for 1H1C+1H, with the two-part authority-class test, four normative authority-class categories, named-authority-transfer relationship, and the bounds of the +1H's authorisation. Extended §5.10 with speaker-identity attribution for multi-human (XH1C) sessions and a cross-reference establishing that the §5.5a gate is expressed as a dual `GO~` (one 1H, one +1H) — the same mechanic, not a separate one. Role-typed; instance members deferred to each pairing's Book / IDENTITY.
 - **v1.0 — June 2026.** Initial publication.
 
 ---
