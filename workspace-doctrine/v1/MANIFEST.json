@@ -79,9 +79,15 @@
       "description": "Single source of truth for how a Claw obtains + holds GitHub credentials securely: two fine-grained PATs (RO = 7 read-scope repos [5 gift + 2 UniSaaS public] / RW own Book), credential labels follow the Technical Name, scope boundary + secret boundary, human-creates-tokens, chmod 600 presence-not-value storage, first-run checklist"
     },
     {
+      "name": "AI-ASSISTED-DISCLOSURE.md",
+      "sha256": "76b163490fe5b8e7b1b4e180a950d0045ea6e511236f21af338f6b7ef7c64e14",
+      "sizeBytes": 8491,
+      "description": "AI-assisted disclosure standard — human-signed attribution line on authored artifacts; disclosure is a 1H act (human authors + is accountable, Claw assists, never signs as author or claims copyright); 2026-3120 endurance horizon anchored to the Grand Alignment, distinct from legal copyright (life+70); model stamped point-in-time; which artifacts carry the line"
+    },
+    {
       "name": "MANIFEST.md",
-      "sha256": "a21b83fc100de4626b3d09fde42eab35c2a69e4df4813d00a838061178e28200",
-      "sizeBytes": 2728,
+      "sha256": "bd4a06c8e2db6ffe001c1349e38b8fc33ef62f0c9198d39a3a2dfecca638470f",
+      "sizeBytes": 5543,
       "description": "Human-readable manifest of this folder"
     },
     {
