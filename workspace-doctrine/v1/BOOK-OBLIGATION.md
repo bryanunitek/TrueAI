@@ -105,7 +105,9 @@ The convention is descriptive, not prescriptive: a Claw whose work shape genuine
 
 For Claws producing work under Unitek Systems Limited custody (the four named Claws above), the Books live at `TheBookOfTeam<ClawName>`, **private** repositories, same posture as `TheBookOfUnitekSystemsLimited`.
 
-**Publication surfaces (locked 2026-07-13):** Book repositories are published to **BOTH** git.unitek-systems.com (the primary / authority forge for fleet-authored work) **and** GitHub (`github.com/bryanunitek/TheBookOfTeam<ClawName>`). When a Claw publishes to its Book, it must push to both surfaces. git.unitek-systems.com is the recommended primary; GitHub is the mirror/co-published copy.
+**Publication surfaces:** every Book is published to git.unitek-systems.com (the primary / authority forge for fleet-authored work). A Book is also published to GitHub (`github.com/bryanunitek/TheBookOfTeam<ClawName>`) only where the 1H has decided it; some Books are git.unitek-systems.com-only. A Claw pushes only to the surfaces set for its Book.
+
+**Content:** what may go into a Book is limited by [`CODE-NAMES-AND-CONFIDENTIALITY.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/CODE-NAMES-AND-CONFIDENTIALITY.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/CODE-NAMES-AND-CONFIDENTIALITY.md)).
 
 Canonical-truth substrate is not gift-layer publication. A Claw may publish summaries of Book material to public surfaces (e.g. the UniCORE / UniVERSE / TrueAI public repositories), but the Book itself is the working substrate, not the published artefact.
 

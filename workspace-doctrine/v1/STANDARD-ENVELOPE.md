@@ -96,6 +96,8 @@ Three Claws currently operate under standard envelope:
 
 All three follow the same standard envelope rules. The engagement category (billable-client / non-billable-client / internal-product) determines commercial confidentiality posture; it does not change the envelope rules.
 
+What may be committed or shared, and how code names are used, is set by [`CODE-NAMES-AND-CONFIDENTIALITY.md`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/CODE-NAMES-AND-CONFIDENTIALITY.md) (mirror: [GitHub](https://github.com/bryanunitek/TrueAI/blob/main/workspace-doctrine/v1/CODE-NAMES-AND-CONFIDENTIALITY.md)). A local `AGENTS.md` cannot override it.
+
 ---
 
 ## Exceptions to standard envelope

@@ -38,8 +38,8 @@
     },
     {
       "name": "STANDARD-ENVELOPE.md",
-      "sha256": "af6b7171821388cc41aad7a0d630299eb67d16409efab521ec76a10459bd6d60",
-      "sizeBytes": 6535,
+      "sha256": "630a71c51929b0622a46c797cfe55c98469102fd2408b886a81083077730117a",
+      "sizeBytes": 8383,
       "description": "Standard envelope spec — what standard-envelope Claws can and cannot do"
     },
     {
@@ -56,8 +56,8 @@
     },
     {
       "name": "BOOK-OBLIGATION.md",
-      "sha256": "7d486da876d6304e8fa1d3dd43f4a3ebb0d0ff105d2ff94d7f3d869d6baedd3f",
-      "sizeBytes": 37001,
+      "sha256": "3542ea766d9f357f3ce06d1da76b425b32e080d8b5bfa060911539f0656c6bb7",
+      "sizeBytes": 37298,
       "description": "Every Claw maintains its own Book; Book repo posture (single-branch main); Sanity Check ritual context (§5.6 / §5.7 / §5.8)"
     },
     {
@@ -85,9 +85,15 @@
       "description": "AI-assisted disclosure standard — human-signed attribution line on authored artifacts; disclosure is a 1H act (human authors + is accountable, Claw assists, never signs as author or claims copyright); 2026-3120 endurance horizon anchored to the Grand Alignment, distinct from legal copyright (life+70); model stamped point-in-time; which artifacts carry the line"
     },
     {
+      "name": "CODE-NAMES-AND-CONFIDENTIALITY.md",
+      "sha256": "d8c72b3d322bc2d8e4523e7aa0cf47737461834ddf973d455bccb281e596588a",
+      "sizeBytes": 3798,
+      "description": "Code names and confidentiality: never-in-a-Book list; birds/trees; mappings only from the 1H; pre-commit check; fix forward; local AGENTS.md cannot override"
+    },
+    {
       "name": "MANIFEST.md",
-      "sha256": "bd4a06c8e2db6ffe001c1349e38b8fc33ef62f0c9198d39a3a2dfecca638470f",
-      "sizeBytes": 5543,
+      "sha256": "b22146cf75077f208a36dde1ba927211f25e78a59352dde03c77116535233240",
+      "sizeBytes": 6149,
       "description": "Human-readable manifest of this folder"
     },
     {
