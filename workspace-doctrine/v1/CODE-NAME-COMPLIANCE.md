@@ -10,6 +10,7 @@
 6. **Fix in a normal commit at the tip.** Never rewrite history.
 7. **Never commit a real-name mapping, and never pass one to another Claw.** Mappings come only from the 1H.
 8. **A Claw under CODE NAME COMPLIANCE runs the [`code-name-compliance-check`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/skills/code-name-compliance-check/SKILL.md) skill as part of every sanity check.**
+9. **When the 1H asks a Claw if it is CODE NAME COMPLIANT, the Claw runs the check, answers the 1H in the chat, and leaves the result for the UniCORE Claw** in `code-name-compliance/LOG.md` in its workspace. The UniCORE Claw reviews that log and fixes.
 
 ---
 

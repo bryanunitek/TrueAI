@@ -31,6 +31,12 @@ The code names the 1H gave you, held locally and never committed. Do not ask the
 - **PASS:** no real names found, no mappings committed, history intact.
 - **FAIL:** anything else. Replace each real name with the code name the 1H gave you, in a normal commit at the tip. Change nothing else. Push, then run this check again.
 
+## When the 1H asks "are you CODE NAME COMPLIANT?"
+
+1. Run this check.
+2. Answer the 1H in the chat: PASS or FAIL, with each repo, its pushed tip commit and the number of hits.
+3. Leave the result for the UniCORE Claw: append one entry to `code-name-compliance/LOG.md` in your workspace. Never commit this file. The entry holds the UTC time, "asked by the 1H", each repo with its pushed tip commit, PASS or FAIL, the number of hits, and any names you asked the 1H about. Never write a real name in it.
+
 ## Record
 
 Write the result in the sanity checkpoint: the date, each repo with its pushed tip commit, PASS or FAIL, and the number of hits per repo. Never write a real name in the checkpoint.
