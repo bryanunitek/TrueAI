@@ -9,6 +9,7 @@
 5. **Code name change only.** Replace real client and vendor product names with the code names the 1H gave. Change nothing else.
 6. **Fix in a normal commit at the tip.** Never rewrite history.
 7. **Never commit a real-name mapping, and never pass one to another Claw.** Mappings come only from the 1H.
+8. **A Claw under CODE NAME COMPLIANCE runs the [`code-name-compliance-check`](https://git.unitek-systems.com/UniCORE/TrueAI/src/branch/main/workspace-doctrine/v1/skills/code-name-compliance-check/SKILL.md) skill as part of every sanity check.**
 
 ---
 

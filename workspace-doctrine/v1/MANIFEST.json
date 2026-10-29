@@ -86,8 +86,8 @@
     },
     {
       "name": "CODE-NAME-COMPLIANCE.md",
-      "sha256": "7318cf606b4402497e8cd185da37331b03a04e94952dfa5afa9630e342be2a79",
-      "sizeBytes": 1055,
+      "sha256": "2b7febff01d63b6bd7c81ef98648c7d9f06b8267b837c24f3d90484c88809195",
+      "sizeBytes": 1301,
       "description": "Code name compliance (a law): code names only when the 1H says so; from the 1H only; clients and vendor products only; Unitek keeps real names; code name change only; fix at tip; never commit or pass a mapping"
     },
     {
