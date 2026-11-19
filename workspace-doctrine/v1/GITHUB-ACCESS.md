@@ -218,7 +218,7 @@ the Claw still must not act outside IDENTITY.md, and should surface the over-gra
 
 ## 6. Failure handling
 
-- **Token expired / revoked:** the daily pull (and any push) fails → surfaces at the next heartbeat
+- **Token expired / revoked:** the monthly pull (and any push) fails → surfaces at the next heartbeat
   as a systemEvent (`FOUNDATION-GIFT-LAYER-CLONES.md` §100). The Claw does **not** silently retry with
   a broader credential. It asks the Human to renew, scoped identically.
 - **Suspected exposure:** if a token/key value ever reaches a transcript, log, or command echo, that is
@@ -239,7 +239,7 @@ the Claw still must not act outside IDENTITY.md, and should surface the over-gra
    in a logged remote URL.
 5. **Claw** verifies read (gift layer) + write (own Book) per §4, without printing any value.
 6. **Claw** records the authoritative repo scope in local `IDENTITY.md` (§5).
-7. Proceed to the gift-layer clones + daily pull cron (`FOUNDATION-GIFT-LAYER-CLONES.md`) and Book
+7. Proceed to the gift-layer clones + monthly pull job (`FOUNDATION-GIFT-LAYER-CLONES.md`) and Book
    scaffold + Sanity Check (`BOOK-OBLIGATION.md`).
 
 ---

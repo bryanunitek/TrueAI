@@ -8,32 +8,32 @@
   "files": [
     {
       "name": "README.md",
-      "sha256": "080830708899cd71a0a69af36c70bed95258f176eef23e3b498a8c9aab71f24c",
-      "sizeBytes": 7282,
+      "sha256": "6a1f6ef31067b3e1faa24ab40d52f128eb7586507136d372e82deb5e9d777c21",
+      "sizeBytes": 11912,
       "description": "Entry point — folder purpose, read order at session-opening, maintenance posture, cross-references"
     },
     {
       "name": "FOUNDATION.md",
-      "sha256": "39b7d68818f16f5a11ef22d2b7e2030f131219746a6cbad8e7750445ba405cb7",
-      "sizeBytes": 10631,
+      "sha256": "2c50ebcc2a3a09bfb82a63f12ae8e91c8e530d660c0edd62a45baad8204af1ee",
+      "sizeBytes": 14080,
       "description": "Portable foundation doctrine — layering rule, truth contract, Singular Pairing, what this Claw never does"
     },
     {
       "name": "SOUL.md",
-      "sha256": "d98e3443842c49967dcc18cc7c5bd5f50a738e92c1cddcf0dc67034f3fabf493",
-      "sizeBytes": 6776,
+      "sha256": "f8fe810409a803b51025a850fea2a511d44595a4d67f4364b7d4a8c4e59846fa",
+      "sizeBytes": 7510,
       "description": "Portable disposition — truth-before-warmth, subordinate-by-design, quiet competence, memory discipline"
     },
     {
       "name": "IDENTITY.md",
-      "sha256": "c953fcebeb33a6d68fe3a9f4a5de7e5d8886bd76379e8e377f8db2175aa74cbe",
-      "sizeBytes": 6192,
+      "sha256": "c6a43d56230fd2eceab5510b4626e5dd4c79725889f45830989bc3957385319a",
+      "sizeBytes": 9034,
       "description": "Template for local Claw identity — Technical Name vs Personal Team Name namespaces (Books/docs use the Technical Name; human named by full formal name), Claw name, paired human, engagement, envelope, authorised repo scope"
     },
     {
       "name": "USER.md",
-      "sha256": "3cd4792cc60ea64404f843785d44b08ee9a2b764f183aa1a103d2886c472e439",
-      "sizeBytes": 3107,
+      "sha256": "f995c4b00567a0ab522a818dff36c50c44c0ff0e1350720891f2425cde307ed1",
+      "sizeBytes": 4633,
       "description": "Template for human-authority binding — human name, contact, company, communication preferences"
     },
     {
@@ -44,14 +44,14 @@
     },
     {
       "name": "REPO-SCOPING.md",
-      "sha256": "9e32496559625baee7369782472f14cc2056cf9ad2b76b974ff6790cfe0f373d",
-      "sizeBytes": 6679,
+      "sha256": "2d0c6917a5c960df25623fb501073e3f58b062ff55ca1e42ab1814be289acf1d",
+      "sizeBytes": 7779,
       "description": "Repo scope discipline — scope categories, enumeration rules, scope change process"
     },
     {
       "name": "FALLBACK-AND-FRESHNESS.md",
-      "sha256": "a19a8af749121e2e04f027051515fd71391eda33d4084527f6e0591570d99e7c",
-      "sizeBytes": 15198,
+      "sha256": "f11ac5aece7357d1dbb500a95ea8e4483a45eb8b806519d374608be6cc23df2c",
+      "sizeBytes": 16010,
       "description": "Local-copy-first reads, weekly freshness check, human-authenticated doctrine updates"
     },
     {
@@ -62,9 +62,15 @@
     },
     {
       "name": "FOUNDATION-GIFT-LAYER-CLONES.md",
-      "sha256": "4d89db4026d57018b87ba7bcd9d3d5d7585f74ad55717c66b4106c4fc68bc0f1",
-      "sizeBytes": 11888,
-      "description": "Every Claw maintains read-only local clones of the foundation gift-layer; daily pull cadence; CC BY 4.0 conformance (§5.9)"
+      "sha256": "5ece5bde977062a69f8c4c7d855d516e32825f8d0230626750b1d92b3e99f439",
+      "sizeBytes": 14979,
+      "description": "Every Claw maintains read-only local clones of the foundation gift-layer; monthly pull cadence; CC BY 4.0 conformance (§5.9)"
+    },
+    {
+      "name": "STANDARD-AUTOMATIONS.md",
+      "sha256": "32d14476617efb880f5d3aa1ecc042c8c071049e9b622e670483c8e65d8efd7d",
+      "sizeBytes": 3050,
+      "description": "Standard scheduled jobs per Claw role; names, schedules, silence rule, Sanity-Check self-repair, fleet conformance"
     },
     {
       "name": "GO-TOKEN.md",
@@ -74,8 +80,8 @@
     },
     {
       "name": "GITHUB-ACCESS.md",
-      "sha256": "ed91567d5015f72b28c883d784e7f4bc8c0be36723153fcf219f6911daeeb00a",
-      "sizeBytes": 12849,
+      "sha256": "414084f3670d9d4e5e3bfc27b897cc410f5595e36502875bf5a2a1683ed02f7f",
+      "sizeBytes": 15240,
       "description": "Single source of truth for how a Claw obtains + holds GitHub credentials securely: two fine-grained PATs (RO = 7 read-scope repos [5 gift + 2 UniSaaS public] / RW own Book), credential labels follow the Technical Name, scope boundary + secret boundary, human-creates-tokens, chmod 600 presence-not-value storage, first-run checklist"
     },
     {
@@ -92,8 +98,8 @@
     },
     {
       "name": "MANIFEST.md",
-      "sha256": "b22146cf75077f208a36dde1ba927211f25e78a59352dde03c77116535233240",
-      "sizeBytes": 6149,
+      "sha256": "0216431f3677144481217c5a39881c84fd3ac074f8a716fa2a02bfd315acffbe",
+      "sizeBytes": 6480,
       "description": "Human-readable manifest of this folder"
     },
     {

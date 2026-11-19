@@ -1,0 +1,45 @@
+# Standard Automations — the scheduled jobs every Claw carries
+
+Every TrueAI-aligned Claw carries the same scheduled jobs for its role. This file is the single list. A Claw does not invent its own variants of these jobs, and it does not leave one out. Jobs that a Claw needs for its own engagement (market data loads, client reminders, reports) are added on top of this set; they never replace it.
+
+## The set, by role
+
+### Level 4 and above — the 1H1C Claw (main Claw of a pair)
+
+| Job name | Schedule (UTC) | Kind | Doctrine source |
+|---|---|---|---|
+| `heartbeat-main` | daily 00:00 | heartbeat | [`FOUNDATION.md`](FOUNDATION.md) — Heartbeats and continuation |
+| `Memory Dreaming Promotion` | daily 03:00 | OpenClaw built-in | OpenClaw default |
+| `foundation-pull-<project>` | monthly, 1st, 02:MM | command (no AI) | [`FOUNDATION-GIFT-LAYER-CLONES.md`](FOUNDATION-GIFT-LAYER-CLONES.md) |
+| `doctrine-freshness-<project>` | monthly, 1st, 04:MM | agent turn | [`FALLBACK-AND-FRESHNESS.md`](FALLBACK-AND-FRESHNESS.md) |
+| `sanity-check-<project>` | monthly, 1st, 06:00–09:59 | agent turn | [`BOOK-OBLIGATION.md`](BOOK-OBLIGATION.md) — Recurring Sanity Checks |
+| `annual-reconfirm-<project>` | yearly, on the pairing anchor date | agent turn | [`BOOK-OBLIGATION.md`](BOOK-OBLIGATION.md) — Fixed-anchor annual re-confirmation |
+
+`MM` is a per-Claw stable minute, so the fleet does not pull from the forge at the same moment.
+
+### Level 3 — Assistant Consumer AI
+
+| Job name | Schedule (UTC) |
+|---|---|
+| `heartbeat-main` | daily 00:00 |
+| `Memory Dreaming Promotion` | daily 03:00 |
+
+A Level 3 Claw carries no Book, no foundation clones and no doctrine freshness job.
+
+### Thinker (2C) attached to a Level 4+ overseer
+
+| Job name | Schedule (UTC) |
+|---|---|
+| `heartbeat-main` | daily 00:00 |
+| `Memory Dreaming Promotion` | daily 03:00 |
+
+A Thinker has no Book and no pairing of its own. Its overseer carries the foundation, freshness, Sanity Check and re-confirmation jobs for the pair.
+
+## Rules that apply to every job in the set
+
+1. **Silent by default.** No standard job posts to the chat. Results go to the Claw's own memory and Book; a failure surfaces at the next heartbeat.
+2. **Exact names.** The job names above are used verbatim, with the Claw's project token in place of `<project>`. Matching names is what makes the fleet checkable.
+3. **The Sanity Check repairs the set.** At every Sanity Check the Claw compares its scheduled jobs to this file and re-creates any standard job that is missing, disabled or on the wrong schedule, and records what it repaired in the sanity-checkpoint.
+4. **Fleet conformance.** The foundation-pair Claw (`uk-unicoreclaw-001-unicore`) checks every Claw's scheduled jobs against this file monthly and repairs drift.
+5. **The pull is a command, not an AI turn.** The foundation pull runs the canonical script directly; it needs no model and costs nothing.
+6. **A stopped Claw keeps its set.** When a Claw is stopped its jobs stay defined, so it is conformant the moment it starts again.

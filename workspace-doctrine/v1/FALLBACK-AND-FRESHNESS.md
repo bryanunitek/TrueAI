@@ -106,9 +106,9 @@ Patch updates do not change `ACTIVE-VERSION`. The version stays `v1`; only the c
 
 ---
 
-## Freshness check — weekly default
+## Freshness check — monthly default
 
-The Claw runs a discovery check on a periodic cadence. Default is weekly. The human authority may set a different cadence per Claw.
+The Claw runs a discovery check on a periodic cadence. Default is monthly, on the 1st (see STANDARD-AUTOMATIONS.md). The human authority may set a different cadence per Claw.
 
 The check has two parts:
 
@@ -179,7 +179,7 @@ The freshness check produces two report shapes, depending on which surface recei
 
 This split is non-negotiable. A Claw that emits SHAs into chat has leaked operational metadata about its pair's network state, regardless of whether the SHA itself is public.
 
-### Standard chat-shape: the daily checklist
+### Standard chat-shape: the freshness checklist
 
 Every freshness check, on every Claw, produces the same six-item checklist on chat. All six are green checks if everything is in order:
 

@@ -98,7 +98,7 @@ fi
 git -C "$WS/_trueai" config user.name "$GIT_NAME"; git -C "$WS/_trueai" config user.email "$GIT_EMAIL"
 echo "v1" > "$WS/_trueai/workspace-doctrine/ACTIVE-VERSION" 2>/dev/null || true
 
-# 7. daily foundation-pull script + cron (staggered minute by project hash)
+# 7. monthly foundation-pull script + cron (staggered minute by project hash)
 mkdir -p "$HOME/bin"
 cat > "$HOME/bin/pull-foundation-${PROJECT}.sh" <<EOF
 #!/usr/bin/env bash
@@ -112,7 +112,7 @@ EOF
 chmod +x "$HOME/bin/pull-foundation-${PROJECT}.sh"
 MIN=$(( $(echo -n "$PROJECT" | cksum | cut -d' ' -f1) % 60 ))
 ( crontab -l 2>/dev/null | grep -v "pull-foundation-${PROJECT}.sh"; \
-  echo "$MIN 2 * * * $HOME/bin/pull-foundation-${PROJECT}.sh >> $HOME/pull-foundation-${PROJECT}.log 2>&1" ) | crontab -
+  echo "$MIN 2 1 * * $HOME/bin/pull-foundation-${PROJECT}.sh >> $HOME/pull-foundation-${PROJECT}.log 2>&1" ) | crontab -
 
 echo
 echo "=== DONE: $TECH onboarded ==="
@@ -120,7 +120,7 @@ echo "  - SSH alias (shared-host):  git@${ALIAS}: -> $KEY (public registered on 
 echo "  - git identity:            PER-REPO $TECH <$EMAIL> (global untouched)"
 echo "  - PATs wired value-blind:  $CRED (0600, per-Claw; shared ~/.git-credentials untouched)"
 echo "  - gift layer (5) cloned:   $FND (remotes use git@${ALIAS}:)"
-echo "  - daily pull cron:         02:$MIN UTC"
+echo "  - monthly pull cron:       1st, 02:$MIN UTC"
 echo "  - NEXT (in the Claw's chat): fill local IDENTITY.md (Technical Name + Bryan Fred);"
 echo "      scaffold/verify TheBookOfTeam<Project>; first-run Sanity Check + recurring cron."
 echo "  - NO token value was printed, echoed, or logged by this script."

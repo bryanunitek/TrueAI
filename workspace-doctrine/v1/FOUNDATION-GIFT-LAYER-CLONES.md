@@ -73,9 +73,9 @@ The clones serve **exactly one purpose**: grounded, queryable, citeable referenc
 - Verify against the clones when the Human references a current public-corpus statement.
 - Re-pull when the clones are detected stale.
 
-## Daily pull cadence
+## Monthly pull cadence
 
-**Default: daily pull at a per-Claw stable time.** Each Claw chooses an hour that fits their cron landscape (no thundering-herd against GitHub).
+**Default: monthly pull on the 1st at a per-Claw stable time.** Each Claw chooses a minute that fits their cron landscape (no thundering-herd against GitHub).
 
 ### The pull command (canonical)
 
@@ -96,8 +96,8 @@ The `git reset --hard origin/main` matches the local working-copy exactly to ups
 ### Cron job shape (example)
 
 ```bash
-# Daily Foundation gift-layer pull at 02:15 UTC
-15 2 * * * /home/<claw>/bin/pull-foundation.sh
+# Monthly Foundation gift-layer pull, 1st of the month at 02:15 UTC
+15 2 1 * * /home/<claw>/bin/pull-foundation.sh
 ```
 
 The script `pull-foundation.sh` iterates the gift-layer repositories, **re-points each clone's `origin` to the `git.unitek-systems.com` (Forgejo) primary (idempotent, self-healing)**, runs `git fetch + reset --hard origin/main`, captures stdout/stderr per repo, and exits non-zero on any failure. The cron emits the failure as a systemEvent so the next heartbeat surfaces it. The Forgejo primary is anonymously readable, so the pull carries no credential and never touches GitHub.
@@ -106,7 +106,7 @@ Canonical body:
 
 ```bash
 #!/usr/bin/env bash
-# Daily Foundation gift-layer read-only pull (TrueAI workspace-doctrine v1 §5.9)
+# Monthly Foundation gift-layer read-only pull (TrueAI workspace-doctrine v1 §5.9)
 # Read-only contract: fetch + reset --hard origin/main. No local divergence accumulates.
 # Forge cutover: origin is FORCED to git.unitek-systems.com (Forgejo, anonymous read) every run.
 set -uo pipefail
@@ -204,7 +204,7 @@ Either path is permissible. The doctrine does not prescribe one over the other.
 - A Claw operating without local clones of the foundation gift-layer, relying on web fetches or working memory for doctrine reference. The Inconsistency Problem describes this failure mode at the institutional layer; §5.9 closes it at the Claw layer.
 - A Claw using the clones as authoring surfaces. The clones are read-only working-copies for reference; the Claw's authored material lives in the Claw's Book.
 - A Claw modifying LICENSE or attribution material in the clones. CC BY 4.0 prohibits stripping the licence text; §5.9 makes this explicit at the doctrine layer.
-- A Claw skipping daily pulls without surfacing the gap. Silent staleness compounds; the cadence is the discipline.
+- A Claw skipping monthly pulls without surfacing the gap. Silent staleness compounds; the cadence is the discipline.
 - A Claw using credentials that grant write access to the upstream. Read-only is mandatory at the credential layer too.
 
 ## Starting now — first-time setup checklist for the four Claws
@@ -215,7 +215,7 @@ For UNItekTIME, TheStrongPlayer, GwtCIA, and Team Bryan:
 2. **Create the Foundation directory** in their workspace (workspace-relative `_foundation/` or home-relative `~/Foundation/` — the Claw's choice).
 3. **Clone the five repositories** read-only (HTTPS or SSH with read-only credentials).
 4. **Verify LICENSE files are present** in each of the five clones. CC BY 4.0 attribution is preserved trivially by the clone.
-5. **Set up the daily pull cron** at a per-Claw stable time (suggest 02:00–03:00 UTC range, staggered HH:00 / HH:15 / HH:30 / HH:45 across the four Claws to avoid thundering-herd).
+5. **Set up the monthly pull job** (1st of the month) at a per-Claw stable time (02:00–03:00 UTC range, staggered HH:00 / HH:15 / HH:30 / HH:45 across the four Claws to avoid thundering-herd).
 6. **Verify the pull semantics work** by running one manual pull cycle. Confirm `git status` shows clean working-copy after `reset --hard`.
 7. **Record §5.9 acknowledgement** in own Book as a decision record `_decisions/2026-06-16-23-50-UTC-foundation-gift-layer-clone-obligation-acknowledged.md`.
 8. **Confirm back to Bryan** at the Team UniCORE Claw channel: (a) clones in place, (b) cron configured at HH:MM, (c) one manual pull cycle verified clean, (d) §5.9 acknowledgement recorded in own Book.
