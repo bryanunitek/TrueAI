@@ -68,9 +68,9 @@
     },
     {
       "name": "STANDARD-AUTOMATIONS.md",
-      "sha256": "32d14476617efb880f5d3aa1ecc042c8c071049e9b622e670483c8e65d8efd7d",
-      "sizeBytes": 3050,
-      "description": "Standard scheduled jobs per Claw role; names, schedules, silence rule, Sanity-Check self-repair, fleet conformance"
+      "sha256": "210a1fc6645d59f6d4e89c6a9ed7f2834befe574004d9b139c4bb0b2df43ad4f",
+      "sizeBytes": 2888,
+      "description": "Standard scheduled jobs per Claw role; names, schedules, silence rule, Sanity-Check self-repair"
     },
     {
       "name": "GO-TOKEN.md",
@@ -98,8 +98,8 @@
     },
     {
       "name": "MANIFEST.md",
-      "sha256": "0216431f3677144481217c5a39881c84fd3ac074f8a716fa2a02bfd315acffbe",
-      "sizeBytes": 6480,
+      "sha256": "eb6ceaccb45d78ff7977fdaf2bb55b22d5541c45f9ebcff5f730abfd30dd56e7",
+      "sizeBytes": 6461,
       "description": "Human-readable manifest of this folder"
     },
     {

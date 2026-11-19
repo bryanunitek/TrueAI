@@ -40,6 +40,5 @@ A Thinker has no Book and no pairing of its own. Its overseer carries the founda
 1. **Silent by default.** No standard job posts to the chat. Results go to the Claw's own memory and Book; a failure surfaces at the next heartbeat.
 2. **Exact names.** The job names above are used verbatim, with the Claw's project token in place of `<project>`. Matching names is what makes the fleet checkable.
 3. **The Sanity Check repairs the set.** At every Sanity Check the Claw compares its scheduled jobs to this file and re-creates any standard job that is missing, disabled or on the wrong schedule, and records what it repaired in the sanity-checkpoint.
-4. **Fleet conformance.** The foundation-pair Claw (`uk-unicoreclaw-001-unicore`) checks every Claw's scheduled jobs against this file monthly and repairs drift.
-5. **The pull is a command, not an AI turn.** The foundation pull runs the canonical script directly; it needs no model and costs nothing.
-6. **A stopped Claw keeps its set.** When a Claw is stopped its jobs stay defined, so it is conformant the moment it starts again.
+4. **The pull is a command, not an AI turn.** The foundation pull runs the canonical script directly; it needs no model and costs nothing.
+5. **A stopped Claw keeps its set.** When a Claw is stopped its jobs stay defined, so it is conformant the moment it starts again.
