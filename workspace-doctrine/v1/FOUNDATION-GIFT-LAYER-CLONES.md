@@ -75,7 +75,7 @@ The clones serve **exactly one purpose**: grounded, queryable, citeable referenc
 
 ## Monthly pull cadence
 
-**Default: monthly pull on the 1st at a per-Claw stable time.** Each Claw chooses a minute that fits their cron landscape (no thundering-herd against GitHub).
+**Default: monthly pull on the 1st at 02:30 UTC**, the same time on every Claw (see STANDARD-AUTOMATIONS.md).
 
 ### The pull command (canonical)
 
@@ -96,8 +96,8 @@ The `git reset --hard origin/main` matches the local working-copy exactly to ups
 ### Cron job shape (example)
 
 ```bash
-# Monthly Foundation gift-layer pull, 1st of the month at 02:15 UTC
-15 2 1 * * /home/<claw>/bin/pull-foundation.sh
+# Monthly Foundation gift-layer pull, 1st of the month at 02:30 UTC
+30 2 1 * * /home/<claw>/bin/pull-foundation.sh
 ```
 
 The script `pull-foundation.sh` iterates the gift-layer repositories, **re-points each clone's `origin` to the `git.unitek-systems.com` (Forgejo) primary (idempotent, self-healing)**, runs `git fetch + reset --hard origin/main`, captures stdout/stderr per repo, and exits non-zero on any failure. The cron emits the failure as a systemEvent so the next heartbeat surfaces it. The Forgejo primary is anonymously readable, so the pull carries no credential and never touches GitHub.

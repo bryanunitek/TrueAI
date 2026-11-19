@@ -62,14 +62,14 @@
     },
     {
       "name": "FOUNDATION-GIFT-LAYER-CLONES.md",
-      "sha256": "5ece5bde977062a69f8c4c7d855d516e32825f8d0230626750b1d92b3e99f439",
-      "sizeBytes": 14979,
+      "sha256": "1a7f7affbc6e12d1f49e895c8ca84f03004e6af3a2239b7f3b5f943063cc0fcf",
+      "sizeBytes": 14930,
       "description": "Every Claw maintains read-only local clones of the foundation gift-layer; monthly pull cadence; CC BY 4.0 conformance (§5.9)"
     },
     {
       "name": "STANDARD-AUTOMATIONS.md",
-      "sha256": "210a1fc6645d59f6d4e89c6a9ed7f2834befe574004d9b139c4bb0b2df43ad4f",
-      "sizeBytes": 2888,
+      "sha256": "111a7190694c5f46ccb466fbd90e6c5f895fd1a0258ca8e28fd42991822bb311",
+      "sizeBytes": 2885,
       "description": "Standard scheduled jobs per Claw role; names, schedules, silence rule, Sanity-Check self-repair"
     },
     {
