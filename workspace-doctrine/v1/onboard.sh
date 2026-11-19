@@ -98,7 +98,7 @@ fi
 git -C "$WS/_trueai" config user.name "$GIT_NAME"; git -C "$WS/_trueai" config user.email "$GIT_EMAIL"
 echo "v1" > "$WS/_trueai/workspace-doctrine/ACTIVE-VERSION" 2>/dev/null || true
 
-# 7. monthly foundation-pull script + cron (staggered minute by project hash)
+# 7. monthly foundation-pull script + cron (1st of the month, 02:30 UTC)
 mkdir -p "$HOME/bin"
 cat > "$HOME/bin/pull-foundation-${PROJECT}.sh" <<EOF
 #!/usr/bin/env bash
@@ -110,7 +110,7 @@ for r in UniVERSE TrueAI UniCORE-AI UniCORE UniCORE.GVB; do
 done
 EOF
 chmod +x "$HOME/bin/pull-foundation-${PROJECT}.sh"
-MIN=$(( $(echo -n "$PROJECT" | cksum | cut -d' ' -f1) % 60 ))
+MIN=30
 ( crontab -l 2>/dev/null | grep -v "pull-foundation-${PROJECT}.sh"; \
   echo "$MIN 2 1 * * $HOME/bin/pull-foundation-${PROJECT}.sh >> $HOME/pull-foundation-${PROJECT}.log 2>&1" ) | crontab -
 

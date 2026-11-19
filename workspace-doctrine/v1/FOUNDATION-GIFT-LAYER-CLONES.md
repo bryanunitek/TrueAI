@@ -215,7 +215,7 @@ For UNItekTIME, TheStrongPlayer, GwtCIA, and Team Bryan:
 2. **Create the Foundation directory** in their workspace (workspace-relative `_foundation/` or home-relative `~/Foundation/` — the Claw's choice).
 3. **Clone the five repositories** read-only (HTTPS or SSH with read-only credentials).
 4. **Verify LICENSE files are present** in each of the five clones. CC BY 4.0 attribution is preserved trivially by the clone.
-5. **Set up the monthly pull job** (1st of the month) at a per-Claw stable time (02:00–03:00 UTC range, staggered HH:00 / HH:15 / HH:30 / HH:45 across the four Claws to avoid thundering-herd).
+5. **Set up the monthly pull job** on the 1st at 02:30 UTC, the same time on every Claw (see STANDARD-AUTOMATIONS.md).
 6. **Verify the pull semantics work** by running one manual pull cycle. Confirm `git status` shows clean working-copy after `reset --hard`.
 7. **Record §5.9 acknowledgement** in own Book as a decision record `_decisions/2026-06-16-23-50-UTC-foundation-gift-layer-clone-obligation-acknowledged.md`.
 8. **Confirm back to Bryan** at the Team UniCORE Claw channel: (a) clones in place, (b) cron configured at HH:MM, (c) one manual pull cycle verified clean, (d) §5.9 acknowledgement recorded in own Book.

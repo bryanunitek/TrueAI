@@ -62,8 +62,8 @@
     },
     {
       "name": "FOUNDATION-GIFT-LAYER-CLONES.md",
-      "sha256": "1a7f7affbc6e12d1f49e895c8ca84f03004e6af3a2239b7f3b5f943063cc0fcf",
-      "sizeBytes": 14930,
+      "sha256": "f08db164a38d2f473a793609edd4fd6dd54cee33054846e81cc82f844abe3256",
+      "sizeBytes": 14854,
       "description": "Every Claw maintains read-only local clones of the foundation gift-layer; monthly pull cadence; CC BY 4.0 conformance (§5.9)"
     },
     {
